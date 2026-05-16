@@ -2,71 +2,73 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Documentation, code, and data for air quality monitoring, IoT sensors, bioreactors, and environmental research"
+description: "Hardware builds, IoT sensors, environmental monitoring, and home lab projects"
 permalink: /
 ---
 
-# Binh Ng. - Research & Development
+# Binh Ng. — Projects & Notes
 
-Welcome! I'm a researcher focused on environmental monitoring, IoT sensors, and bioreactor systems. This site documents my projects, code examples, and research data.
-
-## 🔬 Research Areas
-
-- **Air Quality Monitoring**: PM2.5 analysis using low-cost sensor networks
-- **IoT & Sensors**: Arduino, ESP8266/ESP32-based monitoring systems
-- **Bioreactors**: Automated control and monitoring for microalgae cultivation
-- **Water Chemistry**: pH, turbidity, and dissolved oxygen monitoring
-- **Data Analysis**: Python-based environmental data analysis
-
-## 📚 What You'll Find Here
-
-- **[Documentation](/docs/)**: Technical guides, setup instructions, and tutorials
-- **[Step-by-Step Tutorials](/docs/tutorials.html)**: Detailed Instructables guides (62K+ views)
-- **[Code Examples](/code/)**: Reusable Arduino, Python, and IoT code snippets
-- **[Projects](/docs/projects.html)**: Overview of my open-source projects
-- **[Data Resources](/data/)**: Datasets and analysis examples
-
-## 🚀 Featured Projects
-
-### 🌱 Advanced Bioreactor
-Arduino-based system for pH, temperature monitoring, and LED control for mimicking natural sunlight patterns in algae cultivation.
-- [View Repository](https://github.com/bio-info/advanced-bioreactor)
-
-### 🌫️ Air Quality Analysis
-Jupyter notebooks and Python tools for analyzing PM2.5 data from low-cost sensors.
-- [View Repository](https://github.com/bio-info/air-quality-analysis) | ⭐ 38 stars
-
-### 🌦️ Weather Station
-ESP8266-based system with MQTT, SQL database, and web interface for environmental monitoring.
-- [View Repository](https://github.com/bio-info/weatherstation)
-
-## 📝 Instructables Tutorials
-
-Published **7 comprehensive build guides** with **62,375+ total views**!
-
-**Most Popular:**
-- [PIR with ESP8266 and MQTT](https://www.instructables.com/PIR-With-ESP8266-and-MQTT/) - 17K views
-- [Temperature/pH/DO Data Logger](https://www.instructables.com/How-to-Make-a-Data-Logger-for-the-Temperature-PH/) - 11K views
-- [Raspberry Pi Data Logger](https://www.instructables.com/Set-Up-From-Scratch-a-Raspberry-Pi-to-Log-Data-Fr/) - 11K views
-
-[View All Tutorials](/docs/tutorials.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+Researcher and builder focused on environmental monitoring, IoT sensor systems, and home lab hardware. Based in Hanoi, Vietnam.
 
 ---
 
-## 🤝 About
+## Featured
 
-Former R&D researcher at PAMAir.org, based in Hanoi, Vietnam. Passionate about open-source environmental monitoring tools and making sensor technology more accessible.
+### [Low-Cost PM2.5 Sensors](/docs/research/pm25-low-cost-sensors.html)
 
-**Profiles:**
-- 🐙 [GitHub (@bio-info)](https://github.com/bio-info) - 36 repos, 52+ stars
-- 📚 [Instructables (binova)](https://www.instructables.com/member/binova/instructables/) - 7 tutorials, 62K+ views
+Calibration of SDS011 and PMS7003 against a FEM reference station in Hanoi. R2 = 0.51-0.66, with correction factors for field use.
+
+### [Face Mask Filtration](/docs/research/face-mask-filtration.html)
+
+PM2.5 removal efficiency of 11 masks: fabric (8-14%), surgical (29-39%), 3M respirators (47-62%), AQBlue (90-95%).
+
+### [Turbidostat Build](/docs/turbidostat.html)
+
+Open-source biomass density control for microalgae. $200 Arduino system replacing $10K+ commercial alternatives. Published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013).
+
+### [OCuLink eGPU Home Lab](/docs/oculink-egpu-home-lab.html)
+
+Lenovo ThinkCentre mini PC + M.2 OCuLink adapter + external RTX GPU. Build notes for a compact workstation with desktop-class GPU performance.
+
+### [Air Quality Analysis](https://github.com/bi2air/air-quality-analysis)
+
+Jupyter notebooks and Python tools for PM2.5 data from low-cost sensors. 38 stars on GitHub.
 
 ---
 
-## Quick Links
+## Areas of Work
 
-[View Tutorials](/docs/tutorials.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Browse Projects](/docs/projects.html){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[GitHub Profile](https://github.com/bio-info){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
+| Area | What | Tools |
+|------|------|-------|
+| Air quality | PM2.5 analysis, low-cost sensor networks | Python, Pandas, Jupyter |
+| IoT sensors | Wireless monitoring, MQTT, data logging | ESP8266/ESP32, Arduino |
+| Bioreactors | [Turbidostat](/docs/turbidostat.html) control, growth simulation | Arduino, Python |
+| Home lab | eGPU builds, always-on compute | OCuLink, Linux |
 
+---
 
+## Tutorials on Instructables
+
+7 build guides, 62K+ total views. [View profile](https://www.instructables.com/member/binova/instructables/)
+
+| Guide | Views |
+|-------|-------|
+| [PIR with ESP8266 and MQTT](https://www.instructables.com/PIR-With-EPS8266-and-MQTT/) | 17K |
+| [Temperature/pH/DO Data Logger](https://www.instructables.com/How-to-Make-a-Data-Logger-for-the-Temperature-PH-a/) | 11K |
+| [Raspberry Pi Data Logger](https://www.instructables.com/Set-Up-From-Scratch-a-Raspberry-Pi-to-Log-Data-Fro/) | 11K |
+| [From Flashlight to Motion Sensor](https://www.instructables.com/From-Flashlight-to-Motion-Sensor-With-ESP8266-and-/) | 6.1K |
+| [Turbidity Monitor for Microalgae](https://www.instructables.com/A-Simple-Turbidity-Monitor-and-Control-System-for-/) | 5.5K |
+| [Weather Station (ESP8266)](https://www.instructables.com/Weather-Station-ESP8266-With-Deep-Sleep-SQL-Graphi/) | 5.3K |
+| [LED Panel Control](https://www.instructables.com/Control-High-powered-LED-Panel-by-Arduino-Real-Tim/) | 4.2K |
+
+---
+
+## Links
+
+- [GitHub (@bi2air)](https://github.com/bi2air) — 36 repos, 52+ stars
+- [Instructables (binova)](https://www.instructables.com/member/binova/instructables/) — 7 guides, 62K+ views
+
+---
+
+[Browse Documentation](/docs/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View on GitHub](https://github.com/bi2air){: .btn .fs-5 .mb-4 .mb-md-0 }

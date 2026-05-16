@@ -1,44 +1,36 @@
 ---
 layout: default
-title: Data Resources
+title: Data
 nav_order: 4
 has_children: false
 permalink: /data/
 ---
 
-# Data Resources
+# Data
 
-This section contains datasets, data analysis examples, and data-related resources.
+Datasets and analysis resources from my environmental monitoring projects.
 
-## Available Datasets
+---
 
-| Dataset | Description | Format | Size |
-|---------|-------------|--------|------|
-| Sample Data 1 | Example dataset | CSV | 1 MB |
-| Sample Data 2 | Another example | JSON | 500 KB |
+## Available Data
 
-## Data Analysis Examples
+| Dataset | Source | Format | Repository |
+|---------|--------|--------|-----------|
+| PM2.5 sensor readings (Hanoi) | Low-cost sensor network | CSV | [air-quality-analysis](https://github.com/bi2air/air-quality-analysis) |
+| Weather station logs | ESP8266 + DHT22 | SQL/CSV | [weatherstation](https://github.com/bi2air/weatherstation) |
+| Bioreactor growth data | pH/temp/turbidity sensors | CSV | [advanced-bioreactor](https://github.com/bi2air/advanced-bioreactor) |
 
-### Using Data in Your Projects
+---
 
-You can download and use the datasets provided here in your own projects.
+## Using the Data
 
 ```python
 import pandas as pd
 
-# Load data from this site
-data_url = 'https://your-site.github.io/data/sample.csv'
-df = pd.read_csv(data_url)
-
-# Analyze the data
-print(df.head())
+# Load PM2.5 data directly from GitHub
+url = "https://raw.githubusercontent.com/bi2air/air-quality-analysis/main/data/sample.csv"
+df = pd.read_csv(url)
+print(df.describe())
 ```
 
-## Contributing Data
-
-If you'd like to contribute datasets, please follow these guidelines:
-- Ensure data is properly formatted
-- Include a README with data description
-- Document the data source and license
-
-
+See the [Jupyter notebooks](https://github.com/bi2air/air-quality-analysis/tree/main/notebooks) for full analysis examples.

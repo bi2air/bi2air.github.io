@@ -7,7 +7,16 @@ vendor/
 Gemfile.lock
 .DS_Store
 
-md/*
-*.sh
+# Dev-only source symlinks (mining old content)
+bioinfo
+skyi
+wayback_latest_b-io_info
 
+# Internal dev docs (not for publication)
+doc-work/
 
+# Claude Code settings
+.claude/
+
+# Legacy placeholder
+md/
