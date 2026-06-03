@@ -48,7 +48,16 @@ Analysis of US Embassy monitoring data (2016-2019) shows Hanoi meets Vietnam's d
 
 ### Apparatus
 
-![Test setup: PMS7003 sensors with PVC pipe and fan](/assets/images/research/masks/sensor_setup.jpg)
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/research/masks/mask_location.jpg" alt="Annotated apparatus showing PVC pipe, clear plastic boxes, and PMS7003 sensors">
+    <figcaption>Annotated test setup with the PVC pipe, testing box, and background monitoring box.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/research/masks/mask_on_pipe.jpg" alt="Mask mounted on the PVC pipe during the filtration experiment">
+    <figcaption>Mask mounted on the PVC pipe during a filtration run.</figcaption>
+  </figure>
+</div>
 
 - Mask mounted flat on a 6 cm PVC pipe
 - Fan with variable duty cycle (surrogate for airflow rate)
