@@ -2,7 +2,7 @@
 layout: default
 title: Humidity
 parent: Hardware Notes
-grand_parent: Documentation
+grand_parent: Research
 nav_order: 3
 description: "Relative humidity explained — dew point, heat index, capacitive sensor selection, and accuracy limits in tropical climate"
 ---

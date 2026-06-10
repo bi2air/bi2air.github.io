@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Hardware Notes
-parent: Documentation
-nav_order: 5
+parent: Research
+nav_order: 7
 has_children: true
 description: "Sensor hardware notes — PM measurement, temperature, humidity, solar irradiance, and IoT build patterns"
 ---

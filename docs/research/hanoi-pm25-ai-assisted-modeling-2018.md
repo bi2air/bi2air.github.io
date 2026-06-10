@@ -213,4 +213,4 @@ This is why the page should be read as a **model-improvement note**, not just a 
 ## Related Pages
 
 - [Hanoi PM$_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
-- [PM2.5 Forecasting](/docs/research/pm25-forecasting.html)
+- [PM$_{2.5}$ Forecasting](/docs/research/pm25-forecasting.html)

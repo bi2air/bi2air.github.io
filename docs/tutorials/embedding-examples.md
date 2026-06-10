@@ -52,7 +52,7 @@ Works for CSV, JSON, images, or any file you want users to download directly.
 ## Link to Jupyter notebooks
 
 ```markdown
-[PM2.5 Analysis](https://github.com/bi2air/air-quality-analysis/blob/main/notebooks/pm25_analysis.ipynb)
+[PM$_{2.5}$ Analysis](https://github.com/bi2air/air-quality-analysis/blob/main/notebooks/pm25_analysis.ipynb)
 ```
 
 For rendered viewing: use [nbviewer.org](https://nbviewer.org/) prefix.

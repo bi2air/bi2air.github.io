@@ -2,7 +2,7 @@
 layout: default
 title: Temperature
 parent: Hardware Notes
-grand_parent: Documentation
+grand_parent: Research
 nav_order: 2
 description: "Temperature measurement pitfalls — direct sunlight artifacts, self-heating, sensor types, and practical corrections"
 ---

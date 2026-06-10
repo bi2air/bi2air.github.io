@@ -2,7 +2,7 @@
 layout: default
 title: Solar Irradiance Meter
 parent: Hardware Notes
-grand_parent: Documentation
+grand_parent: Research
 nav_order: 4
 description: "DIY solar irradiance meter using a mini solar cell and INA219 current sensor — measuring sun power for under $10"
 ---
@@ -37,9 +37,16 @@ The solar cell converts photon energy into electrical energy. By measuring the e
 | 1-ohm precision resistor | Fixed load | ~$0.50 |
 | ESP8266/Arduino | ADC + data logging | ~$3 |
 
-| ![Solar cell](/assets/images/hardware/solar_cell.jpg) | ![Load resistor](/assets/images/hardware/resistor.jpg) |
-|:---:|:---:|
-| Mini solar cell as irradiance sensor | 1-ohm precision resistor as load |
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/hardware/solar_cell.jpg" alt="Solar cell">
+    <figcaption>Mini solar cell as irradiance sensor</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/hardware/resistor.jpg" alt="Load resistor">
+    <figcaption>1-ohm precision resistor as load</figcaption>
+  </figure>
+</div>
 
 ---
 

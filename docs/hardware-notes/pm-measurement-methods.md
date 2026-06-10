@@ -2,7 +2,7 @@
 layout: default
 title: PM Measurement Methods
 parent: Hardware Notes
-grand_parent: Documentation
+grand_parent: Research
 nav_order: 1
 description: "Particulate matter measurement methods — from gravimetric reference to low-cost laser scattering sensors"
 ---
@@ -10,7 +10,7 @@ description: "Particulate matter measurement methods — from gravimetric refere
 # PM Measurement Methods
 
 ![Particle size chart by source](/assets/images/hardware/sizes.png)
-*EPA Report Fig. 2.4: Particle size ranges by origin. Construction dust → PM100, combustion soot → PM2.5, secondary aerosols → ultrafine.*
+*EPA Report Fig. 2.4: Particle size ranges by origin. Construction dust → PM100, combustion soot → PM$_{2.5}$, secondary aerosols → ultrafine.*
 
 ---
 
@@ -19,11 +19,11 @@ description: "Particulate matter measurement methods — from gravimetric refere
 | Source | Mechanism | Resulting PM |
 |--------|-----------|-------------|
 | Construction sites | Wind sweeps fine sand/dust | PM10-PM100 |
-| Diesel engines | Carbon soot (incomplete combustion) | PM2.5, ultrafine |
-| Gasoline engines | Secondary Organic Aerosol (SOA) | PM2.5 (5x more than primary) |
-| Coal combustion | SO2 → sulfate conversion | PM2.5 |
-| Agricultural burning | Direct emission | PM2.5 |
-| Fertilizer volatilization | NH3 + NOx → ammonium nitrate | PM2.5 |
+| Diesel engines | Carbon soot (incomplete combustion) | PM$_{2.5}$, ultrafine |
+| Gasoline engines | Secondary Organic Aerosol (SOA) | PM$_{2.5}$ (5x more than primary) |
+| Coal combustion | SO2 → sulfate conversion | PM$_{2.5}$ |
+| Agricultural burning | Direct emission | PM$_{2.5}$ |
+| Fertilizer volatilization | NH3 + NOx → ammonium nitrate | PM$_{2.5}$ |
 
 ---
 
@@ -37,7 +37,7 @@ Weigh a filter before and after drawing ambient air through it for a fixed perio
 
 Measures the loss of beta particles (electrons from 14C source) passing through a loaded filter vs a blank. Used by the US Embassy in Hanoi (MetOne BAM-1020). Federal Equivalent Method (FEM) certified for continuous hourly monitoring.
 
-### 3. Tapered Oscillating Microbalance (TOEM)
+### 3. Tapered Oscillating Element Microbalance (TEOM)
 
 Particles collected on a filter change the oscillation frequency of a tapered element. Frequency shift → mass calculation. Continuous measurement.
 
@@ -90,10 +90,10 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 
 ### United States
 
-- **CFR § 50.7** — defines reference and equivalent methods for PM2.5
+- **CFR § 50.7** — defines reference and equivalent methods for PM$_{2.5}$
 - **FRM** (Federal Reference Method) — gravimetric, 24-hour integrated
-- **FEM** (Federal Equivalent Method) — BAM, TOEM for continuous monitoring
-- Method 201A: determination of PM10/PM2.5 from stationary sources
+- **FEM** (Federal Equivalent Method) — BAM, TEOM for continuous monitoring
+- Method 201A: determination of PM10/PM$_{2.5}$ from stationary sources
 
 ---
 
@@ -105,7 +105,7 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 | Station | Equipment | Method | Data |
 |---------|-----------|--------|------|
 | Chi Cuc (VN MONRE) | Environment SA MP101M | Regulatory multi-pollutant | Limited public access |
-| US Embassy | MetOne BAM-1020 | FEM, hourly PM2.5 | Public via AirNow |
+| US Embassy | MetOne BAM-1020 | FEM, hourly PM$_{2.5}$ | Public via AirNow |
 | SPARC Lab (HUST) | Various low-cost | Research collocation | Academic |
 | My projects | PMS7003, SDS011 | Laser scattering | [See study](/docs/research/pm25-low-cost-sensors.html) |
 
@@ -114,8 +114,8 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 | Sensor | Price | Output | Lifespan | Notes |
 |--------|-------|--------|----------|-------|
 | PMS7003 (Plantower) | ~$13 | PM1/2.5/10 + 6 size bins | 8,000h | Best value, small, rich data |
-| SDS011 (Nova Fitness) | ~$19 | PM2.5, PM10 (float) | 8,000h | Remote air intake via hose |
-| HPMA115S0 (Honeywell) | ~$19 | PM2.5, PM10 (int) | 20,000h | Best documentation |
+| SDS011 (Nova Fitness) | ~$19 | PM$_{2.5}$, PM10 (float) | 8,000h | Remote air intake via hose |
+| HPMA115S0 (Honeywell) | ~$19 | PM$_{2.5}$, PM10 (int) | 20,000h | Best documentation |
 | Dylos DC1100 Pro | ~$290 | Particle count (2 bins) | Years | Reference for hobbyists |
 
 ---

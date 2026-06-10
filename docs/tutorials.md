@@ -1,55 +1,31 @@
 ---
 layout: default
 title: Tutorials
-parent: Documentation
-nav_order: 2
+nav_order: 3
+has_children: true
 ---
 
 # Tutorials
 
-Step-by-step build guides published on [Instructables](https://www.instructables.com/member/binova/instructables/). Total: 7 guides, 62K+ views, 163 favorites.
+Step-by-step build guides first published on [Instructables](https://www.instructables.com/member/binova/instructables/) and, where useful, expanded here into longer technical references.
 
 ---
 
 ## All Tutorials
 
-| # | Tutorial | Views | Favorites | Difficulty |
-|---|----------|-------|-----------|------------|
-| 1 | [PIR with ESP8266 and MQTT](https://www.instructables.com/PIR-With-EPS8266-and-MQTT/) | 17K | 8 | Beginner |
-| 2 | [Temperature/pH/DO Data Logger](https://www.instructables.com/How-to-Make-a-Data-Logger-for-the-Temperature-PH-a/) | 11K | 48 | Advanced |
-| 3 | [Raspberry Pi Data Logger](https://www.instructables.com/Set-Up-From-Scratch-a-Raspberry-Pi-to-Log-Data-Fro/) | 11K | 14 | Intermediate |
-| 4 | [From Flashlight to Motion Sensor](https://www.instructables.com/From-Flashlight-to-Motion-Sensor-With-ESP8266-and-/) | 6.1K | 23 | Beginner |
-| 5 | [Turbidity Monitor for Microalgae](https://www.instructables.com/A-Simple-Turbidity-Monitor-and-Control-System-for-/) | 5.5K | 11 | Advanced |
-| 6 | [Weather Station (ESP8266, Deep Sleep, Flask)](https://www.instructables.com/Weather-Station-ESP8266-With-Deep-Sleep-SQL-Graphi/) | 5.3K | 4 | Intermediate |
-| 7 | [LED Panel Control by Arduino](https://www.instructables.com/Control-High-powered-LED-Panel-by-Arduino-Real-Tim/) | 4.2K | 44 | Intermediate |
+| Tutorial | Difficulty | Published |
+|----------|------------|-----------|
+| [Building a Low-Cost PM$_{2.5}$ Monitor](/docs/tutorials/pm25-monitor.html) | Intermediate | 2020-Oct |
+| [Reading DYLOS Data via Wireless RS232](/docs/tutorials/wireless-rs232.html) | Intermediate | 2019-Sep |
+| [Building a Soil Humidity Sensor for Pot Plants](/docs/tutorials/watering-plant.html) | Intermediate | 2019-Jun |
+| [Weather Station (ESP8266, Deep Sleep, Flask)](https://www.instructables.com/Weather-Station-ESP8266-With-Deep-Sleep-SQL-Graphi/) | Intermediate | 2018-Sep |
+| [Raspberry Pi Data Logger](https://www.instructables.com/Set-Up-From-Scratch-a-Raspberry-Pi-to-Log-Data-Fro/) | Intermediate | 2018-Jul |
+| [PIR with ESP8266 and MQTT](https://www.instructables.com/PIR-With-EPS8266-and-MQTT/) | Beginner | 2018-May |
+| [From Flashlight to Motion Sensor](https://www.instructables.com/From-Flashlight-to-Motion-Sensor-With-ESP8266-and-/) | Beginner | 2018-Apr |
+| [LED Panel Control by Arduino](https://www.instructables.com/Control-High-powered-LED-Panel-by-Arduino-Real-Tim/) | Intermediate | 2016-Sep |
+| [Turbidity Monitor for Microalgae](/docs/turbidostat.html) | Advanced | 2016-Mar |
+| [Temperature/pH/DO Data Logger](https://www.instructables.com/How-to-Make-a-Data-Logger-for-the-Temperature-PH-a/) | Advanced | 2015-Dec |
 
----
+## Source Note
 
-## By Category
-
-**IoT & Wireless** — PIR + ESP8266, Weather Station, Flashlight Motion Sensor
-
-**Data Logging** — Temp/pH/DO Logger, Raspberry Pi Logger, LED Control with logging
-
-**Bioreactor & Environmental** — Turbidity Monitor, Weather Station, Temp/pH/DO Logger
-
----
-
-## Common Hardware
-
-| Component | Used in |
-|-----------|---------|
-| ESP8266 (NodeMCU / Wemos D1) | PIR, Weather Station, Flashlight |
-| Arduino (Uno/Nano/Mega) | Data Logger, LED Control, Turbidity |
-| Raspberry Pi | Pi Data Logger |
-| DHT22 | Weather Station |
-| DS18B20 | Data Logger |
-| PIR (HC-SR501) | PIR, Flashlight |
-
----
-
-## Related Repositories
-
-- [arduinos](https://github.com/bi2air/arduinos) — PIR, Flashlight, Pi Logger code
-- [advanced-bioreactor](https://github.com/bi2air/advanced-bioreactor) — Data Logger, Turbidity, LED code
-- [weatherstation](https://github.com/bi2air/weatherstation) — Weather Station code
+These tutorials were first published on Instructables. Some entries have since been adapted, condensed, or expanded here when a longer technical reference was more useful. Where a local page exists, the original Instructables article is linked again at the end of that page for reference.

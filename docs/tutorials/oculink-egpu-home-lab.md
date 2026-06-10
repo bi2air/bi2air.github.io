@@ -1,8 +1,8 @@
 ---
 layout: default
 title: OCuLink eGPU Home Lab
-parent: Documentation
-nav_order: 7
+parent: Tutorials
+nav_order: 4
 description: "Lenovo ThinkCentre mini PC + M.2 OCuLink adapter + external GPU: build notes for a home lab workstation"
 ---
 
@@ -27,7 +27,7 @@ Mini PCs are efficient and quiet, but **integrated graphics** hit a wall for **g
 | Link | **M.2 (M-key) → OCuLink** adapter |
 | Enclosure | **AOOSTAR** (or similar) **OCuLink** eGPU box |
 | GPU | **ASUS GeForce RTX** (desktop card) |
-| PSU | **Lite-On FS9323** (in enclosure) |
+| PSU | **Lite-On FS9323 / R-4K48S** |
 | Cable | **OCuLink ↔ OCuLink** (prefer a **short**, **high-quality** cable; avoid sharp bends) |
 
 ---
@@ -43,6 +43,29 @@ Mini PCs are efficient and quiet, but **integrated graphics** hit a wall for **g
 
 ---
 
+## Details Worth Documenting
+
+- The tightest part of the build is not the enclosure; it is the **internal cable routing** inside the Lenovo chassis. The OCuLink pigtail has to clear the **blower fan**, **heatsink edge**, and nearby **RAM** without getting pinched when the lid goes back on.
+- The fully connected setup gets **cable-heavy** fast: host power, enclosure power, monitor output, and the OCuLink data cable all compete for desk space.
+- The enclosure PSU label is visible in the build photos, which is useful when checking **power headroom** against your chosen GPU.
+
+<div class="image-grid">
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/oculink-home-lab/oculink_005.jpg" alt="Opened Lenovo ThinkCentre showing the internal OCuLink wiring and adapter installation">
+    <figcaption>Wide internal view of the ThinkCentre after the OCuLink adapter install. This angle makes the fan and wire-clearance problem obvious.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/oculink-home-lab/oculink_006.jpg" alt="GPU enclosure with OCuLink and power cables connected during assembly">
+    <figcaption>The practical desk-side reality: once the GPU, OCuLink cable, and power leads are attached, cable management becomes part of the build.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ site.baseurl }}/assets/images/oculink-home-lab/oculink_007.jpg" alt="Lite-On FS9323 power supply label inside the OCuLink enclosure">
+    <figcaption>PSU label from the enclosure build. The unit used here is a Lite-On FS9323 / R-4K48S.</figcaption>
+  </figure>
+</div>
+
+---
+
 ## Gallery
 
 ![ASUS GeForce RTX mounted in OCuLink eGPU enclosure]({{ site.baseurl }}/assets/images/oculink-home-lab/oculink_001.jpg)
@@ -55,10 +78,31 @@ Mini PCs are efficient and quiet, but **integrated graphics** hit a wall for **g
 
 ---
 
+## Power Sequence in Motion
+
+Short **MP4** clips are embedded here instead of GIF so the page keeps better image quality at a much smaller file size, and readers can pause or scrub through the sequence.
+
+<div class="image-grid">
+  <figure>
+    <video controls muted playsinline preload="metadata" poster="{{ site.baseurl }}/assets/images/oculink-home-lab/oculink_startup_poster.jpg">
+      <source src="{{ site.baseurl }}/assets/video/oculink-home-lab/oculink_startup.mp4" type="video/mp4">
+    </video>
+    <figcaption>Startup sequence for the assembled setup. This clip shows the real desk-side power-on flow rather than a still photo.</figcaption>
+  </figure>
+  <figure>
+    <video controls muted playsinline preload="metadata" poster="{{ site.baseurl }}/assets/images/oculink-home-lab/oculink_shutdown_poster.jpg">
+      <source src="{{ site.baseurl }}/assets/video/oculink-home-lab/oculink_shutdown.mp4" type="video/mp4">
+    </video>
+    <figcaption>Short shutdown clip for the same setup. It helps readers see the physical power-down behavior and cable posture in use.</figcaption>
+  </figure>
+</div>
+
+---
+
 ## Expectations and caveats
 
 - **Performance:** Plan for roughly **~5–10%** loss versus the same GPU in a **desktop ×16** slot—often still **better than many Thunderbolt** setups for bandwidth-sensitive work.
-- **Footprint:** You now have **two powered units** and a **fat data cable** on the desk.
+- **Footprint:** You now have **two powered units** and a **thick data cable** on the desk.
 - **Risk:** Internal mods can **void warranty**; bad **PSU choice** or **pinched cables** can damage hardware.
 
 {: .warning }
@@ -76,7 +120,7 @@ Do this **at your own risk**. Use a **PSU rated for your GPU**, keep **vents** c
 
 ## Further reading
 
-- [Documentation]({{ site.baseurl }}/docs/) · [Tutorials]({{ site.baseurl }}/docs/tutorials.html) · [Projects]({{ site.baseurl }}/docs/projects.html)
+- [Research Notes]({{ site.baseurl }}/docs/research/) · [Tutorials]({{ site.baseurl }}/docs/tutorials.html) · [Projects]({{ site.baseurl }}/docs/projects.html)
 - [Long-form notes: `oculink_lenovo` (setup guide, checklists, build story)](https://github.com/bi2air/bioinfo/tree/main/oculink_lenovo)
 
 ---
@@ -90,4 +134,4 @@ nvidia-smi
 
 ---
 
-*Last updated: April 2026*
+*Last updated: June 2026*
