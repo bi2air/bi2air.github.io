@@ -72,8 +72,8 @@ x = np.arange(len(plot_df))
 bars = ax.bar(x, plot_df["rmse"], color=colors, edgecolor="black", linewidth=1.2, width=0.68)
 ax.plot(x, plot_df["mae"], color="#111827", marker="o", linewidth=2, label="MAE")
 
-ax.set_title("AI-assisted PM2.5 modeling update, Hanoi 2018", fontsize=15, weight="bold")
-ax.set_ylabel("Error, µg/m³")
+ax.set_title(r"AI-assisted PM$_{2.5}$ modeling update, Hanoi 2018", fontsize=15, weight="bold")
+ax.set_ylabel(r"Error, $\mu$g/m$^3$")
 ax.set_xticks(x)
 ax.set_xticklabels(plot_df["label"], fontsize=8.5)
 ax.set_ylim(0, 36)
@@ -87,7 +87,7 @@ for rect, val in zip(bars, plot_df["rmse"]):
             f"{val:.1f}", ha="center", fontsize=8.5, weight="bold")
 
 fig.text(0.01, 0.01,
-         "Models ordered worst to best by RMSE. Rich-lag models use recent observed PM2.5; chronological split is the more realistic future-period check.",
+         r"Models ordered worst to best by RMSE. Rich-lag models use recent observed PM$_{2.5}$; chronological split is the more realistic future-period check.",
          fontsize=8, color="#4b5563")
 
 fig.tight_layout(rect=(0, 0.04, 1, 1))
