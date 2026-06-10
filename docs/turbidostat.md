@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Turbidostat Build
-parent: Documentation
-nav_order: 4
-description: "Open-source turbidostat for microalgae cultivation — $200 Arduino-based turbidity monitor and control system, published in Algal Research"
+parent: "2016"
+grand_parent: Research
+nav_order: 1
+description: "Open-source turbidostat for microalgae cultivation — \$200 Arduino-based turbidity monitor and control system, published in Algal Research"
 ---
 
 # Turbidostat: Open-Source Biomass Density Control for Microalgae
@@ -11,7 +12,7 @@ description: "Open-source turbidostat for microalgae cultivation — $200 Arduin
 ![Turbidostat system overview](/assets/images/turbidostat/turbidostat_1.jpg)
 
 {: .note }
-This system was developed at the Biodesign Swette Center for Environmental Biotechnology, Arizona State University. The scientific contribution was published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013). Total hardware cost: ~$200 (excluding the lab-grade peristaltic pump).
+This system was developed at the Biodesign Swette Center for Environmental Biotechnology, Arizona State University. The scientific contribution was published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013). Total hardware cost: ~\$200 (excluding the lab-grade peristaltic pump).
 
 ---
 
@@ -19,7 +20,7 @@ This system was developed at the Biodesign Swette Center for Environmental Biote
 
 A turbidostat maintains microalgae culture at a constant density by continuously monitoring turbidity (optical density) and diluting with fresh medium when the culture grows too dense. Think of it as a thermostat, but for biomass concentration instead of temperature.
 
-Commercial turbidostat systems cost $10,000+. This open-source build achieves the same function for ~$200 using a $15 turbidity sensor and an Arduino.
+Commercial turbidostat systems cost \$10,000+. This open-source build achieves the same function for ~\$200 using a \$15 turbidity sensor and an Arduino.
 
 ---
 
@@ -27,7 +28,7 @@ Commercial turbidostat systems cost $10,000+. This open-source build achieves th
 
 Measuring microalgae biomass typically requires a laboratory spectrophotometer — expensive, manual, and limited to one sample at a time. For continuous cultivation experiments (days to weeks), an automated, low-cost system that monitors and controls density in real-time is essential.
 
-The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacterium that converts light energy and CO2 into biomass. The challenge: finding an affordable sensor that works with these very small cells.
+The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacterium that converts light energy and CO$_2$ into biomass. The challenge: finding an affordable sensor that works with these very small cells.
 
 ---
 
@@ -49,7 +50,7 @@ The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacteriu
 | OLED display (SSD1306) | Real-time readout | ~$5 |
 | 2-channel relay board | Switch pumps on/off | ~$5 |
 | Peristaltic pump (12V) | Dilution delivery | ~$30 |
-| Yun Shield OR Raspberry Pi | Timestamp + data logging | ~$35 |
+| Yun Shield or Raspberry Pi | Timestamp + data logging | ~$35 |
 | Three-position switches (x2) | Manual override control | ~$5 |
 
 ### Schematic
@@ -60,7 +61,7 @@ The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacteriu
 ### Control Logic
 
 ![Flowchart](/assets/images/turbidostat/turbidostat_6.jpg)
-*Execution sequence: count interval → flush sampling line → read sensor → compare to setpoint → pump on/off → log data.*
+*Execution sequence: wait interval → flush sampling line → read sensor → compare to setpoint → pump on/off → log data.*
 
 ---
 
@@ -70,7 +71,7 @@ The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacteriu
 *TSD-10 uses infrared LED emission and a photodetector. Designed for washing machines, but works well for microalgae in the OD 0.1-2.0 range.*
 
 ![Calibration: voltage to optical density](/assets/images/turbidostat/turbidostat_11.jpg)
-*Conversion of raw voltage readout to optical density (OD730 and NTU). Higher voltage = less light absorbed = lower density.*
+*Conversion of raw voltage readout to optical density (OD$_{730}$ and NTU). Higher voltage = less light absorbed = lower density.*
 
 ![Turbidostat in action](/assets/images/turbidostat/turbidostat_12.jpg)
 *Working system: culture density (green) tracks the setpoint (red). Pump status shows dilution events triggered when density exceeds threshold.*
@@ -110,23 +111,38 @@ Serial.println(dataString);
 
 ## Hardware Photos
 
-| ![Relay box](/assets/images/turbidostat/turbidostat_4.jpg) | ![Control box v1](/assets/images/turbidostat/turbidostat_10.jpg) |
-|:---:|:---:|
-| Relay board for pump switching | Control box (Version 1.0) |
-
-| ![Sensor installed on reactor](/assets/images/turbidostat/turbidostat_17.jpg) | ![Sensor with foil wrap](/assets/images/turbidostat/turbidostat_13.jpg) |
-|:---:|:---:|
-| Turbidity sensor sampling from reactor | Sensor wrapped in foil to block ambient light |
-
-| ![Full photobioreactor setup](/assets/images/turbidostat/turbidostat_16.jpg) | ![Algae harvest](/assets/images/turbidostat/turbidostat_15.jpg) |
-|:---:|:---:|
-| Complete photobioreactor with turbidostat | Harvested microalgae from hold-up tank |
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/turbidostat/turbidostat_4.jpg" alt="Relay box">
+    <figcaption>Relay board for pump switching</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/turbidostat/turbidostat_10.jpg" alt="Control box v1">
+    <figcaption>Control box (Version 1.0)</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/turbidostat/turbidostat_17.jpg" alt="Sensor installed on reactor">
+    <figcaption>Turbidity sensor sampling from reactor</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/turbidostat/turbidostat_13.jpg" alt="Sensor with foil wrap">
+    <figcaption>Sensor wrapped in foil to block ambient light</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/turbidostat/turbidostat_16.jpg" alt="Full photobioreactor setup">
+    <figcaption>Complete photobioreactor with turbidostat</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/turbidostat/turbidostat_15.jpg" alt="Algae harvest">
+    <figcaption>Harvested microalgae from hold-up tank</figcaption>
+  </figure>
+</div>
 
 ---
 
 ## Publication
 
-This turbidostat is one of three open-hardware units developed for an advanced photobioreactor system. The scientific contribution — demonstrating that a $200 system can replace $10,000+ commercial alternatives for continuous microalgae cultivation — was published in:
+This turbidostat is one of three open-hardware units developed for an advanced photobioreactor system. The scientific contribution — demonstrating that a \$200 system can replace \$10,000+ commercial alternatives for continuous microalgae cultivation — was published in:
 
 > **Algal Research** (2018)
 > DOI: [10.1016/j.algal.2018.03.013](https://doi.org/10.1016/j.algal.2018.03.013)
@@ -151,11 +167,19 @@ The paper covers:
 
 ## Key Takeaways
 
-- A $15 washing-machine turbidity sensor works for microalgae optical density measurement
-- Total system cost ~$200 vs $10,000+ for commercial alternatives
+- A \$15 washing-machine turbidity sensor works for microalgae optical density measurement
+- Total system cost ~\$200 vs \$10,000+ for commercial alternatives
 - Arduino + relay + peristaltic pump = automated density control
 - Two data logging options: embedded Linux (Yun Shield) or Raspberry Pi with Python
 - Published validation in peer-reviewed journal confirms scientific utility
+
+---
+
+## Original Reference
+
+First published on Instructables:
+
+- [A Simple Turbidity Monitor and Control System for Microalgae](https://www.instructables.com/A-Simple-Turbidity-Monitor-and-Control-System-for-/)
 
 ---
 
