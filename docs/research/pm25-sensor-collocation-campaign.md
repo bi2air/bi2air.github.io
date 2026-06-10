@@ -1,13 +1,13 @@
 ---
 layout: default
-title: PM$_{2.5}$ Sensor Collocation Campaign
+title: PM$\_{2.5}$ Sensor Collocation Campaign
 parent: "2022"
 grand_parent: Research
 nav_order: 1
-description: "Draft reconstruction of a long-running PM$_{2.5}$ co-location campaign in Hanoi using an mlab unit, nearby anchor monitors, and BAM-linked comparison fits"
+description: "Draft reconstruction of a long-running PM$\_{2.5}$ co-location campaign in Hanoi using an mlab unit, nearby anchor monitors, and BAM-linked comparison fits"
 ---
 
-# PM$_{2.5}$ Sensor Collocation Campaign Draft
+# PM$\_{2.5}$ Sensor Collocation Campaign Draft
 
 {: .warning }
 This page is a **draft reconstruction** for local review in Jekyll. The overall campaign structure is now much clearer, but some file-to-sensor assignments are still being verified.
@@ -31,7 +31,7 @@ That distinction matters. One CSV file in the recovered database is often best i
 
 ## What this campaign was trying to do
 
-Most low-cost PM$_{2.5}$ writeups appear months after the field work ends. That lag weakens the connection between the measurement campaign and what readers can actually inspect. The original `dynamic-correlate` post tried to shorten that gap by publishing rolling comparison plots while the experiment was still active.
+Most low-cost PM$\_{2.5}$ writeups appear months after the field work ends. That lag weakens the connection between the measurement campaign and what readers can actually inspect. The original `dynamic-correlate` post tried to shorten that gap by publishing rolling comparison plots while the experiment was still active.
 
 That framing is no longer appropriate because the live charts are gone. The more durable story is this:
 
@@ -164,19 +164,19 @@ Using `15-minute` bins, the common three-way overlap window is:
 
 The three devices do not expose identical fields, so this first-pass comparison uses a pragmatic alignment:
 
-- `DC1100`: fitted PM$_{2.5}$-like field already present in `dylos.csv` as `pm2_5_f`
-- `DC1700`: exploratory PM$_{2.5}$ proxy using the same simple Dylos-family heuristic, `(small - large) / 100`
+- `DC1100`: fitted PM$\_{2.5}$-like field already present in `dylos.csv` as `pm2_5_f`
+- `DC1700`: exploratory PM$\_{2.5}$ proxy using the same simple Dylos-family heuristic, `(small - large) / 100`
 - `AirVisual`: direct `pm25` field from the device export
 
-This is good enough for a first behavioral comparison, but it should still be treated as **exploratory**, especially on the `DC1700` side where we are deriving a proxy rather than reading a native PM$_{2.5}$ field.
+This is good enough for a first behavioral comparison, but it should still be treated as **exploratory**, especially on the `DC1700` side where we are deriving a proxy rather than reading a native PM$\_{2.5}$ field.
 
 ### Pairwise correlation
 
 | Pair | Pearson r |
 | --- | ---: |
 | `DC1100 fit` vs `DC1700 proxy` | 0.9313 |
-| `DC1100 fit` vs `AirVisual PM$_{2.5}$` | 0.8457 |
-| `DC1700 proxy` vs `AirVisual PM$_{2.5}$` | 0.8897 |
+| `DC1100 fit` vs `AirVisual PM$\_{2.5}$` | 0.8457 |
+| `DC1700 proxy` vs `AirVisual PM$\_{2.5}$` | 0.8897 |
 
 <div class="image-grid">
   <figure>
@@ -207,8 +207,8 @@ This flagged `44` low-agreement days. Removing those days trimmed the aligned `1
 | Pair | Raw r | Cleaned r |
 | --- | ---: | ---: |
 | `DC1100 fit` vs `DC1700 proxy` | 0.9313 | 0.9337 |
-| `DC1100 fit` vs `AirVisual PM$_{2.5}$` | 0.8457 | 0.8501 |
-| `DC1700 proxy` vs `AirVisual PM$_{2.5}$` | 0.8897 | 0.8919 |
+| `DC1100 fit` vs `AirVisual PM$\_{2.5}$` | 0.8457 | 0.8501 |
+| `DC1700 proxy` vs `AirVisual PM$\_{2.5}$` | 0.8897 | 0.8919 |
 
 <div class="image-grid">
   <figure>
@@ -283,7 +283,7 @@ Monthly correlation is mostly strong, but not uniform. A few examples stand out:
 
 #### 3. Agreement is stronger in dirty-air periods than in cleaner air
 
-Splitting the aligned data by `AirVisual PM$_{2.5}$` tertiles shows a clear pattern:
+Splitting the aligned data by `AirVisual PM$\_{2.5}$` tertiles shows a clear pattern:
 
 - **Low regime** `0.0` to `23.0`: `DC1100` vs `AirVisual` is `0.5294`
 - **Mid regime** `23.5` to `51.0`: `DC1100` vs `AirVisual` is `0.4610`
@@ -413,8 +413,8 @@ Once the strongest photos are chosen, this review block should be collapsed into
 
 | Tier | Device | Role in the campaign |
 |------|--------|----------------------|
-| Low-cost | Plantower PMS7003 | Optical PM sensor with PM1 / PM$_{2.5}$ / PM$_{10}$ output and size bins |
-| Low-cost | Nova Fitness SDS011 | Optical PM sensor with PM$_{2.5}$ / PM$_{10}$ output; some deployments appear to have used a custom Python driver |
+| Low-cost | Plantower PMS7003 | Optical PM sensor with PM1 / PM$\_{2.5}$ / PM$\_{10}$ output and size bins |
+| Low-cost | Nova Fitness SDS011 | Optical PM sensor with PM$\_{2.5}$ / PM$\_{10}$ output; some deployments appear to have used a custom Python driver |
 | Low-cost | Honeywell HPMA115S0 | Optical PM sensor with industrial-style documentation |
 | Mid-tier | Dylos DC1100 Pro | Particle counter used as a practical comparison anchor |
 | Mid-tier / adjacent | Dylos DC1700 | Nearby comparison monitor in the broader campaign |
@@ -425,7 +425,7 @@ Once the strongest photos are chosen, this review block should be collapsed into
 
 ## Why use Dylos as an anchor?
 
-The Dylos DC1100 Pro sits in an interesting middle ground. It is much more expensive than hobby sensors like PMS7003 or SDS011, but still far below laboratory-grade reference instruments. It also reports **particle counts** rather than a directly standardized PM$_{2.5}$ mass concentration, so part of the campaign was devoted to exploring how those counts might be converted into PM$_{2.5}$-like values.
+The Dylos DC1100 Pro sits in an interesting middle ground. It is much more expensive than hobby sensors like PMS7003 or SDS011, but still far below laboratory-grade reference instruments. It also reports **particle counts** rather than a directly standardized PM$\_{2.5}$ mass concentration, so part of the campaign was devoted to exploring how those counts might be converted into PM$\_{2.5}$-like values.
 
 That makes Dylos useful for two separate reasons:
 
@@ -442,11 +442,11 @@ The campaign also appears to have relied on customized software around some of t
 
 ---
 
-## Converting Dylos counts to PM$_{2.5}$
+## Converting Dylos counts to PM$\_{2.5}$
 
-The archived campaign preserved five approaches for converting Dylos small-particle counts into PM$_{2.5}$ estimates. The author ultimately chose the **GRIMM-based fit** for the rolling charting, but the page documented the alternatives explicitly.
+The archived campaign preserved five approaches for converting Dylos small-particle counts into PM$\_{2.5}$ estimates. The author ultimately chose the **GRIMM-based fit** for the rolling charting, but the page documented the alternatives explicitly.
 
-![Five approaches to calculate PM$_{2.5}$ from Dylos particle counts](/assets/images/research/collocation/dylos_conversion_methods.png)
+![Five approaches to calculate PM$\_{2.5}$ from Dylos particle counts](/assets/images/research/collocation/dylos_conversion_methods.png)
 *Five preserved conversion approaches for Dylos DC1100 Pro particle counts. The original live page used the GRIMM-based fit for charting.*
 
 ### 1. Particle density and representative size assumption
@@ -481,7 +481,7 @@ $$
 \#p = (\text{small} - \text{large}) \times 3531
 $$
 
-and the implied PM$_{2.5}$ mass estimate becomes:
+and the implied PM$\_{2.5}$ mass estimate becomes:
 
 $$
 PM_{2.5} = (\text{small} - \text{large}) \times 2.08 \times 10^{-3}\ \mu g/m^3
@@ -497,7 +497,7 @@ $$
 AQI_{US} = 3.31\times10^{-22}x^5 - 1.04\times10^{-16}x^4 + 1.19\times10^{-11}x^3 - 5.85\times10^{-7}x^2 + 0.016x + 9.43
 $$
 
-This approach maps raw Dylos counts to AQI first, then back-calculates PM$_{2.5}$ from AQI breakpoints.
+This approach maps raw Dylos counts to AQI first, then back-calculates PM$\_{2.5}$ from AQI breakpoints.
 
 ### 3. Simple estimation
 
@@ -562,22 +562,22 @@ The original page was meant to update continuously. What survives are static mon
   </figure>
 </div>
 
-### PM$_{2.5}$-adjusted pairwise comparisons
+### PM$\_{2.5}$-adjusted pairwise comparisons
 
-In the original post, the `-ad` plots indicated PM$_{2.5}$ values adjusted using coefficients from the BAM-linked calibration work.
+In the original post, the `-ad` plots indicated PM$\_{2.5}$ values adjusted using coefficients from the BAM-linked calibration work.
 
 <div class="image-grid">
   <figure>
-    <img src="/assets/images/research/collocation/pm25_dc1100_hpma.png" alt="PM$_{2.5}$-adjusted comparison of DC1100 and Honeywell HPMA115S0">
-    <figcaption>Adjusted PM$_{2.5}$ comparison: Dylos DC1100 Pro and Honeywell HPMA115S0.</figcaption>
+    <img src="/assets/images/research/collocation/pm25_dc1100_hpma.png" alt="PM$\_{2.5}$-adjusted comparison of DC1100 and Honeywell HPMA115S0">
+    <figcaption>Adjusted PM$\_{2.5}$ comparison: Dylos DC1100 Pro and Honeywell HPMA115S0.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/research/collocation/pm25_dc1100_pms7003.png" alt="PM$_{2.5}$-adjusted comparison of DC1100 and Plantower PMS7003">
-    <figcaption>Adjusted PM$_{2.5}$ comparison: Dylos DC1100 Pro and Plantower PMS7003.</figcaption>
+    <img src="/assets/images/research/collocation/pm25_dc1100_pms7003.png" alt="PM$\_{2.5}$-adjusted comparison of DC1100 and Plantower PMS7003">
+    <figcaption>Adjusted PM$\_{2.5}$ comparison: Dylos DC1100 Pro and Plantower PMS7003.</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/research/collocation/pm25_dc1100_sds011.png" alt="PM$_{2.5}$-adjusted comparison of DC1100 and Nova Fitness SDS011">
-    <figcaption>Adjusted PM$_{2.5}$ comparison: Dylos DC1100 Pro and Nova Fitness SDS011.</figcaption>
+    <img src="/assets/images/research/collocation/pm25_dc1100_sds011.png" alt="PM$\_{2.5}$-adjusted comparison of DC1100 and Nova Fitness SDS011">
+    <figcaption>Adjusted PM$\_{2.5}$ comparison: Dylos DC1100 Pro and Nova Fitness SDS011.</figcaption>
   </figure>
 </div>
 
@@ -585,14 +585,14 @@ In the original post, the `-ad` plots indicated PM$_{2.5}$ values adjusted using
 
 ## What this campaign adds beyond the BAM page
 
-The earlier [Low-Cost PM$_{2.5}$ Sensors](/docs/research/pm25-low-cost-sensors.html) page is the better place for the strict **reference-station calibration** story. That page compares PMS7003 and SDS011 directly with the **US Embassy Hanoi MetOne BAM-1020** over about 60 days.
+The earlier [Low-Cost PM$\_{2.5}$ Sensors](/docs/research/pm25-low-cost-sensors.html) page is the better place for the strict **reference-station calibration** story. That page compares PMS7003 and SDS011 directly with the **US Embassy Hanoi MetOne BAM-1020** over about 60 days.
 
 This campaign adds a different layer:
 
 - **More sensors operating together in the same broader field effort**
 - A dedicated **co-location unit** rather than only one-off sensor checks
 - A **mid-tier field device** used as an operational anchor
-- A practical attempt to answer whether the cheap sensors **move with the same air**, even when absolute PM$_{2.5}$ remains uncertain
+- A practical attempt to answer whether the cheap sensors **move with the same air**, even when absolute PM$\_{2.5}$ remains uncertain
 - A preserved example of how one might build **rolling co-location comparisons** before formal publication
 
 In other words, the BAM page answers: *How far are these sensors from a reference?*
@@ -606,7 +606,7 @@ This page answers: *When multiple optical sensors are placed into the same field
 - The original page used a **live iframe/dashboard** that no longer exists, so this reconstruction is necessarily **static**.
 - The current write-up combines **archived posts**, **CSV export metadata**, and **memory-based campaign reconstruction**, so some sensor pinning still needs verification.
 - The preserved figures emphasize **DC1100-centered pairwise comparisons**, not a full synchronized matrix including DC1700 and IQAir.
-- The Dylos-to-PM$_{2.5}$ conversion methods are **attempts and fits**, not universal physical truth.
+- The Dylos-to-PM$\_{2.5}$ conversion methods are **attempts and fits**, not universal physical truth.
 - The BAM comparison for Dylos was indirect in this reconstructed page; the strictest BAM work is still better represented in the earlier calibration study.
 - At least one recovered file, `dust_work.csv`, contains obviously bad early timestamps and should not be treated as clean campaign data without further filtering.
 
@@ -623,8 +623,8 @@ This page answers: *When multiple optical sensors are placed into the same field
 
 ## Related pages
 
-- [Low-Cost PM$_{2.5}$ Sensors](/docs/research/pm25-low-cost-sensors.html) — BAM-based calibration of PMS7003 and SDS011
-- [AQI Calculation Guide](/docs/research/aqi-calculation-guide.html) — AQI breakpoints and PM$_{2.5}$ conversion context
+- [Low-Cost PM$\_{2.5}$ Sensors](/docs/research/pm25-low-cost-sensors.html) — BAM-based calibration of PMS7003 and SDS011
+- [AQI Calculation Guide](/docs/research/aqi-calculation-guide.html) — AQI breakpoints and PM$\_{2.5}$ conversion context
 
 ---
 

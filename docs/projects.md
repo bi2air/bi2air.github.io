@@ -28,7 +28,7 @@ Related tutorials:
 
 ## Air Quality Analysis
 
-Jupyter notebooks for PM$_{2.5}$ data processing, statistical analysis, and visualization from low-cost sensor networks.
+Jupyter notebooks for PM$\_{2.5}$ data processing, statistical analysis, and visualization from low-cost sensor networks.
 
 **Stack:** Python, Pandas, Matplotlib, Jupyter  
 [Repository](https://github.com/bi2air/air-quality-analysis) ·
@@ -65,7 +65,7 @@ Related tutorials:
 | Project | Language | Purpose |
 |---------|----------|---------|
 | advanced-bioreactor | C++, Python | Algae cultivation monitoring |
-| air-quality-analysis | Python | PM$_{2.5}$ data analysis |
+| air-quality-analysis | Python | PM$\_{2.5}$ data analysis |
 | weatherstation | C++, SQL | IoT weather monitoring |
 | arduinos | C++ | IoT and automation collection |
 

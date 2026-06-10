@@ -4,34 +4,34 @@ title: AQI Calculation Guide
 parent: "2020"
 grand_parent: Research
 nav_order: 1
-description: "How AQI is calculated from PM$_{2.5}$ — comparing US EPA, Vietnam, China, and WHO methods with equations and breakpoint tables"
+description: "How AQI is calculated from PM$\_{2.5}$ — comparing US EPA, Vietnam, China, and WHO methods with equations and breakpoint tables"
 ---
 
-# AQI Calculation Guide: From PM$_{2.5}$ Concentration to Air Quality Index
+# AQI Calculation Guide: From PM$\_{2.5}$ Concentration to Air Quality Index
 
 ![AQI color scale for the general public](/assets/images/research/aqi/aqi_kids_index.jpg)
 *Courtesy of airnow.gov*
 
 {: .note }
-This guide explains how PM$_{2.5}$ concentration becomes an AQI number. It compares the US EPA breakpoint method, Vietnam's updated (2019) calculation, and why the same AQI number means different PM$_{2.5}$ levels in different countries.
+This guide explains how PM$\_{2.5}$ concentration becomes an AQI number. It compares the US EPA breakpoint method, Vietnam's updated (2019) calculation, and why the same AQI number means different PM$\_{2.5}$ levels in different countries.
 
 ---
 
 ## What is AQI?
 
-AQI (Air Quality Index) is a single number representing outdoor air quality derived from six pollutants: PM$_{10}$, PM$_{2.5}$, NO2, CO, SO2, and O3. The reported AQI is the maximum of the individual index values calculated for each pollutant.
+AQI (Air Quality Index) is a single number representing outdoor air quality derived from six pollutants: PM$\_{10}$, PM$\_{2.5}$, NO2, CO, SO2, and O3. The reported AQI is the maximum of the individual index values calculated for each pollutant.
 
 Key concepts:
 1. **Each country defines its own permissible concentrations** — stricter standards yield higher AQI for the same air
 2. **Two calculation approaches exist:** breakpoint interpolation (US EPA, Vietnam post-2019) and linear ratio (Australia, Vietnam pre-2019)
 3. **Different averaging periods** produce different numbers from the same raw data — instant, hourly, daily, and NowCast concentrations are all distinct
 
-![PM$_{2.5}$ size scale](/assets/images/research/aqi/pm2.5_scale.jpg)
-*PM$_{2.5}$ particles are small enough to penetrate deep into the lungs. Courtesy of EPA.*
+![PM$\_{2.5}$ size scale](/assets/images/research/aqi/pm2.5_scale.jpg)
+*PM$\_{2.5}$ particles are small enough to penetrate deep into the lungs. Courtesy of EPA.*
 
 ---
 
-## PM$_{2.5}$ Standards by Country
+## PM$\_{2.5}$ Standards by Country
 
 | | WHO | US EPA | China | Australia | Vietnam |
 |--|-----|--------|-------|-----------|---------|
@@ -58,7 +58,7 @@ Before calculating AQI, you need the right concentration value:
 NowCast gives more weight to recent hours, making it responsive without being noisy:
 
 $$
-\mathrm{PM$_{2.5}$}_{\mathrm{nowcast}} = \frac{\sum_{i=1}^{12} w^{i-1} c_i}{\sum_{i=1}^{12} w^{i-1}}
+\mathrm{PM$\_{2.5}$}_{\mathrm{nowcast}} = \frac{\sum_{i=1}^{12} w^{i-1} c_i}{\sum_{i=1}^{12} w^{i-1}}
 $$
 
 Where:
@@ -82,10 +82,10 @@ Where:
 - $BP_{Hi}, BP_{Lo}$ = concentration breakpoints bounding $C_p$
 - $I_{Hi}, I_{Lo}$ = AQI index values corresponding to those breakpoints
 
-![EPA PM$_{2.5}$ breakpoint table](/assets/images/research/aqi/EPA_breakpoints_PM2.5.png)
-*US EPA breakpoints for PM$_{2.5}$ (24-hour and annual).*
+![EPA PM$\_{2.5}$ breakpoint table](/assets/images/research/aqi/EPA_breakpoints_PM2.5.png)
+*US EPA breakpoints for PM$\_{2.5}$ (24-hour and annual).*
 
-**Example:** PM$_{2.5}$ = 30 $\mu$g/m$^3$ (24-hour mean)
+**Example:** PM$\_{2.5}$ = 30 $\mu$g/m$^3$ (24-hour mean)
 
 Look up: falls in the 12.1-35.4 bracket (AQI 51-100)
 
@@ -103,7 +103,7 @@ Where $C_{\mathrm{standard}}$ is the permissible concentration for that pollutan
 
 This is simpler: AQI 50 means the concentration is half the standard. But it produces a purely linear scale with no breakpoints.
 
-**Example:** PM$_{2.5}$ = 25 $\mu$g/m$^3$ in Vietnam (C_standard = 50)
+**Example:** PM$\_{2.5}$ = 25 $\mu$g/m$^3$ in Vietnam (C_standard = 50)
 
 $$
 AQI = \frac{25}{50} \times 100 = 50
@@ -126,16 +126,16 @@ In November 2019 (Decision 1459/QD-TCMT), Vietnam switched from Method 2 to Meth
 ## Comparing US and Vietnam AQI
 
 ![AQI comparison table: US vs Vietnam](/assets/images/research/aqi/AQI_bio.info_2019.png)
-*Same AQI category, different PM$_{2.5}$ thresholds: "Good" in Vietnam allows higher PM$_{2.5}$ than "Good" in the US.*
+*Same AQI category, different PM$\_{2.5}$ thresholds: "Good" in Vietnam allows higher PM$\_{2.5}$ than "Good" in the US.*
 
 ![AQI conversion charts](/assets/images/research/aqi/AQI_bioinfo_sm.png)
 
 ![AQI vs concentration curves](/assets/images/research/aqi/AQI_bioinfo_lg.png)
-*Converting PM$_{2.5}$ concentration to AQI by both standards. The US EPA curve is steeper at lower concentrations — stricter for "Good" and "Moderate" categories.*
+*Converting PM$\_{2.5}$ concentration to AQI by both standards. The US EPA curve is steeper at lower concentrations — stricter for "Good" and "Moderate" categories.*
 
 Key differences:
-- For Good/Moderate categories, the same AQI number corresponds to **lower PM$_{2.5}$** under US EPA (stricter)
-- For Unhealthy/Hazardous categories, Vietnam's standard triggers at **lower PM$_{2.5}$** (stricter at the high end)
+- For Good/Moderate categories, the same AQI number corresponds to **lower PM$\_{2.5}$** under US EPA (stricter)
+- For Unhealthy/Hazardous categories, Vietnam's standard triggers at **lower PM$\_{2.5}$** (stricter at the high end)
 - After the 2019 update, the structural calculation is identical — only the breakpoint values differ
 
 ---

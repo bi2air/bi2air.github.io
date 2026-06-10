@@ -1,32 +1,32 @@
 ---
 layout: default
-title: Building a Low-Cost PM$_{2.5}$ Monitor
+title: Building a Low-Cost PM$\_{2.5}$ Monitor
 parent: Tutorials
 nav_order: 1
-description: "Portable PM$_{2.5}$ monitor using PMS7003 or SDS011, ESP8266, OLED display, and optional MQTT logging"
+description: "Portable PM$\_{2.5}$ monitor using PMS7003 or SDS011, ESP8266, OLED display, and optional MQTT logging"
 ---
 
-# Building a Low-Cost PM$_{2.5}$ Monitor
+# Building a Low-Cost PM$\_{2.5}$ Monitor
 
 {: .note }
 This tutorial was reconstructed from the old b-io.info multi-page guide. It consolidates the original five pages into one reference page and keeps the hardware/software links intact.
 
 ## What this build does
 
-This project builds a portable PM$_{2.5}$ monitor for roughly $30-40 using a low-cost laser particle sensor, an ESP8266-class microcontroller, and either an OLED display or an LED indicator. The base device shows live concentration locally. The extended version publishes readings to an MQTT broker for logging and later analysis.
+This project builds a portable PM$\_{2.5}$ monitor for roughly $30-40 using a low-cost laser particle sensor, an ESP8266-class microcontroller, and either an OLED display or an LED indicator. The base device shows live concentration locally. The extended version publishes readings to an MQTT broker for logging and later analysis.
 
-## Why PM$_{2.5}$ is worth measuring
+## Why PM$\_{2.5}$ is worth measuring
 
-PM$_{2.5}$ refers to fine airborne particles with diameter up to 2.5 micrometers. These particles stay suspended for hours to days, penetrate deep into the lungs, and are relevant not only outdoors but also indoors during cooking, smoking, soldering, and other combustion-related activities.
+PM$\_{2.5}$ refers to fine airborne particles with diameter up to 2.5 micrometers. These particles stay suspended for hours to days, penetrate deep into the lungs, and are relevant not only outdoors but also indoors during cooking, smoking, soldering, and other combustion-related activities.
 
-![PM$_{2.5}$ size scale](/assets/images/research/aqi/pm2.5_scale.jpg)
-*PM$_{2.5}$ is small enough to reach the deep lung. Image reused from the site AQI guide.*
+![PM$\_{2.5}$ size scale](/assets/images/research/aqi/pm2.5_scale.jpg)
+*PM$\_{2.5}$ is small enough to reach the deep lung. Image reused from the site AQI guide.*
 
 The original tutorial frames this as a practical maker project: if you build electronics, live in a polluted city, or want to compare indoor vs outdoor air, a simple PM monitor is useful even if it is not a regulatory instrument.
 
 ## Measurement method
 
-Reference-grade PM$_{2.5}$ monitoring typically uses gravimetric or beta attenuation methods. Low-cost hobby sensors instead use optical light scattering: a laser illuminates particles in an air stream, and scattered light is converted into particle counts and estimated mass concentration.
+Reference-grade PM$\_{2.5}$ monitoring typically uses gravimetric or beta attenuation methods. Low-cost hobby sensors instead use optical light scattering: a laser illuminates particles in an air stream, and scattered light is converted into particle counts and estimated mass concentration.
 
 ![SDS011 internals](/assets/images/tutorials/pm25-monitor/sds011.jpg)
 *Nova Fitness SDS011, a common hobby sensor with active airflow.*
@@ -125,7 +125,7 @@ void loop() {
 
 Original code repository:
 
-- [PM$_{2.5}$-monitor](https://github.com/binh-bk/PM$_{2.5}$-monitor)
+- [PM$\_{2.5}$-monitor](https://github.com/binh-bk/PM$\_{2.5}$-monitor)
 
 ## MQTT logging extension
 
@@ -206,7 +206,7 @@ Additional screenshots:
 
 ## Related pages
 
-- [Low-Cost PM$_{2.5}$ Sensors](/docs/research/pm25-low-cost-sensors.html)
+- [Low-Cost PM$\_{2.5}$ Sensors](/docs/research/pm25-low-cost-sensors.html)
 - [PM Measurement Methods](/docs/hardware-notes/pm-measurement-methods.html)
 - [AQI Calculation Guide](/docs/research/aqi-calculation-guide.html)
 
@@ -214,4 +214,4 @@ Additional screenshots:
 
 First published on Instructables:
 
-- [Building a low-cost PM$_{2.5}$ monitor](https://www.instructables.com/id/Building-a-lowcost-PM25-monitor/)
+- [Building a low-cost PM$\_{2.5}$ monitor](https://www.instructables.com/id/Building-a-lowcost-PM25-monitor/)

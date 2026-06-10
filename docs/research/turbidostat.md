@@ -71,7 +71,7 @@ The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacteriu
 *TSD-10 uses infrared LED emission and a photodetector. Designed for washing machines, but works well for microalgae in the OD 0.1-2.0 range.*
 
 ![Calibration: voltage to optical density](/assets/images/turbidostat/turbidostat_11.jpg)
-*Conversion of raw voltage readout to optical density (OD$_{730}$ and NTU). Higher voltage = less light absorbed = lower density.*
+*Conversion of raw voltage readout to optical density (OD$\_{730}$ and NTU). Higher voltage = less light absorbed = lower density.*
 
 ![Turbidostat in action](/assets/images/turbidostat/turbidostat_12.jpg)
 *Working system: culture density (green) tracks the setpoint (red). Pump status shows dilution events triggered when density exceeds threshold.*

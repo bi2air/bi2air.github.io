@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Demo
-parent: PM$_{2.5}$ Forecasting
+parent: PM$\_{2.5}$ Forecasting
 grand_parent: "2026"
 nav_order: 3
-description: "Demo page for comparing predicted PM$_{2.5}$ values against measured concentration."
+description: "Demo page for comparing predicted PM$\_{2.5}$ values against measured concentration."
 ---
 
 # Demo
@@ -18,8 +18,8 @@ This page is currently a scaffold for the local forecasting demo. The next step 
 
 This page will be used to compare:
 
-- predicted `PM$_{2.5}$` concentration
-- measured `PM$_{2.5}$` concentration
+- predicted `PM$\_{2.5}$` concentration
+- measured `PM$\_{2.5}$` concentration
 
 for a shared set of timestamps and forecast horizons.
 

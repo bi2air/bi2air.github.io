@@ -15,7 +15,7 @@ Step-by-step build guides first published on [Instructables](https://www.instruc
 
 | Tutorial | Difficulty | Published |
 |----------|------------|-----------|
-| [Building a Low-Cost PM$_{2.5}$ Monitor](/docs/tutorials/pm25-monitor.html) | Intermediate | 2020-Oct |
+| [Building a Low-Cost PM$\_{2.5}$ Monitor](/docs/tutorials/pm25-monitor.html) | Intermediate | 2020-Oct |
 | [Reading DYLOS Data via Wireless RS232](/docs/tutorials/wireless-rs232.html) | Intermediate | 2019-Sep |
 | [Building a Soil Humidity Sensor for Pot Plants](/docs/tutorials/watering-plant.html) | Intermediate | 2019-Jun |
 | [Weather Station (ESP8266, Deep Sleep, Flask)](https://www.instructables.com/Weather-Station-ESP8266-With-Deep-Sleep-SQL-Graphi/) | Intermediate | 2018-Sep |

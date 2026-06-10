@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Hanoi PM$_{2.5}$ Forecasting Experiments
-parent: PM$_{2.5}$ Forecasting
+title: Hanoi PM$\_{2.5}$ Forecasting Experiments
+parent: PM$\_{2.5}$ Forecasting
 grand_parent: "2026"
 nav_order: 4
-description: "A 2026 single-station forecasting study for Hanoi PM$_{2.5}$ using XGBoost, Open-Meteo forecasts, MERRA-2 reanalysis, and IGRA radiosonde features."
+description: "A 2026 single-station forecasting study for Hanoi PM$\_{2.5}$ using XGBoost, Open-Meteo forecasts, MERRA-2 reanalysis, and IGRA radiosonde features."
 ---
 
-# Hanoi PM$_{2.5}$ Forecasting Experiments (2026)
+# Hanoi PM$\_{2.5}$ Forecasting Experiments (2026)
 
-![Hanoi PM$_{2.5}$ +1h forecast: actual vs predicted on hold-out 2025 test period](/assets/images/research/2026-ai-assisted-1h-pm25-forecast-actual-vs-predicted.png)
-
-{: .note }
-This page adapts a June 2026 research writeup into site format for local Jekyll publishing. The underlying study evaluates single-station PM$_{2.5}$ forecasting for Hanoi across six lead times using hourly data from 2015-01-01 through 2025-04-09.
+![Hanoi PM$\_{2.5}$ +1h forecast: actual vs predicted on hold-out 2025 test period](/assets/images/research/2026-ai-assisted-1h-pm25-forecast-actual-vs-predicted.png)
 
 {: .note }
-The lead figure on this page is now a direct 2025 hold-out forecast result. The older `AI-assisted PM$_{2.5}$ modeling improvement, Hanoi 2018` graphic is tracked separately under the 2018 research entry because it represents a different modeling exercise on an older dataset.
+This page adapts a June 2026 research writeup into site format for local Jekyll publishing. The underlying study evaluates single-station PM$\_{2.5}$ forecasting for Hanoi across six lead times using hourly data from 2015-01-01 through 2025-04-09.
+
+{: .note }
+The lead figure on this page is now a direct 2025 hold-out forecast result. The older `AI-assisted PM$\_{2.5}$ modeling improvement, Hanoi 2018` graphic is tracked separately under the 2018 research entry because it represents a different modeling exercise on an older dataset.
 
 ---
 
@@ -28,7 +28,7 @@ The most useful experimental result was not a dramatic accuracy gain from extra 
 - `MERRA-2` boundary-layer features added small but repeatable value at `T+24h` to `T+72h`.
 - `IGRA` radiosonde inversion features did not improve forecast accuracy in this setup.
 - `T+6h` was the most promising horizon for severe-event warning within this dataset.
-- Simple temporal flags were not a substitute for recent PM$_{2.5}$ state and forecast meteorology.
+- Simple temporal flags were not a substitute for recent PM$\_{2.5}$ state and forecast meteorology.
 
 ## Best Results by Horizon
 
@@ -45,7 +45,7 @@ The most useful experimental result was not a dramatic accuracy gain from extra 
 
 ### Data Sources
 
-- **PM$_{2.5}$ observations**: hourly single-station series for Hanoi, `44,717` observations.
+- **PM$\_{2.5}$ observations**: hourly single-station series for Hanoi, `44,717` observations.
 - **Open-Meteo forecasts**: archived forecast fields used as operationally realistic weather inputs.
 - **MERRA-2 reanalysis**: boundary-layer and near-surface atmospheric variables, especially `PBLH`.
 - **IGRA radiosonde**: twice-daily upper-air soundings converted into inversion and stability features.
@@ -54,7 +54,7 @@ The most useful experimental result was not a dramatic accuracy gain from extra 
 
 The experiment compared several feature sets:
 
-- **Baseline (76 features)**: PM$_{2.5}$ lags, rolling statistics, current state, current weather, forecast weather, and basic temporal fields.
+- **Baseline (76 features)**: PM$\_{2.5}$ lags, rolling statistics, current state, current weather, forecast weather, and basic temporal fields.
 - **Enhanced temporal**: extra flags for rush hour, dry season, and burning season.
 - **MERRA-2**: boundary-layer height, wind profile, cloud layers, and derived stability variables.
 - **IGRA observed**: inversion strength, inversion base/depth, mixed-layer depth, and related flags.
@@ -81,7 +81,7 @@ At longer lead times the improvement over persistence increased:
 - `T+48h`: `+30.2%`
 - `T+72h`: `+33.6%`
 
-That pattern matters because it shows the model is doing more than just smoothing the recent PM$_{2.5}$ signal.
+That pattern matters because it shows the model is doing more than just smoothing the recent PM$\_{2.5}$ signal.
 
 ### 2. MERRA-2 Added Small but Real Value
 
@@ -112,17 +112,17 @@ The likely reasons are:
 - forward-filled upper-air states become stale quickly
 - `MERRA-2` already captures much of the same mixing physics with hourly coverage
 
-This is a valuable negative result. It suggests that sparse upper-air observations are not automatically useful for a single-station PM$_{2.5}$ forecast pipeline.
+This is a valuable negative result. It suggests that sparse upper-air observations are not automatically useful for a single-station PM$\_{2.5}$ forecast pipeline.
 
 ### 4. Proxy Atmospheric Models Were Not Good Enough
 
 The study also tested whether forecast-time proxy models could replace unavailable reanalysis variables. Those proxies were too noisy to beat using the original weather features directly.
 
-Binary atmospheric-state classifiers performed much better than regression proxies, but they still did not translate into better PM$_{2.5}$ forecasts in this round of experiments.
+Binary atmospheric-state classifiers performed much better than regression proxies, but they still did not translate into better PM$\_{2.5}$ forecasts in this round of experiments.
 
 ### 5. Temporal Patterns Alone Were Not Predictive
 
-Hanoi shows clear seasonal and diurnal PM$_{2.5}$ structure, but temporal features alone were a poor forecasting model.
+Hanoi shows clear seasonal and diurnal PM$\_{2.5}$ structure, but temporal features alone were a poor forecasting model.
 
 At `T+1h`:
 
@@ -136,7 +136,7 @@ This is an important modeling lesson: descriptive climatology is not a replaceme
 
 ## Severe Event Detection
 
-The hard case in this dataset is extreme pollution: `PM$_{2.5}$ > 150 $\mu$g/m$^3$`.
+The hard case in this dataset is extreme pollution: `PM$\_{2.5}$ > 150 $\mu$g/m$^3$`.
 
 Only about `1.2%` of the hourly records were severe events, so the problem is highly imbalanced. Within this setup:
 
@@ -171,7 +171,7 @@ That means the study is useful for continuous forecasting, but not yet reliable 
 
 ## Related Pages
 
-- [PM$_{2.5}$ Forecasting Literature Review](/docs/research/pm25-forecasting-literature-review.html)
+- [PM$\_{2.5}$ Forecasting Literature Review](/docs/research/pm25-forecasting-literature-review.html)
 - [Hanoi Forecasting Results vs Literature](/docs/research/hanoi-pm25-forecasting-literature-comparison.html)
 
 ## Source Note

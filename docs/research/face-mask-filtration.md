@@ -4,10 +4,10 @@ title: Face Mask Filtration
 parent: "2019"
 grand_parent: Research
 nav_order: 2
-description: "PM$_{2.5}$ and PM$_{10}$ removal efficiency of fabric, surgical, air masks, and particulate respirators tested with low-cost sensors in Hanoi"
+description: "PM$\_{2.5}$ and PM$\_{10}$ removal efficiency of fabric, surgical, air masks, and particulate respirators tested with low-cost sensors in Hanoi"
 ---
 
-# Face Mask Filtration: PM$_{2.5}$ and PM$_{10}$ Removal Efficiency
+# Face Mask Filtration: PM$\_{2.5}$ and PM$\_{10}$ Removal Efficiency
 
 ![Masks tested in this study](/assets/images/research/masks/mask_gallery.jpg)
 
@@ -18,11 +18,11 @@ This study evaluated 11 masks over 55 days using an improvised testing apparatus
 
 ## Abstract
 
-Four types of face masks were evaluated for particulate matter removal efficiency (RE): fabric, surgical, "air masks" (marketed for pollution), and brand-name particulate respirators. Masks were mounted on a 6 cm PVC pipe, and air was drawn through by a variable-speed fan. PM$_{2.5}$ and PM$_{10}$ were measured upstream and downstream using Plantower PMS7003 sensors.
+Four types of face masks were evaluated for particulate matter removal efficiency (RE): fabric, surgical, "air masks" (marketed for pollution), and brand-name particulate respirators. Masks were mounted on a 6 cm PVC pipe, and air was drawn through by a variable-speed fan. PM$\_{2.5}$ and PM$\_{10}$ were measured upstream and downstream using Plantower PMS7003 sensors.
 
 **Results by mask type:**
 
-| Type | PM$_{2.5}$ Removal | PM$_{10}$ Removal |
+| Type | PM$\_{2.5}$ Removal | PM$\_{10}$ Removal |
 |------|--------------|--------------|
 | Fabric | 8-14% | 8-14% |
 | Surgical | 29-39% | 29-39% |
@@ -36,11 +36,11 @@ A negative correlation between airflow rate and RE (-0.76 to -0.89 for surgical 
 
 ## Background
 
-Hanoi's 6 million motorbikes (10x the number of passenger cars) expose commuters to high PM$_{2.5}$ levels. By observation, 60-80% of riders wear masks, with fabric masks dominant. Yet fabric offers minimal protection against fine particles.
+Hanoi's 6 million motorbikes (10x the number of passenger cars) expose commuters to high PM$\_{2.5}$ levels. By observation, 60-80% of riders wear masks, with fabric masks dominant. Yet fabric offers minimal protection against fine particles.
 
-Previous work (Shakya et al., 2016) found fabric mask efficiency of 15-57% with diesel exhaust, while N95 respirators showed only marginal improvement over surgical masks for PM$_{2.5}$ specifically. The WHO reports 4.3 million annual deaths from indoor and 3.7 million from outdoor air pollution, with higher mortality in developing countries.
+Previous work (Shakya et al., 2016) found fabric mask efficiency of 15-57% with diesel exhaust, while N95 respirators showed only marginal improvement over surgical masks for PM$\_{2.5}$ specifically. The WHO reports 4.3 million annual deaths from indoor and 3.7 million from outdoor air pollution, with higher mortality in developing countries.
 
-Analysis of US Embassy monitoring data (2016-2019) shows Hanoi meets Vietnam's daily PM$_{2.5}$ standard ("good" level) only 26% of the time. By the WHO's stricter 25 $\mu$g/m$^3$ daily limit (50% lower than Vietnam's standard), the situation is worse.
+Analysis of US Embassy monitoring data (2016-2019) shows Hanoi meets Vietnam's daily PM$\_{2.5}$ standard ("good" level) only 26% of the time. By the WHO's stricter 25 $\mu$g/m$^3$ daily limit (50% lower than Vietnam's standard), the situation is worse.
 
 ---
 
@@ -84,16 +84,16 @@ Crosscheck periods confirmed sensor agreement (RE near zero when no mask mounted
 
 <div class="image-grid">
   <figure>
-    <img src="/assets/images/research/masks/bg_rm.png" alt="Background vs filtered PM$_{2.5}$">
+    <img src="/assets/images/research/masks/bg_rm.png" alt="Background vs filtered PM$\_{2.5}$">
     <figcaption>Background vs filtered</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/research/masks/pm2.5_rm.png" alt="PM$_{2.5}$ removal efficiency">
-    <figcaption>PM$_{2.5}$ removal</figcaption>
+    <img src="/assets/images/research/masks/pm2.5_rm.png" alt="PM$\_{2.5}$ removal efficiency">
+    <figcaption>PM$\_{2.5}$ removal</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/research/masks/pm10_rm.png" alt="PM$_{10}$ removal efficiency">
-    <figcaption>PM$_{10}$ removal</figcaption>
+    <img src="/assets/images/research/masks/pm10_rm.png" alt="PM$\_{10}$ removal efficiency">
+    <figcaption>PM$\_{10}$ removal</figcaption>
   </figure>
 </div>
 
@@ -103,7 +103,7 @@ Crosscheck periods confirmed sensor agreement (RE near zero when no mask mounted
 
 ### All Masks
 
-| Group | Mask ID | PM$_{2.5}$ RE | PM$_{10}$ RE | Fan Duty |
+| Group | Mask ID | PM$\_{2.5}$ RE | PM$\_{10}$ RE | Fan Duty |
 |-------|---------|----------|---------|----------|
 | Fabric | FU1 | 0.13 +/- 0.07 | 0.14 +/- 0.08 | 0.58 |
 | Fabric | FU2 (#1) | 0.09 +/- 0.06 | 0.08 +/- 0.05 | 0.63 |
@@ -150,9 +150,9 @@ USB microscope images of mask construction revealed:
   </figure>
 </div>
 
-- **Fabric:** 3 layers (cotton outer, loose polyester middle, support inner). Middle layer loosely packed — visibly porous relative to PM$_{2.5}$ particle size.
+- **Fabric:** 3 layers (cotton outer, loose polyester middle, support inner). Middle layer loosely packed — visibly porous relative to PM$\_{2.5}$ particle size.
 - **Surgical:** 4-5 tightly packed layers. One middle layer composed of dense, fine fibers.
-- **Air mask A1:** Single layer of randomly woven polyester. Pore size comparable to a human hair (~60-70 um) — roughly 30x larger than PM$_{2.5}$. No effective filtration.
+- **Air mask A1:** Single layer of randomly woven polyester. Pore size comparable to a human hair (~60-70 um) — roughly 30x larger than PM$\_{2.5}$. No effective filtration.
 - **Air mask A2:** 5 layers with fine fiber middle layer. Effective.
 - **3M respirators:** 5 layers. The Aura model features a thick, pillow-like middle layer; the 9001 has two fine-fiber middle layers.
 
@@ -179,8 +179,8 @@ USB microscope images of mask construction revealed:
     <figcaption>3M Aura: moderate correlation</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/research/masks/fan_pm2_5.png" alt="Fan vs PM$_{2.5}$ RE all masks">
-    <figcaption>All masks: PM$_{2.5}$ removal vs fan duty</figcaption>
+    <img src="/assets/images/research/masks/fan_pm2_5.png" alt="Fan vs PM$\_{2.5}$ RE all masks">
+    <figcaption>All masks: PM$\_{2.5}$ removal vs fan duty</figcaption>
   </figure>
 </div>
 
@@ -200,9 +200,9 @@ USB microscope images of mask construction revealed:
 
 ## Conclusions
 
-![Overview: PM$_{2.5}$ removal efficiency across all masks](/assets/images/research/masks/removal_overview_allmasks.png)
+![Overview: PM$\_{2.5}$ removal efficiency across all masks](/assets/images/research/masks/removal_overview_allmasks.png)
 
-- **Fabric masks** (dominant on Hanoi streets) provide negligible PM$_{2.5}$ protection (8-14% RE)
+- **Fabric masks** (dominant on Hanoi streets) provide negligible PM$\_{2.5}$ protection (8-14% RE)
 - **Surgical masks** offer moderate filtration (29-39%) but poor face seal makes real-world benefit uncertain
 - **"Air masks"** marketed for pollution are inconsistent — one model showed 0-3% RE, another 37-41%
 - **3M particulate respirators** (KN90/FFP3) achieved 47-62% material RE, with design features that resist degradation at higher airflow

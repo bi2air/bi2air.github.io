@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hanoi Forecasting Results vs Literature
-parent: PM$_{2.5}$ Forecasting
+parent: PM$\_{2.5}$ Forecasting
 grand_parent: "2026"
 nav_order: 5
-description: "A comparison between the 2026 Hanoi PM$_{2.5}$ forecasting experiments and the surrounding published literature."
+description: "A comparison between the 2026 Hanoi PM$\_{2.5}$ forecasting experiments and the surrounding published literature."
 ---
 
 # Hanoi Forecasting Results vs Literature
 
 {: .note }
-This page turns a draft comparison memo into a reader-facing summary. It positions the Hanoi forecasting experiments relative to the reviewed PM$_{2.5}$ forecasting literature without treating heterogeneous studies as strictly comparable.
+This page turns a draft comparison memo into a reader-facing summary. It positions the Hanoi forecasting experiments relative to the reviewed PM$\_{2.5}$ forecasting literature without treating heterogeneous studies as strictly comparable.
 
 ---
 
@@ -35,7 +35,7 @@ The `T+1h` Hanoi model reached `R$^2$ 0.825` and `NRMSE` near the middle of the 
 
 ### Medium Horizon
 
-At `T+24h`, Hanoi's best model used `MERRA-2` atmospheric features and achieved `RMSE 21.76 $\mu$g/m$^3$`. In absolute terms that sits inside the broad range reported by many urban PM$_{2.5}$ studies, but absolute RMSE alone is not enough to claim parity or superiority across cities.
+At `T+24h`, Hanoi's best model used `MERRA-2` atmospheric features and achieved `RMSE 21.76 $\mu$g/m$^3$`. In absolute terms that sits inside the broad range reported by many urban PM$\_{2.5}$ studies, but absolute RMSE alone is not enough to claim parity or superiority across cities.
 
 The more defensible comparison is qualitative:
 
@@ -58,7 +58,7 @@ This does not prove `XGBoost` is universally best. It does show that for a one-s
 
 ### 2. Forecast Horizon Design
 
-Many PM$_{2.5}$ papers publish only one horizon, usually around `T+24h`. The Hanoi study is stronger methodologically because it evaluates:
+Many PM$\_{2.5}$ papers publish only one horizon, usually around `T+24h`. The Hanoi study is stronger methodologically because it evaluates:
 
 - `T+1h`
 - `T+6h`
@@ -89,7 +89,7 @@ That is useful because it sets a realistic expectation: not every physically mea
 
 This is where the Hanoi experiments align with the literature's biggest unsolved problem.
 
-The models forecasted continuous PM$_{2.5}$ reasonably well, but they still struggled to identify rare severe events at high precision. The best result was at `T+6h`, where recall at `90%` precision remained low.
+The models forecasted continuous PM$\_{2.5}$ reasonably well, but they still struggled to identify rare severe events at high precision. The best result was at `T+6h`, where recall at `90%` precision remained low.
 
 That is consistent with a broader pattern:
 
@@ -128,8 +128,8 @@ If someone wanted to build a production-oriented version of this system, the lit
 
 ## Related Pages
 
-- [Hanoi PM$_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
-- [PM$_{2.5}$ Forecasting Literature Review](/docs/research/pm25-forecasting-literature-review.html)
+- [Hanoi PM$\_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
+- [PM$\_{2.5}$ Forecasting Literature Review](/docs/research/pm25-forecasting-literature-review.html)
 
 ## Source Note
 

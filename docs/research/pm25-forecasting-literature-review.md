@@ -1,13 +1,13 @@
 ---
 layout: default
-title: PM$_{2.5}$ Forecasting Literature Review
-parent: PM$_{2.5}$ Forecasting
+title: PM$\_{2.5}$ Forecasting Literature Review
+parent: PM$\_{2.5}$ Forecasting
 grand_parent: "2026"
 nav_order: 1
-description: "A practitioner-oriented review of PM$_{2.5}$ forecasting methods, benchmark habits, and cross-study comparison pitfalls."
+description: "A practitioner-oriented review of PM$\_{2.5}$ forecasting methods, benchmark habits, and cross-study comparison pitfalls."
 ---
 
-# PM$_{2.5}$ Forecasting Literature Review
+# PM$\_{2.5}$ Forecasting Literature Review
 
 {: .note }
 This page is a cleaned site version of a June 2026 working review focused on single-station operational forecasting. It emphasizes method families, benchmark discipline, and how to compare published results without overstating cross-region conclusions.
@@ -16,7 +16,7 @@ This page is a cleaned site version of a June 2026 working review focused on sin
 
 ## Executive Summary
 
-Three recurring patterns stand out across the reviewed PM$_{2.5}$ forecasting literature:
+Three recurring patterns stand out across the reviewed PM$\_{2.5}$ forecasting literature:
 
 1. **Gradient-boosted trees and LSTM models are the most credible single-station baselines.**
 2. **Persistence is often underreported even though it is a strong baseline, especially at short horizons.**
@@ -26,9 +26,9 @@ Within the reviewed sample, `XGBoost` was the most practical single-station meth
 
 ## Scope
 
-This review is about **operational PM$_{2.5}$ forecasting**, not hindcast exposure mapping or spatial interpolation. The target use case is a practitioner building forecasts from:
+This review is about **operational PM$\_{2.5}$ forecasting**, not hindcast exposure mapping or spatial interpolation. The target use case is a practitioner building forecasts from:
 
-- recent PM$_{2.5}$ history
+- recent PM$\_{2.5}$ history
 - current and forecast meteorology
 - a limited number of monitoring stations
 
@@ -38,11 +38,11 @@ The most important forecast horizons in the sample were `T+1h`, `T+6h`, `T+24h`,
 
 ### Use Normalized Metrics
 
-A model with `RMSE 20` in Beijing is not equivalent to a model with `RMSE 20` in Los Angeles. Different cities have different PM$_{2.5}$ baselines and variance structures.
+A model with `RMSE 20` in Beijing is not equivalent to a model with `RMSE 20` in Los Angeles. Different cities have different PM$\_{2.5}$ baselines and variance structures.
 
 For cross-study comparison, prefer:
 
-- **NRMSE**: `RMSE / mean(PM$_{2.5}$)`
+- **NRMSE**: `RMSE / mean(PM$\_{2.5}$)`
 - **R2**
 - **skill score vs persistence**, when available
 
@@ -52,7 +52,7 @@ Many papers say "daily forecast" or "air-quality prediction" without clearly def
 
 ### Separate Forecasting from Estimation
 
-Some papers labeled as PM$_{2.5}$ prediction are actually:
+Some papers labeled as PM$\_{2.5}$ prediction are actually:
 
 - spatial interpolation
 - retrospective exposure estimation
@@ -66,7 +66,7 @@ Those can be useful, but they are not the same forecasting problem.
 
 Persistence is the naive forecast:
 
-`PM$_{2.5}$(t+h) = PM$_{2.5}$(t)`
+`PM$\_{2.5}$(t+h) = PM$\_{2.5}$(t)`
 
 It is a particularly strong baseline at `T+1h` and still competitive at `T+6h`. Any serious operational paper should report it.
 
@@ -135,9 +135,9 @@ The table below summarizes the broad pattern from the reviewed sample. These are
 
 Performance degrades with longer lead times. The literature is heavily concentrated at `T+24h`, while clear `T+48h` and `T+72h` evaluations are relatively rare.
 
-### 2. PM$_{2.5}$ History Is Dominant at Short Horizons
+### 2. PM$\_{2.5}$ History Is Dominant at Short Horizons
 
-At `T+1h` and often `T+6h`, the recent PM$_{2.5}$ state dominates feature importance. Weather becomes more valuable as the horizon extends.
+At `T+1h` and often `T+6h`, the recent PM$\_{2.5}$ state dominates feature importance. Weather becomes more valuable as the horizon extends.
 
 ### 3. Severe Event Detection Remains Weak
 
@@ -149,12 +149,12 @@ Common reporting problems include:
 
 - missing persistence baseline
 - vague horizon definition
-- no mean PM$_{2.5}$, so NRMSE cannot be reconstructed
+- no mean PM$\_{2.5}$, so NRMSE cannot be reconstructed
 - evaluation only on the easiest horizon
 
 ## Recommended Reading Strategy
 
-When using published PM$_{2.5}$ forecasting papers to inform a build:
+When using published PM$\_{2.5}$ forecasting papers to inform a build:
 
 1. Compare only papers with explicit forecast horizons.
 2. Normalize RMSE before comparing cities.
@@ -173,7 +173,7 @@ This review directly informed the design of the companion Hanoi forecasting stud
 
 Related pages:
 
-- [Hanoi PM$_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
+- [Hanoi PM$\_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
 - [Hanoi Forecasting Results vs Literature](/docs/research/hanoi-pm25-forecasting-literature-comparison.html)
 - [Statistical Modeling](/docs/research/pm25-forecasting-statistical-modeling.html)
 

@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Hanoi PM$_{2.5}$ AI-Assisted Modeling Update
+title: Hanoi PM$\_{2.5}$ AI-Assisted Modeling Update
 parent: "2021"
 grand_parent: Research
 nav_order: 1
-description: "A 2021 modeling note showing how far a fixed Hanoi PM$_{2.5}$ dataset (2018 data) could be improved with richer feature engineering and AI-assisted iteration."
+description: "A 2021 modeling note showing how far a fixed Hanoi PM$\_{2.5}$ dataset (2018 data) could be improved with richer feature engineering and AI-assisted iteration."
 ---
 
-# Hanoi PM$_{2.5}$ AI-Assisted Modeling Update (2018)
+# Hanoi PM$\_{2.5}$ AI-Assisted Modeling Update (2018)
 
-![AI-assisted PM$_{2.5}$ modeling update, Hanoi 2018](/assets/images/research/pm25-ai-assisted-modeling-2026.png)
+![AI-assisted PM$\_{2.5}$ modeling update, Hanoi 2018](/assets/images/research/pm25-ai-assisted-modeling-2026.png)
 
 {: .note }
-This page is intentionally separate from the 2026 forecasting experiments. It summarizes an AI-assisted reworking of an older Hanoi PM$_{2.5}$ dataset framed as a model-improvement exercise on the 2018 period rather than as the main 2026 operational forecasting study.
+This page is intentionally separate from the 2026 forecasting experiments. It summarizes an AI-assisted reworking of an older Hanoi PM$\_{2.5}$ dataset framed as a model-improvement exercise on the 2018 period rather than as the main 2026 operational forecasting study.
 
 ---
 
@@ -20,7 +20,7 @@ This page is intentionally separate from the 2026 forecasting experiments. It su
 
 This graphic compares several model variants on the older Hanoi dataset and asks a narrower question:
 
-- given a fixed historical PM$_{2.5}$ dataset
+- given a fixed historical PM$\_{2.5}$ dataset
 - how much can prediction error be reduced
 - by moving from simple baselines to richer lag and feature-engineering setups
 
@@ -90,11 +90,11 @@ This places Random Forest:
 - **22.8% better** than `Linear weather` (RMSE 25.9)
 - Slightly behind `HGB weather` (RMSE 19.5), but similar performance tier
 - **46.5% worse** than the best model, `Blend rich lags` (RMSE 10.7)
-- **R$^2$ of 0.610** indicates it explains 61% of PM$_{2.5}$ variance using weather alone
+- **R$^2$ of 0.610** indicates it explains 61% of PM$\_{2.5}$ variance using weather alone
 
 The key insight is that Random Forest provides a solid non-linear baseline, but the major gains come from:
 1. Adding temporal structure (HGB weather+time: RMSE 14.6, R$^2$ 0.793)
-2. Incorporating lag features that encode recent PM$_{2.5}$ state (HGB rich lags: RMSE 10.8, R$^2$ 0.883)
+2. Incorporating lag features that encode recent PM$\_{2.5}$ state (HGB rich lags: RMSE 10.8, R$^2$ 0.883)
 3. Ensemble blending across multiple strong learners (Blend rich lags: RMSE 10.7, R$^2$ 0.886)
 
 ## What Each X-Axis Label Means
@@ -103,8 +103,8 @@ The chart is easiest to read if each label is treated as a different modeling sc
 
 ### Mean baseline
 
-- Predicts the overall mean PM$_{2.5}$ concentration.
-- Uses no meteorology, no time structure, and no recent PM$_{2.5}$ history.
+- Predicts the overall mean PM$\_{2.5}$ concentration.
+- Uses no meteorology, no time structure, and no recent PM$\_{2.5}$ history.
 - Purpose: anchor the chart with a trivial no-skill baseline.
 
 ### Linear weather
@@ -118,7 +118,7 @@ The chart is easiest to read if each label is treated as a different modeling sc
 
 - Model: `HistGradientBoostingRegressor`.
 - Inputs: the same weather-only feature scope as `Linear weather`.
-- Purpose: test whether a stronger non-linear learner helps even before adding time or lagged PM$_{2.5}$ information.
+- Purpose: test whether a stronger non-linear learner helps even before adding time or lagged PM$\_{2.5}$ information.
 
 ### HGB weather+time
 
@@ -129,7 +129,7 @@ The chart is easiest to read if each label is treated as a different modeling sc
 ### HGB rich lags
 
 - Model: `HistGradientBoostingRegressor`.
-- Inputs: weather, time structure, and recent observed PM$_{2.5}$ lag features and rolling summaries.
+- Inputs: weather, time structure, and recent observed PM$\_{2.5}$ lag features and rolling summaries.
 - Purpose: move from pure weather regression toward short-horizon forecasting / nowcasting.
 
 ### Blend rich lags
@@ -162,7 +162,7 @@ So `Blend rich lags` appears near the middle-right because the figure is organiz
 
 ## Recovered Result Summary
 
-The closest surviving writeup frames this modeling pass as a test of a simple question: do strong descriptive temporal patterns in Hanoi PM$_{2.5}$ translate into useful predictive power by themselves?
+The closest surviving writeup frames this modeling pass as a test of a simple question: do strong descriptive temporal patterns in Hanoi PM$\_{2.5}$ translate into useful predictive power by themselves?
 
 The recovered answer is no.
 
@@ -172,7 +172,7 @@ Later notes describe the temporal signal in the underlying Hanoi series as stron
 - diurnal variability was present but weaker, about `8.4%`
 - weekday effects were negligible, about `1.1%`
 
-That descriptive structure looked promising, but the predictive tests collapsed when the model relied mostly on temporal structure rather than recent PM$_{2.5}$ state and weather drivers.
+That descriptive structure looked promising, but the predictive tests collapsed when the model relied mostly on temporal structure rather than recent PM$\_{2.5}$ state and weather drivers.
 
 ### Main Quantitative Takeaway
 
@@ -189,7 +189,7 @@ That is the core modeling lesson behind this figure:
 
 - temporal-only models were about `2.3x` worse than persistence
 - they were about `2.7x` worse than the fuller baseline
-- adding recent PM$_{2.5}$ history and weather physics mattered far more than seasonal averages or clock-time patterns
+- adding recent PM$\_{2.5}$ history and weather physics mattered far more than seasonal averages or clock-time patterns
 
 ### Why the Better Models Improved
 
@@ -212,5 +212,5 @@ This is why the page should be read as a **model-improvement note**, not just a 
 
 ## Related Pages
 
-- [Hanoi PM$_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
-- [PM$_{2.5}$ Forecasting](/docs/research/pm25-forecasting.html)
+- [Hanoi PM$\_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
+- [PM$\_{2.5}$ Forecasting](/docs/research/pm25-forecasting.html)

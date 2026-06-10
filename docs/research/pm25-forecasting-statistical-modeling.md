@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Statistical Modeling
-parent: PM$_{2.5}$ Forecasting
+parent: PM$\_{2.5}$ Forecasting
 grand_parent: "2026"
 nav_order: 2
-description: "Statistical modeling notes for PM$_{2.5}$ forecasting, including targets, features, baselines, and evaluation design."
+description: "Statistical modeling notes for PM$\_{2.5}$ forecasting, including targets, features, baselines, and evaluation design."
 ---
 
 # Statistical Modeling
 
 {: .note }
-This page is the working home for the modeling side of the PM$_{2.5}$ forecasting section. It is meant to sit between the literature review and the live demo workflow.
+This page is the working home for the modeling side of the PM$\_{2.5}$ forecasting section. It is meant to sit between the literature review and the live demo workflow.
 
 ---
 
@@ -25,7 +25,7 @@ This section narrows the forecasting problem from broad literature review into a
 
 ## Target
 
-The main forecasting target is hourly `PM$_{2.5}$` concentration at a fixed monitoring location in Hanoi.
+The main forecasting target is hourly `PM$\_{2.5}$` concentration at a fixed monitoring location in Hanoi.
 
 Typical targets for this section:
 
@@ -51,7 +51,7 @@ Core families of interest:
 
 The modeling pipeline separates input groups so they can be tested cleanly:
 
-- PM$_{2.5}$ history
+- PM$\_{2.5}$ history
 - meteorological forecast inputs
 - temporal features
 - atmospheric mixing features such as boundary-layer proxies or reanalysis variables
