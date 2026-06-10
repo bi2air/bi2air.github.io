@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Hanoi PM2.5 AI-Assisted Modeling Update
+title: Hanoi PM$_{2.5}$ AI-Assisted Modeling Update
 parent: "2021"
 grand_parent: Research
 nav_order: 1
-description: "A 2021 modeling note showing how far a fixed Hanoi PM2.5 dataset (2018 data) could be improved with richer feature engineering and AI-assisted iteration."
+description: "A 2021 modeling note showing how far a fixed Hanoi PM$_{2.5}$ dataset (2018 data) could be improved with richer feature engineering and AI-assisted iteration."
 ---
 
-# Hanoi PM2.5 AI-Assisted Modeling Update (2018)
+# Hanoi PM$_{2.5}$ AI-Assisted Modeling Update (2018)
 
-![AI-assisted PM2.5 modeling update, Hanoi 2018](/assets/images/research/pm25-ai-assisted-modeling-2026.png)
+![AI-assisted PM$_{2.5}$ modeling update, Hanoi 2018](/assets/images/research/pm25-ai-assisted-modeling-2026.png)
 
 {: .note }
-This page is intentionally separate from the 2026 forecasting experiments. It summarizes an AI-assisted reworking of an older Hanoi PM2.5 dataset framed as a model-improvement exercise on the 2018 period rather than as the main 2026 operational forecasting study.
+This page is intentionally separate from the 2026 forecasting experiments. It summarizes an AI-assisted reworking of an older Hanoi PM$_{2.5}$ dataset framed as a model-improvement exercise on the 2018 period rather than as the main 2026 operational forecasting study.
 
 ---
 
@@ -20,7 +20,7 @@ This page is intentionally separate from the 2026 forecasting experiments. It su
 
 This graphic compares several model variants on the older Hanoi dataset and asks a narrower question:
 
-- given a fixed historical PM2.5 dataset
+- given a fixed historical PM$_{2.5}$ dataset
 - how much can prediction error be reduced
 - by moving from simple baselines to richer lag and feature-engineering setups
 
@@ -59,7 +59,7 @@ The plotted figure comes from the later `3.3` rework notebook, which reports all
 
 **Table ordered from worst to best RMSE** (showing the progression of model improvements):
 
-| Label in figure | Split | RMSE (ug/m3) | MAE (ug/m3) | R2 |
+| Label in figure | Split | RMSE ($\mu$g/m$^3$) | MAE ($\mu$g/m$^3$) | R$^2$ |
 | --- | --- | ---: | ---: | ---: |
 | Mean baseline | random | 32.0 | 23.3 | -0.001 |
 | Linear weather | random | 25.9 | 18.2 | 0.345 |
@@ -72,16 +72,16 @@ The plotted figure comes from the later `3.3` rework notebook, which reports all
 
 Key observations:
 
-- `Blend rich lags` achieves the lowest error (10.7 µg/m³), representing a **66.6% improvement** over the mean baseline.
-- `Random Forest` (20.0 µg/m³) performs slightly worse than `HGB weather` (19.5 µg/m³) but significantly better than linear weather models.
+- `Blend rich lags` achieves the lowest error (10.7 $\mu$g/m$^3$), representing a **66.6% improvement** over the mean baseline.
+- `Random Forest` (20.0 $\mu$g/m$^3$) performs slightly worse than `HGB weather` (19.5 $\mu$g/m$^3$) but significantly better than linear weather models.
 - The progression from simple baselines → weather-only → time features → rich lags shows clear, systematic improvement.
-- `HGB rich lags chronological` (14.5 µg/m³) provides the more realistic forward-in-time evaluation, showing higher error than random-split validation but still a **54.7% improvement** over baseline.
+- `HGB rich lags chronological` (14.5 $\mu$g/m$^3$) provides the more realistic forward-in-time evaluation, showing higher error than random-split validation but still a **54.7% improvement** over baseline.
 
 ## Random Forest in Context
 
 The original 2018 regression notebook included a standalone `RandomForestRegressor` trained on the same mixed meteorology dataset. Rerunning this model with the same train/test split (33% test, random_state=2020) gives complete metrics:
 
-| Model | RMSE (ug/m3) | MAE (ug/m3) | R2 | Position |
+| Model | RMSE ($\mu$g/m$^3$) | MAE ($\mu$g/m$^3$) | R$^2$ | Position |
 | --- | ---: | ---: | ---: | --- |
 | Random Forest | 20.0 | 13.3 | 0.610 | 3rd of 8 models |
 
@@ -90,12 +90,12 @@ This places Random Forest:
 - **22.8% better** than `Linear weather` (RMSE 25.9)
 - Slightly behind `HGB weather` (RMSE 19.5), but similar performance tier
 - **46.5% worse** than the best model, `Blend rich lags` (RMSE 10.7)
-- **R² of 0.610** indicates it explains 61% of PM2.5 variance using weather alone
+- **R$^2$ of 0.610** indicates it explains 61% of PM$_{2.5}$ variance using weather alone
 
 The key insight is that Random Forest provides a solid non-linear baseline, but the major gains come from:
-1. Adding temporal structure (HGB weather+time: RMSE 14.6, R² 0.793)
-2. Incorporating lag features that encode recent PM2.5 state (HGB rich lags: RMSE 10.8, R² 0.883)
-3. Ensemble blending across multiple strong learners (Blend rich lags: RMSE 10.7, R² 0.886)
+1. Adding temporal structure (HGB weather+time: RMSE 14.6, R$^2$ 0.793)
+2. Incorporating lag features that encode recent PM$_{2.5}$ state (HGB rich lags: RMSE 10.8, R$^2$ 0.883)
+3. Ensemble blending across multiple strong learners (Blend rich lags: RMSE 10.7, R$^2$ 0.886)
 
 ## What Each X-Axis Label Means
 
@@ -103,8 +103,8 @@ The chart is easiest to read if each label is treated as a different modeling sc
 
 ### Mean baseline
 
-- Predicts the overall mean PM2.5 concentration.
-- Uses no meteorology, no time structure, and no recent PM2.5 history.
+- Predicts the overall mean PM$_{2.5}$ concentration.
+- Uses no meteorology, no time structure, and no recent PM$_{2.5}$ history.
 - Purpose: anchor the chart with a trivial no-skill baseline.
 
 ### Linear weather
@@ -118,7 +118,7 @@ The chart is easiest to read if each label is treated as a different modeling sc
 
 - Model: `HistGradientBoostingRegressor`.
 - Inputs: the same weather-only feature scope as `Linear weather`.
-- Purpose: test whether a stronger non-linear learner helps even before adding time or lagged PM2.5 information.
+- Purpose: test whether a stronger non-linear learner helps even before adding time or lagged PM$_{2.5}$ information.
 
 ### HGB weather+time
 
@@ -129,7 +129,7 @@ The chart is easiest to read if each label is treated as a different modeling sc
 ### HGB rich lags
 
 - Model: `HistGradientBoostingRegressor`.
-- Inputs: weather, time structure, and recent observed PM2.5 lag features and rolling summaries.
+- Inputs: weather, time structure, and recent observed PM$_{2.5}$ lag features and rolling summaries.
 - Purpose: move from pure weather regression toward short-horizon forecasting / nowcasting.
 
 ### Blend rich lags
@@ -162,7 +162,7 @@ So `Blend rich lags` appears near the middle-right because the figure is organiz
 
 ## Recovered Result Summary
 
-The closest surviving writeup frames this modeling pass as a test of a simple question: do strong descriptive temporal patterns in Hanoi PM2.5 translate into useful predictive power by themselves?
+The closest surviving writeup frames this modeling pass as a test of a simple question: do strong descriptive temporal patterns in Hanoi PM$_{2.5}$ translate into useful predictive power by themselves?
 
 The recovered answer is no.
 
@@ -172,13 +172,13 @@ Later notes describe the temporal signal in the underlying Hanoi series as stron
 - diurnal variability was present but weaker, about `8.4%`
 - weekday effects were negligible, about `1.1%`
 
-That descriptive structure looked promising, but the predictive tests collapsed when the model relied mostly on temporal structure rather than recent PM2.5 state and weather drivers.
+That descriptive structure looked promising, but the predictive tests collapsed when the model relied mostly on temporal structure rather than recent PM$_{2.5}$ state and weather drivers.
 
 ### Main Quantitative Takeaway
 
 The recovered benchmark table from the later paper notes is:
 
-| Model family | Features | RMSE (ug/m3) | R2 | Readout |
+| Model family | Features | RMSE ($\mu$g/m$^3$) | R$^2$ | Readout |
 | --- | ---: | ---: | ---: | --- |
 | Temporal-only (basic) | 8 | 34.2 | -0.25 | failed badly |
 | Temporal-only (enhanced) | 19 | 34.0 | -0.23 | failed badly |
@@ -189,7 +189,7 @@ That is the core modeling lesson behind this figure:
 
 - temporal-only models were about `2.3x` worse than persistence
 - they were about `2.7x` worse than the fuller baseline
-- adding recent PM2.5 history and weather physics mattered far more than seasonal averages or clock-time patterns
+- adding recent PM$_{2.5}$ history and weather physics mattered far more than seasonal averages or clock-time patterns
 
 ### Why the Better Models Improved
 
@@ -212,5 +212,5 @@ This is why the page should be read as a **model-improvement note**, not just a 
 
 ## Related Pages
 
-- [Hanoi PM2.5 Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
+- [Hanoi PM$_{2.5}$ Forecasting Experiments](/docs/research/hanoi-pm25-forecasting-experiments-2026.html)
 - [PM2.5 Forecasting](/docs/research/pm25-forecasting.html)
