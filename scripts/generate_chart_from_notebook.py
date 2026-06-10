@@ -47,8 +47,20 @@ plot_df["label"] = [
     "Blend\\nrich lags",
 ]
 
-# Colors: red to green gradient (worst to best)
-colors = ["#dc2626", "#ea580c", "#f59e0b", "#eab308", "#84cc16", "#22c55e", "#10b981", "#059669"]
+# Colors: simple scheme
+# - Baseline: white/open
+# - Linear and Random Forest: gray
+# - AI-assisted models (2026): blue
+colors = [
+    "white",        # Mean baseline (open/white)
+    "#6b7280",      # Linear weather (gray)
+    "#6b7280",      # Random Forest (gray)
+    "#3b82f6",      # HGB weather (blue)
+    "#3b82f6",      # HGB weather+time (blue)
+    "#3b82f6",      # HGB rich lags chronological (blue)
+    "#3b82f6",      # HGB rich lags (blue)
+    "#3b82f6",      # Blend rich lags (blue)
+]
 
 print("\\nModels (worst to best):")
 for i, row in plot_df.iterrows():
@@ -57,7 +69,7 @@ for i, row in plot_df.iterrows():
 # Create figure (adapted from notebook)
 fig, ax = plt.subplots(figsize=(11.5, 5.8), dpi=160)
 x = np.arange(len(plot_df))
-bars = ax.bar(x, plot_df["rmse"], color=colors, width=0.68)
+bars = ax.bar(x, plot_df["rmse"], color=colors, edgecolor="black", linewidth=1.2, width=0.68)
 ax.plot(x, plot_df["mae"], color="#111827", marker="o", linewidth=2, label="MAE")
 
 ax.set_title("AI-assisted PM2.5 modeling update, Hanoi 2018", fontsize=15, weight="bold")
