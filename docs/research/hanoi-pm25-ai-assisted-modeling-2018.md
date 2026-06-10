@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hanoi PM2.5 AI-Assisted Modeling Update
-parent: "2018"
+parent: "2021"
 grand_parent: Research
 nav_order: 1
-description: "A separate 2018 modeling note showing how far a fixed Hanoi PM2.5 dataset could be improved with richer feature engineering and AI-assisted iteration."
+description: "A 2021 modeling note showing how far a fixed Hanoi PM2.5 dataset (2018 data) could be improved with richer feature engineering and AI-assisted iteration."
 ---
 
 # Hanoi PM2.5 AI-Assisted Modeling Update (2018)
