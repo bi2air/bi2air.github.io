@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Demo
-parent: PM$\_{2.5}$ Forecasting
+parent: PM2.5 Forecasting
 grand_parent: "2026"
 nav_order: 3
 description: "Demo page for comparing predicted PM$\_{2.5}$ values against measured concentration."

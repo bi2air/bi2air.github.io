@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PM$\_{2.5}$ Forecasting
+title: PM2.5 Forecasting
 parent: "2026"
 grand_parent: Research
 nav_order: 1

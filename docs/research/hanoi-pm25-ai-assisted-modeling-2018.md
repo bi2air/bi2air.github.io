@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hanoi PM$\_{2.5}$ AI-Assisted Modeling Update
+title: Hanoi PM2.5 AI-Assisted Modeling Update
 parent: "2021"
 grand_parent: Research
 nav_order: 1

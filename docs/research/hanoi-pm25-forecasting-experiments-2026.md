@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Hanoi PM$\_{2.5}$ Forecasting Experiments
-parent: PM$\_{2.5}$ Forecasting
+title: Hanoi PM2.5 Forecasting Experiments
+parent: PM2.5 Forecasting
 grand_parent: "2026"
 nav_order: 4
 description: "A 2026 single-station forecasting study for Hanoi PM$\_{2.5}$ using XGBoost, Open-Meteo forecasts, MERRA-2 reanalysis, and IGRA radiosonde features."

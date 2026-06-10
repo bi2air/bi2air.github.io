@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Building a Low-Cost PM$\_{2.5}$ Monitor
+title: Building a Low-Cost PM2.5 Monitor
 parent: Tutorials
 nav_order: 1
 description: "Portable PM$\_{2.5}$ monitor using PMS7003 or SDS011, ESP8266, OLED display, and optional MQTT logging"

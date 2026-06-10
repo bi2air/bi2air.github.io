@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hanoi Forecasting Results vs Literature
-parent: PM$\_{2.5}$ Forecasting
+parent: PM2.5 Forecasting
 grand_parent: "2026"
 nav_order: 5
 description: "A comparison between the 2026 Hanoi PM$\_{2.5}$ forecasting experiments and the surrounding published literature."

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Indoor vs Outdoor PM$\_{2.5}$
+title: Indoor vs Outdoor PM2.5
 parent: "2019"
 grand_parent: Research
 nav_order: 3

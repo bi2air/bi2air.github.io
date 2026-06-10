@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Statistical Modeling
-parent: PM$\_{2.5}$ Forecasting
+parent: PM2.5 Forecasting
 grand_parent: "2026"
 nav_order: 2
 description: "Statistical modeling notes for PM$\_{2.5}$ forecasting, including targets, features, baselines, and evaluation design."

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PM$\_{2.5}$ Sensor Collocation Campaign
+title: PM2.5 Sensor Collocation Campaign
 parent: "2022"
 grand_parent: Research
 nav_order: 1

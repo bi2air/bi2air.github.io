@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Low-Cost PM$\_{2.5}$ Sensors
+title: Low-Cost PM2.5 Sensors
 parent: "2019"
 grand_parent: Research
 nav_order: 1

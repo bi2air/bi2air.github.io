@@ -1,7 +1,7 @@
 ---
 layout: default
-title: PM$\_{2.5}$ Forecasting Literature Review
-parent: PM$\_{2.5}$ Forecasting
+title: PM2.5 Forecasting Literature Review
+parent: PM2.5 Forecasting
 grand_parent: "2026"
 nav_order: 1
 description: "A practitioner-oriented review of PM$\_{2.5}$ forecasting methods, benchmark habits, and cross-study comparison pitfalls."
