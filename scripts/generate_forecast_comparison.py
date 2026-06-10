@@ -36,10 +36,10 @@ DATA_ROOT = Path("tmp/air-quality-analysis-upstream/data")
 OUT_DIR = Path("assets/images/research")
 
 PLOT_START = "2025-03-01"
-PLOT_END = "2025-03-12"
+PLOT_END = "2025-03-08"
 
-SHORT_HORIZONS = [1, 6, 12]
-MEDIUM_HORIZONS = [24, 48, 72]
+SHORT_HORIZONS = [1, 12]
+MEDIUM_HORIZONS = [24, 72]
 
 
 def load_data(horizon):
@@ -112,35 +112,58 @@ def train_and_predict(horizon, features):
 
 
 def plot_panel(results, horizons, title, filename):
-    fig, ax = plt.subplots(figsize=(12, 4.5), dpi=160)
+    fig, (ax_main, ax_err) = plt.subplots(
+        nrows=2, ncols=1, figsize=(12, 6), dpi=160,
+        sharex=True, height_ratios=[2.5, 1],
+        gridspec_kw={"hspace": 0.08}
+    )
 
-    # Plot actual (from T+1 since all share same actual)
+    # Top panel: actual vs predicted
     actual_h = min(horizons)
     actual = results[actual_h]
-    ax.plot(actual["target_time"], actual["target_pm25"],
-            color="black", linewidth=0.6, marker="o", markersize=2.5,
-            label="Actual", zorder=10)
+    ax_main.plot(actual["target_time"], actual["target_pm25"],
+                 color="black", linewidth=0.6, marker="o", markersize=3,
+                 label="Actual", zorder=10)
 
-    colors = {1: "#2563eb", 6: "#7c3aed", 12: "#059669",
-              24: "#2563eb", 48: "#7c3aed", 72: "#dc2626"}
-    markers = {1: "s", 6: "^", 12: "D", 24: "s", 48: "^", 72: "D"}
+    colors = {1: "#2563eb", 12: "#059669", 24: "#2563eb", 72: "#dc2626"}
+    markers = {1: "s", 12: "D", 24: "s", 72: "D"}
 
     for h in horizons:
         df = results[h]
-        ax.plot(df["target_time"], df["pred_pm25"],
-                color=colors[h], linewidth=0.5, alpha=0.85,
-                marker=markers[h], markersize=2.5,
-                label=f"T+{h}h forecast")
+        ax_main.plot(df["target_time"], df["pred_pm25"],
+                     color=colors[h], linewidth=0.5, alpha=0.85,
+                     marker=markers[h], markersize=2.5,
+                     label=f"T+{h}h forecast")
 
-    ax.set_title(title, fontsize=13, weight="bold")
-    ax.set_ylabel(r"PM$_{2.5}$ ($\mu g/m^3$)")
-    ax.set_xlabel("Date (March 2025)")
-    ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
-    ax.xaxis.set_major_locator(mdates.DayLocator(interval=2))
-    ax.legend(loc="upper right", frameon=True, fontsize=9)
-    ax.grid(axis="y", color="#e5e7eb", alpha=0.7)
-    ax.spines[["top", "right"]].set_visible(False)
-    ax.set_xlim(pd.Timestamp(PLOT_START), pd.Timestamp(PLOT_END))
+    ax_main.set_title(title, fontsize=13, weight="bold")
+    ax_main.set_ylabel(r"PM$_{2.5}$ ($\mu g/m^3$)")
+    ax_main.legend(loc="upper right", frameon=True, fontsize=9)
+    ax_main.grid(axis="y", color="#e5e7eb", alpha=0.7)
+    ax_main.spines[["top", "right"]].set_visible(False)
+
+    # Bottom panel: error bars (predicted - actual)
+    bar_width = pd.Timedelta(hours=0.35)
+    offsets = {h: i for i, h in enumerate(horizons)}
+    n = len(horizons)
+
+    for h in horizons:
+        df = results[h].copy()
+        df["error"] = df["pred_pm25"] - df["target_pm25"]
+        offset = pd.Timedelta(hours=(offsets[h] - (n - 1) / 2) * 0.4)
+        times = df["target_time"] + offset
+        bar_colors = [colors[h] if e >= 0 else "#f87171" for e in df["error"]]
+        ax_err.bar(times, df["error"], width=bar_width,
+                   color=colors[h], alpha=0.6, label=f"T+{h}h error")
+
+    ax_err.axhline(0, color="black", linewidth=0.5)
+    ax_err.set_ylabel(r"Error ($\mu g/m^3$)")
+    ax_err.set_xlabel("Date (March 2025)")
+    ax_err.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+    ax_err.xaxis.set_major_locator(mdates.DayLocator(interval=1))
+    ax_err.legend(loc="upper right", frameon=True, fontsize=8)
+    ax_err.grid(axis="y", color="#e5e7eb", alpha=0.7)
+    ax_err.spines[["top", "right"]].set_visible(False)
+    ax_err.set_xlim(pd.Timestamp(PLOT_START), pd.Timestamp(PLOT_END))
 
     fig.tight_layout()
     out_path = OUT_DIR / filename
@@ -166,12 +189,12 @@ def main():
 
     print("\nGenerating short-horizon chart...")
     plot_panel(results, SHORT_HORIZONS,
-              r"Hanoi PM$_{2.5}$ forecast: short horizons (T+1h, T+6h, T+12h)",
+              r"Hanoi PM$_{2.5}$ forecast: short horizons (T+1h, T+12h)",
               "2026-forecast-short-horizon.png")
 
     print("Generating medium-horizon chart...")
     plot_panel(results, MEDIUM_HORIZONS,
-              r"Hanoi PM$_{2.5}$ forecast: medium horizons (T+24h, T+48h, T+72h)",
+              r"Hanoi PM$_{2.5}$ forecast: medium horizons (T+24h, T+72h)",
               "2026-forecast-medium-horizon.png")
 
     print("\n" + "=" * 60)
