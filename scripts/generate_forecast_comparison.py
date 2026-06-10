@@ -118,17 +118,19 @@ def plot_panel(results, horizons, title, filename):
     actual_h = min(horizons)
     actual = results[actual_h]
     ax.plot(actual["target_time"], actual["target_pm25"],
-            color="black", linewidth=1.5, label="Actual", zorder=10)
+            color="black", linewidth=0.6, marker="o", markersize=2.5,
+            label="Actual", zorder=10)
 
     colors = {1: "#2563eb", 6: "#7c3aed", 12: "#059669",
               24: "#2563eb", 48: "#7c3aed", 72: "#dc2626"}
-    alphas = {1: 0.9, 6: 0.8, 12: 0.7, 24: 0.9, 48: 0.8, 72: 0.7}
+    markers = {1: "s", 6: "^", 12: "D", 24: "s", 48: "^", 72: "D"}
 
     for h in horizons:
         df = results[h]
         ax.plot(df["target_time"], df["pred_pm25"],
-                color=colors[h], linewidth=1.2, alpha=alphas[h],
-                label=f"T+{h}h forecast", linestyle="-" if h == horizons[0] else "--")
+                color=colors[h], linewidth=0.5, alpha=0.85,
+                marker=markers[h], markersize=2.5,
+                label=f"T+{h}h forecast")
 
     ax.set_title(title, fontsize=13, weight="bold")
     ax.set_ylabel(r"PM$_{2.5}$ ($\mu g/m^3$)")
