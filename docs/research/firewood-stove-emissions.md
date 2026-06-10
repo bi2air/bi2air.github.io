@@ -21,7 +21,7 @@ A 3-day experiment evaluated particulate matter emissions from a firewood cook s
 - **Immediate Background Concentration (IBC):** average PM in the 2 hours before and after cooking
 - **Average Background Concentration (ABC):** daily average PM excluding cooking periods
 
-**Results:** PM during cooking was 6-125% higher than IBC and 65-95% higher than ABC. Background PM$\_{2.5}$ varied dramatically (38-58 $\mu$g/m$^3$ daily average), challenging the assumption that rural air is uniformly clean.
+**Results:** PM during cooking was 6-125% higher than IBC and 65-95% higher than ABC. Background PM$\_{2.5}$ varied dramatically (38-58 $\mu g/m^3$ daily average), challenging the assumption that rural air is uniformly clean.
 
 ---
 
@@ -52,7 +52,7 @@ Simple construction: two steel bars bridging a concrete base. No active fan. Fue
 
 ### Analysis
 
-Data cleaned by filtering single-peak anomalies >500 $\mu$g/m$^3$. Graphs produced with Matplotlib and Seaborn. Cooking-period emissions compared to IBC and ABC.
+Data cleaned by filtering single-peak anomalies >500 $\mu g/m^3$. Graphs produced with Matplotlib and Seaborn. Cooking-period emissions compared to IBC and ABC.
 
 ---
 
@@ -70,7 +70,7 @@ Data cleaned by filtering single-peak anomalies >500 $\mu$g/m$^3$. Graphs produc
 
 | Metric | Day 1 (PM$\_{2.5}$ / PM$\_{10}$) | Day 2 (PM$\_{2.5}$ / PM$\_{10}$) | Day 3 (PM$\_{2.5}$ / PM$\_{10}$) |
 |--------|----------------------|----------------------|----------------------|
-| Cooking ($\mu$g/m$^3$) | 102 / 118 | 72 / 84 | 74 / 90 |
+| Cooking ($\mu g/m^3$) | 102 / 118 | 72 / 84 | 74 / 90 |
 | Cooking / IBC | 1.38 / 1.28 | 1.16 / 1.06 | 2.24 / 2.25 |
 | Cooking / ABC | 1.76 / 1.64 | 1.71 / 1.65 | 1.95 / 1.91 |
 
@@ -95,7 +95,7 @@ Cooking consistently produced 65-95% more PM than the daily average background. 
 
 ### Background Variability
 
-The background PM$\_{2.5}$ varied from ~80 $\mu$g/m$^3$ on day 1 to 10-40 $\mu$g/m$^3$ on day 3. This challenges the assumption that rural background PM is stable.
+The background PM$\_{2.5}$ varied from ~80 $\mu g/m^3$ on day 1 to 10-40 $\mu g/m^3$ on day 3. This challenges the assumption that rural background PM is stable.
 
 ### Temperature and Humidity
 
@@ -116,7 +116,7 @@ PM$\_{2.5}$ comprised 83-86% of PM$\_{10}$ at both rural and town sites, consist
 - Sampling height (stove-base level) likely **underestimates** actual human exposure — cooks lean over the stove where concentration is higher
 - Wood stoves are commonly used for more than boiling water; frying and oil-based cooking would increase PM further
 - The PMS7003 overestimates PM$\_{2.5}$ by approximately 2x compared to BAM reference monitors — absolute concentrations should be interpreted cautiously, but relative ratios (cooking vs background) remain valid
-- Literature reports PM$\_{2.5}$ from solid fuels at 154-6901 $\mu$g/m$^3$ (various studies). Pokhrel et al. (2015) found biomass stoves emitted 656 $\mu$g/m$^3$ vs 80 $\mu$g/m$^3$ for electric cooking
+- Literature reports PM$\_{2.5}$ from solid fuels at 154-6901 $\mu g/m^3$ (various studies). Pokhrel et al. (2015) found biomass stoves emitted 656 $\mu g/m^3$ vs 80 $\mu g/m^3$ for electric cooking
 - Hu et al. (2014) found that vented stoves reduce PM$\_{2.5}$ by 35-55% — ventilation is the most accessible mitigation
 
 ---

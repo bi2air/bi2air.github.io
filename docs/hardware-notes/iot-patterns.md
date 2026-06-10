@@ -103,7 +103,7 @@ value = mean(filtered)
 
 ### Anomaly Filtering
 
-Single-peak spikes (>300 $\mu$g/m$^3$ for PM, or >50°C for temperature) are usually electrical noise, not real. Remove iteratively:
+Single-peak spikes (>300 $\mu g/m^3$ for PM, or >50°C for temperature) are usually electrical noise, not real. Remove iteratively:
 
 1. Calculate rolling median
 2. Flag points > 3x deviation from median

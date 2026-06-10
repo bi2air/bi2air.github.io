@@ -29,8 +29,8 @@ This study compares three sensors measuring fine particulate matter (PM$\_{2.5}$
 | Parameter | PMS7003 | SDS011 | HPMA115S0 | Dylos DC1100 Pro |
 |-----------|---------|--------|-----------|-----------------|
 | Price | ~$13 | ~$19 | ~$19 | ~$290 |
-| Range ($\mu$g/m$^3$) | 0-500 (1000 max) | 0-999 | 0-1000 | N/A |
-| Stated error | 10%, +/-10 $\mu$g/m$^3$ | 15%, +/-10 $\mu$g/m$^3$ | 15%, +/-10 $\mu$g/m$^3$ | N/A |
+| Range ($\mu g/m^3$) | 0-500 (1000 max) | 0-999 | 0-1000 | N/A |
+| Stated error | 10%, +/-10 $\mu g/m^3$ | 15%, +/-10 $\mu g/m^3$ | 15%, +/-10 $\mu g/m^3$ | N/A |
 | Lifespan | 8,000 h | 8,000 h | 20,000 h | Several years |
 | Communication | Serial, 9600 baud | Serial, 9600 baud | Serial, 9600 baud | Proprietary |
 | Output | PM1, PM$\_{2.5}$, PM$\_{10}$ + 6 size bins | PM$\_{2.5}$, PM$\_{10}$ (float) | PM$\_{2.5}$, PM$\_{10}$ (int) | Small (>0.5um), Large (>2.5um) |
@@ -75,7 +75,7 @@ Consensus from 10+ reports: SDS011 and PMS7003 overestimate PM$\_{2.5}$ relative
 
 ### Data Cleaning
 
-Raw data was filtered to remove single-peak anomalies exceeding 300 $\mu$g/m$^3$. PMS7003 produced more anomalous peaks than SDS011. After cleaning, 1,451 valid hourly observations remained for analysis.
+Raw data was filtered to remove single-peak anomalies exceeding 300 $\mu g/m^3$. PMS7003 produced more anomalous peaks than SDS011. After cleaning, 1,451 valid hourly observations remained for analysis.
 
 ![60 days of continuous PM$\_{2.5}$ data](/assets/images/research/sensors/60days_data.png)
 

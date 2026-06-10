@@ -25,7 +25,7 @@ This section narrows the forecasting problem from broad literature review into a
 
 ## Target
 
-The main forecasting target is hourly `PM$\_{2.5}$` concentration at a fixed monitoring location in Hanoi.
+The main forecasting target is hourly PM$\_{2.5}$ concentration at a fixed monitoring location in Hanoi.
 
 Typical targets for this section:
 

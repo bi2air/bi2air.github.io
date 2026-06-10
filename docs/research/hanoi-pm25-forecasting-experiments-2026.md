@@ -15,13 +15,13 @@ description: "A 2026 single-station forecasting study for Hanoi PM$\_{2.5}$ usin
 This page adapts a June 2026 research writeup into site format for local Jekyll publishing. The underlying study evaluates single-station PM$\_{2.5}$ forecasting for Hanoi across six lead times using hourly data from 2015-01-01 through 2025-04-09.
 
 {: .note }
-The lead figure on this page is now a direct 2025 hold-out forecast result. The older `AI-assisted PM$\_{2.5}$ modeling improvement, Hanoi 2018` graphic is tracked separately under the 2018 research entry because it represents a different modeling exercise on an older dataset.
+The lead figure on this page is now a direct 2025 hold-out forecast result. The older "AI-assisted PM$\_{2.5}$ modeling improvement, Hanoi 2018" graphic is tracked separately under the 2018 research entry because it represents a different modeling exercise on an older dataset.
 
 ---
 
 ## Executive Summary
 
-The best short-horizon model was the `T+1h` baseline configuration, reaching `RMSE 12.70 $\mu$g/m$^3$`, `MAE 7.32 $\mu$g/m$^3$`, and `R$^2$ 0.825`. Longer horizons degraded gradually but still beat persistence across the full range from `T+1h` to `T+72h`.
+The best short-horizon model was the T+1h baseline configuration, reaching RMSE 12.70 $\mu g/m^3$, MAE 7.32 $\mu g/m^3$, and $R^2$ 0.825. Longer horizons degraded gradually but still beat persistence across the full range from T+1h to T+72h.
 
 The most useful experimental result was not a dramatic accuracy gain from extra features, but a clearer separation between what helps and what does not:
 
@@ -32,7 +32,7 @@ The most useful experimental result was not a dramatic accuracy gain from extra 
 
 ## Best Results by Horizon
 
-| Horizon | RMSE ($\mu$g/m$^3$) | MAE ($\mu$g/m$^3$) | R$^2$ | Skill vs Persistence | Best Configuration |
+| Horizon | RMSE ($\mu g/m^3$) | MAE ($\mu g/m^3$) | R$^2$ | Skill vs Persistence | Best Configuration |
 | --- | ---: | ---: | ---: | ---: | --- |
 | `T+1h` | 12.70 | 7.32 | 0.825 | +13.6% | Baseline |
 | `T+6h` | 19.34 | 12.54 | 0.596 | +30.2% | Baseline |
@@ -126,7 +126,7 @@ Hanoi shows clear seasonal and diurnal PM$\_{2.5}$ structure, but temporal featu
 
 At `T+1h`:
 
-| Configuration | RMSE ($\mu$g/m$^3$) | R$^2$ |
+| Configuration | RMSE ($\mu g/m^3$) | R$^2$ |
 | --- | ---: | ---: |
 | Temporal-only | 34.2 | -0.25 |
 | Persistence | 14.7 | n/a |
@@ -136,7 +136,7 @@ This is an important modeling lesson: descriptive climatology is not a replaceme
 
 ## Severe Event Detection
 
-The hard case in this dataset is extreme pollution: `PM$\_{2.5}$ > 150 $\mu$g/m$^3$`.
+The hard case in this dataset is extreme pollution: PM$\_{2.5}$ > 150 $\mu g/m^3$.
 
 Only about `1.2%` of the hourly records were severe events, so the problem is highly imbalanced. Within this setup:
 

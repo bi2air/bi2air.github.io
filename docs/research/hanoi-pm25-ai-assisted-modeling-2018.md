@@ -59,7 +59,7 @@ The plotted figure comes from the later `3.3` rework notebook, which reports all
 
 **Table ordered from worst to best RMSE** (showing the progression of model improvements):
 
-| Label in figure | Split | RMSE ($\mu$g/m$^3$) | MAE ($\mu$g/m$^3$) | R$^2$ |
+| Label in figure | Split | RMSE ($\mu g/m^3$) | MAE ($\mu g/m^3$) | R$^2$ |
 | --- | --- | ---: | ---: | ---: |
 | Mean baseline | random | 32.0 | 23.3 | -0.001 |
 | Linear weather | random | 25.9 | 18.2 | 0.345 |
@@ -72,16 +72,16 @@ The plotted figure comes from the later `3.3` rework notebook, which reports all
 
 Key observations:
 
-- `Blend rich lags` achieves the lowest error (10.7 $\mu$g/m$^3$), representing a **66.6% improvement** over the mean baseline.
-- `Random Forest` (20.0 $\mu$g/m$^3$) performs slightly worse than `HGB weather` (19.5 $\mu$g/m$^3$) but significantly better than linear weather models.
+- `Blend rich lags` achieves the lowest error (10.7 $\mu g/m^3$), representing a **66.6% improvement** over the mean baseline.
+- `Random Forest` (20.0 $\mu g/m^3$) performs slightly worse than `HGB weather` (19.5 $\mu g/m^3$) but significantly better than linear weather models.
 - The progression from simple baselines → weather-only → time features → rich lags shows clear, systematic improvement.
-- `HGB rich lags chronological` (14.5 $\mu$g/m$^3$) provides the more realistic forward-in-time evaluation, showing higher error than random-split validation but still a **54.7% improvement** over baseline.
+- `HGB rich lags chronological` (14.5 $\mu g/m^3$) provides the more realistic forward-in-time evaluation, showing higher error than random-split validation but still a **54.7% improvement** over baseline.
 
 ## Random Forest in Context
 
 The original 2018 regression notebook included a standalone `RandomForestRegressor` trained on the same mixed meteorology dataset. Rerunning this model with the same train/test split (33% test, random_state=2020) gives complete metrics:
 
-| Model | RMSE ($\mu$g/m$^3$) | MAE ($\mu$g/m$^3$) | R$^2$ | Position |
+| Model | RMSE ($\mu g/m^3$) | MAE ($\mu g/m^3$) | R$^2$ | Position |
 | --- | ---: | ---: | ---: | --- |
 | Random Forest | 20.0 | 13.3 | 0.610 | 3rd of 8 models |
 
@@ -178,7 +178,7 @@ That descriptive structure looked promising, but the predictive tests collapsed 
 
 The recovered benchmark table from the later paper notes is:
 
-| Model family | Features | RMSE ($\mu$g/m$^3$) | R$^2$ | Readout |
+| Model family | Features | RMSE ($\mu g/m^3$) | R$^2$ | Readout |
 | --- | ---: | ---: | ---: | --- |
 | Temporal-only (basic) | 8 | 34.2 | -0.25 | failed badly |
 | Temporal-only (enhanced) | 19 | 34.0 | -0.23 | failed badly |

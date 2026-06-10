@@ -70,7 +70,7 @@ Key findings:
 ### RE vs PM$\_{2.5}$ Concentration
 
 ![RE of AQBlue masks by condition](/assets/images/research/used-masks/pm25_removal_aqblue.png)
-*Fig. 3: New masks consistently outperform used and washed across the PM$\_{2.5}$ range (0-200 $\mu$g/m$^3$).*
+*Fig. 3: New masks consistently outperform used and washed across the PM$\_{2.5}$ range (0-200 $\mu g/m^3$).*
 
 ### Brand Comparison (Used Condition)
 

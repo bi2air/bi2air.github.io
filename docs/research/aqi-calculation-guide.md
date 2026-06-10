@@ -35,10 +35,10 @@ Key concepts:
 
 | | WHO | US EPA | China | Australia | Vietnam |
 |--|-----|--------|-------|-----------|---------|
-| **24-hour mean ($\mu$g/m$^3$)** | 25 | 35 | 75 | 25 | 50 |
-| **Annual mean ($\mu$g/m$^3$)** | 10 | 12 | 35 | 8 | 25 |
+| **24-hour mean ($\mu g/m^3$)** | 25 | 35 | 75 | 25 | 50 |
+| **Annual mean ($\mu g/m^3$)** | 10 | 12 | 35 | 8 | 25 |
 
-Australia adopted the strictest annual standard (8 $\mu$g/m$^3$). Vietnam's standard is moderate relative to its economic status — stricter than China's.
+Australia adopted the strictest annual standard (8 $\mu g/m^3$). Vietnam's standard is moderate relative to its economic status — stricter than China's.
 
 ---
 
@@ -85,7 +85,7 @@ Where:
 ![EPA PM$\_{2.5}$ breakpoint table](/assets/images/research/aqi/EPA_breakpoints_PM2.5.png)
 *US EPA breakpoints for PM$\_{2.5}$ (24-hour and annual).*
 
-**Example:** PM$\_{2.5}$ = 30 $\mu$g/m$^3$ (24-hour mean)
+**Example:** PM$\_{2.5}$ = 30 $\mu g/m^3$ (24-hour mean)
 
 Look up: falls in the 12.1-35.4 bracket (AQI 51-100)
 
@@ -103,7 +103,7 @@ Where $C_{\mathrm{standard}}$ is the permissible concentration for that pollutan
 
 This is simpler: AQI 50 means the concentration is half the standard. But it produces a purely linear scale with no breakpoints.
 
-**Example:** PM$\_{2.5}$ = 25 $\mu$g/m$^3$ in Vietnam (C_standard = 50)
+**Example:** PM$\_{2.5}$ = 25 $\mu g/m^3$ in Vietnam (C_standard = 50)
 
 $$
 AQI = \frac{25}{50} \times 100 = 50

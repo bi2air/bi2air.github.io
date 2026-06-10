@@ -31,11 +31,11 @@ They also contribute two useful negative or clarifying results:
 
 ### Short Horizon
 
-The `T+1h` Hanoi model reached `R$^2$ 0.825` and `NRMSE` near the middle of the literature range for practical single-station models. That is directionally consistent with published `XGBoost` and `LSTM` work, though direct comparison is limited by different regions, emissions, and validation protocols.
+The T+1h Hanoi model reached $R^2$ 0.825 and NRMSE near the middle of the literature range for practical single-station models. That is directionally consistent with published XGBoost and LSTM work, though direct comparison is limited by different regions, emissions, and validation protocols.
 
 ### Medium Horizon
 
-At `T+24h`, Hanoi's best model used `MERRA-2` atmospheric features and achieved `RMSE 21.76 $\mu$g/m$^3$`. In absolute terms that sits inside the broad range reported by many urban PM$\_{2.5}$ studies, but absolute RMSE alone is not enough to claim parity or superiority across cities.
+At T+24h, Hanoi's best model used MERRA-2 atmospheric features and achieved RMSE 21.76 $\mu g/m^3$. In absolute terms that sits inside the broad range reported by many urban PM$\_{2.5}$ studies, but absolute RMSE alone is not enough to claim parity or superiority across cities.
 
 The more defensible comparison is qualitative:
 

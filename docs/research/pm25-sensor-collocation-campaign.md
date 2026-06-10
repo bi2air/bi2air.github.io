@@ -164,8 +164,8 @@ Using `15-minute` bins, the common three-way overlap window is:
 
 The three devices do not expose identical fields, so this first-pass comparison uses a pragmatic alignment:
 
-- `DC1100`: fitted PM$\_{2.5}$-like field already present in `dylos.csv` as `pm2_5_f`
-- `DC1700`: exploratory PM$\_{2.5}$ proxy using the same simple Dylos-family heuristic, `(small - large) / 100`
+- DC1100: fitted PM$\_{2.5}$-like field already present in `dylos.csv` as `pm2_5_f`
+- DC1700: exploratory PM$\_{2.5}$ proxy using the same simple Dylos-family heuristic, `(small - large) / 100`
 - `AirVisual`: direct `pm25` field from the device export
 
 This is good enough for a first behavioral comparison, but it should still be treated as **exploratory**, especially on the `DC1700` side where we are deriving a proxy rather than reading a native PM$\_{2.5}$ field.
@@ -175,8 +175,8 @@ This is good enough for a first behavioral comparison, but it should still be tr
 | Pair | Pearson r |
 | --- | ---: |
 | `DC1100 fit` vs `DC1700 proxy` | 0.9313 |
-| `DC1100 fit` vs `AirVisual PM$\_{2.5}$` | 0.8457 |
-| `DC1700 proxy` vs `AirVisual PM$\_{2.5}$` | 0.8897 |
+| DC1100 fit vs AirVisual PM$\_{2.5}$ | 0.8457 |
+| DC1700 proxy vs AirVisual PM$\_{2.5}$ | 0.8897 |
 
 <div class="image-grid">
   <figure>
@@ -207,8 +207,8 @@ This flagged `44` low-agreement days. Removing those days trimmed the aligned `1
 | Pair | Raw r | Cleaned r |
 | --- | ---: | ---: |
 | `DC1100 fit` vs `DC1700 proxy` | 0.9313 | 0.9337 |
-| `DC1100 fit` vs `AirVisual PM$\_{2.5}$` | 0.8457 | 0.8501 |
-| `DC1700 proxy` vs `AirVisual PM$\_{2.5}$` | 0.8897 | 0.8919 |
+| DC1100 fit vs AirVisual PM$\_{2.5}$ | 0.8457 | 0.8501 |
+| DC1700 proxy vs AirVisual PM$\_{2.5}$ | 0.8897 | 0.8919 |
 
 <div class="image-grid">
   <figure>
@@ -283,7 +283,7 @@ Monthly correlation is mostly strong, but not uniform. A few examples stand out:
 
 #### 3. Agreement is stronger in dirty-air periods than in cleaner air
 
-Splitting the aligned data by `AirVisual PM$\_{2.5}$` tertiles shows a clear pattern:
+Splitting the aligned data by AirVisual PM$\_{2.5}$ tertiles shows a clear pattern:
 
 - **Low regime** `0.0` to `23.0`: `DC1100` vs `AirVisual` is `0.5294`
 - **Mid regime** `23.5` to `51.0`: `DC1100` vs `AirVisual` is `0.4610`

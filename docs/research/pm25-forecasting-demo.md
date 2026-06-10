@@ -18,8 +18,8 @@ This page is currently a scaffold for the local forecasting demo. The next step 
 
 This page will be used to compare:
 
-- predicted `PM$\_{2.5}$` concentration
-- measured `PM$\_{2.5}$` concentration
+- predicted PM$\_{2.5}$ concentration
+- measured PM$\_{2.5}$ concentration
 
 for a shared set of timestamps and forecast horizons.
 

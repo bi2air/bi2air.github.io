@@ -40,7 +40,7 @@ Hanoi's 6 million motorbikes (10x the number of passenger cars) expose commuters
 
 Previous work (Shakya et al., 2016) found fabric mask efficiency of 15-57% with diesel exhaust, while N95 respirators showed only marginal improvement over surgical masks for PM$\_{2.5}$ specifically. The WHO reports 4.3 million annual deaths from indoor and 3.7 million from outdoor air pollution, with higher mortality in developing countries.
 
-Analysis of US Embassy monitoring data (2016-2019) shows Hanoi meets Vietnam's daily PM$\_{2.5}$ standard ("good" level) only 26% of the time. By the WHO's stricter 25 $\mu$g/m$^3$ daily limit (50% lower than Vietnam's standard), the situation is worse.
+Analysis of US Embassy monitoring data (2016-2019) shows Hanoi meets Vietnam's daily PM$\_{2.5}$ standard ("good" level) only 26% of the time. By the WHO's stricter 25 $\mu g/m^3$ daily limit (50% lower than Vietnam's standard), the situation is worse.
 
 ---
 
