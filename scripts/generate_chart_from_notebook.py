@@ -37,14 +37,14 @@ plot_df = pd.DataFrame(results_data)
 
 # Labels for display (worst to best)
 plot_df["label"] = [
-    "Mean\\nbaseline",
-    "Linear\\nweather",
-    "Random\\nForest",
-    "HGB\\nweather",
-    "HGB\\nweather+time",
-    "HGB rich lags\\nchronological",
-    "HGB\\nrich lags",
-    "Blend\\nrich lags",
+    "Mean\nbaseline",
+    "Linear\nweather",
+    "Random\nForest",
+    "HGB\nweather",
+    "HGB\nweather+time",
+    "HGB rich lags\nchronological",
+    "HGB\nrich lags",
+    "Blend\nrich lags",
 ]
 
 # Colors: simple scheme
