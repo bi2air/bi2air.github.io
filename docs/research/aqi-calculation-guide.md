@@ -19,7 +19,7 @@ This guide explains how PM$_{2.5}$ concentration becomes an AQI number. It compa
 
 ## What is AQI?
 
-AQI (Air Quality Index) is a single number representing outdoor air quality derived from six pollutants: PM10, PM$_{2.5}$, NO2, CO, SO2, and O3. The reported AQI is the maximum of the individual index values calculated for each pollutant.
+AQI (Air Quality Index) is a single number representing outdoor air quality derived from six pollutants: PM$_{10}$, PM$_{2.5}$, NO2, CO, SO2, and O3. The reported AQI is the maximum of the individual index values calculated for each pollutant.
 
 Key concepts:
 1. **Each country defines its own permissible concentrations** — stricter standards yield higher AQI for the same air

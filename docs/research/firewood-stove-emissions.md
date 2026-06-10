@@ -4,7 +4,7 @@ title: Firewood Stove Emissions
 parent: "2019"
 grand_parent: Research
 nav_order: 4
-description: "PM$_{2.5}$ and PM10 emissions from a rural firewood cook stove in Vietnam — 3-day field measurement with PMS7003"
+description: "PM$_{2.5}$ and PM$_{10}$ emissions from a rural firewood cook stove in Vietnam — 3-day field measurement with PMS7003"
 ---
 
 # Firewood Stove Emissions: PM$_{2.5}$ in a Rural Vietnamese Kitchen
@@ -16,7 +16,7 @@ A 3-day field campaign measured particulate matter near an active firewood cook 
 
 ## Abstract
 
-A 3-day experiment evaluated particulate matter emissions from a firewood cook stove in a rural home in Vietnam. The site had no large industrial combustion within 2 km and a provincial road approximately 500 m away screened by dense trees. One Plantower PMS7003 measured PM$_{2.5}$ and PM10 at 1-minute intervals. Cooking emissions were compared against:
+A 3-day experiment evaluated particulate matter emissions from a firewood cook stove in a rural home in Vietnam. The site had no large industrial combustion within 2 km and a provincial road approximately 500 m away screened by dense trees. One Plantower PMS7003 measured PM$_{2.5}$ and PM$_{10}$ at 1-minute intervals. Cooking emissions were compared against:
 
 - **Immediate Background Concentration (IBC):** average PM in the 2 hours before and after cooking
 - **Average Background Concentration (ABC):** daily average PM excluding cooking periods
@@ -29,7 +29,7 @@ A 3-day experiment evaluated particulate matter emissions from a firewood cook s
 
 ### Equipment
 
-- Plantower PMS7003 (PM$_{2.5}$ and PM10)
+- Plantower PMS7003 (PM$_{2.5}$ and PM$_{10}$)
 - Bosch BME280 (temperature and relative humidity)
 - Raspberry Pi with Python scripts, 1-minute sampling
 - 4S lithium battery for mobility
@@ -60,15 +60,15 @@ Data cleaned by filtering single-peak anomalies >500 $\mu$g/m$^3$. Graphs produc
 
 ### 3-Day PM Concentration Timeline
 
-![PM$_{2.5}$ and PM10 at 20-minute resolution](/assets/images/research/stove/home_20min.png)
-*Fig. 3: PM$_{2.5}$ and PM10 over 3 days (20-min resolution). Cooking periods and heavy rain marked.*
+![PM$_{2.5}$ and PM$_{10}$ at 20-minute resolution](/assets/images/research/stove/home_20min.png)
+*Fig. 3: PM$_{2.5}$ and PM$_{10}$ over 3 days (20-min resolution). Cooking periods and heavy rain marked.*
 
-![PM$_{2.5}$ and PM10 at 1-minute resolution](/assets/images/research/stove/home_1min.png)
+![PM$_{2.5}$ and PM$_{10}$ at 1-minute resolution](/assets/images/research/stove/home_1min.png)
 *Fig. 4: Same data at 1-minute resolution showing peak detail during cooking.*
 
 ### Cooking vs Background
 
-| Metric | Day 1 (PM$_{2.5}$ / PM10) | Day 2 (PM$_{2.5}$ / PM10) | Day 3 (PM$_{2.5}$ / PM10) |
+| Metric | Day 1 (PM$_{2.5}$ / PM$_{10}$) | Day 2 (PM$_{2.5}$ / PM$_{10}$) | Day 3 (PM$_{2.5}$ / PM$_{10}$) |
 |--------|----------------------|----------------------|----------------------|
 | Cooking ($\mu$g/m$^3$) | 102 / 118 | 72 / 84 | 74 / 90 |
 | Cooking / IBC | 1.38 / 1.28 | 1.16 / 1.06 | 2.24 / 2.25 |
@@ -105,9 +105,9 @@ The background PM$_{2.5}$ varied from ~80 $\mu$g/m$^3$ on day 1 to 10-40 $\mu$g/
 ### Secondary Location (Hong Linh)
 
 ![Pilot sampling near highway](/assets/images/research/stove/mobile_hl.png)
-*Fig. 7: PM$_{2.5}$ and PM10 near the national highway. PM$_{2.5}$/PM10 ratio = 0.86, consistent with combustion-dominated sources.*
+*Fig. 7: PM$_{2.5}$ and PM$_{10}$ near the national highway. PM$_{2.5}$/PM$_{10}$ ratio = 0.86, consistent with combustion-dominated sources.*
 
-PM$_{2.5}$ comprised 83-86% of PM10 at both rural and town sites, consistent with EPA reports that combustion and secondary atmospheric pathways dominate the fine particle fraction.
+PM$_{2.5}$ comprised 83-86% of PM$_{10}$ at both rural and town sites, consistent with EPA reports that combustion and secondary atmospheric pathways dominate the fine particle fraction.
 
 ---
 
@@ -125,7 +125,7 @@ PM$_{2.5}$ comprised 83-86% of PM10 at both rural and town sites, consistent wit
 
 - Firewood cooking produces **65-95% more PM** than daily background in a rural Vietnamese setting
 - Rural background PM$_{2.5}$ is **not stable** — it varied 2-3x over 3 days, likely driven by weather and regional transport
-- PM$_{2.5}$ dominates PM10 (83-86%) at both rural and roadside sites
+- PM$_{2.5}$ dominates PM$_{10}$ (83-86%) at both rural and roadside sites
 - **Ventilation is the primary mitigation** — even without switching fuels, a vented stove design significantly reduces exposure
 - The PMS7003 sensor is suitable for relative comparisons but not absolute health-standard assessment
 

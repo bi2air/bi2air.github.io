@@ -12,6 +12,9 @@ find docs/ -name "*.md" -type f | while read -r file; do
     # PM2.5 → PM$_{2.5}$ (but not if already formatted)
     sed -i 's/\bPM2\.5\b/PM$_{2.5}$/g' "$file"
 
+    # PM10 → PM$_{10}$
+    sed -i 's/\bPM10\b/PM$_{10}$/g' "$file"
+
     # ug/m3 → $\mu$g/m$^3$
     sed -i 's/ug\/m3/\$\\mu\$g\/m\$\^3\$/g' "$file"
     sed -i 's/µg\/m³/\$\\mu\$g\/m\$\^3\$/g' "$file"

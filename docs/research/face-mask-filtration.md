@@ -4,10 +4,10 @@ title: Face Mask Filtration
 parent: "2019"
 grand_parent: Research
 nav_order: 2
-description: "PM$_{2.5}$ and PM10 removal efficiency of fabric, surgical, air masks, and particulate respirators tested with low-cost sensors in Hanoi"
+description: "PM$_{2.5}$ and PM$_{10}$ removal efficiency of fabric, surgical, air masks, and particulate respirators tested with low-cost sensors in Hanoi"
 ---
 
-# Face Mask Filtration: PM$_{2.5}$ and PM10 Removal Efficiency
+# Face Mask Filtration: PM$_{2.5}$ and PM$_{10}$ Removal Efficiency
 
 ![Masks tested in this study](/assets/images/research/masks/mask_gallery.jpg)
 
@@ -18,11 +18,11 @@ This study evaluated 11 masks over 55 days using an improvised testing apparatus
 
 ## Abstract
 
-Four types of face masks were evaluated for particulate matter removal efficiency (RE): fabric, surgical, "air masks" (marketed for pollution), and brand-name particulate respirators. Masks were mounted on a 6 cm PVC pipe, and air was drawn through by a variable-speed fan. PM$_{2.5}$ and PM10 were measured upstream and downstream using Plantower PMS7003 sensors.
+Four types of face masks were evaluated for particulate matter removal efficiency (RE): fabric, surgical, "air masks" (marketed for pollution), and brand-name particulate respirators. Masks were mounted on a 6 cm PVC pipe, and air was drawn through by a variable-speed fan. PM$_{2.5}$ and PM$_{10}$ were measured upstream and downstream using Plantower PMS7003 sensors.
 
 **Results by mask type:**
 
-| Type | PM$_{2.5}$ Removal | PM10 Removal |
+| Type | PM$_{2.5}$ Removal | PM$_{10}$ Removal |
 |------|--------------|--------------|
 | Fabric | 8-14% | 8-14% |
 | Surgical | 29-39% | 29-39% |
@@ -90,8 +90,8 @@ Crosscheck periods confirmed sensor agreement (RE near zero when no mask mounted
     <figcaption>PM$_{2.5}$ removal</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/research/masks/pm10_rm.png" alt="PM10 removal efficiency">
-    <figcaption>PM10 removal</figcaption>
+    <img src="/assets/images/research/masks/pm10_rm.png" alt="PM$_{10}$ removal efficiency">
+    <figcaption>PM$_{10}$ removal</figcaption>
   </figure>
 </div>
 
@@ -101,7 +101,7 @@ Crosscheck periods confirmed sensor agreement (RE near zero when no mask mounted
 
 ### All Masks
 
-| Group | Mask ID | PM$_{2.5}$ RE | PM10 RE | Fan Duty |
+| Group | Mask ID | PM$_{2.5}$ RE | PM$_{10}$ RE | Fan Duty |
 |-------|---------|----------|---------|----------|
 | Fabric | FU1 | 0.13 +/- 0.07 | 0.14 +/- 0.08 | 0.58 |
 | Fabric | FU2 (#1) | 0.09 +/- 0.06 | 0.08 +/- 0.05 | 0.63 |

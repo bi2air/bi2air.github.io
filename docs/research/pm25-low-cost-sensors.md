@@ -33,7 +33,7 @@ This study compares three sensors measuring fine particulate matter (PM$_{2.5}$)
 | Stated error | 10%, +/-10 $\mu$g/m$^3$ | 15%, +/-10 $\mu$g/m$^3$ | 15%, +/-10 $\mu$g/m$^3$ | N/A |
 | Lifespan | 8,000 h | 8,000 h | 20,000 h | Several years |
 | Communication | Serial, 9600 baud | Serial, 9600 baud | Serial, 9600 baud | Proprietary |
-| Output | PM1, PM$_{2.5}$, PM10 + 6 size bins | PM$_{2.5}$, PM10 (float) | PM$_{2.5}$, PM10 (int) | Small (>0.5um), Large (>2.5um) |
+| Output | PM1, PM$_{2.5}$, PM$_{10}$ + 6 size bins | PM$_{2.5}$, PM$_{10}$ (float) | PM$_{2.5}$, PM$_{10}$ (int) | Small (>0.5um), Large (>2.5um) |
 
 All three low-cost sensors use laser light scattering to estimate particle concentration. The measurement principle relies on Mie scattering theory: a laser beam illuminates particles drawn through a chamber, and a photodetector measures scattered light intensity to infer particle count and size distribution.
 

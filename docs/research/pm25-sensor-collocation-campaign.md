@@ -413,8 +413,8 @@ Once the strongest photos are chosen, this review block should be collapsed into
 
 | Tier | Device | Role in the campaign |
 |------|--------|----------------------|
-| Low-cost | Plantower PMS7003 | Optical PM sensor with PM1 / PM$_{2.5}$ / PM10 output and size bins |
-| Low-cost | Nova Fitness SDS011 | Optical PM sensor with PM$_{2.5}$ / PM10 output; some deployments appear to have used a custom Python driver |
+| Low-cost | Plantower PMS7003 | Optical PM sensor with PM1 / PM$_{2.5}$ / PM$_{10}$ output and size bins |
+| Low-cost | Nova Fitness SDS011 | Optical PM sensor with PM$_{2.5}$ / PM$_{10}$ output; some deployments appear to have used a custom Python driver |
 | Low-cost | Honeywell HPMA115S0 | Optical PM sensor with industrial-style documentation |
 | Mid-tier | Dylos DC1100 Pro | Particle counter used as a practical comparison anchor |
 | Mid-tier / adjacent | Dylos DC1700 | Nearby comparison monitor in the broader campaign |

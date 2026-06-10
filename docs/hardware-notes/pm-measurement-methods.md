@@ -18,7 +18,7 @@ description: "Particulate matter measurement methods — from gravimetric refere
 
 | Source | Mechanism | Resulting PM |
 |--------|-----------|-------------|
-| Construction sites | Wind sweeps fine sand/dust | PM10-PM100 |
+| Construction sites | Wind sweeps fine sand/dust | PM$_{10}$-PM100 |
 | Diesel engines | Carbon soot (incomplete combustion) | PM$_{2.5}$, ultrafine |
 | Gasoline engines | Secondary Organic Aerosol (SOA) | PM$_{2.5}$ (5x more than primary) |
 | Coal combustion | SO2 → sulfate conversion | PM$_{2.5}$ |
@@ -93,7 +93,7 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 - **CFR § 50.7** — defines reference and equivalent methods for PM$_{2.5}$
 - **FRM** (Federal Reference Method) — gravimetric, 24-hour integrated
 - **FEM** (Federal Equivalent Method) — BAM, TEOM for continuous monitoring
-- Method 201A: determination of PM10/PM$_{2.5}$ from stationary sources
+- Method 201A: determination of PM$_{10}$/PM$_{2.5}$ from stationary sources
 
 ---
 
@@ -114,8 +114,8 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 | Sensor | Price | Output | Lifespan | Notes |
 |--------|-------|--------|----------|-------|
 | PMS7003 (Plantower) | ~$13 | PM1/2.5/10 + 6 size bins | 8,000h | Best value, small, rich data |
-| SDS011 (Nova Fitness) | ~$19 | PM$_{2.5}$, PM10 (float) | 8,000h | Remote air intake via hose |
-| HPMA115S0 (Honeywell) | ~$19 | PM$_{2.5}$, PM10 (int) | 20,000h | Best documentation |
+| SDS011 (Nova Fitness) | ~$19 | PM$_{2.5}$, PM$_{10}$ (float) | 8,000h | Remote air intake via hose |
+| HPMA115S0 (Honeywell) | ~$19 | PM$_{2.5}$, PM$_{10}$ (int) | 20,000h | Best documentation |
 | Dylos DC1100 Pro | ~$290 | Particle count (2 bins) | Years | Reference for hobbyists |
 
 ---

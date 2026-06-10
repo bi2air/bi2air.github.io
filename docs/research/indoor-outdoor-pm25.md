@@ -10,13 +10,13 @@ description: "Indoor/outdoor PM$_{2.5}$ ratios in a sealed high-rise apartment i
 # Indoor vs Outdoor PM$_{2.5}$: How Well Does a Sealed Apartment Protect You?
 
 {: .note }
-A 5-day experiment during a holiday vacation measured PM$_{2.5}$ and PM10 inside and outside a sealed 10th-floor apartment in Hanoi. Closing windows and doors reduced PM by only 13-17%.
+A 5-day experiment during a holiday vacation measured PM$_{2.5}$ and PM$_{10}$ inside and outside a sealed 10th-floor apartment in Hanoi. Closing windows and doors reduced PM by only 13-17%.
 
 ---
 
 ## Abstract
 
-This study evaluated the particle isolation of a modern high-rise apartment when all windows and the entrance door were closed. Two Plantower PMS7003 sensors monitored PM$_{2.5}$ and PM10 inside and outside for 170 continuous hours during a 5-day vacation (no residents present). The indoor-to-outdoor (I/O) ratios were 83-86%, meaning closed windows provided only a 14-17% reduction in particulate matter. A distinct diurnal pattern appeared: I/O ratios were higher in the afternoon and lower in the early morning, correlating with outdoor temperature.
+This study evaluated the particle isolation of a modern high-rise apartment when all windows and the entrance door were closed. Two Plantower PMS7003 sensors monitored PM$_{2.5}$ and PM$_{10}$ inside and outside for 170 continuous hours during a 5-day vacation (no residents present). The indoor-to-outdoor (I/O) ratios were 83-86%, meaning closed windows provided only a 14-17% reduction in particulate matter. A distinct diurnal pattern appeared: I/O ratios were higher in the afternoon and lower in the early morning, correlating with outdoor temperature.
 
 ---
 
@@ -50,25 +50,25 @@ The author hypothesized that a closed, well-constructed apartment would substant
 ![PM$_{2.5}$ at 1-hour intervals](/assets/images/research/indoor/pm2.5_1H.png)
 *Fig. 2: Same data aggregated to 1-hour intervals.*
 
-### PM10 Concentration
+### PM$_{10}$ Concentration
 
-![PM10 at 10-minute intervals](/assets/images/research/indoor/pm10_10min.png)
-*Fig. 3: PM10 concentration (10-min interval).*
+![PM$_{10}$ at 10-minute intervals](/assets/images/research/indoor/pm10_10min.png)
+*Fig. 3: PM$_{10}$ concentration (10-min interval).*
 
-![PM10 at 1-hour intervals](/assets/images/research/indoor/pm10_1H.png)
-*Fig. 4: PM10 concentration (1-hour interval).*
+![PM$_{10}$ at 1-hour intervals](/assets/images/research/indoor/pm10_1H.png)
+*Fig. 4: PM$_{10}$ concentration (1-hour interval).*
 
 ### I/O Ratios
 
 | Metric | Entire period (170h) | Isolated period (129h) |
 |--------|---------------------|----------------------|
-| Inside PM$_{2.5}$/PM10 | 85% +/- 5% | 86% +/- 5% |
-| Outside PM$_{2.5}$/PM10 | 82% +/- 4% | 83% +/- 4% |
+| Inside PM$_{2.5}$/PM$_{10}$ | 85% +/- 5% | 86% +/- 5% |
+| Outside PM$_{2.5}$/PM$_{10}$ | 82% +/- 4% | 83% +/- 4% |
 | PM$_{2.5}$ In/Out | 87% +/- 14% | 86% +/- 14% |
-| PM10 In/Out | 85% +/- 15% | 84% +/- 16% |
+| PM$_{10}$ In/Out | 85% +/- 15% | 84% +/- 16% |
 
-![PM$_{2.5}$/PM10 ratios inside and outside](/assets/images/research/indoor/2_10_1H.png)
-*Fig. 5: Ratios of PM$_{2.5}$/PM10 for indoor and outdoor environments.*
+![PM$_{2.5}$/PM$_{10}$ ratios inside and outside](/assets/images/research/indoor/2_10_1H.png)
+*Fig. 5: Ratios of PM$_{2.5}$/PM$_{10}$ for indoor and outdoor environments.*
 
 ![I/O ratios over time](/assets/images/research/indoor/in_out_1H.png)
 *Fig. 6: Indoor/outdoor ratios showing clear diurnal pattern — higher in afternoons, lower in early mornings.*
@@ -94,7 +94,7 @@ These results are consistent with other studies:
 ## Conclusions
 
 - **Sealed windows reduce PM by only 13-17%** — far less than the author expected
-- PM$_{2.5}$ dominates PM10 both indoors and outdoors (82-86% of PM10 is PM$_{2.5}$)
+- PM$_{2.5}$ dominates PM$_{10}$ both indoors and outdoors (82-86% of PM$_{10}$ is PM$_{2.5}$)
 - **Diurnal pattern:** I/O ratios are lowest in early mornings and highest in late afternoons, correlating with temperature
 - The delayed indoor response suggests transport is slower than advection but faster than pure diffusion
 - For better protection, residents would need sealed fixed windows plus positive-pressure filtered air supply
