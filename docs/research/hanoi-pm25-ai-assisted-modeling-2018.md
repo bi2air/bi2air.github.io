@@ -9,7 +9,7 @@ description: "A 2021 modeling note showing how far a fixed Hanoi PM2.5 dataset (
 
 # Hanoi PM2.5 AI-Assisted Modeling Update (2018)
 
-![AI-assisted PM2.5 modeling update, Hanoi 2018](/assets/images/research/pm25-ai-assisted-modeling-2026.png)
+{% include plotly-2018-comparison.html %}
 
 {: .note }
 This page is intentionally separate from the 2026 forecasting experiments. It summarizes an AI-assisted reworking of an older Hanoi PM2.5 dataset framed as a model-improvement exercise on the 2018 period rather than as the main 2026 operational forecasting study.
