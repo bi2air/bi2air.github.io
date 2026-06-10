@@ -10,10 +10,10 @@ description: "A 2026 single-station forecasting study for Hanoi PM$\_{2.5}$ usin
 # Hanoi PM$\_{2.5}$ Forecasting Experiments (2026)
 
 ![Hanoi PM2.5 forecast short horizons](/assets/images/research/2026-forecast-short-horizon.png)
-*Short-horizon forecasts (T+1h, T+12h) vs actual PM$\_{2.5}$, 1–8 March 2025. Bottom panel shows prediction error per hour.*
+*Short-horizon forecasts (T+1h, T+12h) vs actual PM$\_{2.5}$, 1–8 November 2024 (168 consecutive hours). Bottom panel shows prediction error per hour.*
 
 ![Hanoi PM2.5 forecast medium horizons](/assets/images/research/2026-forecast-medium-horizon.png)
-*Medium-horizon forecasts (T+24h, T+72h) vs actual. Bottom panel shows how error grows with lead time.*
+*Medium-horizon forecasts (T+24h, T+72h) vs actual, same period. Bottom panel shows how error grows with lead time.*
 
 {: .note }
 This page adapts a June 2026 research writeup into site format for local Jekyll publishing. The underlying study evaluates single-station PM$\_{2.5}$ forecasting for Hanoi across six lead times using hourly data from 2015-01-01 through 2025-04-09.

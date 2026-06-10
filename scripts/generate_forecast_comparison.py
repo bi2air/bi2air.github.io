@@ -35,8 +35,8 @@ RANDOM_STATE = 20260607
 DATA_ROOT = Path("tmp/air-quality-analysis-upstream/data")
 OUT_DIR = Path("assets/images/research")
 
-PLOT_START = "2025-03-01"
-PLOT_END = "2025-03-08"
+PLOT_START = "2024-11-01"
+PLOT_END = "2024-11-08"
 
 SHORT_HORIZONS = [1, 12]
 MEDIUM_HORIZONS = [24, 72]
@@ -157,7 +157,7 @@ def plot_panel(results, horizons, title, filename):
 
     ax_err.axhline(0, color="black", linewidth=0.5)
     ax_err.set_ylabel(r"Error ($\mu g/m^3$)")
-    ax_err.set_xlabel("Date (March 2025)")
+    ax_err.set_xlabel("Date (November 2024)")
     ax_err.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
     ax_err.xaxis.set_major_locator(mdates.DayLocator(interval=1))
     ax_err.legend(loc="upper right", frameon=True, fontsize=8)
@@ -189,12 +189,12 @@ def main():
 
     print("\nGenerating short-horizon chart...")
     plot_panel(results, SHORT_HORIZONS,
-              r"Hanoi PM$_{2.5}$ forecast: short horizons (T+1h, T+12h)",
+              r"Hanoi PM$_{2.5}$ forecast: short horizons (T+1h, T+12h) — Nov 2024",
               "2026-forecast-short-horizon.png")
 
     print("Generating medium-horizon chart...")
     plot_panel(results, MEDIUM_HORIZONS,
-              r"Hanoi PM$_{2.5}$ forecast: medium horizons (T+24h, T+72h)",
+              r"Hanoi PM$_{2.5}$ forecast: medium horizons (T+24h, T+72h) — Nov 2024",
               "2026-forecast-medium-horizon.png")
 
     print("\n" + "=" * 60)
