@@ -73,7 +73,7 @@ The plotted figure comes from the later `3.3` rework notebook, which reports all
 Key observations:
 
 - `Blend rich lags` achieves the lowest error (10.7 µg/m³), representing a **66.6% improvement** over the mean baseline.
-- `Random Forest` (19.9 µg/m³) performs slightly worse than `HGB weather` (19.5 µg/m³) but significantly better than linear weather models.
+- `Random Forest` (20.0 µg/m³) performs slightly worse than `HGB weather` (19.5 µg/m³) but significantly better than linear weather models.
 - The progression from simple baselines → weather-only → time features → rich lags shows clear, systematic improvement.
 - `HGB rich lags chronological` (14.5 µg/m³) provides the more realistic forward-in-time evaluation, showing higher error than random-split validation but still a **54.7% improvement** over baseline.
 
