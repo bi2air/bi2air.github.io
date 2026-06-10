@@ -44,18 +44,18 @@ The author hypothesized that a closed, well-constructed apartment would substant
 
 ### PM$_{2.5}$ Concentration: Indoor vs Outdoor
 
-![PM$_{2.5}$ at 10-minute intervals over 5 days](/assets/images/research/indoor/pm2.5_10min.png)
+![PM2.5 at 10-minute intervals over 5 days](/assets/images/research/indoor/pm2.5_10min.png)
 *Fig. 1: PM$_{2.5}$ concentration (10-min interval). Red vertical lines mark when the apartment was sealed and reopened.*
 
-![PM$_{2.5}$ at 1-hour intervals](/assets/images/research/indoor/pm2.5_1H.png)
+![PM2.5 at 1-hour intervals](/assets/images/research/indoor/pm2.5_1H.png)
 *Fig. 2: Same data aggregated to 1-hour intervals.*
 
 ### PM$_{10}$ Concentration
 
-![PM$_{10}$ at 10-minute intervals](/assets/images/research/indoor/pm10_10min.png)
+![PM10 at 10-minute intervals](/assets/images/research/indoor/pm10_10min.png)
 *Fig. 3: PM$_{10}$ concentration (10-min interval).*
 
-![PM$_{10}$ at 1-hour intervals](/assets/images/research/indoor/pm10_1H.png)
+![PM10 at 1-hour intervals](/assets/images/research/indoor/pm10_1H.png)
 *Fig. 4: PM$_{10}$ concentration (1-hour interval).*
 
 ### I/O Ratios
@@ -67,7 +67,7 @@ The author hypothesized that a closed, well-constructed apartment would substant
 | PM$_{2.5}$ In/Out | 87% +/- 14% | 86% +/- 14% |
 | PM$_{10}$ In/Out | 85% +/- 15% | 84% +/- 16% |
 
-![PM$_{2.5}$/PM$_{10}$ ratios inside and outside](/assets/images/research/indoor/2_10_1H.png)
+![PM2.5/PM10 ratios inside and outside](/assets/images/research/indoor/2_10_1H.png)
 *Fig. 5: Ratios of PM$_{2.5}$/PM$_{10}$ for indoor and outdoor environments.*
 
 ![I/O ratios over time](/assets/images/research/indoor/in_out_1H.png)
