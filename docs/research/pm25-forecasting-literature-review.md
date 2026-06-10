@@ -42,8 +42,8 @@ A model with `RMSE 20` in Beijing is not equivalent to a model with `RMSE 20` in
 
 For cross-study comparison, prefer:
 
-- **NRMSE**: `RMSE / mean(PM$\_{2.5}$)`
-- **R2**
+- **NRMSE**: RMSE / mean(PM$\_{2.5}$)
+- **R$^2$**
 - **skill score vs persistence**, when available
 
 ### Check Whether the Horizon Is Explicit
@@ -66,7 +66,9 @@ Those can be useful, but they are not the same forecasting problem.
 
 Persistence is the naive forecast:
 
-`PM$\_{2.5}$(t+h) = PM$\_{2.5}$(t)`
+$$
+\text{PM}\_{2.5}(t+h) = \text{PM}\_{2.5}(t)
+$$
 
 It is a particularly strong baseline at `T+1h` and still competitive at `T+6h`. Any serious operational paper should report it.
 
@@ -177,6 +179,8 @@ Related pages:
 - [Hanoi Forecasting Results vs Literature](/docs/research/hanoi-pm25-forecasting-literature-comparison.html)
 - [Statistical Modeling](/docs/research/pm25-forecasting-statistical-modeling.html)
 
+{% unless jekyll.environment == "production" %}
 ## Source Note
 
 This published page condenses a longer draft review from `tmp/air-quality-analysis-upstream/doc-work/pm25-forecasting-literature-review.md` for cleaner Jekyll presentation.
+{% endunless %}
