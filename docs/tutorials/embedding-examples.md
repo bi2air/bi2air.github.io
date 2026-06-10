@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Embedding Code
-parent: Documentation
+parent: Tutorials
 nav_order: 5
 ---
 
