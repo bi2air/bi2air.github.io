@@ -76,7 +76,9 @@ Over 45 days, ~65,000 data points collected per sensor. Cleaning steps:
 
 ### Removal Efficiency Calculation
 
-RE = (Background PM - Filtered PM) / Background PM
+$$
+\text{RE} = \frac{\text{Background PM} - \text{Filtered PM}}{\text{Background PM}}
+$$
 
 Crosscheck periods confirmed sensor agreement (RE near zero when no mask mounted), validating the apparatus.
 
