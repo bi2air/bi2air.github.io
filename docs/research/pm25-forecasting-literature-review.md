@@ -138,19 +138,26 @@ Germany's **[UBA (Umweltbundesamt)](https://www.umweltbundesamt.de/en/data/air)*
 
 ### Japan — MoE SORAMAME and Prefectural Alert System
 
-Japan's Ministry of the Environment (MoE) operates **[SORAMAME (そらまめ君)](https://soramame.env.go.jp/)**, a national atmospheric monitoring network of approximately 2,000 stations covering PM$\_{2.5}$, SPM (suspended particulate matter), ozone, NO$\_2$, and SO$\_2$. Data are reported hourly in near-real-time via the public portal.
+Japan's Ministry of the Environment (MoE) operates **[SORAMAME (そらまめ君)](https://soramame.env.go.jp/)** (formally AEROS — Atmospheric Environmental Regional Observation System), a national monitoring network of approximately 1,756 stations (FY2023; declining ~20 stations/year from a peak near 1,800) operated by prefectural and municipal governments. The network covers PM$\_{2.5}$, SPM (Japan's coarse-particle category, ≤100 µm), photochemical oxidants, NO$\_2$, SO$\_2$, and CO. Hourly provisional values are published in near-real-time. SORAMAME is a monitoring portal only — it provides no forecast products.
 
-**Standards.** Japan adopted WHO 2005 guideline values as its national standards: 35 $\mu$g/m$^3$ daily average and 15 $\mu$g/m$^3$ annual average for PM$\_{2.5}$.
+**Standards.** Japan's PM$\_{2.5}$ Environmental Quality Standard (established September 2009, Environmental Basic Law Article 16): 35 $\mu$g/m$^3$ daily average and 15 $\mu$g/m$^3$ annual average. The daily standard is assessed as the annual 98th-percentile of daily averages across stations, not a hard per-day cap. No revision has been made since 2009; both values are more lenient than WHO AQG 2021 (15/5 $\mu$g/m$^3$).
 
-**Alert system.** Prefectural governments issue daytime PM$\_{2.5}$ advisories when a forecast daily average is expected to exceed 70 $\mu$g/m$^3$. There is no single unified national forecast product equivalent to NAQFC; alert guidance draws from the national modelling systems described below.
+**Alert system.** Prefectural governments (not JMA or the national Ministry) issue non-binding precautionary advisories (注意喚起) using a two-level framework established by the MoE Expert Panel in February 2013:
+
+| Level | Projected daily average | Recommended action |
+|---|---|---|
+| Level II (advisory) | > 70 $\mu$g/m$^3$ | Reduce outdoor activity; extra precaution for sensitive groups |
+| Level I (attention, no advisory) | 35–70 $\mu$g/m$^3$ | Sensitive groups monitor health |
+
+Because a full-day average is not available in the morning, advisories use SORAMAME real-time observations with operational proxy thresholds: early-morning stage (5–7 AM average of the 2nd-largest station in the zone) triggers at **85 µg/m$^3$**; midday stage (5 AM–noon average of the zone maximum) triggers at **80 µg/m$^3$**. Advisories are cancelled if all trigger-stations drop to ≤50 µg/m$^3$ for two consecutive hours.
 
 **Operational forecast systems.** Japan has several national-level systems in production:
 
 - **[VENUS](https://venus.nies.go.jp/)** (大気汚染予測システム VENUS) — operated by NIES under Ministry of Environment funding (from FY2014). Uses `WRF` (upgraded from `RAMS` in Version 3.0, August 2017) as the meteorological engine coupled with `CMAQ`, driven by NCEP/GFS global forecast data. Three nested domains: East Asia at **45 km**, expanded Japan at **15 km**, main Japan at **5 km**. PM$\_{2.5}$ forecasting added May 2013; horizon extended to **7 days** in March 2022. Categorical forecast accuracy was improved by 10.8–21.1 percentage points via statistical guidance post-processing (ERCA project 5MF-2201). Technical specifications: [venus.nies.go.jp/docs/](https://venus.nies.go.jp/docs/).
 
-- **[SPRINTARS](https://sprintars.riam.kyushu-u.ac.jp/forecast.html)** (Spectral Radiation-Transport Model for Aerosol Species) — operated by Kyushu University RIAM, coupled with the MIROC GCM and driven by NCEP GFS forecast meteorology. Horizontal resolution ~35 km. Covers global, East Asia, and Asia domains. Daily forecast animations published around 04:00 JST. Widely used by Japanese mass media for PM$\_{2.5}$ public communication.
+- **[SPRINTARS](https://sprintars.riam.kyushu-u.ac.jp/indexe.html)** (Spectral Radiation-Transport Model for Aerosol Species) — operated by Kyushu University RIAM, jointly developed with AORI (Univ. Tokyo), NIES, and JAMSTEC. SPRINTARS aerosol module embedded in the MIROC climate model, forced by NCEP GFS. Horizontal resolution ~35 km. Covers global, East Asia, and Asia domains; outputs PM$\_{2.5}$, PM$\_{10}$, and SPM. **7-day forecast**, updated daily around 04:00 JST. Explicitly experimental (no official liability disclaimer). Widely used by Japanese mass media for PM$\_{2.5}$ public communication.
 
-- **[MASINGAR mk-2](https://www.mri-jma.go.jp/)** — JMA/MRI global aerosol model at ~40 km (TL479L40 spectral resolution). Jointly developed with JAXA and Kyushu University; assimilates Himawari-8 and GCOM-C satellite aerosol retrievals. Produces aeolian dust and PM$\_{2.5}$ forecast charts at 6-hour intervals **up to 4 days ahead**. Reference: [Yumimoto et al. (2018), *JMSJ* 96B, 2018-035](https://doi.org/10.2151/jmsj.2018-035).
+- **[MASINGAR](https://www.data.jma.go.jp/env/kosa/fcst/en/)** — JMA/MRI global aerosol model at ~40 km (TL479L40, 40 vertical layers), fully operational since January 2004. Produces mineral dust (kosa/yellow sand) surface concentration forecasts **up to 96 hours ahead**, updated daily at 12 UTC. **Important caveat:** MASINGAR's public product covers mineral dust only — it is JMA's operational kosa (Asian dust) forecast tool, not a PM$\_{2.5}$ forecast. PM$\_{2.5}$ species (sulfate, black carbon, organic carbon) are simulated internally but not published as a public forecast product. JMA has no formal role in the PM$\_{2.5}$ advisory chain. Reference: [Yumimoto et al. (2018), *JMSJ* 96B, 2018-035](https://doi.org/10.2151/jmsj.2018-035).
 
 - **[NHM-Chem](https://www.mri-jma.go.jp/Dep/glb/nhmchem_model/application_en.html)** — JMA/MRI regional chemistry model coupling the JMA Non-Hydrostatic Model (NHM) with three configurable aerosol representations. Used for operational ozone forecasting and transboundary aerosol studies. References: [Kajino et al. (2019), *JMSJ* 97(2)](https://doi.org/10.2151/jmsj.2019-020) and [Kajino et al. (2021), *Geosci. Model Dev.* 14, 2235](https://doi.org/10.5194/gmd-14-2235-2021).
 
@@ -234,9 +241,9 @@ The table below contrasts the principal operational forecasting characteristics 
 |---|---|---:|---:|---:|
 | US EPA NAQFC | `CMAQ` + NWS met | 48 h | 12 km | 35.4 $\mu$g/m$^3$ |
 | EU CAMS Regional | up to 11-model ensemble | 96 h | 10 km | 25 $\mu$g/m$^3$ (WHO 2021) |
-| Japan NIES VENUS | `WRF` + `CMAQ` | 168 h (7 d) | 5–45 km (nested) | 35 $\mu$g/m$^3$ |
-| Japan MRI MASINGAR | Global aerosol CTM | 96 h (4 d) | ~40 km | 35 $\mu$g/m$^3$ |
-| Japan Kyushu SPRINTARS | `MIROC` + GFS | daily animated | ~35 km | 35 $\mu$g/m$^3$ |
+| Japan NIES VENUS | `WRF` + `CMAQ` (offline) | 168 h (7 d) | 5–45 km (nested) | 35 $\mu$g/m$^3$ |
+| Japan JMA MASINGAR | Global aerosol CTM | 96 h (4 d) | ~40 km | 35 $\mu$g/m$^3$ (dust only^) |
+| Japan Kyushu SPRINTARS | `MIROC` + GFS | 168 h (7 d) | ~35 km | 35 $\mu$g/m$^3$ |
 | China MEE/CNEMC | `CUACE` + `NAQPMS` ensemble | 72–168 h | ~3–9 km | 75 $\mu$g/m$^3$ |
 | Australia state EPAs | `TAPM`/`WRF` + BoM NWP met | 24 h (state-by-state) | varies | 25 $\mu$g/m$^3$ |
 
