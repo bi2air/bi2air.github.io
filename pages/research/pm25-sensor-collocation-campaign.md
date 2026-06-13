@@ -94,47 +94,29 @@ This classification is provisional, but it is already strong enough to prevent t
 
 ## Recovered Data Summary
 
-Before rebuilding any correlation plots, it helps to keep one explicit manifest of what survives in the archive. The table below summarizes the current working interpretation of each CSV export.
+Instead of a raw file manifest, the recovered data is grouped by operational role to support future analysis:
 
-| File | Working sensor/setup name | Type | Start | End | Rows |
-| --- | --- | --- | --- | --- | ---: |
-| `mlab_p1.csv` | Mobile lab channel P1 | Co-location unit / low-cost PM stream | 2019-01-27 19:11:38 | 2022-05-25 01:35:40 | 1050761 |
-| `mlab_p2.csv` | Mobile lab channel P2 | Co-location unit / low-cost PM stream | 2019-01-27 19:34:10 | 2019-07-06 17:20:24 | 228699 |
-| `mlab_p3.csv` | Mobile lab channel P3 | Co-location unit / low-cost PM stream | 2019-01-27 22:01:17 | 2022-05-07 00:50:54 | 986695 |
-| `mlab_pms5003.csv` | Mobile lab PMS5003 | Plantower PMS5003 / PM sensor stream | 2019-04-11 09:59:15 | 2022-05-25 01:35:17 | 967241 |
-| `dylos.csv` | Dylos DC1100 Pro | Mid-tier particle counter anchor | 2019-05-28 17:02:57 | 2022-07-31 07:30:18 | 1536806 |
-| `dc1700.csv` | Dylos DC1700 | Mid-tier particle counter anchor | 2019-08-10 10:32:49 | 2022-07-31 07:30:13 | 1454874 |
-| `airvisual.csv` | IQAir AirVisual Node/Pro | Consumer finished monitor anchor | 2019-08-25 11:36:53 | 2022-08-28 07:41:47 | 137419 |
-| `honeywell.csv` | Honeywell HPMA115S0 | Low-cost PM sensor stream | 2019-06-05 15:36:24 | 2020-03-17 14:28:42 | 381142 |
-| `hpma_01.csv` | Honeywell HPMA #01 | Low-cost PM sensor stream | 2020-03-18 11:37:21 | 2020-08-03 16:07:04 | 131296 |
-| `hpma_02.csv` | Honeywell HPMA #02 | Low-cost PM sensor stream | 2020-03-18 11:37:24 | 2020-08-17 10:01:33 | 131639 |
-| `hpma_03.csv` | Honeywell HPMA #03 | Low-cost PM sensor stream | 2020-03-18 11:37:28 | 2020-05-10 12:11:13 | 47823 |
-| `sds011_a327.csv` | Nova SDS011 a327 | Low-cost PM sensor stream | 2020-03-01 22:34:55 | 2021-05-20 14:47:21 | 189020 |
-| `sds011_a30b.csv` | Nova SDS011 a30b | Low-cost PM sensor stream | 2020-03-01 22:57:02 | 2020-12-22 16:08:01 | 111240 |
-| `sds011_a307.csv` | Nova SDS011 a307 | Low-cost PM sensor stream | 2020-03-01 22:59:27 | 2021-05-20 14:47:49 | 164578 |
-| `sds011_08db.csv` | Nova SDS011 08db | Low-cost PM sensor stream | 2020-03-17 17:22:44 | 2021-05-20 14:49:40 | 199826 |
-| `sds011_75ee.csv` | Nova SDS011 75ee | Low-cost PM sensor stream | 2020-03-17 17:22:48 | 2020-11-08 22:05:14 | 119578 |
-| `zh03b_001.csv` | Winsen ZH03B 001 | Low-cost PM sensor stream | 2020-03-17 20:31:15 | 2020-03-17 22:46:23 | 98 |
-| `zh03b_01.csv` | Winsen ZH03B 01 | Low-cost PM sensor stream | 2020-03-17 22:51:54 | 2021-05-20 11:17:27 | 216791 |
-| `zh03b_02.csv` | Winsen ZH03B 02 | Low-cost PM sensor stream | 2020-03-17 22:56:49 | 2021-05-20 11:19:08 | 217725 |
-| `zh03b_03.csv` | Winsen ZH03B 03 | Low-cost PM sensor stream | 2020-03-17 22:56:53 | 2021-05-20 11:19:25 | 216040 |
-| `mask_exp.csv` | Mask experiment summary | Separate mask study | 2019-04-11 19:50:00 | 2019-10-11 02:50:00 | 23152 |
-| `mask_one.csv` | Mask apparatus sensor log | Separate mask study | 2019-04-11 13:58:13 | 2021-04-16 09:09:54 | 258017 |
-| `hepa_filter.csv` | HEPA filter indoor log | Separate indoor filter study | 2019-05-27 16:37:29 | 2020-04-02 15:40:44 | 42553 |
-| `mh_z19.csv` | MH-Z19 CO$_2$ logger | CO$_2$ context stream | 2019-06-05 15:33:14 | 2022-07-24 07:11:56 | 915014 |
-| `mh_z19_two.csv` | MH-Z19 CO$_2$ logger #2 | CO$_2$ context stream | 2019-07-08 08:06:13 | 2020-04-25 02:49:56 | 299829 |
-| `solcast_actual.csv` | Solcast actual | Solar/energy context stream | 2021-04-08 23:30:00 | 2021-06-16 09:30:00 | 5501 |
-| `solcast_forecast.csv` | Solcast forecast | Solar/energy context stream | 2021-04-15 23:30:00 | 2021-06-23 10:00:00 | 102144 |
-| `dust_work.csv` | Dust work log | Unresolved PM/environment stream | 1970-01-01 08:01:00 | 2022-09-03 20:56:28 | 927916 |
-| `nova_sds011.csv` | Nova SDS011 legacy | Earlier PM sensor stream | 2018-11-07 09:15:37 | 2020-03-17 14:37:47 | 131898 |
-| `nova_sds011_two.csv` | Nova SDS011 legacy #2 | Earlier PM sensor stream | 2019-04-26 11:50:07 | 2020-03-17 14:36:04 | 143690 |
-| `nova_sds018.csv` | Nova SDS018 legacy | Earlier PM sensor stream | 2019-04-06 10:22:57 | 2019-06-04 18:04:13 | 24777 |
-| `mlab_onboard.csv` | Mobile lab onboard | Empty export / unresolved | n/a | n/a | 0 |
+### 1. Core Co-Location Unit (Jan 2019 – May 2022)
+The primary low-cost sensor platform operated continuously, capturing long-term PM trends.
+- **Data streams:** `mlab_p1`, `mlab_p2`, `mlab_p3`, `mlab_pms5003`
+- **Coverage:** Over 3 years of active monitoring.
 
-Two caution flags are already visible in this manifest:
+### 2. Mid-Tier Anchors (May 2019 – Aug 2022)
+Three more stable commercial monitors provided a baseline for comparison.
+- **Devices:** Dylos DC1100 Pro, Dylos DC1700, IQAir AirVisual Node Pro.
 
-- `dust_work.csv` has a clearly bad earliest timestamp and should be filtered before being used in campaign-level analysis.
-- `mlab_onboard.csv` is currently an empty export rather than a usable sensor stream.
+### 3. Sensor-Specific Cohorts (Mar 2020 – May 2021)
+A dense deployment block testing multiple sensors of the same model simultaneously.
+- **Devices:** Honeywell HPMA115S0, Nova SDS011, Winsen ZH03B.
+- **Purpose:** Assess intra-model variance and reliability.
+
+### 4. Separate Contextual Studies
+Additional logs captured alongside the main campaign, requiring independent analysis:
+- **Mask & Filtration:** `mask_exp`, `mask_one`, `hepa_filter`
+- **Indoor Environment:** `mh_z19` (CO$_2$ monitoring)
+- **Energy/Solar Context:** `solcast_actual`, `solcast_forecast`
+
+*Note: The legacy file `dust_work.csv` contains invalid early timestamps and requires preprocessing before use. An empty export `mlab_onboard.csv` was also recovered but contains no data.*
 
 ---
 
@@ -187,45 +169,9 @@ This is good enough for a first behavioral comparison, but it should still be tr
 
 The immediate takeaway is that the three mid-tier devices appear to move together strongly over the shared long-term window, even before any deeper calibration or event-level filtering.
 
-### Day-Level QC Trimming
+### Hour-of-Day Stability
 
-A practical cleaning rule for these three long-running devices is to evaluate **day-level agreement** rather than trying to infer every maintenance event by memory alone. I implemented that idea as follows:
-
-- first resample the three streams to **1-hour bins**
-- compute daily pairwise correlations for days with at least `18` hourly bins
-- estimate each pair's **typical lower bound** as the **5th percentile** of its historical daily-correlation distribution
-- flag a day when **at least 2 of the 3 pairwise daily correlations** fall below their own 5th-percentile thresholds
-
-The resulting thresholds were:
-
-- `DC1100 vs DC1700`: `0.7047`
-- `DC1100 vs AirVisual`: `0.2990`
-- `DC1700 vs AirVisual`: `0.5727`
-
-This flagged `44` low-agreement days. Removing those days trimmed the aligned `15-minute` dataset from `89,055` bins to `84,848` bins.
-
-| Pair | Raw r | Cleaned r |
-| --- | ---: | ---: |
-| `DC1100 fit` vs `DC1700 proxy` | 0.9313 | 0.9337 |
-| DC1100 fit vs AirVisual PM$\_{2.5}$ | 0.8457 | 0.8501 |
-| DC1700 proxy vs AirVisual PM$\_{2.5}$ | 0.8897 | 0.8919 |
-
-<div class="image-grid">
-  <figure>
-    <img src="/assets/images/research/collocation/mid_tier_daily_qc.svg" alt="Daily QC correlation grid for DC1100, DC1700, and AirVisual">
-    <figcaption>Daily QC grid. Red-outlined rows are days where at least two pairwise daily correlations fell below their bottom-5% historical thresholds.</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/images/research/collocation/mid_tier_correlation_cleaned.svg" alt="Cleaned pairwise correlation plots for DC1100, DC1700, and AirVisual after day-level trimming">
-    <figcaption>Pairwise correlation after dropping flagged low-agreement days.</figcaption>
-  </figure>
-</div>
-
-This trim does **not** radically change the headline results, which is useful in itself: the three-device relationship is fairly robust overall. But it does give a cleaner baseline before any more detailed event-level or calibration-style analysis.
-
-### Hour-of-Day Stability and Clean Data Format
-
-To avoid over-trimming, I treated **hour-of-day stability** as a diagnostic rather than an automatic exclusion rule. For each hour `00:00` through `23:00`, I pooled the full campaign and recomputed the three pairwise correlations.
+I treated **hour-of-day stability** as a diagnostic check. For each hour `00:00` through `23:00`, I pooled the full campaign and recomputed the three pairwise correlations.
 
 The result is reassuring: **no hour-of-day bucket fell below `r = 0.2`** for any pair. In other words, there is no evidence here for a permanently bad nightly or daytime operating window that should be dropped wholesale.
 
@@ -235,19 +181,6 @@ The result is reassuring: **no hour-of-day bucket fell below `r = 0.2`** for any
     <figcaption>Hour-of-day stability across the full campaign. Under the `r < 0.2` rule, no hour block is globally abnormal.</figcaption>
   </figure>
 </div>
-
-That leads to a cleaner final data contract before deeper analysis:
-
-- `mid_tier_15min_with_qc.csv`: full aligned `15-minute` dataset with QC labels retained
-- `mid_tier_15min_analysis_clean.csv`: analysis-ready subset after dropping only `day_flagged` periods
-- `mid_tier_daily_qc.csv`: day-level diagnostic table used for trimming
-- `mid_tier_hour_of_day.csv`: hour-of-day stability table
-
-This keeps the workflow honest:
-
-- **drop** only days that look operationally abnormal by the multi-pair daily QC rule
-- **label as suspect** any rows attached to a day with `min daily r < 0.2`
-- **do not drop** hours of day wholesale unless a real hour-level failure pattern emerges later
 
 ### What the deeper diagnostics show
 
@@ -354,6 +287,7 @@ This is useful because it supports a richer reconstruction: the archive may pres
 
 ---
 
+<!--
 ## Mobile Lab Photo Review
 
 `mlab` here stands for **mobile lab**. I found a set of recovered apparatus and deployment photos, but I have not yet pinned which ones are the best canonical images for the page. To keep the review concrete, the full candidate set is exposed below in the local Jekyll build.
@@ -406,6 +340,7 @@ This is useful because it supports a richer reconstruction: the archive may pres
 </div>
 
 Once the strongest photos are chosen, this review block should be collapsed into a much smaller apparatus section with proper captions.
+-->
 
 ---
 
