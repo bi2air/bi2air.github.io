@@ -5,24 +5,28 @@ A Jekyll-based documentation site using the Just the Docs theme.
 ## Local Development
 
 ### Prerequisites
-- Ruby 2.5.0 or higher
-- RubyGems
-- Jekyll
+- Miniconda installed at `$HOME/miniconda3`
+- Ruby and Bundler installed into that Miniconda base environment
+- Network access on first build so `jekyll-remote-theme` can fetch `just-the-docs`
 
 ### Setup
 
 1. Clone this repository
-2. Install dependencies:
+2. Install Ruby and the local build toolchain into Miniconda:
    ```bash
+   $HOME/miniconda3/bin/conda install -y -c conda-forge ruby c-compiler cxx-compiler make pkg-config
+   ```
+3. Install gem dependencies:
+   ```bash
+   export PATH="$HOME/miniconda3/bin:$PATH"
    bundle install
    ```
-
-3. Run the local server:
+4. Run the local server:
    ```bash
-   bundle exec jekyll serve
+   scripts/local-jekyll-test.zsh
    ```
 
-4. Open your browser and visit: `http://localhost:4000`
+5. Open your browser and visit: `http://localhost:4000`
 
 ## Project Structure
 
@@ -35,6 +39,11 @@ A Jekyll-based documentation site using the Just the Docs theme.
 ├── data/                # Data resources
 └── Gemfile              # Ruby dependencies
 ```
+
+## Data Policy
+
+- Large external source data is kept out of GitHub. This includes regenerated data under `data/external/`, Open-Meteo source exports, and IGRA/radiosonde source products.
+- For notebook demos, keep the smaller 2018 example datasets versioned, matching the original lightweight demo approach instead of pushing full multi-year source archives.
 
 ## Deployment
 
@@ -59,5 +68,3 @@ This site uses [Just the Docs](https://just-the-docs.com/) theme.
 ## License
 
 MIT License
-
-

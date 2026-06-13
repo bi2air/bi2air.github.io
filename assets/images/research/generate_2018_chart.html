@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hanoi PM2.5 Model Comparison 2018</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+    <div id="chart" style="width:1000px;height:600px;"></div>
+    <script>
+        // Results from 2018 analysis (RMSE in µg/m³)
+        const data = [
+            {model: 'Mean baseline', rmse: 32.0},
+            {model: 'Linear weather', rmse: 25.9},
+            {model: 'Random Forest', rmse: 19.9},
+            {model: 'HGB weather', rmse: 19.5},
+            {model: 'HGB weather+time', rmse: 14.6},
+            {model: 'HGB rich lags (chronological)', rmse: 14.5},
+            {model: 'HGB rich lags', rmse: 10.8},
+            {model: 'Blend rich lags', rmse: 10.7}
+        ];
+
+        // Sort from worst to best (descending RMSE)
+        data.sort((a, b) => b.rmse - a.rmse);
+
+        const models = data.map(d => d.model);
+        const rmse = data.map(d => d.rmse);
+
+        // Create color gradient from red (worst) to green (best)
+        const colors = rmse.map((val, idx) => {
+            const ratio = idx / (rmse.length - 1);
+            const r = Math.round(255 * (1 - ratio * 0.7));
+            const g = Math.round(200 * ratio);
+            const b = 50;
+            return `rgb(${r},${g},${b})`;
+        });
+
+        const trace = {
+            type: 'bar',
+            x: rmse,
+            y: models,
+            orientation: 'h',
+            text: rmse.map(r => r.toFixed(1)),
+            textposition: 'outside',
+            marker: {
+                color: colors,
+                line: {
+                    color: 'black',
+                    width: 1
+                }
+            }
+        };
+
+        const layout = {
+            title: {
+                text: '<b>Hanoi PM2.5 Model Comparison (2018)</b><br>Ordered by RMSE: Worst to Best',
+                font: {size: 18}
+            },
+            xaxis: {
+                title: '<b>RMSE (µg/m³)</b>',
+                gridcolor: '#e0e0e0',
+                gridwidth: 1
+            },
+            yaxis: {
+                title: '<b>Model</b>',
+                automargin: true
+            },
+            margin: {l: 200, r: 50, t: 100, b: 80},
+            plot_bgcolor: 'white',
+            paper_bgcolor: 'white'
+        };
+
+        Plotly.newPlot('chart', [trace], layout, {responsive: true});
+
+        // Log results
+        console.log('Model Performance (sorted worst to best by RMSE):');
+        console.log('='.repeat(60));
+        data.forEach(d => {
+            console.log(`${d.model.padEnd(40)} ${d.rmse.toFixed(1)} µg/m³`);
+        });
+        console.log('='.repeat(60));
+        console.log(`Best model: ${data[data.length-1].model}`);
+        console.log(`  RMSE: ${data[data.length-1].rmse.toFixed(1)} µg/m³`);
+        console.log(`Worst model: ${data[0].model}`);
+        console.log(`  RMSE: ${data[0].rmse.toFixed(1)} µg/m³`);
+        const improvement = data[0].rmse - data[data.length-1].rmse;
+        const pctImprovement = 100 * improvement / data[0].rmse;
+        console.log(`Improvement: ${improvement.toFixed(1)} µg/m³ (${pctImprovement.toFixed(1)}%)`);
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code
-nav_order: 3
+parent: Docs
 has_children: false
 permalink: /code/
 ---

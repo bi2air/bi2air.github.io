@@ -1,0 +1,55 @@
+================================================================================
+  Hanoi PM2.5 Model Comparison (2018) - Ordered by RMSE: Worst to Best
+================================================================================
+
+Model                                    RMSE (µg/m³)    Improvement
+────────────────────────────────────────────────────────────────────────────────
+Mean baseline                                 32.0         baseline
+Linear weather                                25.9          19.1%
+Random Forest                                 19.9          37.8%
+HGB weather                                   19.5          39.1%
+HGB weather+time                              14.6          54.4%
+HGB rich lags (chronological)                 14.5          54.7%
+HGB rich lags                                 10.8          66.3%
+Blend rich lags                               10.7          66.6%  ★ BEST
+────────────────────────────────────────────────────────────────────────────────
+
+Key Findings:
+═══════════════
+
+1. **Random Forest Performance**: RMSE = 19.9 µg/m³
+   - 37.8% improvement over baseline
+   - Slightly worse than HGB weather (19.5 µg/m³)
+   - Significantly better than linear models (25.9 µg/m³)
+
+2. **Best Model**: Blend rich lags with RMSE = 10.7 µg/m³
+   - 66.6% reduction in error from baseline
+   - Uses rich lag features + ensemble blending
+   - Weather + time structure + recent PM2.5 history
+
+3. **Chronological Validation**: HGB rich lags (chronological) = 14.5 µg/m³
+   - More realistic forward-in-time test
+   - Still 54.7% better than baseline
+   - Demonstrates generalization to future periods
+
+4. **Model Progression**:
+   Simple baseline (32.0)
+      ↓  add weather features
+   Linear weather (25.9)
+      ↓  add non-linear model
+   Random Forest (19.9) / HGB weather (19.5)
+      ↓  add temporal features
+   HGB weather+time (14.6)
+      ↓  add rich lag features
+   HGB rich lags (10.8)
+      ↓  ensemble blending
+   Blend rich lags (10.7) ★
+
+Dataset: Hanoi 2018 PM2.5 with meteorological features
+Split: 67% train / 33% test (random_state=2020)
+Features: Weather variables (temperature, humidity, wind, etc.)
+
+================================================================================
+Generated: 2026-06-10
+Source: /tmp/air-quality-analysis/regression_with_models.ipynb
+================================================================================

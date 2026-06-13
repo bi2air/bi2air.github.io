@@ -13,10 +13,27 @@ skyi
 wayback_latest_b-io_info
 
 # Internal dev docs (not for publication)
-doc-work/
+docs/
+
+# Blog posts (local draft, not published yet)
+blog/
 
 # Claude Code settings
 .claude/
 
 # Legacy placeholder
 md/
+
+# External and regenerated data should stay local.
+# Keep only compact 2018 demo datasets/versioned notebook examples in git.
+data/external/
+data/igra_hanoi_lang/
+
+# Upstream experiment workspace: ignore large external weather/radiosonde sources
+# and generated forecast tables, while keeping the small 2018 demo slices by choice.
+tmp/air-quality-analysis-upstream/data/open_meteo_hanoi/
+tmp/air-quality-analysis-upstream/data/forecast_ready/
+tmp/air-quality-analysis-upstream/data/hanoi_pm25_open_meteo_2015_2025.csv
+tmp/air-quality-analysis-upstream/data/hanoi_pm25_open_meteo_2015_2025_no_visibility.csv
+tmp/air-quality-analysis-upstream/data/igra_hanoi_inversion_features_2015_2026.csv
+tmp/air-quality-analysis-upstream/data/external/

@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="940" viewBox="0 0 520 940">
+<style>text{font-family:Arial,sans-serif;font-size:13px} .title{font-size:18px;font-weight:bold}</style>
+<text x="20" y="24" class="title">Monthly Correlation Stability</text>
+<text x="200.0" y="48" text-anchor="middle">DC1100 vs DC1700</text>
+<text x="320.0" y="48" text-anchor="middle">DC1100 vs AirVisual</text>
+<text x="440.0" y="48" text-anchor="middle">DC1700 vs AirVisual</text>
+<text x="20" y="76">2019-08</text>
+<rect x="140" y="60" width="120" height="24" fill="#bce165" stroke="#ffffff" />
+<text x="200.0" y="76" text-anchor="middle">0.957</text>
+<rect x="260" y="60" width="120" height="24" fill="#bde269" stroke="#ffffff" />
+<text x="320.0" y="76" text-anchor="middle">0.937</text>
+<rect x="380" y="60" width="120" height="24" fill="#bee26b" stroke="#ffffff" />
+<text x="440.0" y="76" text-anchor="middle">0.923</text>
+<text x="20" y="100">2019-09</text>
+<rect x="140" y="84" width="120" height="24" fill="#bce166" stroke="#ffffff" />
+<text x="200.0" y="100" text-anchor="middle">0.956</text>
+<rect x="260" y="84" width="120" height="24" fill="#c0e36f" stroke="#ffffff" />
+<text x="320.0" y="100" text-anchor="middle">0.895</text>
+<rect x="380" y="84" width="120" height="24" fill="#bfe26e" stroke="#ffffff" />
+<text x="440.0" y="100" text-anchor="middle">0.903</text>
+<text x="20" y="124">2019-10</text>
+<rect x="140" y="108" width="120" height="24" fill="#bce267" stroke="#ffffff" />
+<text x="200.0" y="124" text-anchor="middle">0.947</text>
+<rect x="260" y="108" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="320.0" y="124" text-anchor="middle">0.863</text>
+<rect x="380" y="108" width="120" height="24" fill="#c4e479" stroke="#ffffff" />
+<text x="440.0" y="124" text-anchor="middle">0.832</text>
+<text x="20" y="148">2019-11</text>
+<rect x="140" y="132" width="120" height="24" fill="#bbe164" stroke="#ffffff" />
+<text x="200.0" y="148" text-anchor="middle">0.966</text>
+<rect x="260" y="132" width="120" height="24" fill="#c1e373" stroke="#ffffff" />
+<text x="320.0" y="148" text-anchor="middle">0.874</text>
+<rect x="380" y="132" width="120" height="24" fill="#c0e370" stroke="#ffffff" />
+<text x="440.0" y="148" text-anchor="middle">0.893</text>
+<text x="20" y="172">2019-12</text>
+<rect x="140" y="156" width="120" height="24" fill="#bbe165" stroke="#ffffff" />
+<text x="200.0" y="172" text-anchor="middle">0.957</text>
+<rect x="260" y="156" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="320.0" y="172" text-anchor="middle">0.866</text>
+<rect x="380" y="156" width="120" height="24" fill="#bfe26d" stroke="#ffffff" />
+<text x="440.0" y="172" text-anchor="middle">0.909</text>
+<text x="20" y="196">2020-01</text>
+<rect x="140" y="180" width="120" height="24" fill="#bee26c" stroke="#ffffff" />
+<text x="200.0" y="196" text-anchor="middle">0.918</text>
+<rect x="260" y="180" width="120" height="24" fill="#c2e373" stroke="#ffffff" />
+<text x="320.0" y="196" text-anchor="middle">0.871</text>
+<rect x="380" y="180" width="120" height="24" fill="#bce166" stroke="#ffffff" />
+<text x="440.0" y="196" text-anchor="middle">0.952</text>
+<text x="20" y="220">2020-02</text>
+<rect x="140" y="204" width="120" height="24" fill="#bbe165" stroke="#ffffff" />
+<text x="200.0" y="220" text-anchor="middle">0.961</text>
+<rect x="260" y="204" width="120" height="24" fill="#c0e36f" stroke="#ffffff" />
+<text x="320.0" y="220" text-anchor="middle">0.896</text>
+<rect x="380" y="204" width="120" height="24" fill="#bce267" stroke="#ffffff" />
+<text x="440.0" y="220" text-anchor="middle">0.947</text>
+<text x="20" y="244">2020-03</text>
+<rect x="140" y="228" width="120" height="24" fill="#bce166" stroke="#ffffff" />
+<text x="200.0" y="244" text-anchor="middle">0.953</text>
+<rect x="260" y="228" width="120" height="24" fill="#bfe26c" stroke="#ffffff" />
+<text x="320.0" y="244" text-anchor="middle">0.913</text>
+<rect x="380" y="228" width="120" height="24" fill="#bee26b" stroke="#ffffff" />
+<text x="440.0" y="244" text-anchor="middle">0.920</text>
+<text x="20" y="268">2020-04</text>
+<rect x="140" y="252" width="120" height="24" fill="#bce166" stroke="#ffffff" />
+<text x="200.0" y="268" text-anchor="middle">0.955</text>
+<rect x="260" y="252" width="120" height="24" fill="#c3e477" stroke="#ffffff" />
+<text x="320.0" y="268" text-anchor="middle">0.848</text>
+<rect x="380" y="252" width="120" height="24" fill="#c6e47d" stroke="#ffffff" />
+<text x="440.0" y="268" text-anchor="middle">0.810</text>
+<text x="20" y="292">2020-05</text>
+<rect x="140" y="276" width="120" height="24" fill="#bae162" stroke="#ffffff" />
+<text x="200.0" y="292" text-anchor="middle">0.980</text>
+<rect x="260" y="276" width="120" height="24" fill="#c2e375" stroke="#ffffff" />
+<text x="320.0" y="292" text-anchor="middle">0.862</text>
+<rect x="380" y="276" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="440.0" y="292" text-anchor="middle">0.867</text>
+<text x="20" y="316">2020-06</text>
+<rect x="140" y="300" width="120" height="24" fill="#b9e160" stroke="#ffffff" />
+<text x="200.0" y="316" text-anchor="middle">0.989</text>
+<rect x="260" y="300" width="120" height="24" fill="#c4e478" stroke="#ffffff" />
+<text x="320.0" y="316" text-anchor="middle">0.839</text>
+<rect x="380" y="300" width="120" height="24" fill="#c4e478" stroke="#ffffff" />
+<text x="440.0" y="316" text-anchor="middle">0.842</text>
+<text x="20" y="340">2020-07</text>
+<rect x="140" y="324" width="120" height="24" fill="#b9e160" stroke="#ffffff" />
+<text x="200.0" y="340" text-anchor="middle">0.988</text>
+<rect x="260" y="324" width="120" height="24" fill="#c4e478" stroke="#ffffff" />
+<text x="320.0" y="340" text-anchor="middle">0.840</text>
+<rect x="380" y="324" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="440.0" y="340" text-anchor="middle">0.869</text>
+<text x="20" y="364">2020-08</text>
+<rect x="140" y="348" width="120" height="24" fill="#bae163" stroke="#ffffff" />
+<text x="200.0" y="364" text-anchor="middle">0.972</text>
+<rect x="260" y="348" width="120" height="24" fill="#c1e372" stroke="#ffffff" />
+<text x="320.0" y="364" text-anchor="middle">0.878</text>
+<rect x="380" y="348" width="120" height="24" fill="#c0e370" stroke="#ffffff" />
+<text x="440.0" y="364" text-anchor="middle">0.893</text>
+<text x="20" y="388">2020-09</text>
+<rect x="140" y="372" width="120" height="24" fill="#bbe165" stroke="#ffffff" />
+<text x="200.0" y="388" text-anchor="middle">0.962</text>
+<rect x="260" y="372" width="120" height="24" fill="#c7e57f" stroke="#ffffff" />
+<text x="320.0" y="388" text-anchor="middle">0.797</text>
+<rect x="380" y="372" width="120" height="24" fill="#cee790" stroke="#ffffff" />
+<text x="440.0" y="388" text-anchor="middle">0.688</text>
+<text x="20" y="412">2020-10</text>
+<rect x="140" y="396" width="120" height="24" fill="#bce166" stroke="#ffffff" />
+<text x="200.0" y="412" text-anchor="middle">0.951</text>
+<rect x="260" y="396" width="120" height="24" fill="#c3e477" stroke="#ffffff" />
+<text x="320.0" y="412" text-anchor="middle">0.846</text>
+<rect x="380" y="396" width="120" height="24" fill="#bfe26c" stroke="#ffffff" />
+<text x="440.0" y="412" text-anchor="middle">0.913</text>
+<text x="20" y="436">2020-11</text>
+<rect x="140" y="420" width="120" height="24" fill="#bde268" stroke="#ffffff" />
+<text x="200.0" y="436" text-anchor="middle">0.939</text>
+<rect x="260" y="420" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="320.0" y="436" text-anchor="middle">0.867</text>
+<rect x="380" y="420" width="120" height="24" fill="#c0e371" stroke="#ffffff" />
+<text x="440.0" y="436" text-anchor="middle">0.886</text>
+<text x="20" y="460">2020-12</text>
+<rect x="140" y="444" width="120" height="24" fill="#bbe164" stroke="#ffffff" />
+<text x="200.0" y="460" text-anchor="middle">0.968</text>
+<rect x="260" y="444" width="120" height="24" fill="#c0e370" stroke="#ffffff" />
+<text x="320.0" y="460" text-anchor="middle">0.890</text>
+<rect x="380" y="444" width="120" height="24" fill="#bfe26d" stroke="#ffffff" />
+<text x="440.0" y="460" text-anchor="middle">0.910</text>
+<text x="20" y="484">2021-01</text>
+<rect x="140" y="468" width="120" height="24" fill="#bae161" stroke="#ffffff" />
+<text x="200.0" y="484" text-anchor="middle">0.982</text>
+<rect x="260" y="468" width="120" height="24" fill="#bfe26e" stroke="#ffffff" />
+<text x="320.0" y="484" text-anchor="middle">0.906</text>
+<rect x="380" y="468" width="120" height="24" fill="#bee26c" stroke="#ffffff" />
+<text x="440.0" y="484" text-anchor="middle">0.917</text>
+<text x="20" y="508">2021-02</text>
+<rect x="140" y="492" width="120" height="24" fill="#bee26c" stroke="#ffffff" />
+<text x="200.0" y="508" text-anchor="middle">0.917</text>
+<rect x="260" y="492" width="120" height="24" fill="#c6e47c" stroke="#ffffff" />
+<text x="320.0" y="508" text-anchor="middle">0.814</text>
+<rect x="380" y="492" width="120" height="24" fill="#cae586" stroke="#ffffff" />
+<text x="440.0" y="508" text-anchor="middle">0.754</text>
+<text x="20" y="532">2021-03</text>
+<rect x="140" y="516" width="120" height="24" fill="#bbe164" stroke="#ffffff" />
+<text x="200.0" y="532" text-anchor="middle">0.963</text>
+<rect x="260" y="516" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="320.0" y="532" text-anchor="middle">0.868</text>
+<rect x="380" y="516" width="120" height="24" fill="#c1e373" stroke="#ffffff" />
+<text x="440.0" y="532" text-anchor="middle">0.874</text>
+<text x="20" y="556">2021-04</text>
+<rect x="140" y="540" width="120" height="24" fill="#bbe164" stroke="#ffffff" />
+<text x="200.0" y="556" text-anchor="middle">0.966</text>
+<rect x="260" y="540" width="120" height="24" fill="#bee26a" stroke="#ffffff" />
+<text x="320.0" y="556" text-anchor="middle">0.926</text>
+<rect x="380" y="540" width="120" height="24" fill="#bce267" stroke="#ffffff" />
+<text x="440.0" y="556" text-anchor="middle">0.948</text>
+<text x="20" y="580">2021-05</text>
+<rect x="140" y="564" width="120" height="24" fill="#bfe26c" stroke="#ffffff" />
+<text x="200.0" y="580" text-anchor="middle">0.914</text>
+<rect x="260" y="564" width="120" height="24" fill="#c9e584" stroke="#ffffff" />
+<text x="320.0" y="580" text-anchor="middle">0.768</text>
+<rect x="380" y="564" width="120" height="24" fill="#c8e583" stroke="#ffffff" />
+<text x="440.0" y="580" text-anchor="middle">0.772</text>
+<text x="20" y="604">2021-06</text>
+<rect x="140" y="588" width="120" height="24" fill="#bee26b" stroke="#ffffff" />
+<text x="200.0" y="604" text-anchor="middle">0.921</text>
+<rect x="260" y="588" width="120" height="24" fill="#c1e371" stroke="#ffffff" />
+<text x="320.0" y="604" text-anchor="middle">0.884</text>
+<rect x="380" y="588" width="120" height="24" fill="#c6e47d" stroke="#ffffff" />
+<text x="440.0" y="604" text-anchor="middle">0.810</text>
+<text x="20" y="628">2021-07</text>
+<rect x="140" y="612" width="120" height="24" fill="#bbe165" stroke="#ffffff" />
+<text x="200.0" y="628" text-anchor="middle">0.962</text>
+<rect x="260" y="612" width="120" height="24" fill="#c4e478" stroke="#ffffff" />
+<text x="320.0" y="628" text-anchor="middle">0.840</text>
+<rect x="380" y="612" width="120" height="24" fill="#c1e372" stroke="#ffffff" />
+<text x="440.0" y="628" text-anchor="middle">0.881</text>
+<text x="20" y="652">2021-08</text>
+<rect x="140" y="636" width="120" height="24" fill="#bbe164" stroke="#ffffff" />
+<text x="200.0" y="652" text-anchor="middle">0.967</text>
+<rect x="260" y="636" width="120" height="24" fill="#c3e477" stroke="#ffffff" />
+<text x="320.0" y="652" text-anchor="middle">0.848</text>
+<rect x="380" y="636" width="120" height="24" fill="#c0e370" stroke="#ffffff" />
+<text x="440.0" y="652" text-anchor="middle">0.892</text>
+<text x="20" y="676">2021-09</text>
+<rect x="140" y="660" width="120" height="24" fill="#c1e373" stroke="#ffffff" />
+<text x="200.0" y="676" text-anchor="middle">0.873</text>
+<rect x="260" y="660" width="120" height="24" fill="#cfe792" stroke="#ffffff" />
+<text x="320.0" y="676" text-anchor="middle">0.679</text>
+<rect x="380" y="660" width="120" height="24" fill="#c5e47b" stroke="#ffffff" />
+<text x="440.0" y="676" text-anchor="middle">0.821</text>
+<text x="20" y="700">2021-10</text>
+<rect x="140" y="684" width="120" height="24" fill="#bee26a" stroke="#ffffff" />
+<text x="200.0" y="700" text-anchor="middle">0.926</text>
+<rect x="260" y="684" width="120" height="24" fill="#c4e479" stroke="#ffffff" />
+<text x="320.0" y="700" text-anchor="middle">0.835</text>
+<rect x="380" y="684" width="120" height="24" fill="#c5e47b" stroke="#ffffff" />
+<text x="440.0" y="700" text-anchor="middle">0.822</text>
+<text x="20" y="724">2021-11</text>
+<rect x="140" y="708" width="120" height="24" fill="#bde268" stroke="#ffffff" />
+<text x="200.0" y="724" text-anchor="middle">0.942</text>
+<rect x="260" y="708" width="120" height="24" fill="#c8e582" stroke="#ffffff" />
+<text x="320.0" y="724" text-anchor="middle">0.776</text>
+<rect x="380" y="708" width="120" height="24" fill="#cae586" stroke="#ffffff" />
+<text x="440.0" y="724" text-anchor="middle">0.752</text>
+<text x="20" y="748">2021-12</text>
+<rect x="140" y="732" width="120" height="24" fill="#bfe26e" stroke="#ffffff" />
+<text x="200.0" y="748" text-anchor="middle">0.906</text>
+<rect x="260" y="732" width="120" height="24" fill="#bee26b" stroke="#ffffff" />
+<text x="320.0" y="748" text-anchor="middle">0.923</text>
+<rect x="380" y="732" width="120" height="24" fill="#c0e36f" stroke="#ffffff" />
+<text x="440.0" y="748" text-anchor="middle">0.899</text>
+<text x="20" y="772">2022-02</text>
+<rect x="140" y="756" width="120" height="24" fill="#e8d2f3" stroke="#ffffff" />
+<text x="200.0" y="772" text-anchor="middle">-0.189</text>
+<rect x="260" y="756" width="120" height="24" fill="#af7dd7" stroke="#ffffff" />
+<text x="320.0" y="772" text-anchor="middle">-0.662</text>
+<rect x="380" y="756" width="120" height="24" fill="#c7e57f" stroke="#ffffff" />
+<text x="440.0" y="772" text-anchor="middle">0.794</text>
+<text x="20" y="796">2022-03</text>
+<rect x="140" y="780" width="120" height="24" fill="#bfe26e" stroke="#ffffff" />
+<text x="200.0" y="796" text-anchor="middle">0.905</text>
+<rect x="260" y="780" width="120" height="24" fill="#c3e376" stroke="#ffffff" />
+<text x="320.0" y="796" text-anchor="middle">0.850</text>
+<rect x="380" y="780" width="120" height="24" fill="#bfe26e" stroke="#ffffff" />
+<text x="440.0" y="796" text-anchor="middle">0.905</text>
+<text x="20" y="820">2022-04</text>
+<rect x="140" y="804" width="120" height="24" fill="#bde269" stroke="#ffffff" />
+<text x="200.0" y="820" text-anchor="middle">0.936</text>
+<rect x="260" y="804" width="120" height="24" fill="#c5e47a" stroke="#ffffff" />
+<text x="320.0" y="820" text-anchor="middle">0.826</text>
+<rect x="380" y="804" width="120" height="24" fill="#c3e375" stroke="#ffffff" />
+<text x="440.0" y="820" text-anchor="middle">0.857</text>
+<text x="20" y="844">2022-05</text>
+<rect x="140" y="828" width="120" height="24" fill="#c2e374" stroke="#ffffff" />
+<text x="200.0" y="844" text-anchor="middle">0.865</text>
+<rect x="260" y="828" width="120" height="24" fill="#cee790" stroke="#ffffff" />
+<text x="320.0" y="844" text-anchor="middle">0.693</text>
+<rect x="380" y="828" width="120" height="24" fill="#cde68d" stroke="#ffffff" />
+<text x="440.0" y="844" text-anchor="middle">0.707</text>
+<text x="20" y="868">2022-06</text>
+<rect x="140" y="852" width="120" height="24" fill="#e4edc2" stroke="#ffffff" />
+<text x="200.0" y="868" text-anchor="middle">0.378</text>
+<rect x="260" y="852" width="120" height="24" fill="#f9f3f1" stroke="#ffffff" />
+<text x="320.0" y="868" text-anchor="middle">0.085</text>
+<rect x="380" y="852" width="120" height="24" fill="#cae687" stroke="#ffffff" />
+<text x="440.0" y="868" text-anchor="middle">0.745</text>
+<text x="20" y="892">2022-07</text>
+<rect x="140" y="876" width="120" height="24" fill="#d8eaa7" stroke="#ffffff" />
+<text x="200.0" y="892" text-anchor="middle">0.547</text>
+<rect x="260" y="876" width="120" height="24" fill="#f3f1e4" stroke="#ffffff" />
+<text x="320.0" y="892" text-anchor="middle">0.167</text>
+<rect x="380" y="876" width="120" height="24" fill="#c9e584" stroke="#ffffff" />
+<text x="440.0" y="892" text-anchor="middle">0.764</text>
+</svg>

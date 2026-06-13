@@ -5,11 +5,14 @@ url: "https://bi2air.github.io"
 baseurl: ""
 
 # Theme
-remote_theme: just-the-docs/just-the-docs@v0.8.2
+theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Search
 search_enabled: true
@@ -48,12 +51,17 @@ gh_edit_view_mode: "tree"
 
 # Exclude from processing
 exclude:
+  - blog
+  - docs
   - Gemfile
   - Gemfile.lock
+  - bioinfo
+  - skyi
+  - wayback_latest_b-io_info
+  - doc-work
   - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
   - README.md
-

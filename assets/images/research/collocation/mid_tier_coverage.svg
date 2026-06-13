@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220">
+<style>text{font-family:Arial,sans-serif;font-size:14px} .title{font-size:18px;font-weight:bold}</style>
+<text x="180" y="24" class="title">Mid-Tier Sensor Time Coverage</text>
+<text x="10" y="45">Dylos DC1100 Pro</text>
+<line x1="180.0" y1="40" x2="941.6" y2="40" stroke="#2b6cb0" stroke-width="8" stroke-linecap="round" />
+<circle cx="180.0" cy="40" r="4" fill="#2b6cb0" />
+<circle cx="941.6" cy="40" r="4" fill="#2b6cb0" />
+<text x="10" y="93">Dylos DC1700</text>
+<line x1="228.4" y1="88" x2="941.6" y2="88" stroke="#2b6cb0" stroke-width="8" stroke-linecap="round" />
+<circle cx="228.4" cy="88" r="4" fill="#2b6cb0" />
+<circle cx="941.6" cy="88" r="4" fill="#2b6cb0" />
+<text x="10" y="141">IQAir AirVisual</text>
+<line x1="238.3" y1="136" x2="960.0" y2="136" stroke="#2b6cb0" stroke-width="8" stroke-linecap="round" />
+<circle cx="238.3" cy="136" r="4" fill="#2b6cb0" />
+<circle cx="960.0" cy="136" r="4" fill="#2b6cb0" />
+<text x="180" y="208">2019-05-28 17:02:57</text>
+<text x="780" y="208">2022-08-28 07:41:47</text>
+</svg>

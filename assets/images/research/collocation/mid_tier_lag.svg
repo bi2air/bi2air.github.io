@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<style>text{font-family:Arial,sans-serif;font-size:13px}</style>
+<text x="20" y="24" font-size="20" font-weight="bold">Lag Scan Around 15-minute Bins</text>
+<rect x="20" y="60" width="360" height="240" fill="white" stroke="#cccccc" />
+<text x="30" y="82" font-size="16" font-weight="bold">DC1100 vs DC1700</text>
+<polyline fill="none" stroke="#1f4e79" stroke-width="2" points="56.0,264.0 74.0,244.5 92.0,224.6 110.0,204.0 128.0,182.9 146.0,161.4 164.0,139.2 182.0,116.1 200.0,96.0 218.0,114.1 236.0,135.6 254.0,156.7 272.0,177.6 290.0,198.0 308.0,217.9 326.0,237.0 344.0,255.6" />
+<circle cx="200.0" cy="96.0" r="4" fill="#c53030" />
+<text x="30" y="102">best lag = 0 min, r = 0.9313</text>
+<rect x="410" y="60" width="360" height="240" fill="white" stroke="#cccccc" />
+<text x="420" y="82" font-size="16" font-weight="bold">DC1100 vs AirVisual</text>
+<polyline fill="none" stroke="#1f4e79" stroke-width="2" points="446.0,264.0 464.0,244.1 482.0,223.6 500.0,202.4 518.0,180.5 536.0,158.6 554.0,136.4 572.0,113.4 590.0,96.0 608.0,111.8 626.0,133.8 644.0,155.8 662.0,177.7 680.0,199.7 698.0,221.0 716.0,241.5 734.0,261.7" />
+<circle cx="590.0" cy="96.0" r="4" fill="#c53030" />
+<text x="420" y="102">best lag = 0 min, r = 0.8457</text>
+<rect x="800" y="60" width="360" height="240" fill="white" stroke="#cccccc" />
+<text x="810" y="82" font-size="16" font-weight="bold">DC1700 vs AirVisual</text>
+<polyline fill="none" stroke="#1f4e79" stroke-width="2" points="836.0,257.9 854.0,239.8 872.0,220.9 890.0,201.0 908.0,179.8 926.0,158.0 944.0,135.8 962.0,112.8 980.0,96.0 998.0,113.7 1016.0,137.3 1034.0,160.3 1052.0,182.6 1070.0,204.4 1088.0,225.0 1106.0,244.8 1124.0,264.0" />
+<circle cx="980.0" cy="96.0" r="4" fill="#c53030" />
+<text x="810" y="102">best lag = 0 min, r = 0.8897</text>
+</svg>

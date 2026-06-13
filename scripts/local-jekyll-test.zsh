@@ -9,6 +9,9 @@ RUBY_BIN="$MINICONDA_HOME/bin/ruby"
 BUNDLE_BIN="$MINICONDA_HOME/bin/bundle"
 BUNDLE_USER_HOME="${BUNDLE_USER_HOME:-/tmp/bundler}"
 HOST="${HOST:-127.0.0.1}"
+if [[ "$HOST" == "$(hostname)" || "$HOST" == "$(hostname -s 2>/dev/null)" ]]; then
+  HOST="127.0.0.1"
+fi
 PORT="${PORT:-4000}"
 
 if [[ ! -x "$RUBY_BIN" || ! -x "$BUNDLE_BIN" ]]; then
