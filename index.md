@@ -28,7 +28,7 @@ PM2.5 removal efficiency of 11 masks: fabric (8-14%), surgical (29-39%), 3M resp
 
 ### [Turbidostat Build](/pages/turbidostat.html)
 
-Open-source biomass density control for microalgae. $200 Arduino system replacing $10K+ commercial alternatives. Published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013).
+Open-source biomass density control for microalgae. \$200 Arduino system replacing \$10K+ commercial alternatives. Published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013).
 
 ### [OCuLink eGPU Home Lab](/pages/oculink-egpu-home-lab.html)
 
