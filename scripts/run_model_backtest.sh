@@ -1,1 +1,0 @@
-python run_model_backtest.py --site hanoi --date 2026-06-12 --hour 8

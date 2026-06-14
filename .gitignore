@@ -56,8 +56,8 @@ typescript
 test.html
 test.md
 
-# ── Scripts: ignore regenerable data snapshots ─────────────
-scripts/data/
+# ── Scripts: ignore entire scripts directory ───────────────
+scripts/
 
 # ── Data: ignore large external/generated datasets ─────────
 data/external/
