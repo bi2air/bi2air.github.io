@@ -1,5 +1,0 @@
-[     640ms] [WARNING] [.WebGL-0xa84000f7200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://moitruongthudo.vn/:0
-[     758ms] [WARNING] [.WebGL-0xa84000f7200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://moitruongthudo.vn/:0
-[     765ms] [WARNING] [.WebGL-0xa84000f7200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://moitruongthudo.vn/:0
-[     773ms] [WARNING] [.WebGL-0xa84000f7200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://moitruongthudo.vn/:0
-[     954ms] [WARNING] Geometry exceeds allowed extent, reduce your vector tile buffer size @ blob:https://moitruongthudo.vn/9b7f2040-ef80-42cd-8107-497056198177:0

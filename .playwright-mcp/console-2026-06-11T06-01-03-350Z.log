@@ -1,5 +1,0 @@
-[    1159ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=NHM-Chem+Japan+Meteorological+Agency+regional+air+quality+model+PM2.5+forecast&hl=en:52
-[    1159ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=NHM-Chem+Japan+Meteorological+Agency+regional+air+quality+model+PM2.5+forecast&hl=en:52
-[    1816ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=NHM-Chem+Japan+Meteorological+Agency+regional+air+quality+model+PM2.5+forecast&hl=en:52
-[    1816ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=NHM-Chem+Japan+Meteorological+Agency+regional+air+quality+model+PM2.5+forecast&hl=en:52
-[    2437ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=NHM-Chem+Japan+Meteorological+Agency+regional+air+quality+model+PM2.5+forecast&hl=en:33

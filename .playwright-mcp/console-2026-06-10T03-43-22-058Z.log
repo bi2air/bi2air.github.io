@@ -1,3 +1,0 @@
-[     293ms] [WARNING] Unrecognized feature: 'web-share'. @ https://cem.gov.vn/:1224
-[     612ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'. @ :0
-[    5186ms] [LOG] {qi_time_2: 10/06/2026 10:00, success: true, qi_time_1: 43 phút trước, res: Object, qi_detail_info: Object} @ https://cem.gov.vn/front/js/chart_home.js:716

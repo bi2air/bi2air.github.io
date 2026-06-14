@@ -1,3 +1,4 @@
+# ── Jekyll build artifacts ──────────────────────────────────
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -5,35 +6,63 @@ _site/
 vendor/
 .bundle/
 Gemfile.lock
-.DS_Store
 
-# Dev-only source symlinks (mining old content)
+# ── OS / editor artifacts ──────────────────────────────────
+.DS_Store
+.env*
+
+# ── Dev-only source symlinks ───────────────────────────────
 bioinfo
 skyi
 wayback_latest_b-io_info
 
-# Internal dev docs (not for publication)
+# ── Internal dev docs & drafts (not for publication) ───────
 docs/
-
-# Blog posts (local draft, not published yet)
 blog/
-
-# Claude Code settings
-.claude/
-
-# Legacy placeholder
 md/
 
-# External and regenerated data should stay local.
-# Keep only compact 2018 demo datasets/versioned notebook examples in git.
+# ── AI / code-assistant settings ───────────────────────────
+.claude/
+.codex_sh.shu
+codex_sh.sh
+
+# ── Browser automation / MCP tool logs ─────────────────────
+.playwright-mcp/
+
+# ── Python bytecode ────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── ML experiment artifacts & model binaries ───────────────
+autoresearch/
+models/
+mlab_photos/
+
+# ── Temporary / scratch workspace (entire folder) ─────────
+tmp/
+
+# ── Dev session notes (root-level junk markdown) ───────────
+AUTOMATED_PIPELINE_SUCCESS.md
+CHANGES_2018_ANALYSIS.md
+COMPLETE_2018_ANALYSIS.md
+FINAL_STATUS.md
+MANUAL_CHART_GENERATION.md
+SIMPLE_SOLUTION.md
+
+# ── Stray root-level files ─────────────────────────────────
+evaluate_transformer_t72.py
+typescript
+test.html
+test.md
+
+# ── Scripts: ignore regenerable data snapshots ─────────────
+scripts/data/
+
+# ── Data: ignore large external/generated datasets ─────────
 data/external/
 data/igra_hanoi_lang/
 
-# Upstream experiment workspace: ignore large external weather/radiosonde sources
-# and generated forecast tables, while keeping the small 2018 demo slices by choice.
-tmp/air-quality-analysis-upstream/data/open_meteo_hanoi/
-tmp/air-quality-analysis-upstream/data/forecast_ready/
-tmp/air-quality-analysis-upstream/data/hanoi_pm25_open_meteo_2015_2025.csv
-tmp/air-quality-analysis-upstream/data/hanoi_pm25_open_meteo_2015_2025_no_visibility.csv
-tmp/air-quality-analysis-upstream/data/igra_hanoi_inversion_features_2015_2026.csv
-tmp/air-quality-analysis-upstream/data/external/
+# ── Virtual environments ───────────────────────────────────
+.venv/
+.ruby-lsp/

@@ -1,4 +1,0 @@
-[    2610ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://web.archive.org/web/20220101120000/https://www.nies.go.jp/MASINGAR/:0
-[    2627ms] [LOG] donation-banner loaded {version: 1.1.1} @ https://archive.org/includes/build/js/archive.min.js?v=a50e2a7a:400
-[    2651ms] [LOG] PSA Donation Banner CTA:  [] @ https://archive.org/includes/build/js/archive.min.js?v=a50e2a7a:400
-[    2660ms] [LOG] PSA Donation Banner donationOrigin:  {responsiveMode: Desktop, currentWindowWidth: 1211, origin: DonateBanner-20260601JuneDeploy2-WBjuneGFMPvanishPSA-Desktop} @ https://archive.org/includes/build/js/archive.min.js?v=a50e2a7a:400

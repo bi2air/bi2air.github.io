@@ -1,5 +1,0 @@
-[    1482ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5:52
-[    1482ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5:52
-[    2110ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5:52
-[    2110ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5:52
-[    5183ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5:33
