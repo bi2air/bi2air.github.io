@@ -1,0 +1,12 @@
+{
+  "snapshot_time_utc": "2026-06-14T08:41:31.019571+00:00",
+  "source_rows_added": 44,
+  "canonical_rows_added": 44,
+  "source_rows_total": 44,
+  "canonical_rows_total": 44,
+  "pm25_estimated_from_cem_rows": 44,
+  "paths": {
+    "hourly_source_records_csv": "data/external/processed/ho-chi-minh-city/public-air-quality/hourly_source_records.csv",
+    "hourly_canonical_records_csv": "data/external/processed/ho-chi-minh-city/public-air-quality/hourly_canonical_records.csv"
+  }
+}

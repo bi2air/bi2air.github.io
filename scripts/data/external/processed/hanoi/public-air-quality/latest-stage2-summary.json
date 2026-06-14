@@ -1,0 +1,12 @@
+{
+  "snapshot_time_utc": "2026-06-14T08:40:38.407831+00:00",
+  "source_rows_added": 153,
+  "canonical_rows_added": 130,
+  "source_rows_total": 153,
+  "canonical_rows_total": 130,
+  "pm25_estimated_from_cem_rows": 24,
+  "paths": {
+    "hourly_source_records_csv": "data/external/processed/hanoi/public-air-quality/hourly_source_records.csv",
+    "hourly_canonical_records_csv": "data/external/processed/hanoi/public-air-quality/hourly_canonical_records.csv"
+  }
+}
