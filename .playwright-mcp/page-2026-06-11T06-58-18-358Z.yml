@@ -1,0 +1,127 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - img [ref=e10]
+    - generic [ref=e13]:
+      - region [ref=e14]:
+        - text: We use cookies on our site – see our
+        - link "privacy" [ref=e15] [cursor=pointer]:
+          - /url: /privacy
+        - text: policy for details
+      - button "Ok" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: Ok
+  - banner [ref=e21]:
+    - generic [ref=e22]:
+      - link "The Bureau of Meteorology" [ref=e24] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e25]: The Bureau of Meteorology
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - link "Warnings and alerts" [ref=e30] [cursor=pointer]:
+            - /url: /weather-and-climate/warnings-and-alerts
+            - img [ref=e32]
+        - listitem [ref=e35]:
+          - button "Favourite locations" [ref=e38] [cursor=pointer]:
+            - img [ref=e40]
+            - generic [ref=e42]: Favourite locations
+        - listitem [ref=e43]:
+          - button "Search" [ref=e47] [cursor=pointer]:
+            - img [ref=e49]
+        - listitem [ref=e51]:
+          - button "open menu" [ref=e53] [cursor=pointer]:
+            - img [ref=e55]
+  - navigation "Breadcrumbs" [ref=e62]:
+    - list [ref=e63]:
+      - listitem [ref=e64]:
+        - link "Home" [ref=e65] [cursor=pointer]:
+          - /url: /
+          - img [ref=e67]
+      - listitem [ref=e69]:
+        - img [ref=e71]
+        - generic "Search" [ref=e73]
+  - main [ref=e74]:
+    - button "New search" [ref=e90] [cursor=pointer]:
+      - img [ref=e92]
+      - generic [ref=e95]: New search
+  - contentinfo "footer" [ref=e96]:
+    - generic [ref=e97]:
+      - generic [ref=e99]:
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: We acknowledge the traditional custodians of Australia, and their continuing connection to land, sea, and community. We respect their Elders, past and present, and all Aboriginal and Torres Strait Islander nations.
+          - link "Indigenous weather knowledge" [ref=e107] [cursor=pointer]:
+            - /url: /resources/indigenous-weather-knowledge
+            - generic [ref=e108]: Indigenous weather knowledge
+            - img [ref=e110]
+        - navigation [ref=e114]:
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "About the Bureau" [ref=e117] [cursor=pointer]:
+                - /url: /about-the-bureau
+            - listitem [ref=e118]:
+              - link "Website help" [ref=e119] [cursor=pointer]:
+                - /url: /website-help
+            - listitem [ref=e120]:
+              - link "Contact" [ref=e121] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e122]:
+              - link "News and media" [ref=e123] [cursor=pointer]:
+                - /url: /news-and-media
+            - listitem [ref=e124]:
+              - link "BOM Weather app" [ref=e125] [cursor=pointer]:
+                - /url: /bom-weather-app
+            - listitem [ref=e126]:
+              - link "Events" [ref=e127] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e128]:
+              - link "Glossary" [ref=e129] [cursor=pointer]:
+                - /url: /glossary
+            - listitem [ref=e130]:
+              - link "FOI" [ref=e131] [cursor=pointer]:
+                - /url: /foi
+            - listitem [ref=e132]:
+              - link "Tenders and payments" [ref=e133] [cursor=pointer]:
+                - /url: /tenders-and-payments
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "The Bureau on x" [ref=e143] [cursor=pointer]:
+                - /url: https://twitter.com/BOM_au
+                - img [ref=e145]
+            - listitem [ref=e147]:
+              - link "The Bureau on Facebook" [ref=e148] [cursor=pointer]:
+                - /url: http://www.facebook.com/bureauofmeteorology
+                - img [ref=e150]
+            - listitem [ref=e152]:
+              - link "The Bureau on Instagram" [ref=e153] [cursor=pointer]:
+                - /url: https://www.instagram.com/bureauofmeteorology/
+                - img [ref=e155]
+            - listitem [ref=e157]:
+              - link "The Bureau on Youtube" [ref=e158] [cursor=pointer]:
+                - /url: http://www.youtube.com/user/BureauOfMeteorology
+                - img [ref=e160]
+            - listitem [ref=e162]:
+              - link "The Bureau on LinkedIn" [ref=e163] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/bureau-of-meteorology/
+                - img [ref=e165]
+          - link "Australian Government Bureau of Meteorology logo" [ref=e169] [cursor=pointer]:
+            - /url: https://www.bom.gov.au/
+            - img "Australian Government Bureau of Meteorology logo" [ref=e170]
+        - generic [ref=e172]:
+          - navigation [ref=e176]:
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - link "Sitemap" [ref=e179] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e180]:
+                - link "Disclaimer" [ref=e181] [cursor=pointer]:
+                  - /url: /disclaimer
+              - listitem [ref=e182]:
+                - link "Privacy" [ref=e183] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=e184]:
+                - link "Accessibility" [ref=e185] [cursor=pointer]:
+                  - /url: /accessibility
+          - paragraph [ref=e190]:
+            - link "Copyright" [ref=e191] [cursor=pointer]:
+              - /url: /copyright
+            - text: © Commonwealth of Australia 2026, The Bureau of Meteorology

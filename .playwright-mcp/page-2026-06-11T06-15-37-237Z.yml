@@ -1,0 +1,343 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner:
+      - navigation [ref=e2]:
+        - generic [ref=e3]:
+          - link [ref=e5] [cursor=pointer]:
+            - /url: javascript:;
+          - link [ref=e7] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+          - generic [ref=e8]:
+            - navigation:
+              - generic:
+                - generic:
+                  - list
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Browse" [ref=e11] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Browse
+              - listitem [ref=e13]:
+                - link "About J-STAGE" [ref=e14] [cursor=pointer]:
+                  - /url: "#"
+                  - text: About J-STAGE
+              - listitem [ref=e16]:
+                - link "News and PR" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+                  - text: News and PR
+              - listitem [ref=e19]:
+                - link "Support" [ref=e20] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Support
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Sign in" [ref=e25] [cursor=pointer]:
+                - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fsola%2F10%2F0%2F10_2014-016%2F_article%2F-char%2Fen
+            - listitem
+            - listitem [ref=e26]:
+              - link "Cart" [ref=e27] [cursor=pointer]:
+                - /url: /cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fsola%2F10%2F0%2F10_2014-016%2F_article%2F-char%2Fen
+            - listitem [ref=e28]:
+              - link "EN" [ref=e29] [cursor=pointer]:
+                - /url: "#"
+                - text: EN
+  - generic [ref=e35]:
+    - generic [ref=e36]: SOLA
+    - generic [ref=e38]:
+      - text: "Online ISSN : 1349-6476"
+      - text: "ISSN-L : 1349-6476"
+  - list [ref=e43]:
+    - text: 
+    - listitem [ref=e44]:
+      - link "Publisher's Home " [ref=e45] [cursor=pointer]:
+        - /url: https://metsoc.jp/sola/
+        - text: Publisher's Home
+        - generic [ref=e46]: 
+    - listitem [ref=e47]:
+      - link "Journal home" [ref=e48] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/sola/-char/en
+    - listitem [ref=e49]:
+      - link "All issues" [ref=e50] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/sola/list/-char/en
+    - listitem [ref=e51]:
+      - link "About the journal" [ref=e52] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/sola/_pubinfo/-char/en
+  - generic [ref=e53]:
+    - generic [ref=e55]:
+      - list:
+        - listitem [ref=e56]:
+          - link "J-STAGE home" [ref=e57] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+        - listitem [ref=e58]: /
+        - listitem [ref=e59]:
+          - link "SOLA" [ref=e60] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/sola/-char/en
+        - listitem [ref=e61]: /
+        - listitem [ref=e62]:
+          - link "Volume 10 (2014)" [ref=e63] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/sola/10/0/_contents/-char/en
+        - listitem [ref=e64]: /
+        - listitem [ref=e65]: Article overview
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: Preliminary Results of the JRA-55C, an Atmospheric Reanalysis Assimilating Conventional Observations Only
+        - generic [ref=e70]:
+          - link "Chiaki Kobayashi" [ref=e71] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Chiaki+Kobayashi
+          - text: ","
+          - link "Hirokazu Endo" [ref=e72] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Hirokazu+Endo
+          - text: ","
+          - link "Yukinari Ota" [ref=e73] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Yukinari+Ota
+          - text: ","
+          - link "Shinya Kobayashi" [ref=e74] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Shinya+Kobayashi
+          - text: ","
+          - link "Hirokatsu Onoda" [ref=e75] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Hirokatsu+Onoda
+          - text: ","
+          - link "Yayoi Harada" [ref=e76] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Yayoi+Harada
+          - text: ","
+          - link "Kazutoshi Onogi" [ref=e77] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Kazutoshi+Onogi
+          - text: ","
+          - link "Hirotaka Kamahori" [ref=e78] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Hirotaka+Kamahori
+          - generic [ref=e80] [cursor=pointer]: Author information
+          - text: 
+        - generic [ref=e81]:
+          - generic "JOURNAL" [ref=e82]
+          - generic "FREE ACCESS" [ref=e83]
+          - generic "Supplementary material" [ref=e84]
+        - paragraph [ref=e85]: 2014 Volume 10 Pages 78-82
+        - generic [ref=e86]:
+          - generic [ref=e87]: DOI
+          - link "https://doi.org/10.2151/sola.2014-016" [ref=e88] [cursor=pointer]:
+            - /url: https://doi.org/10.2151/sola.2014-016
+        - generic [ref=e90] [cursor=pointer]: Details
+      - generic [ref=e92]:
+        - link "Download PDF (1068K)" [ref=e93] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/article/sola/10/0/10_2014-016/_pdf/-char/en
+        - generic [ref=e95]:
+          - generic [ref=e96]: Download citation
+          - generic [ref=e97]: 
+          - link "RIS" [ref=e98] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=sola&noVol=10&noIssue=0&kijiCd=10_2014-016&kijiLangKrke=en&kijiToolIdHkwtsh=AT0072&request_locale=EN
+          - paragraph [ref=e99]: (compatible with EndNote, Reference Manager, ProCite, RefWorks)
+          - generic [ref=e100]: 
+          - link "BIB TEX" [ref=e101] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=sola&noVol=10&noIssue=0&kijiCd=10_2014-016&kijiLangKrke=en&kijiToolIdHkwtsh=AT0073&request_locale=EN
+          - paragraph [ref=e102]: (compatible with BibDesk, LaTeX)
+          - generic [ref=e103]: 
+          - link "Text" [ref=e104] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - link "How to download citation" [ref=e105] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/static/pages/HowToDownload/-char/en
+        - link "Contact us" [ref=e106] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/_pubinfo/-char/en#information
+  - generic [ref=e109]:
+    - generic [ref=e111]:
+      - generic [ref=e112]: Article overview
+      - navigation [ref=e113]:
+        - navigation [ref=e114]:
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "Abstract" [ref=e117] [cursor=pointer]:
+                - /url: "#article-overiew-abstract-wrap"
+            - listitem [ref=e118]:
+              - link "References (11)" [ref=e119] [cursor=pointer]:
+                - /url: "#article-overiew-references-wrap"
+            - listitem [ref=e120]:
+              - link "Content from these authors" [ref=e121] [cursor=pointer]:
+                - /url: "#author-information-wrap"
+            - listitem [ref=e122]:
+              - link "Supplementary material (1)" [ref=e123] [cursor=pointer]:
+                - /url: "#supplimentary-materials-wrap"
+            - listitem [ref=e124]:
+              - link "Cited by (57)" [ref=e125] [cursor=pointer]:
+                - /url: "#citedby-wrap"
+      - generic [ref=e126]:
+        - generic [ref=e127]: Share
+        - list:
+          - listitem [ref=e128]:
+            - link "" [ref=e129] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdoi.org%2F10.2151%2Fsola.2014-016
+              - generic [ref=e130]: 
+          - listitem [ref=e131]:
+            - link "X" [ref=e132] [cursor=pointer]:
+              - /url: http://twitter.com/share?url=https%3A%2F%2Fdoi.org%2F10.2151%2Fsola.2014-016&text=J-STAGE+Articles+-+Preliminary+Results+of+the+JRA-55C%2C+an+Atmospheric+Reanalysis+Assimilating+Conventional+Observations+Only
+              - img "X" [ref=e134]
+          - listitem [ref=e135]:
+            - link "" [ref=e136] [cursor=pointer]:
+              - /url: mailto:?body=SOLA%0A%0APreliminary%20Results%20of%20the%20JRA-55C%2C%20an%20Atmospheric%20Reanalysis%20Assimilating%20Conventional%20Observations%20Only%0A%0Ahttps%3A%2F%2Fdoi.org%2F10.2151%2Fsola.2014-016%0A
+              - generic [ref=e137]: 
+          - listitem [ref=e138]:
+            - link [ref=e139] [cursor=pointer]:
+              - /url: http://www.mendeley.com/import/?doi=10.2151/sola.2014-016
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: Abstract
+          - generic [ref=e145]: As a subset of the Japanese 55-year Reanalysis (JRA-55) project, the Meteorological Research Institute of the Japan Meteorological Agency is conducting a global atmospheric reanalysis that assimilates only conventional surface and upper air observations, with no use of satellite observations, using the same data assimilation system as the JRA-55. The project, named the JRA-55 Conventional (JRA-55C), aims to produce a more homogeneous dataset over a long period, unaffected by changes in historical satellite observing systems. The dataset is intended to be suitable for studies of climate change or multi-decadal variability. The climatological properties deduced from the early results of the JRA-55C are similar to those of the JRA-55 in the troposphere and lower stratosphere, except for high southern latitudes. On the basis of forecast skill, the quality of the JRA-55C is inferior to that of the JRA-55, but the JRA-55C has better temporal homogeneity than the JRA-55. The skill of the latter changes during the JRA-55 period. We have completed 85% of the entire JRA-55C calculation as of February 2014. We expect that the JRA-55C will contribute to a much better understanding of the impact of changes in observing systems on climate trends and variability estimated from the JRA-55.
+        - generic [ref=e147]: References (11)
+        - generic [ref=e152] [cursor=pointer]: Content from these authors
+        - generic [ref=e154]: Supplementary material (1)
+        - generic [ref=e157]: Cited by (57)
+        - generic [ref=e160]: © 2014 by the Meteorological Society of Japan
+        - generic [ref=e161]:
+          - link "Previous article" [ref=e162] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/article/sola/10/0/10_2014-015/_article/-char/en
+          - link "Next article" [ref=e163] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/article/sola/10/0/10_2014-017/_article/-char/en
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]: Favorites & Alerts
+          - list [ref=e168]:
+            - listitem [ref=e169]:
+              - link "Add to favorites" [ref=e170] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e171]:
+              - link "Additional info alert" [ref=e172] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e173]:
+              - link "Citation alert" [ref=e174] [cursor=pointer]:
+                - /url: " javascript:;"
+            - listitem [ref=e175]:
+              - link "Authentication alert" [ref=e176] [cursor=pointer]:
+                - /url: javascript:;
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e181]: Related articles
+          - generic [ref=e182]: 
+        - generic [ref=e183]: Recently viewed articles
+        - list [ref=e184]:
+          - listitem [ref=e185]:
+            - link "Contrasting the Effect of Iron Mobilization on Soluble Iron Deposition to the Ocean in the Northern and Southern Hemispheres" [ref=e186] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/jmsj/90A/0/90A_2012-A09/_article/-char/en
+          - listitem [ref=e187]:
+            - link "Intraseasonal Variability of δ18O of Precipitation over the Indonesian Maritime Continent Related to the Madden–Julian Oscillation" [ref=e188] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/12/0/12_2016-039/_article/-char/en
+              - text: Intraseasonal Variability of δ
+              - superscript [ref=e189]: "18"
+              - text: O of Precipitation over the Indonesian Maritime Continent Related to the Madden–Julian Oscillation
+          - listitem [ref=e190]:
+            - link "Rapid Intensification of a Winter Misocyclone under an Isolated Convective Cloud after Landfall" [ref=e191] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/13/0/13_2017-014/_article/-char/en
+          - listitem [ref=e192]:
+            - link "Characteristics of Lightning Jumps Associated with a Tornadic Supercell on 2 September 2013" [ref=e193] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/11/0/11_2015-005/_article/-char/en
+          - listitem [ref=e194]:
+            - link "Large Eddy Simulation on Dust Suspension in a Convective Mixed Layer" [ref=e195] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/6/0/6_0_133/_article/-char/en
+        - generic [ref=e196]:
+          - generic [ref=e197]: Announcements from publisher
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - text: "Call for Papers in Special Editions:"
+              - link "Advances in Studies of Torrential-Rain-Producing Quasi-Stationary Band-Shaped Precipitating Systems, or 'Senjo-Kousuitai" [ref=e201] [cursor=pointer]:
+                - /url: https://metsoc.jp/sola/CallForPaperQSPS.pdf
+              - link "Special Edition on the Frontier of Atmospheric Science with High Performance Computing" [ref=e203] [cursor=pointer]:
+                - /url: https://metsoc.jp/sola/Call_for_Papers_JMSJ_SOLA_Special_Edition_HPC.pdf
+            - listitem [ref=e204]:
+              - generic [ref=e205]: SOLA's SNS
+              - generic [ref=e207]:
+                - text: "Facebook:"
+                - link "https://www.facebook.com/SOLA.metsoc/" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.facebook.com/SOLA.metsoc/
+              - generic [ref=e209]:
+                - text: "Twitter:"
+                - link "https://twitter.com/SOLA_metsoc" [ref=e210] [cursor=pointer]:
+                  - /url: https://twitter.com/SOLA_metsoc
+        - link [ref=e212] [cursor=pointer]:
+          - /url: https://www.metsoc.jp/sola/index.html
+        - link [ref=e214] [cursor=pointer]:
+          - /url: http://metsoc.jp/en
+        - text:  
+  - contentinfo [ref=e216]:
+    - generic [ref=e218]:
+      - text: Edited and published by Meteorological Society of Japan
+      - text: Production services Gakujutsu-tosho Printing Co. Ltd.
+    - generic [ref=e219]:
+      - link "Top" [ref=e220] [cursor=pointer]:
+        - /url: "#0"
+      - generic [ref=e221]:
+        - generic [ref=e222]:
+          - generic [ref=e223]: Browse
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - link "All titles" [ref=e226] [cursor=pointer]:
+                - /url: /journal/list/-char/en
+            - listitem [ref=e227]:
+              - link "All subject areas" [ref=e228] [cursor=pointer]:
+                - /url: /journal/fields/-char/en
+            - listitem [ref=e229]:
+              - link "All publishers" [ref=e230] [cursor=pointer]:
+                - /url: /journal/publisher/-char/en
+            - listitem [ref=e231]:
+              - link "Search articles" [ref=e232] [cursor=pointer]:
+                - /url: /search/global/_search/-char/en
+            - listitem [ref=e233]:
+              - link "Search J-STAGE Data" [ref=e234] [cursor=pointer]:
+                - /url: https://jstagedata.jst.go.jp/
+        - generic [ref=e235]:
+          - generic [ref=e236]: About J-STAGE
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "Overview" [ref=e239] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en
+            - listitem [ref=e240]:
+              - link "Services and features" [ref=e241] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en
+            - listitem [ref=e242]:
+              - link "Public data" [ref=e243] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en
+            - listitem [ref=e244]:
+              - link "Terms and Policy" [ref=e245] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en
+        - generic [ref=e246]:
+          - generic [ref=e247]: News and PR
+          - list [ref=e248]:
+            - listitem [ref=e249]:
+              - link "News" [ref=e250] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en
+            - listitem [ref=e251]:
+              - link "Maintenance information" [ref=e252] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en
+            - listitem [ref=e253]:
+              - link "Special contents" [ref=e254] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en
+            - listitem [ref=e255]:
+              - link "Media resources" [ref=e256] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en
+        - generic [ref=e257]:
+          - generic [ref=e258]: Support
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "User manuals" [ref=e261] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en
+            - listitem [ref=e262]:
+              - link "Browser compatibility" [ref=e263] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en
+            - listitem [ref=e264]:
+              - link "FAQ" [ref=e265] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en
+            - listitem [ref=e266]:
+              - link "Contact" [ref=e267] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Contact/-char/en
+            - listitem [ref=e268]:
+              - link "Sitemap" [ref=e269] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en
+  - link "feedback" [ref=e272] [cursor=pointer]:
+    - /url: https://form2.jst.go.jp/s/jstage-feedback
+  - generic [ref=e273]:
+    - link "" [ref=e274] [cursor=pointer]:
+      - /url: javascript:;
+      - generic [ref=e275]: 
+    - heading "Register with J-STAGE for free!" [level=3] [ref=e276]
+    - link "Register" [ref=e277] [cursor=pointer]:
+      - /url: /myregister/-char/en
+    - paragraph [ref=e278]:
+      - text: Already have an account? Sign in
+      - link "here" [ref=e279] [cursor=pointer]:
+        - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fsola%2F10%2F0%2F10_2014-016%2F_article%2F-char%2Fen

@@ -1,0 +1,6 @@
+[    1165ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=AEMO+smoke+forecast+Australia+BOM+EPA:52
+[    1165ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=AEMO+smoke+forecast+Australia+BOM+EPA:52
+[    2016ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=AEMO+smoke+forecast+Australia+BOM+EPA:52
+[    2016ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=AEMO+smoke+forecast+Australia+BOM+EPA:52
+[    3010ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://encrypted-tbn3.gstatic.com/faviconV2?url=https://files-em.em.vic.gov.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL:0
+[    4176ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=AEMO+smoke+forecast+Australia+BOM+EPA:33

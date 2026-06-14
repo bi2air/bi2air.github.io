@@ -1,0 +1,277 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation "tertiary" [ref=e4]:
+      - generic [ref=e6]:
+        - text: A NSW Government website
+        - link "Skip to content" [ref=e7] [cursor=pointer]:
+          - /url: "#maincontent"
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Contact us" [ref=e10] [cursor=pointer]:
+              - /url: /pages/contact.aspx
+          - listitem [ref=e11]:
+            - link "In an emergency" [ref=e12] [cursor=pointer]:
+              - /url: /emergency
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Print Page" [ref=e15] [cursor=pointer]:
+              - /url: javascript:window.print();
+          - listitem [ref=e16]:
+            - link "Increase Font Size" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e18]:
+            - link "Decrease Font Size" [ref=e19] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=e21]:
+      - banner:
+        - generic [ref=e22]:
+          - link "NSW Government - NSW Health - Home" [ref=e23] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e24]: NSW Health
+          - text: NSW Health
+        - generic [ref=e25]:
+          - textbox "tìm kiếm" [ref=e31]:
+            - /placeholder: Search...
+          - navigation "site":
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "Careers" [ref=e36] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e37]:
+                - link "Public" [ref=e38] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e39]:
+                - link "Healthy living" [ref=e40] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e41]:
+                - link "Professionals" [ref=e42] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e43]:
+                - link "Research" [ref=e44] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e45]:
+                - link "Publications" [ref=e46] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e47]:
+                - link "Media" [ref=e48] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e49]:
+                - link "About" [ref=e50] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e51]:
+                - link "Ministers" [ref=e52] [cursor=pointer]:
+                  - /url: javascript:void(0)
+      - main [ref=e54]:
+        - navigation "breadcrumb" [ref=e55]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Home" [ref=e58] [cursor=pointer]:
+                - /url: /Pages/default.aspx
+            - listitem [ref=e59]: The file (URL) you have entered was not found...
+        - navigation "section" [ref=e61]:
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "NSW Health Currently selected" [ref=e65] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e66]:
+                  - text: NSW Health
+                  - generic [ref=e67]: Currently selected
+            - listitem [ref=e68]:
+              - link "A to Z" [ref=e69] [cursor=pointer]:
+                - /url: /Pages/a2z.aspx
+                - generic [ref=e70]: A to Z
+            - listitem [ref=e71]:
+              - link "Accessibility" [ref=e72] [cursor=pointer]:
+                - /url: /accessibility
+                - generic [ref=e73]: Accessibility
+            - listitem [ref=e74]:
+              - link "Contact us" [ref=e75] [cursor=pointer]:
+                - /url: /Pages/contact.aspx
+                - generic [ref=e76]: Contact us
+            - listitem [ref=e77]:
+              - link "Copyright" [ref=e78] [cursor=pointer]:
+                - /url: /Pages/copyright.aspx
+                - generic [ref=e79]: Copyright
+            - listitem [ref=e80]:
+              - link "Disclaimer" [ref=e81] [cursor=pointer]:
+                - /url: /Pages/disclaimer.aspx
+                - generic [ref=e82]: Disclaimer
+            - listitem [ref=e83]:
+              - link "Feedback" [ref=e84] [cursor=pointer]:
+                - /url: /Pages/feedback.aspx
+                - generic [ref=e85]: Feedback
+            - listitem [ref=e86]:
+              - link "Privacy" [ref=e87] [cursor=pointer]:
+                - /url: /Pages/privacy.aspx
+                - generic [ref=e88]: Privacy
+            - listitem [ref=e89]:
+              - link "RSS" [ref=e90] [cursor=pointer]:
+                - /url: /Pages/rss.aspx
+                - generic [ref=e91]: RSS
+        - heading "The file (URL) you have entered was not found..." [level=1] [ref=e92]
+        - generic [ref=e93]:
+          - generic "Content 1" [ref=e94]:
+            - heading "The file (URL) you have entered cannot be displayed" [level=2] [ref=e95]
+            - paragraph [ref=e96]: "This may be because:"
+            - list [ref=e97]:
+              - listitem [ref=e98]: the URL you entered is incorrect - please check the URL you have entered
+              - listitem [ref=e99]: this URL does not exist any longer - please try a different URL
+              - listitem [ref=e100]: the system is busy now - please reload or try again later.
+            - paragraph [ref=e101]:
+              - link "Find information by health topic" [ref=e102] [cursor=pointer]:
+                - /url: /pages/a2z.aspx
+          - generic "Content 2"
+          - generic [ref=e105]:
+            - text: "Contact page owner:"
+            - link "Strategic Communications and Engagement" [ref=e106] [cursor=pointer]:
+              - /url: "#"
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]:
+      - navigation "footer" [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "Patients and public" [level=2] [ref=e113]
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - link "healthdirect Australia" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.healthdirect.gov.au/
+              - listitem [ref=e117]:
+                - link "Find a public hospital" [ref=e118] [cursor=pointer]:
+                  - /url: https://parking.health.nsw.gov.au/
+              - listitem [ref=e119]:
+                - link "ED waiting times" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.emergencywait.health.nsw.gov.au/
+              - listitem [ref=e121]:
+                - link "Patient care" [ref=e122] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/patients/pages/default.aspx
+          - generic [ref=e123]:
+            - heading "NSW Health" [level=2] [ref=e124]
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - link "Our structure" [ref=e127] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/about/nswhealth/pages/structure.aspx
+              - listitem [ref=e128]:
+                - link "Local health districts" [ref=e129] [cursor=pointer]:
+                  - /url: /lhd/Pages/default.aspx
+              - listitem [ref=e130]:
+                - link "Your Ministers" [ref=e131] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/ministers/Pages/default.aspx
+              - listitem [ref=e132]:
+                - link "Future Health" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/about/nswhealth/Pages/future-health.aspx
+          - generic [ref=e134]:
+            - heading "Publications" [level=2] [ref=e135]
+            - list [ref=e136]:
+              - listitem [ref=e137]:
+                - link "Policies and guidelines" [ref=e138] [cursor=pointer]:
+                  - /url: https://www1.health.nsw.gov.au/pds/Pages/pdslanding.aspx
+              - listitem [ref=e139]:
+                - link "Fact sheets" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/factsheets/Pages/default.aspx
+              - listitem [ref=e141]:
+                - link "Control guidelines" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/Infectious/controlguideline/pages/default.aspx
+              - listitem [ref=e143]:
+                - link "Multilingual resources" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.mhcs.health.nsw.gov.au/publications
+          - generic [ref=e145]:
+            - heading "Popular links" [level=2] [ref=e146]
+            - list [ref=e147]:
+              - listitem [ref=e148]:
+                - link "Health topics from A to Z" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/Pages/a2z.aspx
+              - listitem [ref=e150]:
+                - link "Mental health" [ref=e151] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/mentalhealth/pages/default.aspx
+              - listitem [ref=e152]:
+                - link "Safe Script" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/safescript
+              - listitem [ref=e154]:
+                - link "Quit vaping or smoking" [ref=e155] [cursor=pointer]:
+                  - /url: /tobacco/Pages/services-to-help-you-quit.aspx
+          - generic [ref=e156]:
+            - heading "Careers" [level=2] [ref=e157]
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - link "Search for a job" [ref=e160] [cursor=pointer]:
+                  - /url: https://jobs.health.nsw.gov.au/
+              - listitem [ref=e161]:
+                - link "JMO recruitment" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/jmo/pages/default.aspx
+              - listitem [ref=e163]:
+                - link "Awards and conditions" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/careers/conditions/pages/default.aspx
+              - listitem [ref=e165]:
+                - link "Imagine Rural" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.health.nsw.gov.au/careers/imagine-rural/Pages/default.aspx
+          - generic [ref=e167]:
+            - heading "Campaigns" [level=2] [ref=e168]
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - link "Raise It" [ref=e171] [cursor=pointer]:
+                  - /url: /Hospitals/Going_To_hospital/Pages/raise-it.aspx
+              - listitem [ref=e172]:
+                - link "Healthcare anywhere" [ref=e173] [cursor=pointer]:
+                  - /url: /Hospitals/Pages/healthdirect.aspx
+              - listitem [ref=e174]:
+                - link "Respiratory illness" [ref=e175] [cursor=pointer]:
+                  - /url: /Infectious/respiratory/Pages/default.aspx
+              - listitem [ref=e176]:
+                - link "Childhood vaccination" [ref=e177] [cursor=pointer]:
+                  - /url: /immunisation/app/Pages/default.aspx
+        - paragraph [ref=e178]: NSW Health acknowledges the people of the many traditional countries and language groups of New South Wales. It acknowledges the wisdom of Elders past and present, and pays respect to all Aboriginal communities of today.
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic:
+            - list:
+              - listitem [ref=e181]:
+                - link "NSW Government" [ref=e182] [cursor=pointer]:
+                  - /url: https://www.nsw.gov.au/
+              - listitem [ref=e183]:
+                - link "Service NSW" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.service.nsw.gov.au/
+              - listitem [ref=e185]:
+                - link "Jobs" [ref=e186] [cursor=pointer]:
+                  - /url: https://jobs.health.nsw.gov.au/
+              - listitem [ref=e187]:
+                - link "Accessibility" [ref=e188] [cursor=pointer]:
+                  - /url: /accessibility
+              - listitem [ref=e189]:
+                - link "Copyright" [ref=e190] [cursor=pointer]:
+                  - /url: /pages/copyright.aspx
+              - listitem [ref=e191]:
+                - link "Disclaimer" [ref=e192] [cursor=pointer]:
+                  - /url: /pages/disclaimer.aspx
+              - listitem [ref=e193]:
+                - link "Privacy" [ref=e194] [cursor=pointer]:
+                  - /url: /pages/privacy.aspx
+              - listitem [ref=e195]:
+                - link "RSS feeds" [ref=e196] [cursor=pointer]:
+                  - /url: /pages/rss.aspx
+        - generic [ref=e197]:
+          - generic:
+            - list:
+              - listitem [ref=e198]:
+                - link "NSW Health on Twitter" [ref=e199] [cursor=pointer]:
+                  - /url: https://x.com/NSWHealth
+                  - img "NSW Health on Twitter" [ref=e200]
+              - listitem [ref=e201]:
+                - link "NSW Health on Facebook" [ref=e202] [cursor=pointer]:
+                  - /url: https://facebook.com/NewSouthWalesHealth
+                  - img "NSW Health on Facebook" [ref=e203]
+              - listitem [ref=e204]:
+                - link "NSW Health on LinkedIn" [ref=e205] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/company/nsw-health
+                  - img "NSW Health on LinkedIn" [ref=e206]
+              - listitem [ref=e207]:
+                - link "NSW Health on YouTube" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/NewSouthWalesHealth/featured
+                  - img "NSW Health on YouTube" [ref=e209]
+              - listitem [ref=e210]:
+                - link "NSW Health on Instagram" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.instagram.com/newsouthwaleshealth/
+                  - img "NSW Health on Instagram" [ref=e212]
+              - listitem [ref=e213]:
+                - link "NSW Health on TikTok" [ref=e214] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@nswhealth
+                  - img "NSW Health on TikTok" [ref=e215]

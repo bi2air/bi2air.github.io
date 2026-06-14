@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Đến trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&sa=X&ved=0ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Tìm kiếm" [ref=e25]: NIES Japan MASINGAR PM2.5 aerosol forecast operational site:nies.go.jp NIES Japan MASINGAR PM2.5 aerosol forecast operational site:nies.go.jp
+            - generic [ref=e26]:
+              - button "Xóa" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Công cụ nhập" [ref=e34] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Tìm kiếm bằng giọng nói" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e41] [cursor=pointer]:
+                  - img [ref=e42]
+          - button "Tìm kiếm" [ref=e44] [cursor=pointer]:
+            - img [ref=e47]
+    - generic [ref=e49]:
+      - button "Cài đặt" [ref=e51] [cursor=pointer]:
+        - img [ref=e54]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DNIES%2BJapan%2BMASINGAR%2BPM2.5%2Baerosol%2Bforecast%2Boperational%2Bsite:nies.go.jp&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&sca_esv=d12162df5757eaf7&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&aep=1&ntc=1&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQ2J8OegQIDhAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQtKgLegQIFBAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Video" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQtKgLegQIEhAB
+              - generic [ref=e98]: Video
+          - listitem [ref=e99]:
+            - link "Tin tức" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQ0pQJegQIERAB
+              - generic [ref=e102]: Tin tức
+          - listitem [ref=e103]:
+            - link "Mua sắm" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&ved=1t:220175&ictx=111
+              - generic [ref=e106]: Mua sắm
+          - listitem [ref=e107]:
+            - link "Video ngắn" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQs6gLegQIEBAB
+              - generic [ref=e110]: Video ngắn
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Mbqr-hrl7aqSxXbX4wTBnbzWBS0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DNIES%2BJapan%2BMASINGAR%2BPM2.5%2Baerosol%2Bforecast%2Boperational%2Bsite:nies.go.jp&hl=en&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQhoQCKAF6BAgMEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwja_PO4xv6UAxXSyzQHHTpPI7IQiIQCKAN6BAgMEAY#languages
+    - main [ref=e144]:
+      - generic [ref=e146]:
+        - generic [ref=e148]:
+          - heading "Không tìm thấy NIES Japan MASINGAR PM2.5 aerosol forecast operational site:nies.go.jp trong tài liệu nào." [level=3] [ref=e149]:
+            - text: Không tìm thấy
+            - emphasis [ref=e151]: NIES Japan MASINGAR PM2.5 aerosol forecast operational site:nies.go.jp
+            - text: trong tài liệu nào.
+          - paragraph [ref=e152]: "Ðề xuất:"
+          - list [ref=e153]:
+            - listitem [ref=e154]: Xin bạn chắc chắn rằng tất cả các từ đều đúng chính tả.
+            - listitem [ref=e155]: Hãy thử những từ khóa khác.
+            - listitem [ref=e156]: Hãy thử những từ khóa chung hơn.
+            - listitem [ref=e157]: Hãy thử bớt từ khóa.
+          - img "Hình ảnh một người tuyết đang câu gì đó trong băng" [ref=e161]:
+            - img [ref=e165]
+        - generic [ref=e248]:
+          - heading "Thông báo về Kết quả bị lọc" [level=2] [ref=e249]
+          - paragraph [ref=e251]:
+            - generic [ref=e252]:
+              - text: Để hiển thị cho bạn các kết quả có liên quan nhất, chúng tôi đã bỏ đi một số mục nhập rất giống với 0 kết quả đã hiển thị.
+              - text: Nếu muốn, bạn có thể
+              - link "lặp lại tìm kiếm với các kết quả đã bỏ đi được bao gồm" [ref=e253] [cursor=pointer]:
+                - /url: /search?q=NIES+Japan+MASINGAR+PM2.5+aerosol+forecast+operational+site:nies.go.jp&sca_esv=d12162df5757eaf7&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=e254]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e255]
+      - generic [ref=e259]:
+        - generic [ref=e261]:
+          - text: Việt Nam
+          - generic [ref=e263]:
+            - button "Hà Đông, Hà Nội - Dựa trên địa chỉ IP của bạn" [ref=e265] [cursor=pointer]:
+              - generic [ref=e266]: Hà Đông, Hà Nội
+              - generic [ref=e268]:
+                - text: "-"
+                - generic [ref=e269]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e271] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e274]:
+          - link "Trợ giúp" [ref=e275] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e276] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e277] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e278] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

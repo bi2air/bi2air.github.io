@@ -1,0 +1,280 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip to Main Content":
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Open Menu" [ref=e6] [cursor=pointer]
+      - img "Open Search" [ref=e9] [cursor=pointer]
+      - navigation "Main Menu" [ref=e11]:
+        - generic [ref=e13]:
+          - link "University of North Dakota" [ref=e14] [cursor=pointer]:
+            - /url: https://und.edu
+            - img "University of North Dakota" [ref=e16]
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - button "Logins" [ref=e20] [cursor=pointer]: Logins
+            - listitem [ref=e22]:
+              - button "Info For" [ref=e23] [cursor=pointer]: Info For
+            - listitem [ref=e25]:
+              - link "Calendar" [ref=e26] [cursor=pointer]:
+                - /url: https://calendar.und.edu/calendar?event_types%5B%5D=110511
+            - listitem [ref=e27]:
+              - link "Directory" [ref=e28] [cursor=pointer]:
+                - /url: https://campus.und.edu/directory/index.html
+            - listitem [ref=e29]:
+              - button [ref=e30] [cursor=pointer]
+          - link "John D. Odegard School of Aerospace Sciences" [ref=e33] [cursor=pointer]:
+            - /url: /
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "About the College" [ref=e38] [cursor=pointer]:
+              - /url: /about/index.html
+          - listitem [ref=e39]:
+            - link "Academics" [ref=e40] [cursor=pointer]:
+              - /url: /academics.html
+          - listitem [ref=e41]:
+            - link "Admissions" [ref=e42] [cursor=pointer]:
+              - /url: https://und.edu/admissions/index.html
+          - listitem [ref=e43]:
+            - link "Aerospace Success Center" [ref=e44] [cursor=pointer]:
+              - /url: /success-center/index.html
+          - listitem [ref=e45]:
+            - link "Research" [ref=e46] [cursor=pointer]:
+              - /url: /research.html
+    - main [ref=e47]:
+      - navigation "breadcrumb" [ref=e49]:
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Home" [ref=e52] [cursor=pointer]:
+              - /url: https://aero.und.edu
+              - img "Home" [ref=e54]
+          - listitem [ref=e56]:
+            - text: /
+            - link "Atmospheric Sciences" [ref=e57] [cursor=pointer]:
+              - /url: https://aero.und.edu/atmos/index.html
+          - listitem [ref=e58]:
+            - text: /
+            - link "ICAP" [ref=e59] [cursor=pointer]:
+              - /url: https://aero.und.edu/atmos/icap/index.html
+          - listitem [ref=e60]: /Past Meetings
+      - generic [ref=e62]:
+        - complementary "Sidebar" [ref=e63]:
+          - navigation "Section" [ref=e64]:
+            - link "Skip Section Navigation" [ref=e65] [cursor=pointer]:
+              - /url: "#side-content"
+            - list [ref=e66]:
+              - listitem [ref=e67]:
+                - link "ICAP" [ref=e68] [cursor=pointer]:
+                  - /url: /atmos/icap/index.html
+              - listitem [ref=e69]:
+                - link "Past Meetings" [ref=e70] [cursor=pointer]:
+                  - /url: /atmos/icap/past-meetings.html
+        - generic [ref=e71]:
+          - heading "Past Meetings" [level=1] [ref=e72]
+          - 'heading "10 Years of a Global Aerosol Forecast Community: What''s next?" [level=2] [ref=e73]'
+          - paragraph [ref=e74]: October 18-21, 2022 • Monterey, CA
+          - paragraph [ref=e75]: "At the 10 year anniversary of ICAP, the meeting returns to Monterey, CA to evaluate how the global aerosol community has developed, and what are the needs and challenges of the decade to come. Topics include: next-generation satellite sensors, retrievals, and anticipated data assimilation technologies; aerosol medium-range and seasonal forecasting within global NWP models; continued development of multi-model consensus products and ensembles; incorporation of ground network information into aerosol systems; big data analysis, sharing and archival best practices; and more unified data conventions and verification metrics."
+          - heading "Documents (Open this section)" [level=3] [ref=e78]:
+            - button "Documents (Open this section)" [ref=e79] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e80]: (Open this section)
+              - img [ref=e82]
+          - separator [ref=e84]
+          - heading "Utilization of the new observations from the next generation of GEO and LEO platforms" [level=2] [ref=e85]
+          - paragraph [ref=e86]: July 22-24, 2019 • Tsukuba, Japan
+          - paragraph [ref=e87]: The arrival of high-quality, high time frequency aerosol observations from geostationary platforms such as Himawari and GOES-16 presents new opportunities and challenges to the aerosol prediction community. How much data is practically available from these sensors? How do we assure the quality and consistency of these datasets both internally and across platforms? How are these data to be utilized with an evolving set of LEO sensors to provide the best constraints on global aerosol forecasting systems? The purpose of this 11th Working Group Meeting is to review the state-of-the-art in aerosol remote sensing, particularly as relates to these new geostationary capabilities and how they are used in conjunction with long established ground- and LEO observing systems to inform aerosol data assimilation systems. Expert talks will be invited related to aerosol remote sensing, data assimilation, and modeling, and the meeting will update on the progress of the individual aerosol modeling centers.
+          - heading "Documents (Open this section)" [level=3] [ref=e90]:
+            - button "Documents (Open this section)" [ref=e91] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e92]: (Open this section)
+              - img [ref=e94]
+          - separator [ref=e96]
+          - 'heading "Seamless model development: Aerosol modelling across timescales" [level=2] [ref=e97]'
+          - paragraph [ref=e98]: June 6-8, 2018 • Exeter, United Kingdom
+          - paragraph [ref=e99]: While the direct and indirect radiative effects of aerosol particles have long been a major focus in the area in climate research, the inclusion of aerosols in Numerical Weather Prediction (NWP) models has received less attention and development effort. Only recently has there been significant attention to the question of whether or not the inclusion of aerosol particles in NWP models can improve forecasts spanning medium-range to seasonal time-scales. A further emerging trend among global model development centres is towards a "seamless" approach to both NWP and climate model development, whereby models of the atmosphere and wider Earth system are developed, as much as possible, to meet the both climate and NWP applications. The particular focus of the 10th Working Group Meeting is to explore the questions which arise from these trends. In particular, how do you best develop models for both NWP and climate applications that are consistent across regional to global scales, and how does this, or should this, work for aerosols in particular?
+          - heading "Documents (Open this section)" [level=3] [ref=e102]:
+            - button "Documents (Open this section)" [ref=e103] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e104]: (Open this section)
+              - img [ref=e106]
+          - separator [ref=e108]
+          - heading "Radiative Transfer and Impacts of Aerosol Radiative Forcing on Numerical Weather Prediction" [level=2] [ref=e109]
+          - paragraph [ref=e110]: June 26-28, 2017 • Lille, France
+          - paragraph [ref=e111]: The purpose of the 9th Working Group Meeting is to assess the current state-of-the-art and capabilities of radiative transfer models and techniques as applicable to remote sensing of aerosols in the Earth system and use in numerical weather prediction (NWP) models. Recent progress in aerosol remote sensing has placed a considerable demand on radiative transfer forward modeling capabilities in order to close the observation problem, including the use of polarimetric and multi-angle measurements and additional consideration of the surface BRDF. Data assimilation approaches for aerosol prediction models are increasingly dependent themselves on forward-modeling observed quantities (i.e., radiance) from the model fundamental parameters of aerosol mass and composition, including how the aerosol radiances potentially impact the radiance simulation for traditional NWP meteorological data assimilation (e.g., temperature). Further, the inclusion of aerosol radiative transfer inline in NWP models permits radiative forcing of the aerosols to feed back on the NWP solution itself. We will review the current state-of-the-art and current capabilities of the ICAP and other modeling centers, share recent progress, and plan for the future.
+          - heading "Documents (Open this section)" [level=3] [ref=e114]:
+            - button "Documents (Open this section)" [ref=e115] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e116]: (Open this section)
+              - img [ref=e118]
+          - separator [ref=e120]
+          - heading "Lidar Data and its use in Model Verification and Data Assimilation" [level=2] [ref=e121]
+          - paragraph [ref=e122]: July 12-14, 2016 • College Park, MD
+          - paragraph [ref=e123]: The purpose of this meeting is to assess the current status and utility of lidar data for verification and data assimilation in operational aerosol prediction systems. A number of coordinated ground-based lidar networks have come online in recent years and there have been recent advances in space-based and airborne lidar capabilities. Increasingly there is recognition among data providers of the value of providing lidar products to users in near real-time. Operational prediction centers are now developing techniques to formally assimilate lidar observations into their analyses, and verification activities are ongoing. There is a need for common understanding of the capabilities and limitations of these observations in order for them to be properly used in verification and assimilation efforts. It is an appropriate time to evaluate the current state of the science in the field, share recent progress, and prepare for the future.
+          - heading "Documents (Open this section)" [level=3] [ref=e126]:
+            - button "Documents (Open this section)" [ref=e127] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e128]: (Open this section)
+              - img [ref=e130]
+          - separator [ref=e132]
+          - heading "Assimilation" [level=2] [ref=e133]
+          - paragraph [ref=e134]: June 16-19, 2015 • Barcelona, Spain
+          - paragraph [ref=e135]: The purpose of this meeting is to assess the current status of the aerosol assimilation at the various centers participating in ICAP and discuss future directions. Product and radiance assimilation has greatly advanced and many new products have come online specifically for operational and quasi-operation developers. Ground-based remote sensing systems are also becoming more attractive to assimilation. Many aerosol developers feel it is an appropriate time to evaluate the current state of the science in the field, share recent progress, and prepare for the future.
+          - heading "Documents (Open this section)" [level=3] [ref=e138]:
+            - button "Documents (Open this section)" [ref=e139] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e140]: (Open this section)
+              - img [ref=e142]
+          - separator [ref=e144]
+          - heading "Validation" [level=2] [ref=e145]
+          - paragraph [ref=e146]: October 21-24, 2014 • Boulder, CO
+          - paragraph [ref=e147]: The primary goal of the 2014 ICAP meeting is development of an agreement on the complex topic of data verification protocols. The meeting will, as traditional, begin with updates of recent, current, and planned activities from each operational aerosol forecasting center. Over the planned meeting days, protocols and methods for the exchange of data among the research groups will be recommended and updated, and large- and small-group discussions on key aerosol topics of mutual concern to the ICAP members will take place. The gathering will end with an understanding for areas of mutual development for the coming year, collaboration on international field experiments, and protocols for validation and data exchanges.
+          - heading "Documents (Open this section)" [level=3] [ref=e150]:
+            - button "Documents (Open this section)" [ref=e151] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e152]: (Open this section)
+              - img [ref=e154]
+          - separator [ref=e156]
+          - heading "Recent Progress in Aerosol Observability for Global Modeling" [level=2] [ref=e157]
+          - paragraph [ref=e158]: November 5-8, 2013 • Tsukuba, Japan
+          - paragraph [ref=e159]: In 2010 aerosol forecast developers from many of the world's forecasting centers met with remote sensing data providers to discuss the aerosol observability issues facing the next generation of aerosol forecast systems. This meeting inaugurated the International Cooperative for Aerosol Prediction, a grass roots community to share best practices and voice common concern. The purpose of the first meeting was not to generate a long list of new variables needed by models, but rather to investigate the continuation and further characterization as to what is available now and plan for the future. The key issues brought up in presentations and discussion were those of observational requirements and available data streams as the field develops from research endeavors, which were supported by research satellites, to fully operational entities with rigid system and operational satellite counterparts. Now 3 years later, much has changed in the remote sensing and observation landscape. NPP has launched, MODIS collection 6 is nearing completion, and a host of new lidar systems are in production. Product and radiance assimilation has greatly advanced, and many new products have come online specifically for operational and quasi-operation developers. Ground-based remote sensing systems are also becoming more attractive to assimilation. Many aerosol developers feel it is an appropriate time to evaluate the current state of the science in the field, share recent progress, and prepare for the future.
+          - heading "Documents (Open this section)" [level=3] [ref=e162]:
+            - button "Documents (Open this section)" [ref=e163] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e164]: (Open this section)
+              - img [ref=e166]
+          - separator [ref=e168]
+          - heading "Aerosol Emission and Removal Processes" [level=2] [ref=e169]
+          - paragraph [ref=e170]: May 14-17, 2012 • Frascati, Italy
+          - paragraph [ref=e171]: This 4th ICAP meeting will focus on issues and recent advances in the description of aerosol processes related to production and removal. Some of these issues were identified at the previous ICAP meeting as crucial to the further development of the forecast and analysis systems. Most forecast "busts" observed in the aerosol forecasts from the ICAP models can in fact be ascribed either to a poor representation of the emissions and/or to the parameterizations related to aerosol sinks (wet deposition, sedimentation, aqueous chemistry, etc.). Some of these issues are also faced by the climate modeling community (i.e. AEROCOM). Some mutually-beneficial solutions will be sought through a series of informative invited tutorials, followed by discussions. Challenges presented by highly temporally varying emission sources, such as wildfires, will be discussed. State-of-the-art (NRT) emissions methods will be reviewed. The ICAP meeting will be complemented by a one day workshop on the benefits of present and future satellite observations in aerosol science, modeling and assimilation with presentations by ESA, NASA, JAXA representatives and other international satellite data experts. An update on NPP VIIRS aerosol products will be included.
+          - heading "Documents (Open this section)" [level=3] [ref=e174]:
+            - button "Documents (Open this section)" [ref=e175] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e176]: (Open this section)
+              - img [ref=e178]
+          - separator [ref=e180]
+          - heading "Ensemble Forecasts and Data Assimilation" [level=2] [ref=e181]
+          - paragraph [ref=e182]: May 11-13, 2011 • Boulder, CO
+          - paragraph [ref=e183]: This third meeting of the aerosol forecasting community will focus on the use of ensemble forecasts to improve event predictability. The NWP community has, for some time, been exploring the potential of multi-model ensembles to enhance understanding of forecast uncertainty (e.g., the WMO TIGGE project). At the same time, the European air quality community has already implemented an operational multi-model ensemble of regional forecasting system to enhance air quality forecast skill, which has been a major achievement both in terms of coordination between different modeling centers and also with the data providers. Meanwhile, the global aerosol community is just beginning to explore the possibility of ensembles (e.g., the "AeroCom Median" model, composed of several independent, deterministic models). So far, however, this latter effort has not been applied to the issue of predictability, but rather has been focused on "climate" applications (e.g., how well the ensemble compares to MODIS over the EOS period). Lessons from the NWP and European AQ communities' efforts suggest considerations for the aerosol forecasting community, from practical issues such as assembling the multi-model ensemble from disparate forecasting efforts, to optimal methods of creating the multi-model ensemble (e.g., bias correction), issues of ensemble data assimilation, and ultimately the evaluation of the benefit of such a system. This workshop will be an initial foray into these endeavors.
+          - heading "Documents (Open this section)" [level=3] [ref=e186]:
+            - button "Documents (Open this section)" [ref=e187] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e188]: (Open this section)
+              - img [ref=e190]
+          - separator [ref=e192]
+          - heading "Model Verification" [level=2] [ref=e193]
+          - paragraph [ref=e194]: September 30-October 1, 2010 • Oxford, United Kingdom (Joint with 9th AEROCOM Workshop)
+          - paragraph [ref=e195]: Operational forecast centers have long standing metrics designed to evaluate model performance (e.g., the 500 hPa anomaly). The aerosol forecasting community has yet to agree on applicable metrics and protocols in this regard. In this second ICAP meeting, centers and developers will discuss model metric methods and suitable verification datasets. Establishing common metrics to evaluate model performance is a powerful tool to assess progress in aerosol forecasting capabilities both for individual centers and for the community as a whole.
+          - heading "Documents (Open this section)" [level=3] [ref=e198]:
+            - button "Documents (Open this section)" [ref=e199] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e200]: (Open this section)
+              - img [ref=e202]
+          - separator [ref=e204]
+          - heading "Aerosol Observability" [level=2] [ref=e205]
+          - paragraph [ref=e206]: April 27-29, 2010 • Monterey, CA
+          - paragraph [ref=e207]: While the last 3 years has seen rapid operational implementation of aerosol and pollution models around the world, the key to the further development of these models is aerosol observing data from satellites and ground stations for model evaluation and data assimilation. This first organizational meeting of ICAP centered on present and future remote sensing observing systems to support aerosol prediction. Participants included ECMWF, ESA, EUMETSAT, FNMOC, GMAO, JAXA, JMA, NCEP, NESDIS, NRL and NASA GMAO, LANCE,and LarC as well as several universities.
+          - heading "Documents (Open this section)" [level=3] [ref=e210]:
+            - button "Documents (Open this section)" [ref=e211] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e212]: (Open this section)
+              - img [ref=e214]
+        - complementary "Additional info"
+      - region "Cookie Policy Notificiation" [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - heading "We use cookies on this site to enhance your user experience." [level=2] [ref=e219]
+            - paragraph [ref=e220]:
+              - text: By clicking any link on this page you are giving your consent for us to set cookies,
+              - link "Privacy Information" [ref=e221] [cursor=pointer]:
+                - /url: https://und.edu/about/terms-of-use.html#privacy
+              - text: .
+          - button "I Agree to cookie policy" [ref=e223] [cursor=pointer]:
+            - text: I Agree
+            - generic [ref=e224]: to cookie policy
+    - contentinfo [ref=e225]:
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: John D. Odegard School of Aerospace Sciences
+            - generic [ref=e232]:
+              - paragraph [ref=e233]:
+                - text: 3980 Campus Rd Stop 9007
+                - text: Grand Forks, ND 58202-9007
+              - link "flyUND@UND.edu" [ref=e234] [cursor=pointer]:
+                - /url: mailto:flyund@und.edu
+              - text: "|"
+              - link "701.777.4934" [ref=e235] [cursor=pointer]:
+                - /url: tel:+17017774934
+          - list [ref=e236]:
+            - listitem [ref=e237]:
+              - link "YouTube" [ref=e238] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCgKF0myJzlxnoyH1PPu454A
+                - img "YouTube" [ref=e240]
+            - listitem [ref=e242]:
+              - link "Instagram" [ref=e243] [cursor=pointer]:
+                - /url: https://www.instagram.com/undaerospace/
+                - img "Instagram" [ref=e245]
+            - listitem [ref=e247]:
+              - link "Facebook" [ref=e248] [cursor=pointer]:
+                - /url: https://www.facebook.com/UNDAerospace/
+                - img "Facebook" [ref=e250]
+            - listitem [ref=e252]:
+              - link "Twitter" [ref=e253] [cursor=pointer]:
+                - /url: https://twitter.com/undaerospace
+                - img "Twitter" [ref=e255]
+            - listitem [ref=e257]:
+              - link "LinkedIn" [ref=e258] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/und-aerospace/
+                - img "LinkedIn" [ref=e260]
+        - generic [ref=e263]:
+          - list [ref=e265]:
+            - listitem [ref=e266]:
+              - link "Contact Us" [ref=e267] [cursor=pointer]:
+                - /url: https://und.edu/about/contact-us.html
+            - listitem [ref=e268]:
+              - link "Accreditation" [ref=e269] [cursor=pointer]:
+                - /url: /about/index.html
+            - listitem [ref=e270]:
+              - link "AeroStop" [ref=e271] [cursor=pointer]:
+                - /url: https://aerostop.undaerospace.com/
+            - listitem [ref=e272]:
+              - link "Make a Gift" [ref=e273] [cursor=pointer]:
+                - /url: /alumni/index.html
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - link "Tech Support" [ref=e277] [cursor=pointer]:
+                - /url: /help-desk/index.html
+            - listitem [ref=e278]:
+              - link "Building Directories" [ref=e279] [cursor=pointer]:
+                - /url: /directories/index.html
+            - listitem [ref=e280]:
+              - link "Employment" [ref=e281] [cursor=pointer]:
+                - /url: /employment.html
+            - listitem [ref=e282]:
+              - link "Aerospace IT" [ref=e283] [cursor=pointer]:
+                - /url: /aerospace-it/index.html
+      - generic [ref=e285]:
+        - link "University of North Dakota" [ref=e286] [cursor=pointer]:
+          - /url: https://und.edu
+          - img "University of North Dakota" [ref=e288]
+        - paragraph [ref=e290]:
+          - link "©" [ref=e292] [cursor=pointer]:
+            - /url: https://a.cms.omniupdate.com/11/?skin=und&account=UND&site=aerospace&action=de&path=/atmos/icap/past-meetings.pcf
+          - text: 2026 University of North Dakota - Grand Forks, ND - Member of ND University System
+        - list "Compliance and Disclosures" [ref=e293]:
+          - listitem [ref=e294]:
+            - link "Accessibility & Website Feedback" [ref=e295] [cursor=pointer]:
+              - /url: https://und.edu/about/website-feedback.html
+          - listitem [ref=e296]:
+            - link "Terms of Use & Privacy" [ref=e297] [cursor=pointer]:
+              - /url: https://und.edu/about/terms-of-use.html
+          - listitem [ref=e298]:
+            - link "Notice of Nondiscrimination" [ref=e299] [cursor=pointer]:
+              - /url: https://campus.und.edu/civil-rights/required-notices.html#notice-of-nondiscrimination
+          - listitem [ref=e300]:
+            - link "Student Disclosure Information" [ref=e301] [cursor=pointer]:
+              - /url: https://und.edu/about/student-disclosure-information/index.html
+          - listitem [ref=e302]:
+            - link "Title IX" [ref=e303] [cursor=pointer]:
+              - /url: https://campus.und.edu/civil-rights/index.html

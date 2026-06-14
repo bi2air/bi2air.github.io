@@ -1,0 +1,323 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+      - /url: "#content-main"
+    - link "Skip to main navigation" [ref=e3] [cursor=pointer]:
+      - /url: "#main-navigation"
+    - link "Skip to page navigation" [ref=e4] [cursor=pointer]:
+      - /url: "#page-navigation"
+    - link "Skip to search" [ref=e5] [cursor=pointer]:
+      - /url: "#edit-search-api-fulltext"
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e11]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=e16]
+        - navigation "Top navigation main" [ref=e17]:
+          - heading "Top navigation main" [level=2] [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "News & media" [ref=e21] [cursor=pointer]:
+                - /url: /about/news
+              - text: "|"
+            - listitem [ref=e22]:
+              - link "Jobs" [ref=e23] [cursor=pointer]:
+                - /url: /about/jobs/apply
+              - text: "|"
+            - listitem [ref=e24]:
+              - link "Ministers" [ref=e25] [cursor=pointer]:
+                - /url: https://minister.dcceew.gov.au
+              - text: "|"
+            - listitem [ref=e26]:
+              - link "Contact us" [ref=e27] [cursor=pointer]:
+                - /url: /about/contact
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Search keyword
+            - generic [ref=e33]:
+              - textbox "Search keyword" [ref=e34]:
+                - /placeholder: Search...
+                - text: factsheet national environment protection ambient air quality nepm
+              - button "clear text field" [ref=e35]
+          - button "Search" [ref=e37]
+    - navigation "AWE Main" [ref=e40]:
+      - heading "AWE Main" [level=2] [ref=e41]
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - generic [ref=e44]:
+            - link "Climate change" [ref=e45] [cursor=pointer]:
+              - /url: /climate-change
+            - text: 
+        - listitem [ref=e46]:
+          - generic [ref=e47]:
+            - link "Energy" [ref=e48] [cursor=pointer]:
+              - /url: /energy
+            - text: 
+        - listitem [ref=e49]:
+          - generic [ref=e50]:
+            - link "Environment" [ref=e51] [cursor=pointer]:
+              - /url: /environment
+            - text: 
+        - listitem [ref=e52]:
+          - generic [ref=e53]:
+            - link "Water" [ref=e54] [cursor=pointer]:
+              - /url: /water
+            - text: 
+        - listitem [ref=e55]:
+          - generic [ref=e56]:
+            - link "Parks and heritage" [ref=e57] [cursor=pointer]:
+              - /url: /parks-heritage
+            - text: 
+        - listitem [ref=e58]:
+          - generic [ref=e59]:
+            - link "Science and research" [ref=e60] [cursor=pointer]:
+              - /url: /science-research
+            - text: 
+        - listitem [ref=e61]:
+          - generic [ref=e62]:
+            - link "About us" [ref=e63] [cursor=pointer]:
+              - /url: /about
+            - text: 
+        - listitem [ref=e64]:
+          - link "Online services" [ref=e66] [cursor=pointer]:
+            - /url: /online-services
+    - img [ref=e68]
+    - navigation "Breadcrumb" [ref=e71]:
+      - heading "Breadcrumb" [level=2] [ref=e72]
+      - list [ref=e73]:
+        - listitem [ref=e74]:
+          - link "Home" [ref=e75] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e76]: / Search Results
+    - main [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - link "Skip to page navigation" [ref=e80] [cursor=pointer]:
+            - /url: "#page-navigation"
+          - generic [ref=e81]:
+            - heading "Search Results" [level=1] [ref=e83]
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Search keyword
+                - generic [ref=e89]:
+                  - textbox "Search keyword" [ref=e90]:
+                    - /placeholder: Search...
+                    - text: factsheet national environment protection ambient air quality nepm
+                  - button "clear text field" [ref=e91] [cursor=pointer]
+              - button "Search" [ref=e93] [cursor=pointer]
+            - generic [ref=e96]:
+              - paragraph [ref=e99]:
+                - text: For updated information on liquid fuel stock levels, visit
+                - link "Minimum stockholding obligation statistics." [ref=e100] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/energy/security/australias-fuel-security/minimum-stockholding-obligation/statistics?utm_source=website&utm_medium=banner&utm_campaign=mso_search
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - heading " Impact Statement and draft varied Ambient Air Quality NEPM" [level=3] [ref=e104]:
+                    - link " Impact Statement and draft varied Ambient Air Quality NEPM" [ref=e105] [cursor=pointer]:
+                      - /url: /environment/protection/nepc/nepms/ambient-air-quality/variation-2014/impact-statement
+                  - generic [ref=e106]: "The public consultation period for the Impact Statement and draft varied measure is now closed. Non-confidential submissions are available online: List of submissions Impact Statement The Impact Statement on the proposed variation to the Ambient Air Quality NEPM evaluates the environmental,…"
+                  - generic [ref=e110]:
+                    - time [ref=e111]: 03 October 2021
+                    - text: "- Last modified"
+                - generic [ref=e112]:
+                  - heading " Air quality" [level=3] [ref=e114]:
+                    - link " Air quality" [ref=e115] [cursor=pointer]:
+                      - /url: /environment/protection/air-quality
+                  - generic [ref=e116]: The air we breathe affects our health, our quality of life and our environment. Air pollution can cause heart and lung disease, cancer and other health problems.For some pollutants, no level of exposure is safe.Children, pregnant women and older people are especially vulnerable to air pollution.…
+                  - generic [ref=e120]:
+                    - time [ref=e121]: 03 June 2026
+                    - text: "- Last modified"
+                - generic [ref=e122]:
+                  - heading " Proposed variation to the National Environment Protection (Ambient Air Quality) Measure in relation to the standards for particles" [level=3] [ref=e124]:
+                    - link " Proposed variation to the National Environment Protection (Ambient Air Quality) Measure in relation to the standards for particles" [ref=e125] [cursor=pointer]:
+                      - /url: /environment/protection/nepc/nepms/ambient-air-quality/variation-2014
+                  - generic [ref=e126]: The National Environment Protection Council (NEPC) has released an impact statement and draft variation to the National Environment Protection (Ambient Air Quality) Measure (Ambient Air Quality NEPM) in relation to the standards for airborne particles. Australian Government Gazette notice The…
+                  - generic [ref=e130]:
+                    - time [ref=e131]: 03 October 2021
+                    - text: "- Last modified"
+                - generic [ref=e132]:
+                  - heading " National Environment Protection Measures" [level=3] [ref=e134]:
+                    - link " National Environment Protection Measures" [ref=e135] [cursor=pointer]:
+                      - /url: /environment/protection/nepc/nepm
+                  - generic [ref=e136]: A National Environment Protection Measure (NEPM) is a legally binding instrument that sets national standards and goals for protecting or managing specific environmental issues. The NEPC developed NEPMs to provide a consistent framework across Australia.NEPMs can cover:ambient air qualityambient…
+                  - generic [ref=e140]:
+                    - time [ref=e141]: 28 November 2025
+                    - text: "- Last modified"
+                - generic [ref=e142]:
+                  - heading " Proposal to vary the Ambient Air Quality Measure in relation to the standards for particles - Question and answer fact sheet" [level=3] [ref=e144]:
+                    - link " Proposal to vary the Ambient Air Quality Measure in relation to the standards for particles - Question and answer fact sheet" [ref=e145] [cursor=pointer]:
+                      - /url: /environment/protection/nepc/nepms/ambient-air-quality/variation-2014/questions
+                  - generic [ref=e146]: Question and Answer fact sheet on the proposal to vary the Ambient Air Quality Measure in relation to the standards for particles More about the proposed variation to the Air Quality NEPM What is the current status of Australia’s air quality? Australia’s air quality is high by world…
+                  - generic [ref=e150]:
+                    - time [ref=e151]: 10 January 2022
+                    - text: "- Last modified"
+                - generic [ref=e152]:
+                  - heading " Development of the NPI National Environment Protection Measure (NPI NEPM)" [level=3] [ref=e154]:
+                    - link " Development of the NPI National Environment Protection Measure (NPI NEPM)" [ref=e155] [cursor=pointer]:
+                      - /url: /environment/protection/npi/about/development-npi-nepm
+                  - generic [ref=e156]: The legislative framework underpinning the NPI is the National Environment Protection (National Pollutant Inventory) Measure (NPI NEPM). This was Australia's first NEPM. NEPMs set out agreed national objectives for protecting or managing particular aspects of the…
+                  - generic [ref=e160]:
+                    - time [ref=e161]: 30 June 2022
+                    - text: "- Last modified"
+                - generic [ref=e162]:
+                  - heading " Air pollutants" [level=3] [ref=e164]:
+                    - link " Air pollutants" [ref=e165] [cursor=pointer]:
+                      - /url: /environment/protection/air-quality/air-pollutants
+                  - generic [ref=e166]: Potentially, air pollutants can be found in air anywhere - outdoors and indoors. Air pollutants can be divided into three groups:Criteria pollutantsAir toxicsBiological pollutantsCriteria pollutants'Criteria air pollutants' is a term used internationally to describe air pollutants that have been…
+                  - generic [ref=e170]:
+                    - time [ref=e171]: 27 June 2024
+                    - text: "- Last modified"
+                - generic [ref=e172]:
+                  - heading " Global environmental health and air pollution" [level=3] [ref=e174]:
+                    - link " Global environmental health and air pollution" [ref=e175] [cursor=pointer]:
+                      - /url: /environment/protection/publications/factsheet-global-environmental-health-and-air-pollution
+                  - generic [ref=e176]: The World Health Organization (WHO) recognises ambient (outdoor) air quality as a major environmental risk to health. Worldwide, an estimated 3.7 million premature deaths (under age 60) were found to be attributable to ambient air pollution in 2012.1 Household (indoor) air pollution is also an…
+                  - generic [ref=e180]:
+                    - time [ref=e181]: 03 October 2021
+                    - text: "- Last modified"
+                - generic [ref=e182]:
+                  - heading " National Clean Air Agreement" [level=3] [ref=e184]:
+                    - link " National Clean Air Agreement" [ref=e185] [cursor=pointer]:
+                      - /url: /environment/protection/air-quality/national-clean-air-agreement
+                  - generic [ref=e186]: About the AgreementThe National Clean Air Agreement helps governments identify and prioritise actions to address air quality issues.Australia’s environment ministers established the agreement on 15 December 2015.The agreement sets a framework for national collaboration on air quality issues to…
+                  - generic [ref=e190]:
+                    - time [ref=e191]: 14 November 2024
+                    - text: "- Last modified"
+                - generic [ref=e192]:
+                  - heading " Implementation of the NPI NEPM" [level=3] [ref=e194]:
+                    - link " Implementation of the NPI NEPM" [ref=e195] [cursor=pointer]:
+                      - /url: /environment/protection/npi/about/implementation
+                  - generic [ref=e196]: The NPI National Environment Protection Measure (NPI NEPM) provides the framework for the development and establishment of the NPI, which is an internet database designed to provide publicly available information on the types, and amounts of certain substances, being emitted to…
+                  - generic [ref=e200]:
+                    - time [ref=e201]: 01 March 2024
+                    - text: "- Last modified"
+              - navigation "Pagination" [ref=e202]:
+                - heading "Pagination" [level=4] [ref=e203]
+                - list [ref=e204]:
+                  - listitem [ref=e205]:
+                    - link "Current page 1" [ref=e206] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=0"
+                      - generic [ref=e207]: Current page
+                      - text: "1"
+                  - listitem [ref=e208]:
+                    - link "Page 2" [ref=e209] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=1"
+                      - generic [ref=e210]: Page
+                      - text: "2"
+                  - listitem [ref=e211]:
+                    - link "Page 3" [ref=e212] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=2"
+                      - generic [ref=e213]: Page
+                      - text: "3"
+                  - listitem [ref=e214]:
+                    - link "Page 4" [ref=e215] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=3"
+                      - generic [ref=e216]: Page
+                      - text: "4"
+                  - listitem [ref=e217]:
+                    - link "Page 5" [ref=e218] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=4"
+                      - generic [ref=e219]: Page
+                      - text: "5"
+                  - text: …
+                  - listitem [ref=e220]:
+                    - link "Next page" [ref=e221] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=1"
+                      - generic [ref=e222]: Next page
+                      - text: Next ›
+                  - listitem [ref=e223]:
+                    - link "Last page" [ref=e224] [cursor=pointer]:
+                      - /url: "?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&page=918"
+                      - generic [ref=e225]: Last page
+                      - text: Last »
+        - complementary [ref=e226]
+        - complementary [ref=e227]:
+          - text: 
+          - link "Skip to main content" [ref=e228] [cursor=pointer]:
+            - /url: "#content-main"
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - heading "Result type" [level=2] [ref=e231]
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - link "All" [ref=e235] [cursor=pointer]:
+                    - /url: /search
+                - listitem [ref=e236]:
+                  - link "Web page (6185)" [ref=e237] [cursor=pointer]:
+                    - /url: /search?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&f%5B0%5D=facets_main_content_type%3A842
+            - list [ref=e240]:
+              - listitem [ref=e241]:
+                - link "PDF (1042)" [ref=e242] [cursor=pointer]:
+                  - /url: /search?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&f%5B0%5D=taxonomy_content_type_media%3A840
+              - listitem [ref=e243]:
+                - link "Word (707)" [ref=e244] [cursor=pointer]:
+                  - /url: /search?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&f%5B0%5D=taxonomy_content_type_media%3A843
+              - listitem [ref=e245]:
+                - link "Excel (53)" [ref=e246] [cursor=pointer]:
+                  - /url: /search?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&f%5B0%5D=taxonomy_content_type_media%3A839
+              - listitem [ref=e247]:
+                - link "Other (12)" [ref=e248] [cursor=pointer]:
+                  - /url: /search?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&f%5B0%5D=taxonomy_content_type_media%3A1845
+              - listitem [ref=e249]:
+                - link "Zip (1)" [ref=e250] [cursor=pointer]:
+                  - /url: /search?search_api_fulltext=factsheet%20national%20environment%20protection%20ambient%20air%20quality%20nepm&f%5B0%5D=taxonomy_content_type_media%3A844
+    - generic [ref=e258]:
+      - heading "Was this page helpful?" [level=3] [ref=e259]
+      - button "Yes" [ref=e260]
+      - button "No" [ref=e261]
+    - contentinfo [ref=e262]:
+      - generic [ref=e263]:
+        - img "dcceew energy art" [ref=e264]
+        - generic [ref=e265]:
+          - navigation "Footer" [ref=e266]:
+            - heading "Footer" [level=2] [ref=e267]
+            - list [ref=e268]:
+              - listitem [ref=e269]:
+                - link "Contact us" [ref=e270] [cursor=pointer]:
+                  - /url: /about/contact
+                - text: "|"
+              - listitem [ref=e271]:
+                - link "Accessibility" [ref=e272] [cursor=pointer]:
+                  - /url: /about/commitment/accessibility
+                - text: "|"
+              - listitem [ref=e273]:
+                - link "Disclaimer" [ref=e274] [cursor=pointer]:
+                  - /url: /about/disclaimer
+                - text: "|"
+              - listitem [ref=e275]:
+                - link "Privacy" [ref=e276] [cursor=pointer]:
+                  - /url: /about/commitment/privacy
+                - text: "|"
+              - listitem [ref=e277]:
+                - link "FOI" [ref=e278] [cursor=pointer]:
+                  - /url: /about/reporting/freedom-of-information
+                - text: "|"
+              - listitem [ref=e279]:
+                - link "Copyright" [ref=e280] [cursor=pointer]:
+                  - /url: /about/copyright
+          - generic [ref=e282]:
+            - generic:
+              - generic:
+                - generic:
+                  - article
+            - generic [ref=e283]:
+              - paragraph [ref=e284]: Connect with us
+              - generic [ref=e285]:
+                - link " Facebook" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.facebook.com/dcceew
+                  - text: 
+                  - generic [ref=e287]: Facebook
+                - link " Instagram" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.instagram.com/dcceew/
+                  - text: 
+                  - generic [ref=e289]: Instagram
+                - link " LinkedIn" [ref=e290] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/department-of-climate-change-energy-the-environment-and-water
+                  - text: 
+                  - generic [ref=e291]: LinkedIn
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: We acknowledge the Traditional Owners of Country throughout Australia and recognise their continuing connection to land, waters and culture. We pay our respects to their Elders past and present.
+              - paragraph [ref=e294]:
+                - link "© Department of Climate Change, Energy, the Environment and Water" [ref=e295] [cursor=pointer]:
+                  - /url: /about/copyright

@@ -1,0 +1,118 @@
+[     392ms] ReferenceError: jQuery is not defined
+    at https://www.epa.nsw.gov.au/modules/contrib/block_ipaddress/js/ipAddress.js?v=10.5.10:36:3
+[     397ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:214
+    at <anonymous>:1:247
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[     398ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:222
+    at <anonymous>:1:255
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[     399ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:209
+    at <anonymous>:1:242
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[     399ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:204
+    at <anonymous>:1:237
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[     635ms] ReferenceError: jQuery is not defined
+    at Object.attach (https://www.epa.nsw.gov.au/themes/custom/epa/dist//assets/global-DdWzFmvy.js?tgd24x:1:78)
+    at https://www.epa.nsw.gov.au/core/misc/drupal.js?v=10.5.10:166:24
+    at Array.forEach (<anonymous>)
+    at Drupal.attachBehaviors (https://www.epa.nsw.gov.au/core/misc/drupal.js?v=10.5.10:162:34)
+    at https://www.epa.nsw.gov.au/core/misc/drupal.init.js?v=10.5.10:32:12
+    at HTMLDocument.listener (https://www.epa.nsw.gov.au/core/misc/drupal.init.js?v=10.5.10:20:7)
+[    1704ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.epa.nsw.gov.au/your-environment/air/air-quality-index:0
+[    1767ms] ReferenceError: jQuery is not defined
+    at <anonymous>:1:1
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+[    2381ms] ReferenceError: jQuery is not defined
+    at https://www.epa.nsw.gov.au/modules/contrib/block_ipaddress/js/ipAddress.js?v=10.5.10:36:3
+[    2385ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:214
+    at <anonymous>:1:247
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[    2385ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:222
+    at <anonymous>:1:255
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[    2386ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:209
+    at <anonymous>:1:242
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[    2386ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous>:1:204
+    at <anonymous>:1:237
+    at https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1008:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1010:31)
+    at Od.pS (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:1007:92)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:402:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:324:466)
+    at hb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:719)
+    at gb (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:286:470)
+    at Od.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-MVNT3VN:348:473)
+[    2422ms] ReferenceError: jQuery is not defined
+    at Object.attach (https://www.epa.nsw.gov.au/themes/custom/epa/dist//assets/global-DdWzFmvy.js?tgd24x:1:78)
+    at https://www.epa.nsw.gov.au/core/misc/drupal.js?v=10.5.10:166:24
+    at Array.forEach (<anonymous>)
+    at Drupal.attachBehaviors (https://www.epa.nsw.gov.au/core/misc/drupal.js?v=10.5.10:162:34)
+    at https://www.epa.nsw.gov.au/core/misc/drupal.init.js?v=10.5.10:32:12
+    at HTMLDocument.listener (https://www.epa.nsw.gov.au/core/misc/drupal.init.js?v=10.5.10:20:7)

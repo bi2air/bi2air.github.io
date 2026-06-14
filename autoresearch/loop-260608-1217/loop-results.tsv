@@ -1,0 +1,33 @@
+# metric_direction: lower_is_better
+iteration	timestamp	commit	metric	delta	guard	guard-metric	status	description
+0	2026-06-08T12:17:00	c2af067	21.307230561361365	0.0	-	-	baseline	Initial ensemble: xgb=0.5 lgb=0.3 hgb=0.2
+1	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Increase XGBoost weight (best solo model)
+2	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Balance weights more evenly
+3	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Increase LightGBM (2nd best solo)
+4	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Minimize HGB (worst solo at 72h)
+5	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Try XGB-only (ablation test)
+6	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Random perturbation
+7	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Increase XGBoost weight (best solo model)
+8	2026-06-08T12:18:43	-	21.307230561361365	0.0	-	-	crash	Balance weights more evenly
+9	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase LightGBM (2nd best solo)
+10	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Minimize HGB (worst solo at 72h)
+11	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Try XGB-only (ablation test)
+12	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Random perturbation
+13	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase XGBoost weight (best solo model)
+14	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Balance weights more evenly
+15	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase LightGBM (2nd best solo)
+16	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Minimize HGB (worst solo at 72h)
+17	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Try XGB-only (ablation test)
+18	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Random perturbation
+19	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase XGBoost weight (best solo model)
+20	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Balance weights more evenly
+21	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase LightGBM (2nd best solo)
+22	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Minimize HGB (worst solo at 72h)
+23	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Try XGB-only (ablation test)
+24	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Random perturbation
+25	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase XGBoost weight (best solo model)
+26	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Balance weights more evenly
+27	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Increase LightGBM (2nd best solo)
+28	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Minimize HGB (worst solo at 72h)
+29	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Try XGB-only (ablation test)
+30	2026-06-08T12:18:44	-	21.307230561361365	0.0	-	-	crash	Random perturbation

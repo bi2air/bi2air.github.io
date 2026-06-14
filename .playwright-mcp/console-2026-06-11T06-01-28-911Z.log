@@ -1,0 +1,5 @@
+[     828ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&hl=en:52
+[     828ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&hl=en:52
+[    1696ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&hl=en:52
+[    1696ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&hl=en:52
+[    4012ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&hl=en:33

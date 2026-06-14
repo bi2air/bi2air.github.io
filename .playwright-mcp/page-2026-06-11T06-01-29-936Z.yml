@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-VN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Go to Google Home" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Search" [ref=e25]: MASINGAR Japan aerosol PM2.5 forecast model JMA MRI Kyushu data assimilation MASINGAR Japan aerosol PM2.5 forecast model JMA MRI Kyushu data assimilation
+            - generic [ref=e26]:
+              - button "Clear" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Search by voice" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Search by image" [ref=e37] [cursor=pointer]:
+                  - img [ref=e38]
+          - button "Search" [ref=e40] [cursor=pointer]:
+            - img [ref=e43]
+    - generic [ref=e45]:
+      - button "Settings" [ref=e47] [cursor=pointer]:
+        - img [ref=e50]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DMASINGAR%2BJapan%2Baerosol%2BPM2.5%2Bforecast%2Bmodel%2BJMA%2BMRI%2BKyushu%2Bdata%2Bassimilation%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5KfDKEtep6zoTjtSxd7iMwoHCJFIO1Vwb2tJAHW8JtyTal60okH87-ZyQvZHArMcpo-ptsxLa0aUXkmOYUqMk904KBVYNWl9DSQT12x2vV27IVTtluEOOiuJpMzYX-8wF4W55DPrIKCikwTdhuDHj1H-Yaag&aep=1&ntc=1&sa=X&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ2J8OegQIDxAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5KfDKEtep6zoTjtSxd7iMwoHCJFIO1Vwb2tJAHW8JtyTal60okH87-ZyQvZHArMcpo-ptsxLa0aUXkmOYUqMk904KBVYNWl9DSQT12x2vV27IVTtluEOOiuJpMzYX-8wF4W55DPrIKCikwTdhuDHj1H-Yaag&q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sa=X&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQtKgLegQIFBAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Forums" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5KfDKEtep6zoTjtSxd7iMwoHCJFIO1Vwb2tJAHW8JtyTal60okH87-ZyQvZHArMcpo-ptsxLa0aUXkmOYUqMk904KBVYNWl9DSQT12x2vV27IVTtluEOOiuJpMzYX-8wF4W55DPrIKCikwTdhuDHj1H-Yaag&q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sa=X&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQs6gLegQIERAB
+              - generic [ref=e94]: Forums
+          - listitem [ref=e95]:
+            - link "News" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&hl=en&q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5KfDKEtep6zoTjtSxd7iMwoHCJFIO1Vwb2tJAHW8JtyTal60okH87-ZyQvZHArMcpo-ptsxLa0aUXkmOYUqMk904KBVYNWl9DSQT12x2vV27IVTtluEOOiuJpMzYX-8wF4W55DPrIKCikwTdhuDHj1H-Yaag&sa=X&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ0pQJegQIExAB
+              - generic [ref=e98]: News
+          - listitem [ref=e99]:
+            - link "Videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5KfDKEtep6zoTjtSxd7iMwoHCJFIO1Vwb2tJAHW8JtyTal60okH87-ZyQvZHArMcpo-ptsxLa0aUXkmOYUqMk904KBVYNWl9DSQT12x2vV27IVTtluEOOiuJpMzYX-8wF4W55DPrIKCikwTdhuDHj1H-Yaag&q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sa=X&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQtKgLegQIFRAB
+              - generic [ref=e102]: Videos
+          - listitem [ref=e103]:
+            - link "Shopping" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3gUPp-duc77w6ZID3ozQLZ5KfDKEtep6zoTjtSxd7iMwoHCJFIO1Vwb2tJAHW8JtyTal60okH87-ZyQvZHArMcpo-ptsxLa0aUXkmOYUqMk904KBVYNWl9DSQT12x2vV27IVTtluEOOiuJpMzYX-8wF4W55DPrIKCikwTdhuDHj1H-Yaag&q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&ved=1t:220175&ictx=111
+              - generic [ref=e106]: Shopping
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Thinking Searching Thinking a little longer" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Thinking
+            - generic [ref=e156]: Searching
+            - generic [ref=e166]: Thinking a little longer
+        - progressbar "Generating" [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - heading "Web results" [level=2] [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - link "JMA/MRI/JAXA/KU Aerosol Model Activities Overview John D. Odegard School of Aerospace Sciences https://aero.und.edu › docs › icap-13 › day-1 › j..." [ref=e224] [cursor=pointer]:
+                  - /url: https://aero.und.edu/atmos/icap/_files/docs/icap-13/day-1/jma-mri-jaxa-ku-aerosol-model-activities-overview.pdf
+                  - heading "JMA/MRI/JAXA/KU Aerosol Model Activities Overview" [level=3] [ref=e225]
+                  - generic [ref=e231]:
+                    - generic [ref=e233]: John D. Odegard School of Aerospace Sciences
+                    - generic [ref=e235]: https://aero.und.edu › docs › icap-13 › day-1 › j...
+                - generic [ref=e236]:
+                  - generic:
+                    - generic: PDF
+                - button "About this result" [ref=e237] [cursor=pointer]:
+                  - img [ref=e240]
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - emphasis [ref=e245]: JMA
+                  - text: operates a global
+                  - emphasis [ref=e246]: aerosol model
+                  - text: (TL479L40) for the prediction of aeolian dust. The
+                  - emphasis [ref=e247]: forecast
+                  - text: charts up to 4 days ahead with the interval of 6 hours are ...
+                - link "Read more" [ref=e248] [cursor=pointer]:
+                  - /url: https://aero.und.edu/atmos/icap/_files/docs/icap-13/day-1/jma-mri-jaxa-ku-aerosol-model-activities-overview.pdf#:~:text=JMA%20operates%20a%20global%20aerosol,are%20updated%20once%20per%20day.
+          - generic [ref=e252]:
+            - generic [ref=e255]:
+              - 'link "JRAero: the Japanese Reanalysis for Aerosol v1.0 Copernicus.org https://gmd.copernicus.org › gmd-2017-72" [ref=e257] [cursor=pointer]':
+                - /url: https://gmd.copernicus.org/preprints/gmd-2017-72/gmd-2017-72.pdf
+                - 'heading "JRAero: the Japanese Reanalysis for Aerosol v1.0" [level=3] [ref=e258]'
+                - generic [ref=e264]:
+                  - generic [ref=e266]: Copernicus.org
+                  - generic [ref=e268]: https://gmd.copernicus.org › gmd-2017-72
+              - generic [ref=e269]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e270] [cursor=pointer]:
+                - img [ref=e273]
+            - generic [ref=e277]:
+              - text: The reanalysis employs a global
+              - emphasis [ref=e278]: aerosol
+              - text: transport
+              - emphasis [ref=e279]: model
+              - text: developed by
+              - emphasis [ref=e280]: MRI
+              - text: and a 2-dimensional variational
+              - emphasis [ref=e281]: data assimilation
+              - text: method. It assimilates maps of ...
+          - generic [ref=e285]:
+            - generic [ref=e288]:
+              - link "Aerosol Assimilation with Data from Multiple Space-borne ... 気象庁 https://www.data.jma.go.jp › presentation" [ref=e290] [cursor=pointer]:
+                - /url: https://www.data.jma.go.jp/mscweb/en/aomsuc12/presentation/S2_04.pdf
+                - heading "Aerosol Assimilation with Data from Multiple Space-borne ..." [level=3] [ref=e291]
+                - generic [ref=e297]:
+                  - generic [ref=e299]: 気象庁
+                  - generic [ref=e301]: https://www.data.jma.go.jp › presentation
+              - generic [ref=e302]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e303] [cursor=pointer]:
+                - img [ref=e306]
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - text: The
+                - emphasis [ref=e311]: JMA
+                - text: ","
+                - emphasis [ref=e312]: MRI
+                - text: ", JAXA and"
+                - emphasis [ref=e313]: Kyushu
+                - text: Univ. cooperate in the development and operation of the retrieval –
+                - emphasis [ref=e314]: assimilation
+                - text: –
+                - emphasis [ref=e315]: forecast
+                - text: cycling system. •
+                - emphasis [ref=e316]: Assimilation
+                - text: ...
+              - link "Read more" [ref=e317] [cursor=pointer]:
+                - /url: https://www.data.jma.go.jp/mscweb/en/aomsuc12/presentation/S2_04.pdf#:~:text=The%20JMA%2C%20MRI%2C%20JAXA%20and,Imager%20(AHI)%20and%20Lidar%20(CALIOP%2FCALIPSO)
+            - generic [ref=e319]: "Missing: MASINGAR ‎PM2."
+          - generic [ref=e323]:
+            - generic [ref=e326]:
+              - link "Aerosol data assimilation using data from Himawari-8, a ... ResearchGate https://www.researchgate.net › publication › 30355605..." [ref=e328] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/303556053_Aerosol_data_assimilation_using_data_from_Himawari-8_a_next-generation_geostationary_meteorological_satellite_Aerosol_Assimilation_With_Himawari-8
+                - heading "Aerosol data assimilation using data from Himawari-8, a ..." [level=3] [ref=e329]
+                - generic [ref=e335]:
+                  - generic [ref=e337]: ResearchGate
+                  - generic [ref=e339]: https://www.researchgate.net › publication › 30355605...
+              - button "About this result" [ref=e340] [cursor=pointer]:
+                - img [ref=e343]
+            - generic [ref=e346]:
+              - generic [ref=e347]: Mar 14, 2026 —
+              - generic [ref=e348]:
+                - text: The
+                - emphasis [ref=e349]: model
+                - text: also reproduced the observed surface
+                - emphasis [ref=e350]: aerosols
+                - text: (
+                - emphasis [ref=e351]: PM2
+                - text: .
+                - emphasis [ref=e352]: "5"
+                - text: ) mass concentrations, especially in
+                - emphasis [ref=e353]: Kyushu
+                - text: ","
+                - emphasis [ref=e354]: Japan
+                - text: . This occurred because the ...
+              - link "Read more" [ref=e355] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/303556053_Aerosol_data_assimilation_using_data_from_Himawari-8_a_next-generation_geostationary_meteorological_satellite_Aerosol_Assimilation_With_Himawari-8#:~:text=View
+          - generic [ref=e359]:
+            - generic [ref=e362]:
+              - link "JRAero - Japanese Reanalysis for Aerosol 応用力学研究所 https://www.riam.kyushu-u.ac.jp › taikai › JRAero" [ref=e364] [cursor=pointer]:
+                - /url: https://www.riam.kyushu-u.ac.jp/taikai/JRAero/
+                - heading "JRAero - Japanese Reanalysis for Aerosol" [level=3] [ref=e365]
+                - generic [ref=e371]:
+                  - generic [ref=e373]: 応用力学研究所
+                  - generic [ref=e375]: https://www.riam.kyushu-u.ac.jp › taikai › JRAero
+              - button "About this result" [ref=e376] [cursor=pointer]:
+                - img [ref=e379]
+            - generic [ref=e382]:
+              - generic [ref=e383]:
+                - text: JRAero is a
+                - emphasis [ref=e384]: global aerosol reanalysis product
+                - text: construnted by the Meteorological Research Institute (MRI) of the Japan Meteorological Agency (JMA)
+              - link "Read more" [ref=e385] [cursor=pointer]:
+                - /url: https://www.riam.kyushu-u.ac.jp/taikai/JRAero/#:~:text=The%20Japanese%20Reanalysis%20for%20Aerosol,(RIAM)%20of%20Kyushu%20University%20(KU).
+            - generic [ref=e387]: "Missing: MASINGAR ‎forecast ‎assimilation"
+          - generic [ref=e391]:
+            - generic [ref=e394]:
+              - link "Current state of the global operational aerosol multi‐model ... Wiley https://rmets.onlinelibrary.wiley.com › doi" [ref=e396] [cursor=pointer]:
+                - /url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.3497
+                - heading "Current state of the global operational aerosol multi‐model ..." [level=3] [ref=e397]
+                - generic [ref=e403]:
+                  - generic [ref=e405]: Wiley
+                  - generic [ref=e407]: https://rmets.onlinelibrary.wiley.com › doi
+              - button "About this result" [ref=e408] [cursor=pointer]:
+                - img [ref=e411]
+            - generic [ref=e414]:
+              - generic [ref=e415]: Feb 4, 2019 —
+              - generic [ref=e416]:
+                - text: For the
+                - emphasis [ref=e417]: models
+                - text: that have
+                - emphasis [ref=e418]: aerosol data assimilation
+                - text: ","
+                - emphasis [ref=e419]: aerosol forecasts
+                - text: ... Two types of
+                - emphasis [ref=e420]: aerosol data assimilation
+                - text: systems are available in
+                - emphasis [ref=e421]: MASINGAR
+                - text: ...
+              - link "Read more" [ref=e422] [cursor=pointer]:
+                - /url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.3497#:~:text=For%20the%20models%20that%20have,aerosol%20data%20assimilation%2C%20aerosol%20forecasts&text=Two%20types%20of%20aerosol%20data,systems%20are%20available%20in%20MASINGAR.
+          - generic [ref=e426]:
+            - generic [ref=e429]:
+              - link "NHM-Chem, the Japan Meteorological Agency's regional ... SciSpace https://scispace.com › pdf › nhm-chem-the-japan..." [ref=e431] [cursor=pointer]:
+                - /url: https://scispace.com/pdf/nhm-chem-the-japan-meteorologicalagency-s-regional-2xgx0xndt8.pdf
+                - heading "NHM-Chem, the Japan Meteorological Agency's regional ..." [level=3] [ref=e432]
+                - generic [ref=e438]:
+                  - generic [ref=e440]: SciSpace
+                  - generic [ref=e442]: https://scispace.com › pdf › nhm-chem-the-japan...
+              - generic [ref=e443]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - generic [ref=e451]:
+              - text: ...
+              - emphasis [ref=e452]: MASINGAR
+              - text: ", a global tropospheric"
+              - emphasis [ref=e453]: aerosol
+              - text: chemical transport
+              - emphasis [ref=e454]: model
+              - text: coupled with
+              - emphasis [ref=e455]: MRI
+              - text: "/JMA98 GCM:"
+              - emphasis [ref=e456]: Model
+              - text: description. Pap. Meteor. Geophys., 53(4),. 15. 119-138 ...
+          - generic [ref=e460]:
+            - generic [ref=e463]:
+              - link "Assimilation and Forecasting Experiment for Heavy ... J-Stage https://www.jstage.jst.go.jp › article › jmsj › _article" [ref=e465] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/article/jmsj/96B/0/96B_2018-035/_article
+                - heading "Assimilation and Forecasting Experiment for Heavy ..." [level=3] [ref=e466]
+                - generic [ref=e472]:
+                  - generic [ref=e474]: J-Stage
+                  - generic [ref=e476]: https://www.jstage.jst.go.jp › article › jmsj › _article
+              - button "About this result" [ref=e477] [cursor=pointer]:
+                - img [ref=e480]
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - text: In this study, we combined an
+                - emphasis [ref=e485]: aerosol
+                - text: transport
+                - emphasis [ref=e486]: model
+                - text: with the Himawari-8 AOT using the
+                - emphasis [ref=e487]: data assimilation
+                - text: method and performed
+                - emphasis [ref=e488]: aerosol
+                - text: assimilation and ...
+              - link "Read more" [ref=e489] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/article/jmsj/96B/0/96B_2018-035/_article#:~:text=In%20this%20study%2C%20we%20combined,May%2015%20and%2018%2C%202016.
+          - generic [ref=e493]:
+            - generic [ref=e496]:
+              - link "Report A review of the model comparison of transportation ... Autorité de Sûreté Nucléaire et de Radioprotection - ASNR https://recherche-expertise.asnr.fr › files › prp-env" [ref=e498] [cursor=pointer]:
+                - /url: https://recherche-expertise.asnr.fr/sites/default/files/documents/larecherche/publications-documentation/publications_documentation/bdd_publi/prp-env/Science%20Council%20Japan%20Model%20comparison%2020140902scj_report_e.pdf
+                - heading "Report A review of the model comparison of transportation ..." [level=3] [ref=e499]
+                - generic [ref=e505]:
+                  - generic [ref=e507]: Autorité de Sûreté Nucléaire et de Radioprotection - ASNR
+                  - generic [ref=e509]: https://recherche-expertise.asnr.fr › files › prp-env
+              - generic [ref=e510]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e511] [cursor=pointer]:
+                - img [ref=e514]
+            - generic [ref=e517]:
+              - generic [ref=e518]: Sep 2, 2014 —
+              - generic [ref=e519]:
+                - text: The
+                - emphasis [ref=e520]: Japan
+                - text: Meteorological Agency (
+                - emphasis [ref=e521]: JMA
+                - text: ) provided its operational mesoscale (MESO) analysis, radar/rain gauge-analyzed precipitation (RAP)
+                - emphasis [ref=e522]: data
+                - text: ", ..."
+              - link "Read more" [ref=e523] [cursor=pointer]:
+                - /url: https://recherche-expertise.asnr.fr/sites/default/files/documents/larecherche/publications-documentation/publications_documentation/bdd_publi/prp-env/Science%20Council%20Japan%20Model%20comparison%2020140902scj_report_e.pdf#:~:text=The%20Japan%20Meteorological%20Agency%20(JMA),and%20simulated%20results%20from%20the
+          - generic [ref=e527]:
+            - generic [ref=e530]:
+              - link "Technical Reports of MRI No.64 気象庁気象研究所 https://www.mri-jma.go.jp › tec_rep_mri_64" [ref=e532] [cursor=pointer]:
+                - /url: https://www.mri-jma.go.jp/Publish/Technical/DATA/VOL_64/tec_rep_mri_64.pdf
+                - heading "Technical Reports of MRI No.64" [level=3] [ref=e533]
+                - generic [ref=e539]:
+                  - generic [ref=e541]: 気象庁気象研究所
+                  - generic [ref=e543]: https://www.mri-jma.go.jp › tec_rep_mri_64
+              - generic [ref=e544]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e545] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e550]:
+              - generic [ref=e551]:
+                - generic [ref=e552]:
+                  - emphasis [ref=e553]: "5"
+                  - text: .
+                  - emphasis [ref=e554]: Aerosol model
+                  - text: (
+                  - emphasis [ref=e555]: MASINGAR
+                  - text: mk-2). Atmospheric
+                  - emphasis [ref=e556]: aerosols
+                  - text: influence the climate by perturbing the Earth's radiation budgets in several ways. A direct radiative ...
+                - link "Read more" [ref=e557] [cursor=pointer]:
+                  - /url: https://www.mri-jma.go.jp/Publish/Technical/DATA/VOL_64/tec_rep_mri_64.pdf#:~:text=5.%20Aerosol%20model%20(MASINGAR%20mk%2D2),scattering%20and%20absorption%20of%20atmospheric
+              - generic [ref=e558]: 96 pages
+        - navigation [ref=e561]:
+          - heading "Page navigation" [level=1] [ref=e562]
+          - text: "1"
+          - link "Page 2" [ref=e565] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=10&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAE
+            - text: "2"
+          - link "Page 3" [ref=e567] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=20&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAG
+            - text: "3"
+          - link "Page 4" [ref=e569] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=30&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAI
+            - text: "4"
+          - link "Page 5" [ref=e571] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=40&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAK
+            - text: "5"
+          - link "Page 6" [ref=e573] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=50&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAM
+            - text: "6"
+          - link "Page 7" [ref=e575] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=60&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAO
+            - text: "7"
+          - link "Page 8" [ref=e577] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=70&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAQ
+            - text: "8"
+          - link "Page 9" [ref=e579] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=80&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAS
+            - text: "9"
+          - link "Page 10" [ref=e581] [cursor=pointer]:
+            - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=90&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8tMDegQIMxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e583]:
+            - link "Next" [ref=e584] [cursor=pointer]:
+              - /url: /search?q=MASINGAR+Japan+aerosol+PM2.5+forecast+model+JMA+MRI+Kyushu+data+assimilation&sca_esv=d12162df5757eaf7&hl=en&ei=OE8qavOgOabd2roPs-DKkAM&start=10&sa=N&sstk=AU9db-CP4MvB0Br71jy9DF12s2JBls8WmV9HQ9MQulUzm9NPGuVjTKCvxhCqH5mTB8WZ9E61PS7WO_BL2HTBJVHy0Q7OYQaVHBwwqw&ved=2ahUKEwjznNq6wf6UAxWmrlYBHTOwEjIQ8NMDegQIMxAW
+              - generic [ref=e586]: Next
+        - navigation
+    - contentinfo [ref=e587]:
+      - heading "Footer links" [level=1] [ref=e588]
+      - generic [ref=e592]:
+        - generic [ref=e594]:
+          - text: Vietnam
+          - generic [ref=e596]:
+            - button "Ha Dong, Ha Noi - From your IP address" [ref=e598] [cursor=pointer]:
+              - generic [ref=e599]: Ha Dong, Ha Noi
+              - generic [ref=e601]:
+                - text: "-"
+                - generic [ref=e602]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e604] [cursor=pointer]: Update location
+        - generic [ref=e607]:
+          - link "Help" [ref=e608] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-VN&fg=1
+          - link "Send feedback" [ref=e609] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e610] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-VN&fg=1
+          - link "Terms" [ref=e611] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-VN&fg=1

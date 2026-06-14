@@ -1,0 +1,21 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - heading "そらまめくん" [level=1] [ref=e8]:
+        - img "そらまめくん" [ref=e9]
+      - generic [ref=e11]:
+        - text: 文字サイズ変更
+        - button "大" [ref=e12] [cursor=pointer]
+        - button "中" [ref=e13] [cursor=pointer]
+        - button "小" [ref=e14] [cursor=pointer]
+  - generic [ref=e15]:
+    - button "ホーム" [ref=e17] [cursor=pointer]
+    - button "濃度分布図" [ref=e19] [cursor=pointer]
+    - button "光化学オキシダント注意報・警報発令分布図" [ref=e21] [cursor=pointer]
+    - button "測定局一覧" [ref=e23] [cursor=pointer]
+    - button "国設局" [ref=e25] [cursor=pointer]
+    - button "ダウンロード" [ref=e27] [cursor=pointer]
+  - img "そらまめくんロゴ" [ref=e29]
+  - button "メニュー" [ref=e31] [cursor=pointer]:
+    - img [ref=e32]
+    - generic [ref=e34]: メニュー

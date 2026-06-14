@@ -1,0 +1,360 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#rpl-above-body"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Primary navigation" [ref=e7]:
+        - generic [ref=e9]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Menu" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Menu⁠
+            - listitem [ref=e19]:
+              - button "Open Search" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - text: ⁠
+                  - img [ref=e24]
+      - navigation "breadcrumbs" [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "Home" [ref=e29] [cursor=pointer]:
+              - /url: /
+            - text: ">"
+          - listitem [ref=e30]:
+            - link "Our environment" [ref=e31] [cursor=pointer]:
+              - /url: /our-environment
+            - text: ">"
+          - listitem [ref=e32]:
+            - link "Check air and water quality" [ref=e33] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: ">"
+          - listitem [ref=e34]: How we measure air pollution
+    - generic [ref=e43]:
+      - heading "How we measure air pollution" [level=1] [ref=e44]
+      - paragraph [ref=e46]: Our air monitoring equipment measures small particles in the air, visibility and gases in the air. We compare these measurements against the air quality categories.
+    - generic [ref=e49]:
+      - main [ref=e50]:
+        - generic [ref=e51]:
+          - heading "On this page" [level=2] [ref=e52]
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Measuring small particles – PM10" [ref=e55] [cursor=pointer]:
+                - /url: "#measuring-small-particles-–-pm10"
+                - generic [ref=e56]: Measuring small particles – PM10
+            - listitem [ref=e57]:
+              - link "Measuring small particles – PM2.5" [ref=e58] [cursor=pointer]:
+                - /url: "#measuring-small-particles-–-pm25"
+                - generic [ref=e59]: Measuring small particles – PM2.5
+            - listitem [ref=e60]:
+              - link "Measuring visibility" [ref=e61] [cursor=pointer]:
+                - /url: "#measuring-visibility"
+                - generic [ref=e62]: Measuring visibility
+            - listitem [ref=e63]:
+              - link "Measuring gases" [ref=e64] [cursor=pointer]:
+                - /url: "#measuring-gases"
+                - generic [ref=e65]: Measuring gases
+            - listitem [ref=e66]:
+              - link "If pollutants are high" [ref=e67] [cursor=pointer]:
+                - /url: "#if-pollutants-are-high"
+                - generic [ref=e68]: If pollutants are high
+        - paragraph [ref=e72]:
+          - link "Check air and water quality" [ref=e73] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+          - text: to see the current and forecast air quality for Victoria.
+        - generic [ref=e75]:
+          - paragraph [ref=e76]:
+            - text: We monitor general (ambient), local and incident-related air quality around Victoria through AirWatch. We use different air monitoring equipment at our
+            - link "monitoring sites" [ref=e77] [cursor=pointer]:
+              - /url: /how-we-monitor-air-quality
+            - text: to measure small particles, visibility and gases in the air.
+          - paragraph [ref=e78]:
+            - text: We compare measurements from our monitoring equipment against the
+            - link "air quality categories" [ref=e79] [cursor=pointer]:
+              - /url: /air-quality-categories
+            - text: .
+          - paragraph [ref=e80]:
+            - text: To let people know about potential air pollution issues, we report our AirWatch monitoring results on the
+            - link "Check air and water quality map" [ref=e81] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: .
+        - generic [ref=e83]:
+          - heading "Measuring small particles – PM10" [level=2] [ref=e84]:
+            - text: Measuring small particles – PM
+            - subscript [ref=e85]: "10"
+          - paragraph [ref=e86]:
+            - text: We use different air monitoring equipment to measure levels of
+            - link "PM10 air particles" [ref=e87] [cursor=pointer]:
+              - /url: /pm10-particles-air
+              - text: PM
+              - subscript [ref=e88]: "10"
+              - text: air particles
+            - text: . This includes HiVols, TEOMs and DustTraks.
+          - paragraph [ref=e89]:
+            - text: HiVols are our reference method. This means they are the most accurate method of monitoring PM
+            - subscript [ref=e90]: "10"
+            - text: levels. This method involves laboratory analysis of collected samples. We use this method at our Alphington air monitoring site. We use HiVol measurements to quality-check our other PM
+            - subscript [ref=e91]: "10"
+            - text: monitoring across the air monitoring network.
+          - paragraph [ref=e92]:
+            - text: TEOMs (tapered element oscillating microbalances) are a real-time hourly measurement of PM
+            - subscript [ref=e93]: "10"
+            - text: levels. We use TEOMs at our general and local condition monitoring sites as our reference method equivalent to the HiVol. TEOMs provide a high-accuracy measurement of PM
+            - subscript [ref=e94]: "10"
+            - text: particles. We have
+            - link "NATA accreditation" [ref=e95] [cursor=pointer]:
+              - /url: https://nata.com.au/accredited-organisation/applied-science-group-15119-15612/
+            - text: for this monitoring method.
+          - paragraph [ref=e96]:
+            - text: DustTraks are portable monitoring equipment. We use them at some local condition sites to measure PM
+            - subscript [ref=e97]: "10"
+            - text: levels. DustTraks are a good PM
+            - subscript [ref=e98]: "10"
+            - text: monitoring substitute when infrastructure is not available to support TEOMs. We also use DustTraks during pollution events because they are easy to deploy in the field. We regularly compare measurements between our DustTraks and TEOMs for quality control purposes.
+        - generic [ref=e100]:
+          - heading "Measuring small particles – PM2.5" [level=2] [ref=e101]:
+            - text: Measuring small particles – PM
+            - subscript [ref=e102]: "2.5"
+          - paragraph [ref=e103]:
+            - text: We use different air monitoring equipment to measure levels of
+            - link "PM2.5 air particles" [ref=e104] [cursor=pointer]:
+              - /url: /pm25-particles-air
+              - text: PM
+              - subscript [ref=e105]: "2.5"
+              - text: air particles
+            - text: . These include Partisols, BAMs, nephelometers, DustTraks and sensors.
+          - paragraph [ref=e106]:
+            - text: Partisols are our reference method. This means they are the most accurate method of monitoring PM
+            - subscript [ref=e107]: "2.5"
+            - text: levels. This method involves laboratory analysis of collected samples. We use this method at our Alphington and Footscray air monitoring sites. We use Partisol measurements to quality-check our other PM
+            - subscript [ref=e108]: "2.5"
+            - text: monitoring across the air monitoring network.
+          - paragraph [ref=e109]:
+            - text: BAMs (beta attenuation monitors) are a real-time hourly measurement of PM
+            - subscript [ref=e110]: "2.5"
+            - text: levels. We use BAMs at some of our general monitoring sites as our reference method equivalent to the Partisol. BAMs provide a high-accuracy measurement for PM
+            - subscript [ref=e111]: "2.5"
+            - text: levels. We have
+            - link "NATA accreditation" [ref=e112] [cursor=pointer]:
+              - /url: https://nata.com.au/accredited-organisation/applied-science-group-15119-15612/
+            - text: for this monitoring method.
+          - paragraph [ref=e113]:
+            - text: Nephelometers measure visibility in the air. They can be used as a substitute method for measuring PM
+            - subscript [ref=e114]: "2.5"
+            - text: levels. They are a great real-time measure of overall particle pollution in the air. We use nephelometers at some of our general monitoring sites.
+          - paragraph [ref=e115]:
+            - text: DustTraks are portable monitoring equipment. We use them at some local condition sites to measure PM
+            - subscript [ref=e116]: "2.5"
+            - text: levels. DustTraks are a good PM
+            - subscript [ref=e117]: "2.5"
+            - text: monitoring substitute when infrastructure is not available to support BAMs. We also use DustTraks during pollution events because they are easy to deploy in the field. We regularly compare measurements between our DustTraks and BAMs for quality control purposes.
+          - paragraph [ref=e118]:
+            - text: To increase the spatial coverage of our air monitoring across Victoria, we also use PM
+            - subscript [ref=e119]: "2.5"
+            - text: "particle sensors. Sensors help us to:"
+          - list [ref=e120]:
+            - listitem [ref=e121]: monitor in more locations
+            - listitem [ref=e122]: identify potential local air pollution issues.
+          - paragraph [ref=e123]: "Sensor measurements are indicative and can be prone to high levels of variability. This makes it difficult to judge the accuracy of measurements from a sensor. We regularly complete sensibility checks on sensor measurements. These checks include looking at:"
+          - list [ref=e124]:
+            - listitem [ref=e125]: local environmental conditions
+            - listitem [ref=e126]: other nearby sensors
+            - listitem [ref=e127]:
+              - text: other PM
+              - subscript [ref=e128]: "2.5"
+              - text: monitoring equipment in our network.
+          - paragraph [ref=e129]:
+            - text: Learn more about
+            - link "particle sensors" [ref=e130] [cursor=pointer]:
+              - /url: /particle-sensors
+            - text: .
+        - generic [ref=e132]:
+          - heading "Measuring visibility" [level=2] [ref=e133]
+          - paragraph [ref=e134]:
+            - text: Nephelometers measure visibility in the air. They provide a real-time hourly measurement of visibility. They are a great measure of overall particle pollution in the air, including PM
+            - subscript [ref=e135]: "2.5"
+            - text: "& PM"
+            - subscript [ref=e136]: "10"
+            - text: particles.
+          - paragraph [ref=e137]:
+            - text: We use nephelometers at some of our general monitoring sites. We have
+            - link "NATA accreditation" [ref=e138] [cursor=pointer]:
+              - /url: https://nata.com.au/accredited-organisation/applied-science-group-15119-15612/
+            - text: for this monitoring method.
+          - paragraph [ref=e139]:
+            - text: Learn more about
+            - link "air pollution" [ref=e140] [cursor=pointer]:
+              - /url: /air-pollution
+            - text: .
+        - generic [ref=e142]:
+          - heading "Measuring gases" [level=2] [ref=e143]
+          - paragraph [ref=e144]: "We have gas monitoring equipment that measures concentrations in the air of:"
+          - list [ref=e145]:
+            - listitem [ref=e146]: carbon monoxide
+            - listitem [ref=e147]: nitrogen dioxide
+            - listitem [ref=e148]: ozone
+            - listitem [ref=e149]: sulfur dioxide.
+          - paragraph [ref=e150]:
+            - text: Our gas monitoring equipment provides real-time measurements that are averaged and reported hourly. We use this equipment at some of our general monitoring sites as our reference method. We have
+            - link "NATA accreditation" [ref=e151] [cursor=pointer]:
+              - /url: https://nata.com.au/accredited-organisation/applied-science-group-15119-15612/
+            - text: for these monitoring methods.
+          - paragraph [ref=e152]:
+            - text: Learn more about
+            - link "gaseous air pollutants" [ref=e153] [cursor=pointer]:
+              - /url: /air-pollution
+            - text: .
+        - generic [ref=e155]:
+          - heading "If pollutants are high" [level=2] [ref=e156]
+          - paragraph [ref=e157]: "If an air monitor shows a high reading for a particular pollutant, we may:"
+          - list [ref=e158]:
+            - listitem [ref=e159]: observe air quality in the area
+            - listitem [ref=e160]: check the monitoring equipment is working correctly
+            - listitem [ref=e161]: compare the data with other air monitoring sites in the area
+            - listitem [ref=e162]: consult with other government agencies, such as the Country Fire Authority or the Department of Energy, Environment and Climate Action.
+          - paragraph [ref=e163]: "If there’s an issue with air quality, we may:"
+          - list [ref=e164]:
+            - listitem [ref=e165]: investigate the extent and cause of the issue
+            - listitem [ref=e166]: increase monitoring
+            - listitem [ref=e167]:
+              - text: update the
+              - link "Check air and water quality map" [ref=e168] [cursor=pointer]:
+                - /url: /check-air-and-water-quality
+              - text: and our
+              - link "air alerts" [ref=e169] [cursor=pointer]:
+                - /url: /air-alerts
+            - listitem [ref=e170]: decide whether it’s happened before and whether it will impact the community
+            - listitem [ref=e171]: inform relevant government agencies and the media.
+        - paragraph [ref=e172]:
+          - text: Updated
+          - time [ref=e173]: 1 December 2025
+      - complementary [ref=e174]:
+        - navigation [ref=e176]:
+          - heading "This section" [level=3] [ref=e177]
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - generic [ref=e180]:
+                - link "Check air and water quality" [ref=e181] [cursor=pointer]:
+                  - /url: /check-air-and-water-quality
+                - button "Toggle Check air and water quality menu" [expanded] [ref=e182] [cursor=pointer]
+              - region "Toggle Check air and water quality menu" [ref=e186]:
+                - list [ref=e187]:
+                  - listitem [ref=e188]:
+                    - link "Air alerts" [ref=e189] [cursor=pointer]:
+                      - /url: /air-alerts
+                  - listitem [ref=e190]:
+                    - link "How we monitor air quality" [ref=e191] [cursor=pointer]:
+                      - /url: /how-we-monitor-air-quality
+                  - listitem [ref=e192]:
+                    - link "How we measure air pollution" [ref=e193] [cursor=pointer]:
+                      - /url: /how-we-measure-air-pollution
+                    - list [ref=e194]:
+                      - listitem [ref=e195]:
+                        - link "Particle sensors" [ref=e196] [cursor=pointer]:
+                          - /url: /particle-sensors
+                          - generic [ref=e198]: Particle sensors
+                  - listitem [ref=e199]:
+                    - link "How we forecast air quality" [ref=e200] [cursor=pointer]:
+                      - /url: /how-we-forecast-air-quality
+                  - listitem [ref=e201]:
+                    - link "Air quality categories" [ref=e202] [cursor=pointer]:
+                      - /url: /air-quality-categories
+                  - listitem [ref=e203]:
+                    - link "How we monitor water quality" [ref=e204] [cursor=pointer]:
+                      - /url: /how-we-monitor-water-quality
+                  - listitem [ref=e205]:
+                    - link "Water quality sampling results and reports" [ref=e206] [cursor=pointer]:
+                      - /url: /water-quality-data-and-reports
+                  - listitem [ref=e207]:
+                    - link "Water quality forecast ratings" [ref=e208] [cursor=pointer]:
+                      - /url: /water-quality-forecast-ratings
+    - generic:
+      - generic:
+        - link "Back to top":
+          - /url: "#rpl-skip-links"
+          - generic: Back to top
+          - generic:
+            - img
+    - contentinfo [ref=e211]:
+      - navigation "Footer navigation" [ref=e213]:
+        - heading "Our environment" [level=3] [ref=e217]:
+          - link "Our environment" [ref=e218] [cursor=pointer]:
+            - /url: /our-environment
+        - heading "Make a report" [level=3] [ref=e222]:
+          - link "Make a report" [ref=e223] [cursor=pointer]:
+            - /url: /make-report
+        - heading "About us" [level=3] [ref=e227]:
+          - link "About us" [ref=e228] [cursor=pointer]:
+            - /url: /about-epa
+        - heading "Licensing and regulation" [level=3] [ref=e232]:
+          - link "Licensing and regulation" [ref=e233] [cursor=pointer]:
+            - /url: /licensing-and-regulation
+        - heading "Check air and water quality" [level=3] [ref=e237]:
+          - link "Check air and water quality" [ref=e238] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+        - heading "Portal" [level=3] [ref=e242]:
+          - link "Portal" [ref=e243] [cursor=pointer]:
+            - /url: https://portal365.epa.vic.gov.au/
+        - generic [ref=e244]:
+          - heading "Connect with us" [level=3] [ref=e247]
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "Facebook" [ref=e251] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+                - generic [ref=e254]: Facebook
+            - listitem [ref=e255]:
+              - link "Instagram" [ref=e256] [cursor=pointer]:
+                - /url: http://instagram.com/vicgovepa
+                - img [ref=e258]
+                - generic [ref=e261]: Instagram
+            - listitem [ref=e262]:
+              - link "Linkedin" [ref=e263] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/epa---victoria
+                - generic [ref=e266]: Linkedin
+            - listitem [ref=e267]:
+              - link "Youtube" [ref=e268] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/epavictoria
+                - img [ref=e270]
+                - generic [ref=e272]: Youtube
+            - listitem [ref=e273]:
+              - link "BlueSky" [ref=e274] [cursor=pointer]:
+                - /url: https://bsky.app/profile/epa.vic.gov.au
+                - generic [ref=e277]: BlueSky
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - img "Aboriginal flag" [ref=e283]
+          - img "Torres Strait Islander flag" [ref=e284]
+        - paragraph [ref=e285]: The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - list [ref=e289]:
+            - listitem [ref=e290]:
+              - link "EPA portal" [ref=e291] [cursor=pointer]:
+                - /url: /epa-portal
+            - listitem [ref=e292]:
+              - link "Accessibility" [ref=e293] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e294]:
+              - link "Disclaimer" [ref=e295] [cursor=pointer]:
+                - /url: /content-disclaimer
+            - listitem [ref=e296]:
+              - link "Privacy" [ref=e297] [cursor=pointer]:
+                - /url: /privacy-vicgovau
+            - listitem [ref=e298]:
+              - link "Privacy collection statement" [ref=e299] [cursor=pointer]:
+                - /url: /privacy-collection-statement
+            - listitem [ref=e300]:
+              - link "News" [ref=e301] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e302]:
+              - link "Sitemap" [ref=e303] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e304]:
+              - link "Contact us" [ref=e305] [cursor=pointer]:
+                - /url: /contact-us
+          - paragraph [ref=e308]: © Copyright State Government of Victoria
+        - link "Victoria government home" [ref=e310] [cursor=pointer]:
+          - /url: https://vic.gov.au
+          - img [ref=e311]

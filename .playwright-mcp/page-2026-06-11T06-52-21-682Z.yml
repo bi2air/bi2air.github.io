@@ -1,0 +1,222 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links and keyboard navigation":
+    - heading "Skip links and keyboard navigation" [level=2] [ref=e2]
+    - list:
+      - listitem:
+        - link "Skip to content" [ref=e3] [cursor=pointer]:
+          - /url: "#content"
+      - listitem:
+        - link "Use tab and cursor keys to move around the page (more information)" [ref=e4] [cursor=pointer]:
+          - /url: https://www.qld.gov.au/help/accessibility/keyboard.html#section-aria-keyboard-navigation
+  - banner "Site header" [ref=e6]:
+    - generic [ref=e8]:
+      - heading "Site header" [level=2] [ref=e9]
+      - link "Queensland Government home" [ref=e11] [cursor=pointer]:
+        - /url: https://www.qld.gov.au/
+        - img "Queensland Government home" [ref=e12]
+      - navigation [ref=e13]:
+        - listitem [ref=e14]:
+          - link "Contact us" [ref=e15] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/contact-us/
+        - listitem [ref=e16]:
+          - search [ref=e17]:
+            - generic [ref=e18]:
+              - generic [ref=e19] [cursor=pointer]: Search website
+              - searchbox "Search website" [ref=e20]
+              - button " Search" [ref=e21] [cursor=pointer]
+      - navigation "Skip links and keyboard navigation" [ref=e22]:
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "For Queenslanders" [ref=e25] [cursor=pointer]:
+              - /url: https://www.qld.gov.au/queenslanders/
+          - listitem [ref=e26]:
+            - link "Business and industry" [ref=e27] [cursor=pointer]:
+              - /url: http://www.business.qld.gov.au/
+  - generic [ref=e29]:
+    - navigation "You are here:" [ref=e30]:
+      - heading "You are here:" [level=2] [ref=e31]
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link " Queensland Government home" [ref=e34] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/
+        - listitem [ref=e35]:
+          - text: 
+          - link "For Queenslanders" [ref=e36] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/queenslanders/
+        - listitem [ref=e37]:
+          - text: 
+          - link "Environment, land and water" [ref=e38] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/environment/
+        - listitem [ref=e39]:  Page not found
+    - generic [ref=e40]:
+      - main "Page not found":
+        - article "Page not found" [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]: 
+              - text: Print
+            - heading "Page not found" [level=1] [ref=e46]
+            - generic [ref=e47]:
+              - paragraph [ref=e48]:
+                - strong [ref=e49]: The page you requested could not be found.
+              - paragraph [ref=e50]: If you have arrived at this page through a bookmark, please update your bookmarks with the new link.
+              - paragraph [ref=e51]: If you have arrived at this page by typing the address, please make sure that you have spelt the page address correctly.
+              - paragraph [ref=e52]:
+                - strong [ref=e53]: "Perhaps you were after:"
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "Live air data | Environment, land and water" [ref=e56] [cursor=pointer]:
+                    - /url: /air-quality/
+      - generic [ref=e60]:
+        - generic [ref=e63]:
+          - term [ref=e64]: Licence
+          - definition [ref=e65]:
+            - link "Creative Commons Attribution 4.0 International (CC BY 4.0)" [ref=e66] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+              - img "Creative Commons Attribution 4.0 International (CC BY 4.0)" [ref=e67]
+          - term [ref=e68]: Last updated
+          - definition [ref=e69]: 14 February 2020
+        - generic [ref=e70]:
+          - list:
+            - listitem [ref=e71]:
+              - link "Feedback" [ref=e72] [cursor=pointer]:
+                - /url: https://www.des.qld.gov.au/contactus
+            - listitem [ref=e73]:
+              - heading "Share:" [level=2] [ref=e74]
+              - link " Facebook" [ref=e75] [cursor=pointer]:
+                - /url: https://www.qld.gov.au/share/?via=facebook&title=Page+not+found&url=https%3A%2F%2Fapps.des.qld.gov.au%2Fair-quality%2Fabout%2Fcategories%2F
+                - text: 
+                - generic [ref=e76]: Facebook
+              - link " Twitter" [ref=e77] [cursor=pointer]:
+                - /url: https://www.qld.gov.au/share/?via=twitter&title=Page+not+found&url=https%3A%2F%2Fapps.des.qld.gov.au%2Fair-quality%2Fabout%2Fcategories%2F
+                - text: 
+                - generic [ref=e78]: Twitter
+              - link " LinkedIn" [ref=e79] [cursor=pointer]:
+                - /url: https://www.qld.gov.au/share/?via=linkedin&title=Page+not+found&url=https%3A%2F%2Fapps.des.qld.gov.au%2Fair-quality%2Fabout%2Fcategories%2F
+                - text: 
+                - generic [ref=e80]: LinkedIn
+              - link " More" [ref=e81] [cursor=pointer]:
+                - /url: https://www.qld.gov.au/share/?title=Page+not+found&url=https%3A%2F%2Fapps.des.qld.gov.au%2Fair-quality%2Fabout%2Fcategories%2F
+                - text: 
+                - generic [ref=e82]: More
+  - contentinfo "Site footer" [ref=e83]:
+    - navigation "Explore this site" [ref=e84]:
+      - generic [ref=e86]:
+        - heading "Explore this site" [level=2] [ref=e87]
+        - menu "Queensland Government" [ref=e88]:
+          - heading "Queensland Government" [level=3] [ref=e89]:
+            - menuitem "Queensland Government" [ref=e90] [cursor=pointer]
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - menuitem "Government contacts" [ref=e93] [cursor=pointer]
+            - listitem [ref=e94]:
+              - menuitem "Have your say" [ref=e95] [cursor=pointer]
+            - listitem [ref=e96]:
+              - menuitem "Staying informed" [ref=e97] [cursor=pointer]
+            - listitem [ref=e98]:
+              - menuitem "Government jobs" [ref=e99] [cursor=pointer]
+            - listitem [ref=e100]:
+              - menuitem "How government works" [ref=e101] [cursor=pointer]
+            - listitem [ref=e102]:
+              - menuitem "Queensland Government data" [ref=e103] [cursor=pointer]
+            - listitem [ref=e104]:
+              - menuitem "Queensland Government publications" [ref=e105] [cursor=pointer]
+            - listitem [ref=e106]:
+              - menuitem "For government employees" [ref=e107] [cursor=pointer]
+        - menu "For Queenslanders" [ref=e108]:
+          - heading "For Queenslanders" [level=3] [ref=e109]:
+            - menuitem "For Queenslanders" [ref=e110] [cursor=pointer]
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - menuitem "Transport and motoring" [ref=e113] [cursor=pointer]
+            - listitem [ref=e114]:
+              - menuitem "Employment and jobs" [ref=e115] [cursor=pointer]
+            - listitem [ref=e116]:
+              - menuitem "Homes and housing" [ref=e117] [cursor=pointer]
+            - listitem [ref=e118]:
+              - menuitem "Education and training" [ref=e119] [cursor=pointer]
+            - listitem [ref=e120]:
+              - menuitem "Community support" [ref=e121] [cursor=pointer]
+            - listitem [ref=e122]:
+              - menuitem "Health and wellbeing" [ref=e123] [cursor=pointer]
+            - listitem [ref=e124]:
+              - menuitem "Emergency services and safety" [ref=e125] [cursor=pointer]
+            - listitem [ref=e126]:
+              - menuitem "About Queensland and its government" [ref=e127] [cursor=pointer]
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - menuitem "Parents and families" [ref=e130] [cursor=pointer]
+            - listitem [ref=e131]:
+              - menuitem "People with disability" [ref=e132] [cursor=pointer]
+            - listitem [ref=e133]:
+              - menuitem "Seniors" [ref=e134] [cursor=pointer]
+            - listitem [ref=e135]:
+              - menuitem "Aboriginal and Torres Strait Islander peoples" [ref=e136] [cursor=pointer]
+            - listitem [ref=e137]:
+              - menuitem "Youth" [ref=e138] [cursor=pointer]
+            - listitem [ref=e139]:
+              - menuitem "Environment, land and water" [ref=e140] [cursor=pointer]
+            - listitem [ref=e141]:
+              - menuitem "Your rights, crime and the law" [ref=e142] [cursor=pointer]
+            - listitem [ref=e143]:
+              - menuitem "Recreation, sport and arts" [ref=e144] [cursor=pointer]
+        - menu "Business and industry" [ref=e145]:
+          - heading "Business and industry" [level=3] [ref=e146]:
+            - menuitem "Business and industry" [ref=e147] [cursor=pointer]
+          - list [ref=e148]:
+            - listitem [ref=e149]:
+              - menuitem "Starting a business" [ref=e150] [cursor=pointer]
+            - listitem [ref=e151]:
+              - menuitem "Running a business" [ref=e152] [cursor=pointer]
+            - listitem [ref=e153]:
+              - menuitem "Employing people" [ref=e154] [cursor=pointer]
+            - listitem [ref=e155]:
+              - menuitem "Payroll tax" [ref=e156] [cursor=pointer]
+            - listitem [ref=e157]:
+              - menuitem "Industries" [ref=e158] [cursor=pointer]
+            - listitem [ref=e159]:
+              - menuitem "Investing in Queensland" [ref=e160] [cursor=pointer]
+            - listitem [ref=e161]:
+              - menuitem "昆士兰州的投资机会" [ref=e162] [cursor=pointer]
+            - listitem [ref=e163]:
+              - menuitem "昆士蘭州的投資機會" [ref=e164] [cursor=pointer]
+            - listitem [ref=e165]:
+              - menuitem "クイーンズランド州への投資機会" [ref=e166] [cursor=pointer]
+            - listitem [ref=e167]:
+              - menuitem "퀸즈랜드 투자 기회" [ref=e168] [cursor=pointer]
+            - listitem [ref=e169]:
+              - menuitem "Oportunidades de inversión en Queensland" [ref=e170] [cursor=pointer]
+    - generic [ref=e172]:
+      - heading "Site footer" [level=2] [ref=e173]
+      - list [ref=e174]:
+        - listitem [ref=e175]:
+          - link "Contact us" [ref=e176] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/contact-us/
+        - listitem [ref=e177]:
+          - link "Help" [ref=e178] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/help/
+        - listitem [ref=e179]:
+          - link "Copyright" [ref=e180] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/legal/copyright/
+        - listitem [ref=e181]:
+          - link "Disclaimer" [ref=e182] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/legal/disclaimer/
+        - listitem [ref=e183]:
+          - link "Privacy" [ref=e184] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/legal/privacy/
+        - listitem [ref=e185]:
+          - link "Right to information" [ref=e186] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/right-to-information/
+        - listitem [ref=e187]:
+          - link "Accessibility" [ref=e188] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/help/accessibility/
+        - listitem [ref=e189]:
+          - link "Jobs in Queensland Government" [ref=e190] [cursor=pointer]:
+            - /url: https://smartjobs.qld.gov.au/
+        - listitem [ref=e191]:
+          - link "Other languages" [ref=e192] [cursor=pointer]:
+            - /url: https://www.qld.gov.au/languages/
+      - paragraph [ref=e193]: © The State of Queensland 1995–2026
+      - paragraph [ref=e194]:
+        - link "Queensland Government" [ref=e195] [cursor=pointer]:
+          - /url: https://www.qld.gov.au/

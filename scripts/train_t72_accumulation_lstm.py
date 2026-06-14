@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 DATA_DIR = 'tmp/air-quality-analysis-upstream/data'
 MODELS_DIR = 'tmp/air-quality-analysis-upstream/models/pipeline'
 MAX_HORIZON = 72
-BATCH_SIZE = 1024
+BATCH_SIZE = 256
 EPOCHS = 50
 LEARNING_RATE = 1e-3
 HIDDEN_DIM = 128

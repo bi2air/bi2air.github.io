@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - link "Skip to main navigation" [ref=e3] [cursor=pointer]:
+    - /url: "#block-menu-block-main"
+  - link "Skip to search" [ref=e4] [cursor=pointer]:
+    - /url: "#edit-search-api-fulltext"
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - generic [ref=e10]:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=e15]
+        - generic [ref=e18]:
+          - textbox "Search" [ref=e20]:
+            - /placeholder: Search..
+          - button "Search" [ref=e22]
+    - list [ref=e27]:
+      - listitem [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e30]:
+        - link "About us" [ref=e31] [cursor=pointer]:
+          - /url: /about-us
+      - listitem [ref=e32]:
+        - link "NEPMs" [ref=e33] [cursor=pointer]:
+          - /url: /nepms
+          - text: NEPMs 
+      - listitem [ref=e34]:
+        - link "Projects" [ref=e35] [cursor=pointer]:
+          - /url: /projects
+          - text: Projects 
+      - listitem [ref=e36]:
+        - link "Publications" [ref=e37] [cursor=pointer]:
+          - /url: /publications
+          - text: Publications 
+        - text: 
+    - navigation [ref=e46]:
+      - heading "Breadcrumb" [level=2] [ref=e47]
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Home" [ref=e50] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e51]: / Variation to the Ambient Air Quality NEPM – particles standards
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - complementary [ref=e55]:
+          - navigation "Sidebar navigation" [ref=e57]:
+            - heading "Sidebar navigation" [level=2] [ref=e58]
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - text:   
+                - list [ref=e61]:
+                  - listitem [ref=e62]:
+                    - link "Home" [ref=e63] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=e64]:
+                    - link "About us" [ref=e65] [cursor=pointer]:
+                      - /url: /about-us
+                  - listitem [ref=e66]:
+                    - link "NEPMs" [ref=e67] [cursor=pointer]:
+                      - /url: /nepms
+                  - listitem [ref=e68]:
+                    - link "Projects" [ref=e69] [cursor=pointer]:
+                      - /url: /projects
+                  - listitem [ref=e70]:
+                    - link "Publications" [ref=e71] [cursor=pointer]:
+                      - /url: /publications
+        - generic [ref=e73]:
+          - heading "Variation to the Ambient Air Quality NEPM – particles standards" [level=1] [ref=e75]
+          - generic [ref=e77]:
+            - generic [ref=e78]: "2015"
+            - generic [ref=e79]:
+              - paragraph [ref=e80]:
+                - text: At its meeting on 15 December 2015, the National Environment Protection Council (NEPC) agreed to vary the AAQ NEPM by approving an amending instrument to the AAQ NEPM. The amending instrument took effect on 4 February 2016, the day after it was registered on the Federal Register of Legislative Instruments (FRLI). In approving the amendments, the NEPC took into account the
+                - emphasis [ref=e81]: Impact Statement
+                - text: and information received during public consultation on this proposed variation. NEPC’s responses to the feedback received are available in the
+                - emphasis [ref=e82]: Summary of Submissions
+                - text: document.
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - link "Public consultation on proposed variation" [ref=e85] [cursor=pointer]:
+                    - /url: /nepms/ambient-air-quality/proposed-variation/consultation#Impact_Statement_and_draft_varied_measure
+                  - text: "- summary of submissions"
+              - paragraph [ref=e86]: "The amendment, taking into account the latest scientific evidence about the health impacts of particles, includes:"
+              - list [ref=e87]:
+                - listitem [ref=e88]:
+                  - text: Amending the status of the annual average and 24-hour average PM
+                  - subscript [ref=e89]: "2.5"
+                  - text: ‘advisory reporting standards’ to ‘standards’
+                - listitem [ref=e90]:
+                  - text: Including an annual average PM
+                  - subscript [ref=e91]: "10"
+                  - text: standard of 25 μg/m
+                  - superscript [ref=e92]: "3"
+                - listitem [ref=e93]:
+                  - text: Including an aim to move to annual average and 24-hour PM
+                  - subscript [ref=e94]: "2.5"
+                  - text: standards of 7 μg/m
+                  - superscript [ref=e95]: "3"
+                  - text: and 20 μg/m
+                  - superscript [ref=e96]: "3"
+                  - text: by 2025
+                - listitem [ref=e97]:
+                  - text: Initiating a nationally consistent approach to reporting population exposure to PM
+                  - subscript [ref=e98]: "2.5"
+                - listitem [ref=e99]:
+                  - text: Replacing the five-day exceedance form of the 24-hour PM
+                  - subscript [ref=e100]: "2.5"
+                  - text: and PM
+                  - subscript [ref=e101]: "10"
+                  - text: standards with an exceptional event rule.
+              - heading "Ambient Air Quality NEPM – FRLI" [level=2] [ref=e102]
+              - paragraph [ref=e103]: For further information regarding the amending instrument, including explanatory statement, visit
+              - list [ref=e104]:
+                - listitem [ref=e105]:
+                  - link "Variation to the National Environment Protection (Ambient Air Quality) Measure 2015 " [ref=e106] [cursor=pointer]:
+                    - /url: https://www.comlaw.gov.au/Details/F2016L00084
+              - heading "Further information" [level=2] [ref=e107]
+              - list [ref=e108]:
+                - listitem [ref=e109]:
+                  - link "Proposed variation to the Ambient Air Quality NEPM" [ref=e110] [cursor=pointer]:
+                    - /url: /nepms/ambient-air-quality/proposed-variation/consultation
+        - complementary [ref=e111]
+    - contentinfo [ref=e112]:
+      - group "Was this page helpful?" [ref=e121]:
+        - generic [ref=e122]: Was this page helpful?
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: Was this page helpful?
+            - combobox "Was this page helpful?" [ref=e126]:
+              - option "- None -" [selected]
+              - option "Yes"
+              - option "No"
+          - generic [ref=e128]:
+            - checkbox "Yes" [ref=e129] [cursor=pointer]
+            - checkbox "No" [ref=e130] [cursor=pointer]
+      - generic [ref=e132]:
+        - generic [ref=e134]:
+          - navigation "Footer" [ref=e135]:
+            - heading "Footer" [level=2] [ref=e136]
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - link "© Commonwealth of Australia" [ref=e139] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/about/copyright
+                - text: "|"
+              - listitem [ref=e140]:
+                - link "Freedom of Information" [ref=e141] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/about/reporting/freedom-of-information
+                - text: "|"
+              - listitem [ref=e142]:
+                - link "Accessibility" [ref=e143] [cursor=pointer]:
+                  - /url: /accessibility
+                - text: "|"
+              - listitem [ref=e144]:
+                - link "Disclaimer" [ref=e145] [cursor=pointer]:
+                  - /url: /disclaimer
+                - text: "|"
+              - listitem [ref=e146]:
+                - link "Privacy" [ref=e147] [cursor=pointer]:
+                  - /url: /privacy
+                - text: "|"
+              - listitem [ref=e148]:
+                - link "Department of Climate Change, Energy, the Environment and Water" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/
+          - generic [ref=e155]:
+            - generic [ref=e156]: "Last modified:"
+            - time [ref=e158]: 14 November 2022
+        - paragraph [ref=e160]: We acknowledge the Traditional Owners of country throughout Australia and recognise their continuing connection to land, waters and culture. We pay our respects to their Elders past, present and emerging

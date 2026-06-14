@@ -1,0 +1,27 @@
+- generic [ref=e2]:
+  - link "Skip to main" [ref=e3] [cursor=pointer]:
+    - /url: "#maincontent"
+  - main [ref=e4]
+  - contentinfo [ref=e6]:
+    - generic [ref=e8]:
+      - paragraph [ref=e13]: We acknowledge the traditional owners and custodians of country throughout Australia and acknowledge their continuing connection to land, waters and community.
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - link "Terms of use" [ref=e17] [cursor=pointer]:
+            - /url: /terms-of-use
+        - listitem [ref=e18]:
+          - text: "|"
+          - link "Glossary" [ref=e19] [cursor=pointer]:
+            - /url: /help-and-resources/understanding-legislation/glossary
+        - listitem [ref=e20]:
+          - text: "|"
+          - link "Feedback" [ref=e21] [cursor=pointer]:
+            - /url: /help-and-resources/using-the-legislation-register/feedback
+        - listitem [ref=e22]:
+          - text: "|"
+          - link "Sitemap" [ref=e23] [cursor=pointer]:
+            - /url: /sitemap
+        - listitem [ref=e24]:
+          - text: "|"
+          - link "Video help guides" [ref=e25] [cursor=pointer]:
+            - /url: https://www.youtube.com/@AusGovLegislation

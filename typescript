@@ -1,0 +1,529 @@
+Script started on 2026-06-01 22:52:10+07:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="108" LINES="34"]
+[1m[7m%[27m[1m[0m                                                                                                            ]2;abc@pad:~/working/gitpage]1;..rking/gitpage]7;file://pad/home/abc/working/gitpage\[0m[27m[24m[J[01;32m➜  [36mgitpage[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mgitpage[00m [01;34mgit:([31mmain[34m) [33m✗[00m [Klls[?1l>[?2004l
+]2;ls --color=tty]1;ls[0m[01;34massets[0m   [01;34mcode[0m         [01;34mdocs[0m         Gemfile       index.md   [01;34m_site[0m       [01;36mwayback_latest_b-io_info[0m
+[01;36mbioinfo[0m  _config.yml  [01;34mdoc-work[0m     Gemfile.lock  README.md  [01;36mskyi[0m
+[01;34mblog[0m     [01;34mdata[0m         favicon.ico  [01;34m_includes[0m     [01;34mscripts[0m    typescript
+[1m[7m%[27m[1m[0m                                                                                                            ]2;abc@pad:~/working/gitpage]1;..rking/gitpage]7;file://pad/home/abc/working/gitpage\[0m[27m[24m[J[01;32m➜  [36mgitpage[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hccd c  c  sscr
+[J[0mscreendump    [Jscript        [Jscriptlive    [Jscriptreplay  [J[01;34mscripts[0m/    [J[A[0m[27m[24m[24Cscr[K
+[J[J[0mscreendump    [Jscript        [Jscriptlive    [Jscriptreplay  [J[01;34mscripts[0m/    [J[A[0m[27m[24m[24Cscr[Kip
+[J[A[29Cts/local-jekyll-test.zsh[1m [0m[0m [?1l>[?2004l
+[J]2;scripts/local-jekyll-test.zsh]1;scripts/local-jekyll-test.zsh/home/abc/miniconda3/etc/conda/activate.d/activate-gcc_linux-64.sh:107: SYS_SYSROOT: parameter not set
+==> Building Jekyll site
+Configuration file: /home/abc/working/gitpage/_config.yml
+      Remote Theme: Using theme just-the-docs/just-the-docs
+            Source: /home/abc/working/gitpage
+       Destination: /home/abc/working/gitpage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    done in 3.197 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+==> Serving at http://pad:4000/
+Configuration file: /home/abc/working/gitpage/_config.yml
+      Remote Theme: Using theme just-the-docs/just-the-docs
+            Source: /home/abc/working/gitpage
+       Destination: /home/abc/working/gitpage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    done in 3.135 seconds.
+ Auto-regeneration: enabled for '/home/abc/working/gitpage'
+    Server address: http://pad:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2026-06-01 22:56:05
+                    _config.local.yml
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.073680617 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-01 22:56:10
+                    scripts/local-jekyll-test.zsh
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.060726021 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-01 22:57:32
+                    doc-work/2026-06-01-site-pass.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.042598385 seconds.
+                    
+pppp
+
+^C^
+[1m[7m%[27m[1m[0m                                                                                                            ]2;abc@pad:~/working/gitpage]1;..rking/gitpage]7;file://pad/home/abc/working/gitpage\[0m[27m[24m[J[01;31m➜  [36mgitpage[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hscripts/local-jekyll-test.zsh[?1l>[?2004l
+]2;scripts/local-jekyll-test.zsh]1;scripts/local-jekyll-test.zsh/home/abc/miniconda3/etc/conda/activate.d/activate-gcc_linux-64.sh:107: SYS_SYSROOT: parameter not set
+==> Building Jekyll site
+Configuration file: _config.yml
+Configuration file: _config.local.yml
+      Remote Theme: Using theme just-the-docs/just-the-docs
+            Source: /home/abc/working/gitpage
+       Destination: /home/abc/working/gitpage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    done in 3.636 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+==> Serving at http://pad:4000/
+Configuration file: _config.yml
+Configuration file: _config.local.yml
+      Remote Theme: Using theme just-the-docs/just-the-docs
+            Source: /home/abc/working/gitpage
+       Destination: /home/abc/working/gitpage/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    done in 3.377 seconds.
+ Auto-regeneration: enabled for '/home/abc/working/gitpage'
+    Server address: http://pad:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 11 file(s) changed at 2026-06-02 10:49:21
+                    assets/images/tutorials/pm25-monitor/sds011.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_2.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_3.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_4.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_5.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_6.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_7.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_8.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_9.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_10.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_11.jpg
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.186277495 seconds.
+                    
+      Regenerating: 31 file(s) changed at 2026-06-02 10:49:37
+                    assets/images/tutorials/pm25-monitor/sds011.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_2.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_3.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_4.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_5.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_6.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_7.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_8.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_9.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_10.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_11.jpg
+                    assets/images/tutorials/pm25-monitor/pm25_monitor_1.jpg
+                    assets/images/tutorials/wireless-rs232/rs232-0.jpg
+                    assets/images/tutorials/wireless-rs232/rs232-1.jpg
+                    assets/images/tutorials/wireless-rs232/rs232-2.jpg
+                    assets/images/tutorials/wireless-rs232/rs232-3.png
+                    assets/images/tutorials/wireless-rs232/rs232-4.png
+                    assets/images/tutorials/wireless-rs232/rs232-5.png
+                    assets/images/tutorials/watering-plant/resistance_humidity.jpg
+                    assets/images/tutorials/watering-plant/capacitance_humidity.jpg
+                    assets/images/tutorials/watering-plant/watering_diagram.png
+                    assets/images/tutorials/watering-plant/watering_steps.jpg
+                    assets/images/tutorials/watering-plant/esp8266_power.png
+                    assets/images/tutorials/watering-plant/watering_usb.png
+                    assets/images/tutorials/watering-plant/5min_interval.png
+                    assets/images/tutorials/watering-plant/20_deepsleep.png
+                    assets/images/tutorials/watering-plant/watering_solar_charged.png
+                    assets/images/tutorials/watering-plant/watering_humidity.png
+                    assets/images/tutorials/watering-plant/watering_pot.jpg
+                    assets/images/tutorials/watering-plant/watering_indicator.jpg
+                    assets/images/tutorials/watering-plant/watering_work.png
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.143056971 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:49:40
+                    typescript
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.274712166 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:49:51
+                    docs/tutorials.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.461438671 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:51:25
+                    docs/tutorials/pm25-monitor.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.20976098 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-06-02 10:51:28
+                    docs/tutorials/wireless-rs232.md
+                    docs/tutorials/watering-plant.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.259102418 seconds.
+                    
+      Regenerating: 18 file(s) changed at 2026-06-02 10:51:39
+                    .sass-cache/e39340f01eaef28636f5a64ead25d4baa7f807c6/support.scssc
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/mixins.scssc
+                    .sass-cache/9a0bd6197a9f8544f91643637325e496ce9b876b/setup.scssc
+                    .sass-cache/0a66ba83654d074e0249a9d6b075c6b16acd6d2b/light.scssc
+                    .sass-cache/139f7748e9cfaf3e0f2193aa9534ba31dade308d/syntax.scssc
+                    .sass-cache/c2ec858c9042f22e3b81446bfe8c9827e854d7f9/syntax.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/modules.scssc
+                    .sass-cache/18f340afa436d3a9fc4e475d4aba8a76281455ac/normalize.scssc
+                    .sass-cache/e39340f01eaef28636f5a64ead25d4baa7f807c6/_variables.scssc
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/_layout.scssc
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/_buttons.scssc
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/_typography.scssc
+                    .sass-cache/0a66ba83654d074e0249a9d6b075c6b16acd6d2b/dark.scssc
+                    .sass-cache/e39340f01eaef28636f5a64ead25d4baa7f807c6/_variables.scssc20260602-330384-hanl3r
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/_layout.scssc20260602-330384-lcpxqz
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/_buttons.scssc20260602-330384-n3izxn
+                    .sass-cache/df62e1328fdb34b391dfa6ca056b033af561da36/_typography.scssc20260602-330384-9a62oy
+                    .sass-cache/0a66ba83654d074e0249a9d6b075c6b16acd6d2b/dark.scssc20260602-330384-t4nwqp
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.465486803 seconds.
+                    
+      Regenerating: 38 file(s) changed at 2026-06-02 10:51:43
+                    typescript
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/utilities.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/base.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/layout.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/content.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/navigation.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/typography.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/labels.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/buttons.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/search.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/tables.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/code.scssc
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_colors.scssc
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_layout.scssc
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_typography.scssc
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_lists.scssc
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_spacing.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/print.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/skiptomain.scssc
+                    .sass-cache/9a0bd6197a9f8544f91643637325e496ce9b876b/custom.scssc
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/base.scssc20260602-330384-2r3jwz
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/layout.scssc20260602-330384-xo3geq
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/content.scssc20260602-330384-x66b9b
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/navigation.scssc20260602-330384-umonqi
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/typography.scssc20260602-330384-v4hc0e
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/labels.scssc20260602-330384-5spbr7
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/buttons.scssc20260602-330384-r8htun
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/search.scssc20260602-330384-zshw3t
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/tables.scssc20260602-330384-bbqw8d
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/code.scssc20260602-330384-ldii0f
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_colors.scssc20260602-330384-447ike
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_layout.scssc20260602-330384-6ritj0
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_typography.scssc20260602-330384-80hik0
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_lists.scssc20260602-330384-xzxtut
+                    .sass-cache/7360524f197b66dabff2000ed39adcf1a9f9d2d3/_spacing.scssc20260602-330384-nz77j3
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/print.scssc20260602-330384-4tw6s3
+                    .sass-cache/a8e4ebd55c12818742a3da1834559389f8ddb56c/skiptomain.scssc20260602-330384-zwsy4f
+                    .sass-cache/9a0bd6197a9f8544f91643637325e496ce9b876b/custom.scssc20260602-330384-lmsl5k
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.24493886 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:51:47
+                    typescript
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.514435035 seconds.
+                    
+      Regenerating: 18 file(s) changed at 2026-06-02 10:52:02
+                    .sass-cache/8cff1f38fb6f297fcd6ad389c41f8286e1cf151c/support.scssc
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/mixins.scssc
+                    .sass-cache/bb2e09cc91cf1a9f9bafc816bcd2b3d4c17e3274/setup.scssc
+                    .sass-cache/0457f47a288b7e546794f782eff4ca88510498e3/light.scssc
+                    .sass-cache/1b75433d8c765816a2d629d195bddd1afdb89775/syntax.scssc
+                    .sass-cache/782520b28ef53b465c730492349b2f0698bdc484/syntax.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/modules.scssc
+                    .sass-cache/7d80d621d7596801c4871fb69e4951c9e435ba1c/normalize.scssc
+                    .sass-cache/8cff1f38fb6f297fcd6ad389c41f8286e1cf151c/_variables.scssc
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/_layout.scssc
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/_buttons.scssc
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/_typography.scssc
+                    .sass-cache/0457f47a288b7e546794f782eff4ca88510498e3/dark.scssc
+                    .sass-cache/8cff1f38fb6f297fcd6ad389c41f8286e1cf151c/_variables.scssc20260602-331675-468del
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/_layout.scssc20260602-331675-qiv68n
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/_buttons.scssc20260602-331675-frhoa1
+                    .sass-cache/8cbba6957d1bf5dc9862d943159e0db131cacbf7/_typography.scssc20260602-331675-8jdhx2
+                    .sass-cache/0457f47a288b7e546794f782eff4ca88510498e3/dark.scssc20260602-331675-ij03rs
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.35334731 seconds.
+                    
+      Regenerating: 37 file(s) changed at 2026-06-02 10:52:06
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/utilities.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/base.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/layout.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/content.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/navigation.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/typography.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/labels.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/buttons.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/search.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/tables.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/code.scssc
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_colors.scssc
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_layout.scssc
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_typography.scssc
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_lists.scssc
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_spacing.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/print.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/skiptomain.scssc
+                    .sass-cache/bb2e09cc91cf1a9f9bafc816bcd2b3d4c17e3274/custom.scssc
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/base.scssc20260602-331675-egk55g
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/layout.scssc20260602-331675-8he64w
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/content.scssc20260602-331675-eyowkq
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/navigation.scssc20260602-331675-90e1md
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/typography.scssc20260602-331675-dtc6ck
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/labels.scssc20260602-331675-np74on
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/buttons.scssc20260602-331675-1m4rs7
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/search.scssc20260602-331675-gooz10
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/tables.scssc20260602-331675-w7ifdv
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/code.scssc20260602-331675-cl0rsa
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_colors.scssc20260602-331675-x3q2kv
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_layout.scssc20260602-331675-8qy1uc
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_typography.scssc20260602-331675-2t6dlq
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_lists.scssc20260602-331675-glgso4
+                    .sass-cache/eecb750bf3422f87f77d3580ed1062cea81f6e75/_spacing.scssc20260602-331675-kvs4ug
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/print.scssc20260602-331675-prmxwo
+                    .sass-cache/7cbe46b9a1ed5711304ef8d259a6f9ddde543812/skiptomain.scssc20260602-331675-9toe5w
+                    .sass-cache/bb2e09cc91cf1a9f9bafc816bcd2b3d4c17e3274/custom.scssc20260602-331675-emvqg5
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.277193535 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:52:10
+                    typescript
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.344989336 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:52:30
+                    doc-work/2026-06-02-tutorial-import.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.314069563 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 10:59:39
+                    docs/tutorials.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.277554804 seconds.
+                    
+      Regenerating: 20 file(s) changed at 2026-06-02 11:00:32
+                    .sass-cache/93d459361d87306ef9cdb210b0d3f653184a6990/support.scssc
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/mixins.scssc
+                    .sass-cache/b997b6ce6957c76d969c6bdd23a1e1bb02dcf83e/setup.scssc
+                    .sass-cache/90faeb5e21ce04be80c3dc875cb567bd58991558/light.scssc
+                    .sass-cache/dde669aea1b04955d2600c788468e186f3d63bf7/syntax.scssc
+                    .sass-cache/42017f8a6a7ebea8094df69d006bc8e685baf6c7/syntax.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/modules.scssc
+                    .sass-cache/3aef97211839cac99a3acb3de2ed42afd6af09b1/normalize.scssc
+                    .sass-cache/93d459361d87306ef9cdb210b0d3f653184a6990/_variables.scssc
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/_layout.scssc
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/_buttons.scssc
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/_typography.scssc
+                    .sass-cache/90faeb5e21ce04be80c3dc875cb567bd58991558/dark.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/base.scssc
+                    .sass-cache/93d459361d87306ef9cdb210b0d3f653184a6990/_variables.scssc20260602-335767-h239ul
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/_layout.scssc20260602-335767-ful3mz
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/_buttons.scssc20260602-335767-5skf3f
+                    .sass-cache/408648f56bc3d49e298299caa2786b53d29eaedb/_typography.scssc20260602-335767-aisl7d
+                    .sass-cache/90faeb5e21ce04be80c3dc875cb567bd58991558/dark.scssc20260602-335767-or4x3y
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/base.scssc20260602-335767-taly0q
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.462439727 seconds.
+                    
+      Regenerating: 36 file(s) changed at 2026-06-02 11:00:36
+                    typescript
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/utilities.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/layout.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/content.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/navigation.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/typography.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/labels.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/buttons.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/search.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/tables.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/code.scssc
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_colors.scssc
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_layout.scssc
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_typography.scssc
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_lists.scssc
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_spacing.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/print.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/skiptomain.scssc
+                    .sass-cache/b997b6ce6957c76d969c6bdd23a1e1bb02dcf83e/custom.scssc
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/layout.scssc20260602-335767-dzm9uo
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/content.scssc20260602-335767-1s60lv
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/navigation.scssc20260602-335767-y4kr19
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/typography.scssc20260602-335767-hc9p94
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/labels.scssc20260602-335767-eqkar1
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/buttons.scssc20260602-335767-brzm6q
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/search.scssc20260602-335767-bq2294
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/tables.scssc20260602-335767-k6vyey
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/code.scssc20260602-335767-61yhiq
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_colors.scssc20260602-335767-ibrjvm
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_layout.scssc20260602-335767-x69goe
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_typography.scssc20260602-335767-458185
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_lists.scssc20260602-335767-o2sus1
+                    .sass-cache/04ef1eea1404d0f4ce883fd6ab770520719133ab/_spacing.scssc20260602-335767-bqa7z3
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/print.scssc20260602-335767-jeqpgy
+                    .sass-cache/96e96de70e888df7de15942736e4f178334069d4/skiptomain.scssc20260602-335767-3jhqes
+                    .sass-cache/b997b6ce6957c76d969c6bdd23a1e1bb02dcf83e/custom.scssc20260602-335767-dbkadc
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.448899278 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 11:00:40
+                    typescript
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.069414973 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 11:05:51
+                    docs/tutorials.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.069674234 seconds.
+                    
+      Regenerating: 22 file(s) changed at 2026-06-02 11:06:01
+                    .sass-cache/58ea3c06fdc6d3c0d400b4ce90c35f26abb19e2d/support.scssc
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/mixins.scssc
+                    .sass-cache/20ffeb3e2cb2c5c8587cb5352579507284431dd6/setup.scssc
+                    .sass-cache/ff52d5fea8b6e53ee3c8070f7d9dc5a86daf5b2e/light.scssc
+                    .sass-cache/f939a590c3c49f49f642847f291a984d022b5db4/syntax.scssc
+                    .sass-cache/46bee5ec06c8bb56b0ea7eefb573d5b72c183945/syntax.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/modules.scssc
+                    .sass-cache/2f94f8c27c046d50fba9315c52da355f0afa65e8/normalize.scssc
+                    .sass-cache/58ea3c06fdc6d3c0d400b4ce90c35f26abb19e2d/_variables.scssc
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/_layout.scssc
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/_buttons.scssc
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/_typography.scssc
+                    .sass-cache/ff52d5fea8b6e53ee3c8070f7d9dc5a86daf5b2e/dark.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/base.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/layout.scssc
+                    .sass-cache/58ea3c06fdc6d3c0d400b4ce90c35f26abb19e2d/_variables.scssc20260602-338324-4egha2
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/_layout.scssc20260602-338324-5dlyc6
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/_buttons.scssc20260602-338324-o5wa6c
+                    .sass-cache/3905b1230fb46c9a46e2e12ada966ea4fd3c988f/_typography.scssc20260602-338324-559r66
+                    .sass-cache/ff52d5fea8b6e53ee3c8070f7d9dc5a86daf5b2e/dark.scssc20260602-338324-ffdgoi
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/base.scssc20260602-338324-91bc3v
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/layout.scssc20260602-338324-rklevt
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.374614562 seconds.
+                    
+      Regenerating: 33 file(s) changed at 2026-06-02 11:06:05
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/utilities.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/content.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/navigation.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/typography.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/labels.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/buttons.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/search.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/tables.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/code.scssc
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_colors.scssc
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_layout.scssc
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_typography.scssc
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_lists.scssc
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_spacing.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/print.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/skiptomain.scssc
+                    .sass-cache/20ffeb3e2cb2c5c8587cb5352579507284431dd6/custom.scssc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/content.scssc20260602-338324-rbnmbo
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/navigation.scssc20260602-338324-6u6sv5
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/typography.scssc20260602-338324-q99uq2
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/labels.scssc20260602-338324-89ois
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/buttons.scssc20260602-338324-uxdrbk
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/search.scssc20260602-338324-l25jdk
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/tables.scssc20260602-338324-tdwowc
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/code.scssc20260602-338324-ti9kms
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_colors.scssc20260602-338324-9i06od
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_layout.scssc20260602-338324-j88ch1
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_typography.scssc20260602-338324-mxynbg
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_lists.scssc20260602-338324-bfal4v
+                    .sass-cache/2ce1bfa13ba29984f4ab2779327b00ddf7d72e06/_spacing.scssc20260602-338324-w1jch2
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/print.scssc20260602-338324-zg9p77
+                    .sass-cache/06a318c56c605f88cb6049c45c2c55f2846a0a64/skiptomain.scssc20260602-338324-wstcez
+                    .sass-cache/20ffeb3e2cb2c5c8587cb5352579507284431dd6/custom.scssc20260602-338324-mekq0c
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.033962014 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 11:06:09
+                    typescript
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 2.828284767 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-06-02 11:11:44
+                    docs/tutorials.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.172188012 seconds.
+                    
+      Regenerating: 4 file(s) changed at 2026-06-02 11:11:47
+                    docs/tutorials/pm25-monitor.md
+                    docs/tutorials/wireless-rs232.md
+                    docs/tutorials/watering-plant.md
+                    docs/turbidostat.md
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 3.038998959 seconds.
+                    
+      Regenerating: 22 file(s) changed at 2026-06-02 11:12:16
+                    .sass-cache/f8d18c166bdb5aee57366ea2d4fce3bb88c4702c/support.scssc
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/mixins.scssc
+                    .sass-cache/31eb17256ab7eecc2fea875c246ce971a7c442f8/setup.scssc
+                    .sass-cache/2fde78eb0d9b4a765e022c74131ac82898d0471c/light.scssc
+                    .sass-cache/353cbb48193af8ddc01a1bc759afe34aa20d4e39/syntax.scssc
+                    .sass-cache/94eb5d8aa34fce1bacde6d4a1b2c3f26470ac922/syntax.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/modules.scssc
+                    .sass-cache/550a8e4428c2511ea044291e7d9c98f77feeb345/normalize.scssc
+                    .sass-cache/f8d18c166bdb5aee57366ea2d4fce3bb88c4702c/_variables.scssc
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/_layout.scssc
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/_buttons.scssc
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/_typography.scssc
+                    .sass-cache/2fde78eb0d9b4a765e022c74131ac82898d0471c/dark.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/base.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/layout.scssc
+                    .sass-cache/f8d18c166bdb5aee57366ea2d4fce3bb88c4702c/_variables.scssc20260602-342020-absmw8
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/_layout.scssc20260602-342020-nywkdr
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/_buttons.scssc20260602-342020-sscjrd
+                    .sass-cache/ef7e8243260057366a859e61578ed15d896b2c11/_typography.scssc20260602-342020-2rjqzb
+                    .sass-cache/2fde78eb0d9b4a765e022c74131ac82898d0471c/dark.scssc20260602-342020-9ayetu
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/base.scssc20260602-342020-3hz5jq
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/layout.scssc20260602-342020-1r1mca
+      Remote Theme: Using theme just-the-docs/just-the-docs
+       Jekyll Feed: Generating feed for posts
+                    ...done in 4.273355704 seconds.
+                    
+      Regenerating: 34 file(s) changed at 2026-06-02 11:12:20
+                    typescript
+                    .sass-cache/086354d657e5e9fd1803a27b6612a2f90ef67130/utilities.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/content.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/navigation.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/typography.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/labels.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/buttons.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/search.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/tables.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/code.scssc
+                    .sass-cache/086354d657e5e9fd1803a27b6612a2f90ef67130/_colors.scssc
+                    .sass-cache/086354d657e5e9fd1803a27b6612a2f90ef67130/_layout.scssc
+                    .sass-cache/086354d657e5e9fd1803a27b6612a2f90ef67130/_typography.scssc
+                    .sass-cache/086354d657e5e9fd1803a27b6612a2f90ef67130/_lists.scssc
+                    .sass-cache/086354d657e5e9fd1803a27b6612a2f90ef67130/_spacing.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/print.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/skiptomain.scssc
+                    .sass-cache/31eb17256ab7eecc2fea875c246ce971a7c442f8/custom.scssc
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/content.scssc20260602-342020-fkbzgy
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/navigation.scssc20260602-342020-uppvwl
+                    .sass-cache/edc5f3fa4fa90f4cbb95b5a49ed67dfb9064b14e/typography.scssc20260602-342020-t0cilq
+         

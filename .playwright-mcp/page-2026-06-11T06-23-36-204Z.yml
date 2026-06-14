@@ -1,0 +1,289 @@
+- document [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "国立環境研究所トップ" [level=1] [ref=e5]:
+          - link "国立環境研究所トップ" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "国立環境研究所トップ" [ref=e7]
+        - link "メインコンテンツへジャンプ" [ref=e8] [cursor=pointer]:
+          - /url: "#contents"
+        - navigation "サイドナビゲーション" [ref=e9]:
+          - navigation [ref=e10]:
+            - menubar [ref=e12]:
+              - menuitem "何を知りたいですか？" [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+                - text: 何を知りたいですか？
+              - menuitem "国環研について" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+                - text: 国環研について
+              - menuitem "研究紹介" [ref=e24] [cursor=pointer]:
+                - img [ref=e25]
+                - text: 研究紹介
+              - menuitem "広報活動" [ref=e28] [cursor=pointer]:
+                - img [ref=e29]
+                - text: 広報活動
+              - menuitem "連携・協働" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+                - text: 連携・協働
+          - link "採用案内" [ref=e37] [cursor=pointer]:
+            - /url: /careers/index.html
+            - img [ref=e38]
+            - text: 採用案内
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "よくある質問" [ref=e44] [cursor=pointer]:
+                - /url: /contact/faq/index.html
+            - listitem [ref=e45]:
+              - link "お問い合わせ" [ref=e46] [cursor=pointer]:
+                - /url: /contact/index.html
+            - listitem [ref=e47]:
+              - link "交通アクセス" [ref=e48] [cursor=pointer]:
+                - /url: /about/overview/access/index.html
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - link "YouTube（別ウィンドウで開きます） （別ウインドウで開きます）" [ref=e52] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/nieschannel
+                - img "YouTube（別ウィンドウで開きます）" [ref=e53]
+                - generic [ref=e54]: （別ウインドウで開きます）
+            - listitem [ref=e55]:
+              - link "X（別ウィンドウで開きます） （別ウインドウで開きます）" [ref=e56] [cursor=pointer]:
+                - /url: https://x.com/NIES_JP
+                - img "X（別ウィンドウで開きます）" [ref=e57]
+                - generic [ref=e58]: （別ウインドウで開きます）
+            - listitem [ref=e59]:
+              - link "Facebook（別ウィンドウで開きます） （別ウインドウで開きます）" [ref=e60] [cursor=pointer]:
+                - /url: https://www.facebook.com/NIES.JP/
+                - img "Facebook（別ウィンドウで開きます）" [ref=e61]
+                - generic [ref=e62]: （別ウインドウで開きます）
+        - generic [ref=e63]:
+          - button "EN" [ref=e65] [cursor=pointer]
+          - search [ref=e66]:
+            - generic [ref=e67]: サイト内検索
+            - button "検索" [ref=e68] [cursor=pointer]
+          - link "Webマガジン 国環研View（別ウィンドウで開きます）" [ref=e70] [cursor=pointer]:
+            - /url: https://www.nies.go.jp/kokkanken_view/
+            - generic [ref=e71]: Webマガジン
+            - img [ref=e72]
+            - generic [ref=e83]: （別ウインドウで開きます）
+        - button "メニューを開く"
+    - main [ref=e84]:
+      - link "国環研について知る 環境の問いに、 応えつづける。" [ref=e89] [cursor=pointer]:
+        - /url: /guide/about/index.html
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: 国環研について知る
+          - paragraph [ref=e92]: 環境の問いに、 応えつづける。
+      - article [ref=e93]:
+        - generic [ref=e94]:
+          - heading "トピックス" [level=2] [ref=e96]:
+            - generic [ref=e97]: トピックス
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "「公開シンポジウム2026」 7月20日（月・祝）開催 参加申し込み受付中！ （別ウインドウで開きます）" [ref=e103] [cursor=pointer]:
+                - /url: https://symposium.nies.go.jp/2026/
+                - generic [ref=e107]:
+                  - text: 「公開シンポジウム2026」
+                  - text: 7月20日（月・祝）開催
+                  - text: 参加申し込み受付中！
+                - generic [ref=e108]: （別ウインドウで開きます）
+            - listitem [ref=e109]:
+              - link "2026年6月8日 「地球温暖化の進行によってエルニーニョ・南方振動はどう変わる？」記事を公開しました【国環研View DEEP】 NEW （別ウインドウで開きます）" [ref=e110] [cursor=pointer]:
+                - /url: https://www.nies.go.jp/kokkanken_view/deep/column-20260608.html
+                - generic [ref=e113]:
+                  - time [ref=e114]: 2026年6月8日
+                  - generic [ref=e115]: 「地球温暖化の進行によってエルニーニョ・南方振動はどう変わる？」記事を公開しました【国環研View DEEP】
+                  - generic [ref=e117]: NEW
+                - generic [ref=e118]: （別ウインドウで開きます）
+            - listitem [ref=e119]:
+              - link "2026年6月5日 産官学の知見を結集する 『熱中症対策産官学連携コンソーシアム』を設立 ～科学的・実践的知見を結集し、気候変動下における熱中症対策を推進～ NEW" [ref=e120] [cursor=pointer]:
+                - /url: /pr/news-and-updates/2026/Press20260605-1.html
+                - generic [ref=e123]:
+                  - time [ref=e124]: 2026年6月5日
+                  - generic [ref=e125]:
+                    - text: 産官学の知見を結集する
+                    - text: 『熱中症対策産官学連携コンソーシアム』を設立
+                    - text: ～科学的・実践的知見を結集し、気候変動下における熱中症対策を推進～
+                  - generic [ref=e127]: NEW
+        - heading "新着情報" [level=2] [ref=e130]:
+          - generic [ref=e131]: 新着情報
+        - tablist "コンテンツ切り替えタブ" [ref=e132]:
+          - tab "全て" [selected] [ref=e133] [cursor=pointer]
+          - tab "報道発表" [ref=e134] [cursor=pointer]
+          - tab "研究成果" [ref=e135] [cursor=pointer]
+          - tab "イベント" [ref=e136] [cursor=pointer]
+          - tab "お知らせ" [ref=e137] [cursor=pointer]
+          - tab "受賞" [ref=e138] [cursor=pointer]
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - generic [ref=e145]:
+              - time [ref=e146]: 2026年6月8日
+              - generic [ref=e148]:
+                - generic [ref=e149]: 報道発表
+                - generic [ref=e150]: 研究成果
+              - link "日韓廃棄物管理統計資料集を公開 —韓国国立環境研究院との共同研究覚書に基づく成果— の詳細ページへ" [ref=e152] [cursor=pointer]:
+                - /url: /pr/news-and-updates/2026/Press20260608.html
+                - text: 日韓廃棄物管理統計資料集を公開
+                - text: —韓国国立環境研究院との共同研究覚書に基づく成果—
+              - generic [ref=e154]: NEW
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - time [ref=e157]: 2026年6月8日
+              - generic [ref=e160]: お知らせ
+              - link "「地球温暖化の進行によってエルニーニョ・南方振動はどう変わる？」記事を公開しました【国環研View DEEP】の詳細ページへ" [ref=e162] [cursor=pointer]:
+                - /url: https://www.nies.go.jp/kokkanken_view/deep/column-20260608.html
+                - text: 「地球温暖化の進行によってエルニーニョ・南方振動はどう変わる？」記事を公開しました【国環研View DEEP】
+                - generic [ref=e163]: （別ウインドウで開きます）
+              - generic [ref=e165]: NEW
+          - listitem [ref=e166]:
+            - generic [ref=e167]:
+              - time [ref=e168]: 2026年6月5日
+              - generic [ref=e170]:
+                - generic [ref=e171]: 報道発表
+                - generic [ref=e172]: お知らせ
+              - link "産官学の知見を結集する 『熱中症対策産官学連携コンソーシアム』を設立 ～科学的・実践的知見を結集し、気候変動下における熱中症対策を推進～ の詳細ページへ" [ref=e174] [cursor=pointer]:
+                - /url: /pr/news-and-updates/2026/Press20260605-1.html
+                - text: 産官学の知見を結集する
+                - text: 『熱中症対策産官学連携コンソーシアム』を設立
+                - text: ～科学的・実践的知見を結集し、気候変動下における熱中症対策を推進～
+              - generic [ref=e176]: NEW
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - time [ref=e179]: 2026年6月5日
+              - generic [ref=e181]:
+                - generic [ref=e182]: 報道発表
+                - generic [ref=e183]: 研究成果
+              - link "妊婦の血中鉛濃度と4歳までの子どものぜん鳴およびぜん息との関連 ：子どもの健康と環境に関する全国調査（エコチル調査）の詳細ページへ" [ref=e185] [cursor=pointer]:
+                - /url: /pr/news-and-updates/2026/press20260605-2.html
+                - text: 妊婦の血中鉛濃度と4歳までの子どものぜん鳴およびぜん息との関連 ：子どもの健康と環境に関する全国調査（エコチル調査）
+              - generic [ref=e187]: NEW
+          - listitem [ref=e188]:
+            - generic [ref=e189]:
+              - time [ref=e190]: 2026年6月5日
+              - generic [ref=e193]: 研究成果
+              - link "ODIAC 化石燃料燃焼による二酸化炭素排出量データセットの最新バージョン（ODIAC2025）を公開しました。の詳細ページへ" [ref=e195] [cursor=pointer]:
+                - /url: https://www.nies.go.jp/doi/10.17595/20170411.001-e.html
+                - text: ODIAC 化石燃料燃焼による二酸化炭素排出量データセットの最新バージョン（ODIAC2025）を公開しました。
+                - generic [ref=e196]: （別ウインドウで開きます）
+              - generic [ref=e198]: NEW
+        - link "新着情報一覧を見る" [ref=e206] [cursor=pointer]:
+          - /url: /pr/news-and-updates/index.html
+          - generic [ref=e207]: 新着情報一覧を見る
+        - generic [ref=e210]:
+          - heading "何を知りたいですか？" [level=2] [ref=e211]:
+            - generic [ref=e212]: 何を知りたいですか？
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - link "国環研について知りたい" [ref=e216] [cursor=pointer]:
+                - /url: /guide/about/index.html
+                - generic [ref=e220]: 国環研について知りたい
+            - listitem [ref=e221]:
+              - link "研究成果を知りたい" [ref=e222] [cursor=pointer]:
+                - /url: /guide/research/index.html
+                - generic [ref=e226]: 研究成果を知りたい
+            - listitem [ref=e227]:
+              - link "イベントに参加したい" [ref=e228] [cursor=pointer]:
+                - /url: /guide/event/index.html
+                - generic [ref=e232]: イベントに参加したい
+            - listitem [ref=e233]:
+              - link "環境問題を学びたい" [ref=e234] [cursor=pointer]:
+                - /url: /guide/learning/index.html
+                - generic [ref=e238]: 環境問題を学びたい
+            - listitem [ref=e239]:
+              - link "一緒に研究したい" [ref=e240] [cursor=pointer]:
+                - /url: /collaborations/index.html
+                - generic [ref=e244]: 一緒に研究したい
+            - listitem [ref=e245]:
+              - link "取材したい・転載したい" [ref=e246] [cursor=pointer]:
+                - /url: /contact/syuzai.html
+                - generic [ref=e250]: 取材したい・転載したい
+            - listitem [ref=e251]:
+              - link "入札に参加したい" [ref=e252] [cursor=pointer]:
+                - /url: /about/procurement/kokoku/index.html
+                - generic [ref=e256]: 入札に参加したい
+            - listitem [ref=e257]:
+              - link "支援したい" [ref=e258] [cursor=pointer]:
+                - /url: /guide/giving/index.html
+                - generic [ref=e262]: 支援したい
+        - generic [ref=e263]:
+          - heading "研究活動を見る 国環研では、私たちの暮らす環境を守り、未来に向けてより良い環境を創出していくための幅広い研究を行っています。" [level=2] [ref=e265]:
+            - generic [ref=e266]:
+              - text: 研究活動を見る
+              - generic [ref=e267]: 国環研では、私たちの暮らす環境を守り、未来に向けてより良い環境を創出していくための幅広い研究を行っています。
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - heading "研究内容 を調べる" [level=3] [ref=e270]:
+                - generic [ref=e271]:
+                  - text: 研究内容
+                  - generic [ref=e272]: を調べる
+              - list [ref=e274]:
+                - listitem [ref=e275]:
+                  - link "研究紹介" [ref=e276] [cursor=pointer]:
+                    - /url: /research/index.html
+                    - generic [ref=e280]: 研究紹介
+            - generic [ref=e281]:
+              - heading "研究者 を探す" [level=3] [ref=e282]:
+                - generic [ref=e283]:
+                  - text: 研究者
+                  - generic [ref=e284]: を探す
+              - list [ref=e286]:
+                - listitem [ref=e287]:
+                  - link "研究者紹介" [ref=e288] [cursor=pointer]:
+                    - /url: /research/researchers/index.html
+                    - generic [ref=e292]: 研究者紹介
+            - generic [ref=e293]:
+              - heading "組織 を知る" [level=3] [ref=e294]:
+                - generic [ref=e295]:
+                  - text: 組織
+                  - generic [ref=e296]: を知る
+              - list [ref=e298]:
+                - listitem [ref=e299]:
+                  - link "組織紹介" [ref=e300] [cursor=pointer]:
+                    - /url: /about/organization/index.html
+                    - generic [ref=e304]: 組織紹介
+        - generic [ref=e305]:
+          - heading "研究データを活用する 国環研では、さまざまな調査・研究の成果を多くの方々に利用していただけるよう、データベースとして広く提供しています。" [level=2] [ref=e307]:
+            - generic [ref=e308]:
+              - text: 研究データを活用する
+              - generic [ref=e309]: 国環研では、さまざまな調査・研究の成果を多くの方々に利用していただけるよう、データベースとして広く提供しています。
+          - generic [ref=e311]:
+            - list [ref=e313]:
+              - listitem [ref=e314]:
+                - link "地球環境データベース （別ウインドウで開きます）" [ref=e315] [cursor=pointer]:
+                  - /url: https://db.cger.nies.go.jp/ged/ja/index.html
+                  - generic [ref=e319]: 地球環境データベース
+                  - generic [ref=e320]: （別ウインドウで開きます）
+              - listitem [ref=e321]:
+                - link "温室効果ガスインベントリ" [ref=e322] [cursor=pointer]:
+                  - /url: /gio/aboutghg/index.html
+                  - generic [ref=e326]: 温室効果ガスインベントリ
+              - listitem [ref=e327]:
+                - link "侵入生物データベース （別ウインドウで開きます）" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.nies.go.jp/biodiversity/invasive/
+                  - generic [ref=e332]: 侵入生物データベース
+                  - generic [ref=e333]: （別ウインドウで開きます）
+              - listitem [ref=e334]:
+                - link "化学物質データベース Webkis-Plus （別ウインドウで開きます）" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.nies.go.jp/kisplus/
+                  - generic [ref=e339]: 化学物質データベース Webkis-Plus
+                  - generic [ref=e340]: （別ウインドウで開きます）
+              - listitem [ref=e341]:
+                - link "脱炭素ライフスタイルの選択肢 （別ウインドウで開きます）" [ref=e342] [cursor=pointer]:
+                  - /url: https://lifestyle.nies.go.jp/
+                  - generic [ref=e346]: 脱炭素ライフスタイルの選択肢
+                  - generic [ref=e347]: （別ウインドウで開きます）
+            - link "データベース一覧を見る" [ref=e352] [cursor=pointer]:
+              - /url: /research/database-tools/index.html
+              - generic [ref=e353]: データベース一覧を見る
+    - contentinfo [ref=e354]:
+      - link "ページトップへ" [ref=e356] [cursor=pointer]:
+        - /url: "#container"
+      - generic [ref=e357]:
+        - list [ref=e359]:
+          - listitem [ref=e360]:
+            - link "このホームページについて" [ref=e361] [cursor=pointer]:
+              - /url: /site-policy/index.html
+            - text: "|"
+          - listitem [ref=e362]:
+            - link "プライバシーポリシー" [ref=e363] [cursor=pointer]:
+              - /url: /about/privacy/privacy-policy.html
+        - generic [ref=e364]: © 2026 National Institute for Environmental Studies

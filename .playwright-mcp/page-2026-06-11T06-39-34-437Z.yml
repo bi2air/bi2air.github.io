@@ -1,0 +1,343 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#rpl-above-body"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Primary navigation" [ref=e7]:
+        - generic [ref=e9]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Menu" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Menu⁠
+            - listitem [ref=e19]:
+              - button "Open Search" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - text: ⁠
+                  - img [ref=e24]
+      - navigation "breadcrumbs" [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "Home" [ref=e29] [cursor=pointer]:
+              - /url: /
+            - text: ">"
+          - listitem [ref=e30]:
+            - link "Our environment" [ref=e31] [cursor=pointer]:
+              - /url: /our-environment
+            - text: ">"
+          - listitem [ref=e32]:
+            - link "Air pollution" [ref=e33] [cursor=pointer]:
+              - /url: /air-pollution
+            - text: ">"
+          - listitem [ref=e34]: Smoke
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - heading "Smoke" [level=1] [ref=e44]
+        - paragraph [ref=e46]: Learn about how smoke affects air quality and what you can do to manage your health in smoky conditions.
+      - generic [ref=e48]:
+        - heading "Related links" [level=2] [ref=e49]
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Report smoke" [ref=e52] [cursor=pointer]:
+              - /url: /report-smoke
+              - generic [ref=e53]: Report smoke
+              - img [ref=e55]
+          - listitem [ref=e57]:
+            - link "Check air quality in your area" [ref=e58] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+              - generic [ref=e59]: Check air quality in your area
+              - img [ref=e61]
+    - generic [ref=e65]:
+      - main [ref=e66]:
+        - generic [ref=e67]:
+          - heading "On this page" [level=2] [ref=e68]
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "Smoke and the law" [ref=e71] [cursor=pointer]:
+                - /url: "#smoke-and-the-law"
+                - generic [ref=e72]: Smoke and the law
+            - listitem [ref=e73]:
+              - link "Our role in smoke" [ref=e74] [cursor=pointer]:
+                - /url: "#our-role-in-smoke"
+                - generic [ref=e75]: Our role in smoke
+            - listitem [ref=e76]:
+              - link "Impact of smoke on your health" [ref=e77] [cursor=pointer]:
+                - /url: "#impact-of-smoke-on-your-health"
+                - generic [ref=e78]: Impact of smoke on your health
+            - listitem [ref=e79]:
+              - link "Manage smoke from a business" [ref=e80] [cursor=pointer]:
+                - /url: "#manage-smoke-from-a-business"
+                - generic [ref=e81]: Manage smoke from a business
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: "Smoke is a collection of airborne particles, usually from fire. Smoke is a complex mixture of:"
+          - list [ref=e85]:
+            - listitem [ref=e86]: water vapour
+            - listitem [ref=e87]: gases, including carbon monoxide, nitrogen oxides and volatile organic compounds
+            - listitem [ref=e88]: particles of differing sizes.
+          - paragraph [ref=e89]:
+            - text: We measure
+            - link "PM2.5" [ref=e90] [cursor=pointer]:
+              - /url: /pm25-particles-air
+              - text: PM
+              - subscript [ref=e91]: "2.5"
+            - subscript [ref=e92]
+            - text: and
+            - link "PM10" [ref=e93] [cursor=pointer]:
+              - /url: /pm10-particles-air
+              - text: PM
+              - subscript [ref=e94]: "10"
+            - subscript [ref=e95]
+            - text: particles. PM
+            - subscript [ref=e96]: "2.5"
+            - text: means particles smaller than 2.5 micrometres in diameter. PM
+            - subscript [ref=e97]: "10"
+            - text: means particles smaller than 10 micrometres.
+          - paragraph [ref=e98]: "Smoke can come from:"
+          - list [ref=e99]:
+            - listitem [ref=e100]: bushfires
+            - listitem [ref=e101]: coalmine fires
+            - listitem [ref=e102]: industrial and chemical fires
+            - listitem [ref=e103]: landfill fires
+            - listitem [ref=e104]: peat fires
+            - listitem [ref=e105]: planned burns
+            - listitem [ref=e106]: private burn-offs
+            - listitem [ref=e107]:
+              - link "smoky vehicles" [ref=e108] [cursor=pointer]:
+                - /url: /vehicle-emissions
+            - listitem [ref=e109]: tyre fires
+            - listitem [ref=e110]:
+              - link "wood heaters" [ref=e111] [cursor=pointer]:
+                - /url: /manage-smoke-wood-heaters
+              - text: .
+        - generic [ref=e113]:
+          - heading "Smoke and the law" [level=2] [ref=e114]
+          - paragraph [ref=e115]:
+            - text: The
+            - link "general environmental duty" [ref=e116] [cursor=pointer]:
+              - /url: /general-environmental-duty
+            - text: applies to managing smoke.
+          - paragraph [ref=e117]:
+            - text: The
+            - emphasis [ref=e118]
+            - link "Environment Protection Regulations 2021 (opens in a new window)" [ref=e119] [cursor=pointer]:
+              - /url: https://www.legislation.vic.gov.au/as-made/statutory-rules/environment-protection-regulations-2021
+              - text: Environment Protection Regulations 2021
+              - generic: (opens in a new window)
+            - emphasis [ref=e120]
+            - text: set out obligations to manage smoke. This includes complying with standards when manufacturing or selling fuel heaters.
+          - paragraph [ref=e121]:
+            - text: The
+            - link "Environment Reference Standard" [ref=e122] [cursor=pointer]:
+              - /url: /environment-reference-standard
+            - text: sets out standards for safe amounts of smoke in the air based on visual distance. This means you can tell how much smoke is in the air by calculating how far you can see clearly. Learn more about
+            - link "air quality standards and accreditation" [ref=e123] [cursor=pointer]:
+              - /url: /air-quality-categories
+            - text: .
+        - generic [ref=e125]:
+          - heading "Our role in smoke" [level=2] [ref=e126]
+          - paragraph [ref=e127]:
+            - text: We
+            - link "monitor air quality" [ref=e128] [cursor=pointer]:
+              - /url: /how-we-monitor-air-quality
+            - text: around Victoria. We have monitoring equipment that measures airborne particles, including from smoke. The data we collect supports our daily
+            - link "air quality forecasts" [ref=e129] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: .
+          - paragraph [ref=e130]:
+            - text: Learn more about how we
+            - link "monitor the quality of the environment" [ref=e131] [cursor=pointer]:
+              - /url: /monitor-quality-environment
+            - text: .
+          - paragraph [ref=e132]:
+            - text: You can
+            - link "report smoke" [ref=e133] [cursor=pointer]:
+              - /url: /report-smoke
+            - text: from commercial and industrial sources to us. We assess the risk of pollution and respond based on this risk.
+          - paragraph [ref=e134]:
+            - text: For a summary of our current knowledge about air quality, sources, trends and impacts in Victoria, visit
+            - link "Air pollution in Victoria" [ref=e135] [cursor=pointer]:
+              - /url: /1709-air-pollution-victoria-summary-state-knowledge
+              - emphasis [ref=e136]: Air pollution in Victoria
+            - text: .
+        - generic [ref=e138]:
+          - heading "Impact of smoke on your health" [level=2] [ref=e139]
+          - paragraph [ref=e140]:
+            - text: Smoke in the air can harm your health. Learn more about
+            - link "smoke and your health" [ref=e141] [cursor=pointer]:
+              - /url: /smoke-and-your-health
+            - text: .
+          - paragraph [ref=e142]: "If you feel unwell or are concerned about your health and think it might be caused by smoke and/or poor air quality:"
+          - list [ref=e143]:
+            - listitem [ref=e144]: seek medical advice from your doctor
+            - listitem [ref=e145]: contact NURSE-ON-CALL on 1300 60 60 24.
+        - generic [ref=e147]:
+          - heading "Manage smoke from a business" [level=2] [ref=e148]
+          - paragraph [ref=e149]:
+            - text: If your business causes an incident that harms or threatens to harm human health or the environment, you must
+            - link "report it" [ref=e150] [cursor=pointer]:
+              - /url: /report-pollution-incident
+            - text: as soon as you become aware of it.
+          - paragraph [ref=e151]:
+            - text: If you hold a permission, you must
+            - link "notify us" [ref=e152] [cursor=pointer]:
+              - /url: /permission-notifications
+            - text: immediately if you breach any condition of your permission. This includes notifying us about any incident that harms or threatens to harm human health or the environment.
+        - paragraph [ref=e153]:
+          - text: Updated
+          - time [ref=e154]: 15 October 2025
+      - complementary [ref=e155]:
+        - navigation [ref=e157]:
+          - heading "This section" [level=3] [ref=e158]
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - generic [ref=e161]:
+                - link "Air pollution" [ref=e162] [cursor=pointer]:
+                  - /url: /air-pollution
+                - button "Toggle Air pollution menu" [expanded] [ref=e163] [cursor=pointer]
+              - region "Toggle Air pollution menu" [ref=e167]:
+                - list [ref=e168]:
+                  - listitem [ref=e169]:
+                    - link "Carbon monoxide" [ref=e170] [cursor=pointer]:
+                      - /url: /carbon-monoxide
+                  - listitem [ref=e171]:
+                    - link "Dust" [ref=e172] [cursor=pointer]:
+                      - /url: /dust
+                  - listitem [ref=e173]:
+                    - link "Nitrogen dioxide" [ref=e174] [cursor=pointer]:
+                      - /url: /nitrogen-dioxide
+                  - listitem [ref=e175]:
+                    - link "Odour" [ref=e176] [cursor=pointer]:
+                      - /url: /odour
+                  - listitem [ref=e177]:
+                    - link "Ozone" [ref=e178] [cursor=pointer]:
+                      - /url: /ozone
+                  - listitem [ref=e179]:
+                    - link "Ozone depleting substances" [ref=e180] [cursor=pointer]:
+                      - /url: /ozone-depleting-substances
+                  - listitem [ref=e181]:
+                    - link "PM10 particles in the air" [ref=e182] [cursor=pointer]:
+                      - /url: /pm10-particles-air
+                  - listitem [ref=e183]:
+                    - link "PM2.5 particles in the air" [ref=e184] [cursor=pointer]:
+                      - /url: /pm25-particles-air
+                  - listitem [ref=e185]:
+                    - link "Smoke" [ref=e186] [cursor=pointer]:
+                      - /url: /smoke
+                    - list [ref=e187]:
+                      - listitem [ref=e188]:
+                        - link "Manage smoke from wood heaters" [ref=e189] [cursor=pointer]:
+                          - /url: /manage-smoke-wood-heaters
+                          - generic [ref=e191]: Manage smoke from wood heaters
+                      - listitem [ref=e192]:
+                        - link "Smoke and your health" [ref=e193] [cursor=pointer]:
+                          - /url: /smoke-and-your-health
+                          - generic [ref=e195]: Smoke and your health
+                      - listitem [ref=e196]:
+                        - link "Clean up a smoke-affected home after a fire" [ref=e197] [cursor=pointer]:
+                          - /url: /clean-smoke-affected-home-after-fire
+                          - generic [ref=e199]: Clean up a smoke-affected home after a fire
+                  - listitem [ref=e200]:
+                    - link "Sulfur dioxide" [ref=e201] [cursor=pointer]:
+                      - /url: /sulfur-dioxide
+                  - listitem [ref=e202]:
+                    - link "Vehicle emissions" [ref=e203] [cursor=pointer]:
+                      - /url: /vehicle-emissions
+                  - listitem [ref=e204]:
+                    - link "Greenhouse gas emissions" [ref=e205] [cursor=pointer]:
+                      - /url: /greenhouse-gas-emissions
+                  - listitem [ref=e206]:
+                    - link "Guidance for assessing and minimising air pollution" [ref=e207] [cursor=pointer]:
+                      - /url: /guidance-assessing-and-minimising-air-pollution
+                  - listitem [ref=e208]:
+                    - link "Smog" [ref=e209] [cursor=pointer]:
+                      - /url: /smog
+    - generic:
+      - generic:
+        - link "Back to top":
+          - /url: "#rpl-skip-links"
+          - generic: Back to top
+          - generic:
+            - img
+    - contentinfo [ref=e212]:
+      - navigation "Footer navigation" [ref=e214]:
+        - heading "Our environment" [level=3] [ref=e218]:
+          - link "Our environment" [ref=e219] [cursor=pointer]:
+            - /url: /our-environment
+        - heading "Make a report" [level=3] [ref=e223]:
+          - link "Make a report" [ref=e224] [cursor=pointer]:
+            - /url: /make-report
+        - heading "About us" [level=3] [ref=e228]:
+          - link "About us" [ref=e229] [cursor=pointer]:
+            - /url: /about-epa
+        - heading "Licensing and regulation" [level=3] [ref=e233]:
+          - link "Licensing and regulation" [ref=e234] [cursor=pointer]:
+            - /url: /licensing-and-regulation
+        - heading "Check air and water quality" [level=3] [ref=e238]:
+          - link "Check air and water quality" [ref=e239] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+        - heading "Portal" [level=3] [ref=e243]:
+          - link "Portal" [ref=e244] [cursor=pointer]:
+            - /url: https://portal365.epa.vic.gov.au/
+        - generic [ref=e245]:
+          - heading "Connect with us" [level=3] [ref=e248]
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Facebook" [ref=e252] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+                - generic [ref=e255]: Facebook
+            - listitem [ref=e256]:
+              - link "Instagram" [ref=e257] [cursor=pointer]:
+                - /url: http://instagram.com/vicgovepa
+                - img [ref=e259]
+                - generic [ref=e262]: Instagram
+            - listitem [ref=e263]:
+              - link "Linkedin" [ref=e264] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/epa---victoria
+                - generic [ref=e267]: Linkedin
+            - listitem [ref=e268]:
+              - link "Youtube" [ref=e269] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/epavictoria
+                - img [ref=e271]
+                - generic [ref=e273]: Youtube
+            - listitem [ref=e274]:
+              - link "BlueSky" [ref=e275] [cursor=pointer]:
+                - /url: https://bsky.app/profile/epa.vic.gov.au
+                - generic [ref=e278]: BlueSky
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - img "Aboriginal flag" [ref=e284]
+          - img "Torres Strait Islander flag" [ref=e285]
+        - paragraph [ref=e286]: The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - list [ref=e290]:
+            - listitem [ref=e291]:
+              - link "EPA portal" [ref=e292] [cursor=pointer]:
+                - /url: /epa-portal
+            - listitem [ref=e293]:
+              - link "Accessibility" [ref=e294] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e295]:
+              - link "Disclaimer" [ref=e296] [cursor=pointer]:
+                - /url: /content-disclaimer
+            - listitem [ref=e297]:
+              - link "Privacy" [ref=e298] [cursor=pointer]:
+                - /url: /privacy-vicgovau
+            - listitem [ref=e299]:
+              - link "Privacy collection statement" [ref=e300] [cursor=pointer]:
+                - /url: /privacy-collection-statement
+            - listitem [ref=e301]:
+              - link "News" [ref=e302] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e303]:
+              - link "Sitemap" [ref=e304] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e305]:
+              - link "Contact us" [ref=e306] [cursor=pointer]:
+                - /url: /contact-us
+          - paragraph [ref=e309]: © Copyright State Government of Victoria
+        - link "Victoria government home" [ref=e311] [cursor=pointer]:
+          - /url: https://vic.gov.au
+          - img [ref=e312]

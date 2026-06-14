@@ -1,0 +1,340 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#rpl-above-body"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Primary navigation" [ref=e7]:
+        - generic [ref=e9]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Menu" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Menu⁠
+            - listitem [ref=e19]:
+              - button "Open Search" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - text: ⁠
+                  - img [ref=e24]
+      - navigation "breadcrumbs" [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "Home" [ref=e29] [cursor=pointer]:
+              - /url: /
+            - text: ">"
+          - listitem [ref=e30]:
+            - link "Our environment" [ref=e31] [cursor=pointer]:
+              - /url: /our-environment
+            - text: ">"
+          - listitem [ref=e32]: Check air and water quality
+    - generic [ref=e41]:
+      - heading "Check air and water quality" [level=1] [ref=e42]
+      - paragraph [ref=e44]: Current and forecast air quality, water quality forecasts and alerts, and pollution incidents across Victoria.
+    - main [ref=e48]:
+      - generic [ref=e49]:
+        - heading "On this page" [level=2] [ref=e50]
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Check air and water quality" [ref=e53] [cursor=pointer]:
+              - /url: "#check-air-and-water-quality"
+              - generic [ref=e54]: Check air and water quality
+          - listitem [ref=e55]:
+            - link "Air monitoring network status" [ref=e56] [cursor=pointer]:
+              - /url: "#air-monitoring-network-status"
+              - generic [ref=e57]: Air monitoring network status
+          - listitem [ref=e58]:
+            - link "When map data is updated" [ref=e59] [cursor=pointer]:
+              - /url: "#when-map-data-is-updated"
+              - generic [ref=e60]: When map data is updated
+          - listitem [ref=e61]:
+            - link "Incidents" [ref=e62] [cursor=pointer]:
+              - /url: "#incidents"
+              - generic [ref=e63]: Incidents
+          - listitem [ref=e64]:
+            - link "How we monitor air quality" [ref=e65] [cursor=pointer]:
+              - /url: "#how-we-monitor-air-quality"
+              - generic [ref=e66]: How we monitor air quality
+          - listitem [ref=e67]:
+            - link "How we monitor water quality" [ref=e68] [cursor=pointer]:
+              - /url: "#how-we-monitor-water-quality"
+              - generic [ref=e69]: How we monitor water quality
+          - listitem [ref=e70]:
+            - link "Environment monitoring API for developers" [ref=e71] [cursor=pointer]:
+              - /url: "#environment-monitoring-api-for-developers"
+              - generic [ref=e72]: Environment monitoring API for developers
+      - heading "Check air and water quality" [level=2] [ref=e75]:
+        - strong [ref=e76]: Check air and water quality
+      - generic [ref=e78]:
+        - img [ref=e82]
+        - tablist [ref=e92]:
+          - tab "Map view" [selected] [ref=e93] [cursor=pointer]:
+            - generic [ref=e94]: Map view
+          - tab "Satellite view" [ref=e97] [cursor=pointer]:
+            - generic [ref=e98]: Satellite view
+          - tab "List view" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: List view
+            - img [ref=e104]
+        - generic:
+          - generic:
+            - paragraph: Use arrow keys to pan the map, and plus and minus keys to zoom in and out. You can also use the full screen, home and zoom control buttons to interact with the map. Note that some map features cannot be accessed using a keyboard.
+      - generic [ref=e112]:
+        - heading "Air monitoring network status" [level=2] [ref=e113]
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: Sometimes we cannot show data for a monitoring site. This could be because we're doing maintenance work or equipment is not working.
+          - paragraph [ref=e117]:
+            - generic [ref=e118]:
+              - strong [ref=e119]: EPA’s Sensor Monitoring Sites
+              - text: are offline due to intermittent systems outages across the network. Data is still being collected at the sites. EPA technicians are working to resolve the issues. (25 February 2026)
+          - paragraph [ref=e120]:
+            - generic [ref=e121]:
+              - strong [ref=e122]: Wangaratta
+              - text: air monitoring site has temporarily been decommissioned. This is due to the existing site no longer being suitable for general condition monitoring of air quality. EPA officers are working on finding a new location in the area to resume monitoring. (20 May 2026)
+          - paragraph [ref=e123]:
+            - generic [ref=e124]:
+              - strong [ref=e125]: Dandenong
+              - text: ": Monitoring for PM10 is offline due to routine maintenance. PM10 data is not being collected at this site. EPA expects data to become available on the website from 5pm, 12/06/2026. The air quality forecast for Melbourne is expected to be GOOD. (10 June 2026)"
+          - paragraph [ref=e126]:
+            - strong [ref=e128]: Churchill
+            - text: air monitoring site is offline due to technical difficulties. Data is not being collected at this site. EPA technicians are working to resolve the issue. (11 June 2026)
+          - paragraph [ref=e129]:
+            - generic [ref=e130]:
+              - strong [ref=e131]: "Alphington:"
+              - text: Monitoring for O
+              - subscript [ref=e132]: "3"
+              - text: and SO
+              - subscript [ref=e133]: "2"
+              - text: is offline due to technical difficulties. O
+              - subscript [ref=e134]: "3"
+              - text: and SO
+              - subscript [ref=e135]: "2"
+              - text: data is not being collected at this site. EPA technicians are working to resolve the issue. (10 June 2026)
+          - paragraph [ref=e136]:
+            - strong [ref=e138]: Bright
+            - text: air monitoring site is offline due to technical difficulties. Data is not being collected at this site. EPA technicians are working to resolve the issue. (09 June 2026)
+          - paragraph [ref=e140]:
+            - generic [ref=e141]:
+              - strong [ref=e142]: "Traralgon:"
+              - text: Monitoring for SO
+              - subscript [ref=e143]: "2"
+              - text: is offline due to technical difficulties. SO
+              - subscript [ref=e144]: "2"
+              - text: data is not being collected at this site. EPA technicians are working to resolve the issue. (01 June 2026)
+          - paragraph [ref=e146]:
+            - generic [ref=e147]:
+              - strong [ref=e148]: Fog
+              - text: can cause low visibility readings within EPA’s air monitoring network due to high levels of moisture in the air. EPA staff will monitor visibility readings during periods forecast for high levels of fog. (29 April 2026)
+      - generic [ref=e150]:
+        - heading "Disclaimer - Air quality data" [level=3] [ref=e151]
+        - paragraph [ref=e152]: Air quality data comes directly from our air monitoring sites using various types of monitoring equipment and methods. This data may be adjusted later according to set criteria to account for monitoring equipment errors, power interruptions and other technical issues.
+        - paragraph [ref=e153]: We aim to locate our monitoring sites, so they represent the air quality experienced by the public. As most of the Victorian population lives and works close to roads, most of our sites are in population centres next to roads.
+        - paragraph [ref=e154]:
+          - text: Locating our monitoring sites close to roads can also mean we do not always comply with one of the requirements of the Australian Standard for sitting (AS 3580.1.1:2016). This standard specifies that air monitoring sites should be more than 50m away from a road. Learn more about our
+          - link "National Association of Testing Authorities (NATA) accreditation." [ref=e155] [cursor=pointer]:
+            - /url: /node/43301#air-quality-standards-and-accreditation
+      - generic [ref=e157]:
+        - heading "When map data is updated" [level=2] [ref=e158]
+        - heading "Incidents" [level=3] [ref=e159]
+        - paragraph [ref=e160]: From the time incident air monitoring is requested, it can take up to 24 hours for air quality data to be available.
+        - paragraph [ref=e161]: Impacts to waterbodies will receive a water quality alert.
+        - heading "Air quality" [level=3] [ref=e162]
+        - paragraph [ref=e163]: Current air quality is updated hourly with data collected from our air quality monitoring sites across Victoria. Air quality forecasts are updated daily at 5 pm with forecasts for the next 24 hours.
+        - paragraph [ref=e164]: Sometimes we cannot show data for a monitoring site. This could be because we're doing maintenance work, equipment is not working, or there's an issue with this website.
+        - paragraph [ref=e165]: Check the air monitoring network status above to see air monitoring equipment that's offline.
+        - paragraph [ref=e166]:
+          - text: Historical hourly air quality data from our sites measuring against the National Environment Protection Measures is available on
+          - link "data.vic.gov.au" [ref=e167] [cursor=pointer]:
+            - /url: https://www.data.vic.gov.au/
+          - text: . For any other site data contact 1300 372 842.
+        - heading "Water quality at Port Phillip Bay beaches and Yarra" [level=3] [ref=e168]
+        - paragraph [ref=e169]: "We provide water quality forecasts twice a day:"
+        - list [ref=e170]:
+          - listitem [ref=e171]: at 10 am for the morning forecast
+          - listitem [ref=e172]: at 3 pm for the afternoon and next day forecast.
+        - paragraph [ref=e173]:
+          - text: You can see water quality forecasts on the map, our Facebook account
+          - link "@VicGovEPA (opens in a new window)" [ref=e174] [cursor=pointer]:
+            - /url: https://www.facebook.com/VicGovEPA/
+            - text: "@VicGovEPA"
+            - generic: (opens in a new window)
+          - text: and signs at patrolled lifesaving clubs on weekends and public holidays between November and April. Learn
+          - link "how we forecast water quality" [ref=e175] [cursor=pointer]:
+            - /url: /water-quality-forecast-ratings
+          - text: .
+        - heading "Subscribe to beach forecasts" [level=4] [ref=e176]
+        - paragraph [ref=e177]:
+          - text: To get a Beach Report SMS when water quality is poor at a beach near you,
+          - link "subscribe to beach forecasts" [ref=e178] [cursor=pointer]:
+            - /url: https://www.vision6.com.au/em/forms/subscribe.php?db=557260&s=246483&a=18211&k=8a7851b
+          - text: ", or"
+          - link "unsubscribe from receiving SMSs" [ref=e179] [cursor=pointer]:
+            - /url: https://www.vision6.com.au/em/forms/unsubscribe.php?db=557260&s=224537&a=18211&k=IhsaK2qdOBUEJPV46cbTqVWN8gPihlgLegUrAQymsec
+          - text: .
+        - heading "Water quality alerts" [level=3] [ref=e180]
+        - paragraph [ref=e181]: Water quality alerts are based on pollution reports or other notifications received by us. They are an indication of the location of potential pollution or other activities that may impact water quality. Pollution or other impacts can also move with time. We remove alerts based on EPA or other updates, or if no other pollution reports are received for a waterbody.
+      - generic [ref=e183]:
+        - heading "Incidents" [level=2] [ref=e184]
+        - paragraph [ref=e185]:
+          - text: Our
+          - link "incident air monitoring equipment" [ref=e186] [cursor=pointer]:
+            - /url: /how-we-monitor-air-quality
+          - text: responds rapidly to an incident, such as a major fire. We use it when requested by emergency services.
+        - paragraph [ref=e187]:
+          - text: We provide technical support during an incident. For example, air or water sampling and monitoring, and advice on the environmental impacts and health risks of pollution and waste. Learn more about our
+          - link "incident response" [ref=e188] [cursor=pointer]:
+            - /url: /how-we-monitor-air-quality
+          - text: .
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - link "Current incidents" [ref=e191] [cursor=pointer]:
+              - /url: /current-incidents
+        - heading "Incident air quality data" [level=3] [ref=e192]
+        - paragraph [ref=e193]: Our portable incident air monitoring equipment gives us local data about the impacts of a pollution event at a specific site. We also have incident air monitoring sites located near the community.
+        - paragraph [ref=e194]: Our standard and incident air monitoring equipment is located at ground level. It only provides data on air quality at that level.
+        - paragraph [ref=e195]: There are circumstances where we do not deploy incident monitoring equipment. For example, if an incident is likely to be over quickly, or it’s not safe due to conditions.
+      - generic [ref=e197]:
+        - heading "How we monitor air quality" [level=2] [ref=e198]
+        - paragraph [ref=e199]: Every hour, we measure air pollutants across Victoria. Learn about the equipment we use, how we calculate the air quality categories, and how our forecasts can help you plan your day.
+        - paragraph [ref=e200]:
+          - text: Check our
+          - link "air alerts" [ref=e201] [cursor=pointer]:
+            - /url: /air-alerts
+          - text: for issues or incidents affecting air quality in a specific area.
+        - list [ref=e202]:
+          - listitem [ref=e203]:
+            - link "How we monitor air quality" [ref=e204] [cursor=pointer]:
+              - /url: /how-we-monitor-air-quality
+          - listitem [ref=e205]:
+            - link "How we measure air pollution" [ref=e206] [cursor=pointer]:
+              - /url: /how-we-measure-air-pollution
+          - listitem [ref=e207]:
+            - link "How we forecast air quality" [ref=e208] [cursor=pointer]:
+              - /url: /how-we-forecast-air-quality
+          - listitem [ref=e209]:
+            - link "Air quality categories" [ref=e210] [cursor=pointer]:
+              - /url: /air-quality-categories
+        - heading "AirWatch" [level=3] [ref=e211]
+        - paragraph [ref=e212]: "AirWatch is our reporting tool that helps you stay informed about local air quality and how to protect your health. It provides:"
+        - list [ref=e213]:
+          - listitem [ref=e214]: hourly air quality data for different pollutants at each site, including any active incident sites
+          - listitem [ref=e215]: hourly air quality ratings for each site
+          - listitem [ref=e216]: daily regional air quality forecasts.
+        - paragraph [ref=e217]: AirWatch collects data 24/7 all year round, giving you real-time, up-to-date information across Victoria.
+      - generic [ref=e219]:
+        - heading "How we monitor water quality" [level=2] [ref=e220]
+        - paragraph [ref=e221]: We forecast and monitor recreational water quality for 36 beaches in Port Phillip Bay and 4 locations along the Yarra River through our Beach Report and Yarra Watch programs. Learn how we measure, test and report on water quality, and how our forecasts can help you decide when it's safe to swim.
+        - list [ref=e222]:
+          - listitem [ref=e223]:
+            - link "How we monitor water quality" [ref=e224] [cursor=pointer]:
+              - /url: /how-we-monitor-water-quality
+          - listitem [ref=e225]:
+            - link "Water quality forecast ratings" [ref=e226] [cursor=pointer]:
+              - /url: /water-quality-forecast-ratings
+        - heading "Beach Report and Yarra Watch" [level=3] [ref=e227]
+        - paragraph [ref=e228]: Beach Report and Yarra Watch are our tools to help you know when it’s safe to swim.
+        - list [ref=e229]:
+          - listitem [ref=e230]: Beach Report gives you water quality updates for 36 beaches around Port Phillip Bay.
+          - listitem [ref=e231]: Yarra Watch provides water quality updates for four key swimming spots along the Yarra River.
+      - generic [ref=e233]:
+        - heading "Environment monitoring API for developers" [level=2] [ref=e234]
+        - paragraph [ref=e235]:
+          - text: Our environment monitoring API
+          - emphasis [ref=e236]
+          - text: provides access to real-time information for air quality. This includes environment quality, notices and forecasts from our AirWatch monitoring sites.
+        - paragraph [ref=e237]: A Beach Report and Yarra Watch API may be considered in the future.
+        - paragraph [ref=e238]:
+          - text: Connect to the
+          - link "EPA developer portal" [ref=e239] [cursor=pointer]:
+            - /url: https://portal.api.epa.vic.gov.au/
+          - text: .
+      - paragraph [ref=e240]:
+        - text: Updated
+        - time [ref=e241]: 11 June 2026
+    - generic:
+      - generic:
+        - link "Back to top":
+          - /url: "#rpl-skip-links"
+          - generic: Back to top
+          - generic:
+            - img
+    - contentinfo [ref=e244]:
+      - navigation "Footer navigation" [ref=e246]:
+        - heading "Our environment" [level=3] [ref=e250]:
+          - link "Our environment" [ref=e251] [cursor=pointer]:
+            - /url: /our-environment
+        - heading "Make a report" [level=3] [ref=e255]:
+          - link "Make a report" [ref=e256] [cursor=pointer]:
+            - /url: /make-report
+        - heading "About us" [level=3] [ref=e260]:
+          - link "About us" [ref=e261] [cursor=pointer]:
+            - /url: /about-epa
+        - heading "Licensing and regulation" [level=3] [ref=e265]:
+          - link "Licensing and regulation" [ref=e266] [cursor=pointer]:
+            - /url: /licensing-and-regulation
+        - heading "Check air and water quality" [level=3] [ref=e270]:
+          - link "Check air and water quality" [ref=e271] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+        - heading "Portal" [level=3] [ref=e275]:
+          - link "Portal" [ref=e276] [cursor=pointer]:
+            - /url: https://portal365.epa.vic.gov.au/
+        - generic [ref=e277]:
+          - heading "Connect with us" [level=3] [ref=e280]
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - link "Facebook" [ref=e284] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+                - generic [ref=e287]: Facebook
+            - listitem [ref=e288]:
+              - link "Instagram" [ref=e289] [cursor=pointer]:
+                - /url: http://instagram.com/vicgovepa
+                - img [ref=e291]
+                - generic [ref=e294]: Instagram
+            - listitem [ref=e295]:
+              - link "Linkedin" [ref=e296] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/epa---victoria
+                - generic [ref=e299]: Linkedin
+            - listitem [ref=e300]:
+              - link "Youtube" [ref=e301] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/epavictoria
+                - img [ref=e303]
+                - generic [ref=e305]: Youtube
+            - listitem [ref=e306]:
+              - link "BlueSky" [ref=e307] [cursor=pointer]:
+                - /url: https://bsky.app/profile/epa.vic.gov.au
+                - generic [ref=e310]: BlueSky
+      - generic [ref=e314]:
+        - generic [ref=e315]:
+          - img "Aboriginal flag" [ref=e316]
+          - img "Torres Strait Islander flag" [ref=e317]
+        - paragraph [ref=e318]: The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - list [ref=e322]:
+            - listitem [ref=e323]:
+              - link "EPA portal" [ref=e324] [cursor=pointer]:
+                - /url: /epa-portal
+            - listitem [ref=e325]:
+              - link "Accessibility" [ref=e326] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e327]:
+              - link "Disclaimer" [ref=e328] [cursor=pointer]:
+                - /url: /content-disclaimer
+            - listitem [ref=e329]:
+              - link "Privacy" [ref=e330] [cursor=pointer]:
+                - /url: /privacy-vicgovau
+            - listitem [ref=e331]:
+              - link "Privacy collection statement" [ref=e332] [cursor=pointer]:
+                - /url: /privacy-collection-statement
+            - listitem [ref=e333]:
+              - link "News" [ref=e334] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e335]:
+              - link "Sitemap" [ref=e336] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e337]:
+              - link "Contact us" [ref=e338] [cursor=pointer]:
+                - /url: /contact-us
+          - paragraph [ref=e341]: © Copyright State Government of Victoria
+        - link "Victoria government home" [ref=e343] [cursor=pointer]:
+          - /url: https://vic.gov.au
+          - img [ref=e344]

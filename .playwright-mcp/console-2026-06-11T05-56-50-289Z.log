@@ -1,0 +1,5 @@
+[    1084ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=Japan+PM2.5+forecast+operational+system+SPRINTARS+JMA+NICAM+SCALE+aerosol+NWP&hl=en:52
+[    1085ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=Japan+PM2.5+forecast+operational+system+SPRINTARS+JMA+NICAM+SCALE+aerosol+NWP&hl=en:52
+[    1692ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=Japan+PM2.5+forecast+operational+system+SPRINTARS+JMA+NICAM+SCALE+aerosol+NWP&hl=en:52
+[    1693ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=Japan+PM2.5+forecast+operational+system+SPRINTARS+JMA+NICAM+SCALE+aerosol+NWP&hl=en:52
+[    4000ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=Japan+PM2.5+forecast+operational+system+SPRINTARS+JMA+NICAM+SCALE+aerosol+NWP&hl=en:33

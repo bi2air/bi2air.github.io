@@ -1,0 +1,113 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph:
+        - link "国立環境研究所" [ref=e5] [cursor=pointer]:
+          - /url: ../../../../index.html
+          - generic [ref=e6]: 国立環境研究所
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "本文へジャンプする" [ref=e9] [cursor=pointer]:
+          - /url: "#pagebody"
+    - separator
+    - paragraph [ref=e10]: ヘッダーユーティリティメニュー
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "採用案内" [ref=e13] [cursor=pointer]:
+          - /url: ../osirase/saiyo/index.html
+      - listitem [ref=e14]:
+        - link "調達情報" [ref=e15] [cursor=pointer]:
+          - /url: ../osirase/chotatsu/index.html
+      - listitem [ref=e16]:
+        - link "交通案内" [ref=e17] [cursor=pointer]:
+          - /url: ../gaiyo/kotu/index.html
+      - listitem [ref=e18]:
+        - link "サイトマップ" [ref=e19] [cursor=pointer]:
+          - /url: ../sitemap.html
+      - listitem [ref=e20]:
+        - link "関連リンク" [ref=e21] [cursor=pointer]:
+          - /url: ../link/index.html
+      - listitem [ref=e22]:
+        - link "お問い合わせ" [ref=e23] [cursor=pointer]:
+          - /url: ../gaiyo/info.html
+  - separator
+  - paragraph [ref=e24]: グローバルナビゲーション
+  - generic [ref=e25]:
+    - list:
+      - listitem [ref=e26]:
+        - link "ホーム" [ref=e27] [cursor=pointer]:
+          - /url: ../index.html
+      - listitem [ref=e28]:
+        - link "新着情報" [ref=e29] [cursor=pointer]:
+          - /url: ../whatsnew/index.html
+      - listitem [ref=e30]:
+        - link "研究紹介" [ref=e31] [cursor=pointer]:
+          - /url: ../research.html
+      - listitem [ref=e32]:
+        - link "データベース" [ref=e33] [cursor=pointer]:
+          - /url: ../db/index.html
+      - listitem [ref=e34]:
+        - link "刊行物" [ref=e35] [cursor=pointer]:
+          - /url: ../kanko/index.html
+      - listitem [ref=e36]:
+        - link "研究所案内" [ref=e37] [cursor=pointer]:
+          - /url: ../about.html
+  - generic [ref=e38]:
+    - separator
+    - generic [ref=e39]:
+      - link "ホーム" [ref=e40] [cursor=pointer]:
+        - /url: ../index.html
+      - text: ">"
+      - link "データベース" [ref=e41] [cursor=pointer]:
+        - /url: ../db/index.html
+      - text: "> 環境数値データベース"
+    - separator
+    - generic [ref=e42]:
+      - paragraph [ref=e43]: ここからページ本文です
+      - generic [ref=e44]:
+        - heading "環境数値データベース環境ＧＩＳへ" [level=1] [ref=e45]:
+          - text: 環境数値データベース
+          - link "環境ＧＩＳへ" [ref=e46] [cursor=pointer]:
+            - /url: https://tenbou.nies.go.jp/gis/
+            - img "環境ＧＩＳへ" [ref=e47]
+        - heading "環境数値データベースリニューアルのお知らせ" [level=2] [ref=e48]
+        - paragraph [ref=e49]:
+          - text: 本サイトは、環境展望台Webサイトの
+          - link "大気汚染常時監視データ" [ref=e50] [cursor=pointer]:
+            - /url: https://tenbou.nies.go.jp/download/
+          - text: としてリニューアルしました。お手数をお掛け致しますが、お気に入り、ブックマークへ登録されている方は、登録の変更をお願い致します。
+        - paragraph [ref=e51]: 15秒後に新しいページに自動的にジャンプします。このまま、しばらくおまちください。
+        - paragraph [ref=e52]:
+          - text: 15秒後に自動的にジャンプしない場合は，下記URLをクリックしてください。
+          - text: ">"
+          - link "https://tenbou.nies.go.jp/download/" [ref=e53] [cursor=pointer]:
+            - /url: https://tenbou.nies.go.jp/download/
+        - heading "公共用水域水質データについて" [level=2] [ref=e54]
+        - paragraph [ref=e55]:
+          - text: 公共用水域水質データについては、以下のページをご利用ください。
+          - text: ・
+          - link "環境省 水環境総合情報サイト" [ref=e56] [cursor=pointer]:
+            - /url: https://water-pub.env.go.jp/water-pub/mizu-site/
+          - text: ・
+          - link "公共用水域水質データダウンロードページ（2009年度まで）" [ref=e57] [cursor=pointer]:
+            - /url: index_water.html
+      - link "▲ページの先頭へ" [ref=e59] [cursor=pointer]:
+        - /url: "#pagetop"
+  - separator
+  - paragraph [ref=e60]: フッターユーティリティメニュー
+  - generic [ref=e61]:
+    - list [ref=e62]:
+      - listitem [ref=e63]:
+        - link "プライバシーポリシー" [ref=e64] [cursor=pointer]:
+          - /url: ../kojinjoho/privacypolicy.html
+      - listitem [ref=e65]:
+        - link "著作権・リンク" [ref=e66] [cursor=pointer]:
+          - /url: ../sitepolicy.html
+      - listitem [ref=e67]:
+        - link "よくあるご質問" [ref=e68] [cursor=pointer]:
+          - /url: ../gaiyo/qanda.html
+    - separator
+    - paragraph [ref=e69]: 国立環境研究所 所在地
+    - generic [ref=e70]:
+      - text: 国立研究開発法人 国立環境研究所 〒305-8506 茨城県つくば市小野川16-2
+      - text: Copyright(C) National Institute for Environmental Studies. All Rights Reserved.

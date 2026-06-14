@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - heading "Web Site Not Found" [level=3] [ref=e2]
+  - paragraph [ref=e3]: Sorry, we could not find any content for this web address. Please check the URL.
+  - paragraph [ref=e4]:
+    - text: If you are an Acquia Cloud customer and expect to see your site at this address, you'll need to add this domain name to your site via the
+    - link "Acquia Network" [ref=e5] [cursor=pointer]:
+      - /url: http://network.acquia.com
+    - text: management console.
+  - paragraph [ref=e6]:
+    - link "Acquia Inc." [ref=e7] [cursor=pointer]:
+      - /url: http://www.acquia.com

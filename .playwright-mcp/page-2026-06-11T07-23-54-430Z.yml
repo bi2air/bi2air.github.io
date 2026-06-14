@@ -1,0 +1,209 @@
+- document [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "国立環境研究所トップ" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "国立環境研究所トップ" [ref=e7]
+        - link "メインコンテンツへジャンプ" [ref=e8] [cursor=pointer]:
+          - /url: "#contents"
+        - navigation "サイドナビゲーション" [ref=e9]:
+          - navigation [ref=e10]:
+            - menubar [ref=e12]:
+              - menuitem "何を知りたいですか？" [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+                - text: 何を知りたいですか？
+              - menuitem "国環研について" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+                - text: 国環研について
+              - menuitem "研究紹介" [ref=e24] [cursor=pointer]:
+                - img [ref=e25]
+                - text: 研究紹介
+              - menuitem "広報活動" [ref=e28] [cursor=pointer]:
+                - img [ref=e29]
+                - text: 広報活動
+              - menuitem "連携・協働" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+                - text: 連携・協働
+          - link "採用案内" [ref=e37] [cursor=pointer]:
+            - /url: /careers/index.html
+            - img [ref=e38]
+            - text: 採用案内
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "よくある質問" [ref=e44] [cursor=pointer]:
+                - /url: /contact/faq/index.html
+            - listitem [ref=e45]:
+              - link "お問い合わせ" [ref=e46] [cursor=pointer]:
+                - /url: /contact/index.html
+            - listitem [ref=e47]:
+              - link "交通アクセス" [ref=e48] [cursor=pointer]:
+                - /url: /about/overview/access/index.html
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - link "YouTube（別ウィンドウで開きます） （別ウインドウで開きます）" [ref=e52] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/nieschannel
+                - img "YouTube（別ウィンドウで開きます）" [ref=e53]
+                - generic [ref=e54]: （別ウインドウで開きます）
+            - listitem [ref=e55]:
+              - link "X（別ウィンドウで開きます） （別ウインドウで開きます）" [ref=e56] [cursor=pointer]:
+                - /url: https://x.com/NIES_JP
+                - img "X（別ウィンドウで開きます）" [ref=e57]
+                - generic [ref=e58]: （別ウインドウで開きます）
+            - listitem [ref=e59]:
+              - link "Facebook（別ウィンドウで開きます） （別ウインドウで開きます）" [ref=e60] [cursor=pointer]:
+                - /url: https://www.facebook.com/NIES.JP/
+                - img "Facebook（別ウィンドウで開きます）" [ref=e61]
+                - generic [ref=e62]: （別ウインドウで開きます）
+        - generic [ref=e63]:
+          - button "EN" [ref=e65] [cursor=pointer]
+          - search [ref=e66]:
+            - generic [ref=e67]: サイト内検索
+            - button "検索" [ref=e68] [cursor=pointer]
+          - link "Webマガジン 国環研View（別ウィンドウで開きます）" [ref=e70] [cursor=pointer]:
+            - /url: https://www.nies.go.jp/kokkanken_view/
+            - generic [ref=e71]: Webマガジン
+            - img [ref=e72]
+            - generic [ref=e83]: （別ウインドウで開きます）
+        - button "メニューを開く"
+    - list [ref=e85]:
+      - listitem [ref=e86]:
+        - link "トップ" [ref=e87] [cursor=pointer]:
+          - /url: /index.html
+        - text: ">"
+      - listitem [ref=e88]: サイト内検索
+    - main [ref=e89]:
+      - article [ref=e90]:
+        - heading "サイト内検索" [level=1] [ref=e94]
+        - generic [ref=e99]:
+          - paragraph
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - textbox "検索" [ref=e105]: VENUS PM2.5
+              - generic [ref=e106]:
+                - button "検索ボックスをクリア":
+                  - generic [ref=e107] [cursor=pointer]: ×
+            - generic [ref=e108]:
+              - generic [ref=e111]:
+                - tab "refinement" [ref=e112]: すべての検索結果
+                - tab "refinement" [ref=e113] [cursor=pointer]: このウェブサイトのみ
+              - generic [ref=e114]:
+                - generic [ref=e115]: 約 315 件（0.20 秒）
+                - generic [ref=e118] [cursor=pointer]: 並べ替え
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - generic [ref=e127]:
+                    - link "サムネイル画像" [ref=e129] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/index.php?&device=pc
+                      - img "サムネイル画像" [ref=e130]
+                    - link "大気汚染予測システム VENUS — 国立環境研究所" [ref=e133] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/index.php?&device=pc
+                    - generic [ref=e135]: venus.nies.go.jp › ...
+                    - main [ref=e136]:
+                      - generic [ref=e138]: "現在の表示内容の直接URL: https://venus.nies.go.jp/index.php?area=reg_jpn&item=PM25. 予測データの状態. 6月11日 ○; 6月12日 ○; 6月13日 ○; 6月14日 ○; 6月15日 ..."
+                  - generic [ref=e140]:
+                    - link "大気汚染予測システム VENUS — 国立環境研究所" [ref=e143] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/
+                    - generic [ref=e145]: venus.nies.go.jp ›
+                    - main [ref=e146]:
+                      - generic [ref=e148]: 大気汚染濃度予測図. 北海道. 東北. 関東. 甲信越. 東海. 近畿. 中国. 四国. 九州. 沖縄. 伊豆・小笠原諸島.
+                  - generic [ref=e150]:
+                    - link "サムネイル画像" [ref=e152] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/index.php?device=pc&area=reg_kyu
+                      - img "サムネイル画像" [ref=e153]
+                    - link "大気汚染予測システム VENUS — 国立環境研究所" [ref=e156] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/index.php?device=pc&area=reg_kyu
+                    - generic [ref=e158]: venus.nies.go.jp › ...
+                    - main [ref=e159]:
+                      - generic [ref=e161]: "現在の表示内容の直接URL: https://venus.nies.go.jp/index.php?area=reg_kyu&item=PM25. 予測データの状態. 6月11日 △; 6月12日 △; 6月13日 △; 6月14日 △; 6月15日 ..."
+                  - generic [ref=e163]:
+                    - link "サムネイル画像" [ref=e165] [cursor=pointer]:
+                      - /url: https://tenbou.nies.go.jp/gis/realtime/venusmap.html
+                      - img "サムネイル画像" [ref=e166]
+                    - link "VENUS画像ファイル | 環境GIS - 環境展望台 - 国立環境研究所" [ref=e169] [cursor=pointer]:
+                      - /url: https://tenbou.nies.go.jp/gis/realtime/venusmap.html
+                    - generic [ref=e171]: tenbou.nies.go.jp › gis › realtime › venusmap
+                    - main [ref=e172]:
+                      - generic [ref=e174]: 微小粒子状物質（PM2.5）および光化学オキシダント（O3）の大気汚染濃度予測システム （VENUS）の結果を地図画像化したものを公開しています。過去の毎時の予測結果もご覧 ...
+                  - generic [ref=e176]:
+                    - link "データの直接利用 — VENUSについて - 国立環境研究所" [ref=e179] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/docs/devel.html
+                    - generic [ref=e181]: venus.nies.go.jp › docs › devel
+                    - main [ref=e182]:
+                      - generic [ref=e184]: 例えば、2019年1月1日午後1時、ズームレベル8、タイル座標X:227, Y:155のPM2.5のタイル画像のURLは以下のようになります。 https://venus.nies.go.jp/tilemap/2019010113/ ...
+                  - generic [ref=e186]:
+                    - link "サムネイル画像" [ref=e188] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/?device=pc&area=pref43
+                      - img "サムネイル画像" [ref=e189]
+                    - link "大気汚染予測システム VENUS — 国立環境研究所" [ref=e192] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/?device=pc&area=pref43
+                    - generic [ref=e194]: venus.nies.go.jp › ...
+                    - main [ref=e195]:
+                      - generic [ref=e197]: PM2.5. 2026年06月10日03時. 計算日：2026年06月09日. 20 km. 10 mi. －. Leaflet ... PM2.5. O3. グラフを表示. 自治体の速報サイト. 福岡, PM2.5. O3. 佐賀, PM2.5. O3. 長崎 ...
+                  - generic [ref=e199]:
+                    - link "サムネイル画像" [ref=e201] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/index.php?device=pc&area=reg_knt&item=O3
+                      - img "サムネイル画像" [ref=e202]
+                    - link "O3 - 大気汚染予測システム VENUS - 国立環境研究所" [ref=e205] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/index.php?device=pc&area=reg_knt&item=O3
+                    - generic [ref=e207]: venus.nies.go.jp › ...
+                    - main [ref=e208]:
+                      - generic [ref=e210]: "現在の表示内容の直接URL: https://venus.nies.go.jp/index.php?area ... PM2.5. O3. 栃木, PM2.5. O3. 群馬, PM2.5. O3. 埼玉, PM2.5. O3. 千葉, PM2.5. O3. 東京, PM2.5."
+                  - generic [ref=e212]:
+                    - link "VENUS 年表" [ref=e215] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/docs/history.html
+                    - generic [ref=e217]: venus.nies.go.jp › docs › history
+                    - main [ref=e218]:
+                      - generic [ref=e220]: 1973年5月, 環境庁、光化学オキシダントの環境基準を告示。 ; 1980年, 環境庁、「環境大気常時監視マニュアル（初版）」作成。 ; 1993年, 科学者から PM2.5 の危険性が指摘され ...
+                  - generic [ref=e222]:
+                    - link "大気汚染予測システム VENUS — 国立環境研究所" [ref=e225] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/embed2.php
+                    - generic [ref=e227]: venus.nies.go.jp › embed2
+                    - main [ref=e228]:
+                      - generic [ref=e230]: VENUS ; 6月10日, 6-12, 12-18, 18-24 ; 甲信越 · PM2.5.
+                  - generic [ref=e232]:
+                    - link "サムネイル画像" [ref=e234] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/docs/publication.html
+                      - img "サムネイル画像" [ref=e235]
+                    - link "掲載誌情報 — VENUSについて" [ref=e238] [cursor=pointer]:
+                      - /url: https://venus.nies.go.jp/docs/publication.html
+                    - generic [ref=e240]: venus.nies.go.jp › docs › publication
+                    - main [ref=e241]:
+                      - generic [ref=e243]: VENUS プロジェクトリーダーの菅田誠治氏が PM2.5 の予測研究やVENUS のシミュレーション計算などについて解説しています。 国立環境研究所の公式サイトで閲覧可能です。 ( ...
+                - generic [ref=e245]:
+                  - text: "1"
+                  - link "ページ 2" [ref=e246] [cursor=pointer]: "2"
+                  - link "ページ 3" [ref=e247] [cursor=pointer]: "3"
+                  - link "ページ 4" [ref=e248] [cursor=pointer]: "4"
+                  - link "ページ 5" [ref=e249] [cursor=pointer]: "5"
+                  - link "ページ 6" [ref=e250] [cursor=pointer]: "6"
+                  - link "ページ 7" [ref=e251] [cursor=pointer]: "7"
+                  - link "ページ 8" [ref=e252] [cursor=pointer]: "8"
+                  - link "ページ 9" [ref=e253] [cursor=pointer]: "9"
+                  - link "ページ 10" [ref=e254] [cursor=pointer]: "10"
+                - link "検索Google で「 VENUS PM2.5 」を検索" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.google.com/search?client=ms-google-coop&q=VENUS+PM2.5&cx=003104689715236460980:exl05ys21sq
+                  - generic [ref=e257]:
+                    - img "検索" [ref=e258]
+                    - text: Google で「
+                    - generic [ref=e260]: VENUS PM2.5
+                    - text: 」を検索
+                - contentinfo "Google カスタム検索のブランディング" [ref=e262]:
+                  - link "Google 提供 （別ウインドウで開きます）" [ref=e263] [cursor=pointer]:
+                    - /url: https://cse.google.com/?ref=b&hl=ja
+                    - img "Google 提供" [ref=e264]
+                    - generic [ref=e265]: （別ウインドウで開きます）
+          - paragraph
+    - contentinfo [ref=e266]:
+      - link "ページトップへ" [ref=e268] [cursor=pointer]:
+        - /url: "#container"
+      - generic [ref=e269]:
+        - list [ref=e271]:
+          - listitem [ref=e272]:
+            - link "このホームページについて" [ref=e273] [cursor=pointer]:
+              - /url: /site-policy/index.html
+            - text: "|"
+          - listitem [ref=e274]:
+            - link "プライバシーポリシー" [ref=e275] [cursor=pointer]:
+              - /url: /about/privacy/privacy-policy.html
+        - generic [ref=e276]: © 2026 National Institute for Environmental Studies

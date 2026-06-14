@@ -1,0 +1,71 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "SPRINTARS" [level=1] [ref=e4]
+    - text: Spectral Radiation-Transport Model for Aerosol Species
+  - generic [ref=e5]:
+    - link "RIAM logo" [ref=e6] [cursor=pointer]:
+      - /url: https://www.riam.kyushu-u.ac.jp/english/index-e.html
+      - img "RIAM logo" [ref=e7]
+    - link "CCSR logo" [ref=e8] [cursor=pointer]:
+      - /url: http://ccsr.aori.u-tokyo.ac.jp/index-e.html
+      - img "CCSR logo" [ref=e9]
+    - link "NIES logo" [ref=e10] [cursor=pointer]:
+      - /url: http://www.nies.go.jp/index-e.htm
+      - img "NIES logo" [ref=e11]
+  - generic [ref=e12]:
+    - list:
+      - listitem [ref=e13]:
+        - link "HOME" [ref=e14] [cursor=pointer]:
+          - /url: indexe.html
+      - listitem [ref=e15]:
+        - link "FORECAST" [ref=e16] [cursor=pointer]:
+          - /url: forecast.html
+      - listitem [ref=e17]:
+        - link "FORECAST(details)" [ref=e18] [cursor=pointer]:
+          - /url: forecast2.html
+      - listitem [ref=e19]:
+        - link "ARCHIVE" [ref=e20] [cursor=pointer]:
+          - /url: archive.html
+      - listitem [ref=e21]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e23]:
+        - link "LAB HOME" [ref=e24] [cursor=pointer]:
+          - /url: https://www.riam.kyushu-u.ac.jp/climate/indexe.html
+  - link "Japanese" [ref=e26] [cursor=pointer]:
+    - /url: index.html
+  - generic [ref=e28]:
+    - generic [ref=e29]: Updated around 4:00JST (19:00UTC) every day.
+    - generic [ref=e30]:
+      - heading "Forecast movies (East Asia)" [level=5] [ref=e31]
+      - definition [ref=e32]:
+        - heading "PM2.5" [level=3] [ref=e33]:
+          - link "PM2.5" [ref=e34] [cursor=pointer]:
+            - /url: forecast_movie_pm25_easia.html
+        - heading "Soil dust" [level=3] [ref=e35]:
+          - link "Soil dust" [ref=e36] [cursor=pointer]:
+            - /url: forecast_movie_dust_easia.html
+      - heading "Forecast movies (Asia)" [level=5] [ref=e37]
+      - definition [ref=e38]:
+        - heading "PM2.5" [level=3] [ref=e39]:
+          - link "PM2.5" [ref=e40] [cursor=pointer]:
+            - /url: forecast_movie_pm25_asia.html
+        - heading "Soil dust" [level=3] [ref=e41]:
+          - link "Soil dust" [ref=e42] [cursor=pointer]:
+            - /url: forecast_movie_dust_asia.html
+      - heading "Forecast movies (Global)" [level=5] [ref=e43]
+      - definition [ref=e44]:
+        - heading "PM2.5" [level=3] [ref=e45]:
+          - link "PM2.5" [ref=e46] [cursor=pointer]:
+            - /url: forecast_movie_pm25.html
+        - heading "Soil dust" [level=3] [ref=e47]:
+          - link "Soil dust" [ref=e48] [cursor=pointer]:
+            - /url: forecast_movie_dust.html
+      - paragraph [ref=e49]:
+        - text: The PM2.5 and soil dust forecast is based on the simulation with a global aerosol climate model,
+        - link "SPRINTARS" [ref=e50] [cursor=pointer]:
+          - /url: indexe.html
+      - paragraph [ref=e51]: Movies are created by near-surface mass concentration for PM2.5 and mean mass concentration from the near-surface to about 200m for soil dust. Horizontal resolution of the simulation is about 35km.
+    - iframe [ref=e53]:
+      
+  - generic [ref=e55]: Copyright © 2000-2026 SPRINTARS developer team. All Rights Reserved.

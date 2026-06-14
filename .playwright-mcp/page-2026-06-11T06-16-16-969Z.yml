@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - link [ref=e4] [cursor=pointer]:
+    - /url: https://www.researchgate.net
+    - img [ref=e5]
+  - generic [ref=e20]:
+    - img [ref=e22]
+    - heading "Security check required" [level=1] [ref=e27]
+    - paragraph [ref=e29]: We've detected unusual activity from your network. To continue, complete the security check below.
+    - generic [ref=e30]:
+      - main:
+        - generic:
+          - heading [level=2]
+          - paragraph
+    - generic [ref=e31]:
+      - paragraph [ref=e32]: "Ray ID: a09e7c706dc0a61c"
+      - paragraph [ref=e33]: "Client IP: 118.71.137.0"
+    - paragraph [ref=e35]: © 2008-2026 ResearchGate GmbH. All rights reserved.

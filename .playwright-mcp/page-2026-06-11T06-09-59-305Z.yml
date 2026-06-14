@@ -1,0 +1,352 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner:
+      - navigation [ref=e2]:
+        - generic [ref=e3]:
+          - link [ref=e5] [cursor=pointer]:
+            - /url: javascript:;
+          - link [ref=e7] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+          - generic [ref=e8]:
+            - navigation:
+              - generic:
+                - generic:
+                  - list
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Browse" [ref=e11] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Browse
+              - listitem [ref=e13]:
+                - link "About J-STAGE" [ref=e14] [cursor=pointer]:
+                  - /url: "#"
+                  - text: About J-STAGE
+              - listitem [ref=e16]:
+                - link "News and PR" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+                  - text: News and PR
+              - listitem [ref=e19]:
+                - link "Support" [ref=e20] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Support
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Sign in" [ref=e25] [cursor=pointer]:
+                - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fsearch%2Fglobal%2F_search%2F-char%2Fen%3F
+            - listitem
+            - listitem [ref=e26]:
+              - link "Cart" [ref=e27] [cursor=pointer]:
+                - /url: /cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fsearch%2Fglobal%2F_search%2F-char%2Fen%3F
+            - listitem [ref=e28]:
+              - link "EN" [ref=e29] [cursor=pointer]:
+                - /url: "#"
+                - text: EN
+  - generic [ref=e36]: Advanced search
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - list:
+        - listitem [ref=e42]:
+          - link "J-STAGE home" [ref=e43] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+        - listitem [ref=e44]: /
+        - listitem [ref=e45]: Advanced search
+    - link "Go back" [ref=e48] [cursor=pointer]:
+      - /url: javascript:hBack();
+  - generic [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - link "Search favorite titles" [ref=e53] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/search/favtitle/-char/en
+        - link "Help" [ref=e55] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/static/pages/ToolsOfSearchArticlesPage/-char/en
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - list:
+            - listitem [ref=e62]:
+              - button "Search" [ref=e63] [cursor=pointer]
+            - listitem [ref=e64]: Reset all
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - text: Search terms
+            - link "Query search" [ref=e69] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - combobox [ref=e74]
+                  - combobox "Article title" [ref=e77] [cursor=pointer]:
+                    - generic "Article title" [ref=e78]
+                - textbox "Enter search term" [ref=e80]
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - list:
+                    - listitem [ref=e84]:
+                      - checkbox "NOT"
+                      - generic [ref=e85]: NOT
+                - button "+" [ref=e87] [cursor=pointer]
+            - generic [ref=e90]:
+              - paragraph [ref=e91]: Translate search queries (Only "Article title," "Abstract," "Full text," "Keyword(s)," and "References" will be translated.)
+              - list:
+                - listitem [ref=e92]:
+                  - radio "No translation" [checked]
+                  - generic [ref=e93]: No translation
+                - listitem [ref=e94]:
+                  - radio "Japanese to English"
+                  - generic [ref=e95]: Japanese to English
+                - listitem [ref=e96]:
+                  - radio "English to Japanese"
+                  - generic [ref=e97]: English to Japanese
+        - generic [ref=e99]:
+          - generic [ref=e100]: Publication type
+          - generic [ref=e101]:
+            - list:
+              - listitem [ref=e102]:
+                - checkbox "Journal"
+                - generic [ref=e103]: Journal
+              - listitem [ref=e104]:
+                - checkbox "Proceedings"
+                - generic [ref=e105]: Proceedings
+              - listitem [ref=e106]:
+                - checkbox "Research Report/Technical Report"
+                - generic [ref=e107]: Research Report/Technical Report
+              - listitem [ref=e108]:
+                - checkbox "Magazine"
+                - generic [ref=e109]: Magazine
+              - listitem [ref=e110]:
+                - checkbox "Other"
+                - generic [ref=e111]: Other
+        - generic [ref=e113]:
+          - generic [ref=e114]: Article attribute
+          - generic [ref=e115]:
+            - list:
+              - listitem [ref=e116]:
+                - checkbox "Advance online publication"
+                - generic [ref=e117]: Advance online publication
+              - listitem [ref=e118]:
+                - checkbox "Full-text HTML"
+                - generic [ref=e119]: Full-text HTML
+              - listitem [ref=e120]:
+                - checkbox "With supplementary materials"
+                - generic [ref=e121]: With supplementary materials
+              - listitem [ref=e122]:
+                - checkbox "With cited-by links"
+                - generic [ref=e123]: With cited-by links
+        - generic [ref=e125]:
+          - generic [ref=e126]: Language
+          - generic [ref=e127]:
+            - list:
+              - listitem [ref=e128]:
+                - checkbox "Japanese"
+                - generic [ref=e129]: Japanese
+              - listitem [ref=e130]:
+                - checkbox "English"
+                - generic [ref=e131]: English
+        - generic [ref=e133]:
+          - generic [ref=e134]: Peer review
+          - generic [ref=e135]:
+            - list:
+              - listitem [ref=e136]:
+                - checkbox "Peer-reviewed articles"
+                - generic [ref=e137]: Peer-reviewed articles
+        - generic [ref=e139]:
+          - generic [ref=e140]: Publication year
+          - generic [ref=e141]:
+            - list:
+              - listitem [ref=e142]:
+                - generic [ref=e143]: From year
+                - textbox "YYYY" [ref=e145]
+              - listitem [ref=e146]:
+                - generic [ref=e147]: To year
+                - textbox "YYYY" [ref=e149]
+        - generic [ref=e151]:
+          - generic [ref=e152]: Subject area
+          - generic [ref=e153]:
+            - list:
+              - listitem [ref=e154]:
+                - checkbox "Basic Sciences"
+                - strong [ref=e156]: Basic Sciences
+                - checkbox "Mathematics"
+                - generic [ref=e157]: Mathematics
+                - checkbox "Physics"
+                - generic [ref=e158]: Physics
+                - checkbox "Chemistry"
+                - generic [ref=e159]: Chemistry
+                - checkbox "Earth Sciences and Astronomy"
+                - generic [ref=e160]: Earth Sciences and Astronomy
+                - checkbox "Life Sciences"
+                - strong [ref=e162]: Life Sciences
+                - checkbox "Biology, Life Sciences and Basic Medicine"
+                - generic [ref=e163]: Biology, Life Sciences and Basic Medicine
+                - checkbox "Agriculture and Food Sciences"
+                - generic [ref=e164]: Agriculture and Food Sciences
+                - checkbox "Medical and Health Sciences"
+                - strong [ref=e166]: Medical and Health Sciences
+                - checkbox "General Medicine, Social Medicine, and Nursing Sciences"
+                - generic [ref=e167]: General Medicine, Social Medicine, and Nursing Sciences
+                - checkbox "Clinical Medicine"
+                - generic [ref=e168]: Clinical Medicine
+                - checkbox "Dentistry"
+                - generic [ref=e169]: Dentistry
+                - checkbox "Pharmaceutical Sciences"
+                - generic [ref=e170]: Pharmaceutical Sciences
+                - checkbox "Engineering and Technology"
+                - strong [ref=e172]: Engineering and Technology
+                - checkbox "Engineering in General"
+                - generic [ref=e173]: Engineering in General
+                - checkbox "Nanosciences and Materials Sciences"
+                - generic [ref=e174]: Nanosciences and Materials Sciences
+                - checkbox "Architecture and Civil Engineering"
+                - generic [ref=e175]: Architecture and Civil Engineering
+                - checkbox "Mechanical Engineering"
+                - generic [ref=e176]: Mechanical Engineering
+                - checkbox "Electrical and Electronic Engineering"
+                - generic [ref=e177]: Electrical and Electronic Engineering
+              - listitem [ref=e178]:
+                - checkbox "Interdisciplinary Sciences"
+                - strong [ref=e180]: Interdisciplinary Sciences
+                - checkbox "Information Sciences"
+                - generic [ref=e181]: Information Sciences
+                - checkbox "Environmental Sciences"
+                - generic [ref=e182]: Environmental Sciences
+                - checkbox "Interdisciplinary Sciences"
+                - generic [ref=e183]: Interdisciplinary Sciences
+                - checkbox "Humanities and Social Sciences"
+                - strong [ref=e185]: Humanities and Social Sciences
+                - checkbox "Philosophy, Religion"
+                - generic [ref=e186]: Philosophy, Religion
+                - checkbox "Literature, Language & Linguistics and Art"
+                - generic [ref=e187]: Literature, Language & Linguistics and Art
+                - checkbox "Anthropology, History and Geography"
+                - generic [ref=e188]: Anthropology, History and Geography
+                - checkbox "Law, Political Sciences"
+                - generic [ref=e189]: Law, Political Sciences
+                - checkbox "Economics, Business & Management"
+                - generic [ref=e190]: Economics, Business & Management
+                - checkbox "Sociology"
+                - generic [ref=e191]: Sociology
+                - checkbox "Psychology, Education"
+                - generic [ref=e192]: Psychology, Education
+        - generic [ref=e194]:
+          - generic [ref=e195]: License
+          - generic [ref=e196]:
+            - list:
+              - listitem [ref=e197]:
+                - checkbox "CC BY"
+                - generic [ref=e198]: CC BY
+              - listitem [ref=e199]:
+                - checkbox "CC BY-SA"
+                - generic [ref=e200]: CC BY-SA
+              - listitem [ref=e201]:
+                - checkbox "CC BY-ND"
+                - generic [ref=e202]: CC BY-ND
+              - listitem [ref=e203]:
+                - checkbox "CC BY-NC"
+                - generic [ref=e204]: CC BY-NC
+              - listitem [ref=e205]:
+                - checkbox "CC BY-NC-SA"
+                - generic [ref=e206]: CC BY-NC-SA
+              - listitem [ref=e207]:
+                - checkbox "CC BY-NC-ND"
+                - generic [ref=e208]: CC BY-NC-ND
+              - listitem [ref=e209]:
+                - checkbox "Other"
+                - generic [ref=e210]: Other
+        - generic [ref=e213]:
+          - list:
+            - listitem [ref=e214]:
+              - button "Search" [ref=e215] [cursor=pointer]
+            - listitem [ref=e216]: Reset all
+    - generic [ref=e220]:
+      - generic [ref=e221]: Search by article DOI
+      - generic [ref=e222]:
+        - text: Enter article DOI
+        - list:
+          - listitem [ref=e223]:
+            - textbox "10.XXXX/<number>" [ref=e224]
+          - listitem [ref=e225]:
+            - button "Go" [ref=e226] [cursor=pointer]
+  - contentinfo [ref=e229]:
+    - generic [ref=e230]:
+      - link "Top" [ref=e231] [cursor=pointer]:
+        - /url: "#0"
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - generic [ref=e234]: Browse
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - link "All titles" [ref=e237] [cursor=pointer]:
+                - /url: /journal/list/-char/en
+            - listitem [ref=e238]:
+              - link "All subject areas" [ref=e239] [cursor=pointer]:
+                - /url: /journal/fields/-char/en
+            - listitem [ref=e240]:
+              - link "All publishers" [ref=e241] [cursor=pointer]:
+                - /url: /journal/publisher/-char/en
+            - listitem [ref=e242]:
+              - link "Search articles" [ref=e243] [cursor=pointer]:
+                - /url: /search/global/_search/-char/en
+            - listitem [ref=e244]:
+              - link "Search J-STAGE Data" [ref=e245] [cursor=pointer]:
+                - /url: https://jstagedata.jst.go.jp/
+        - generic [ref=e246]:
+          - generic [ref=e247]: About J-STAGE
+          - list [ref=e248]:
+            - listitem [ref=e249]:
+              - link "Overview" [ref=e250] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en
+            - listitem [ref=e251]:
+              - link "Services and features" [ref=e252] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en
+            - listitem [ref=e253]:
+              - link "Public data" [ref=e254] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en
+            - listitem [ref=e255]:
+              - link "Terms and Policy" [ref=e256] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en
+        - generic [ref=e257]:
+          - generic [ref=e258]: News and PR
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "News" [ref=e261] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en
+            - listitem [ref=e262]:
+              - link "Maintenance information" [ref=e263] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en
+            - listitem [ref=e264]:
+              - link "Special contents" [ref=e265] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en
+            - listitem [ref=e266]:
+              - link "Media resources" [ref=e267] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en
+        - generic [ref=e268]:
+          - generic [ref=e269]: Support
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "User manuals" [ref=e272] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en
+            - listitem [ref=e273]:
+              - link "Browser compatibility" [ref=e274] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en
+            - listitem [ref=e275]:
+              - link "FAQ" [ref=e276] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en
+            - listitem [ref=e277]:
+              - link "Contact" [ref=e278] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Contact/-char/en
+            - listitem [ref=e279]:
+              - link "Sitemap" [ref=e280] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en
+  - link "feedback" [ref=e283] [cursor=pointer]:
+    - /url: https://form2.jst.go.jp/s/jstage-feedback
+  - generic [ref=e284]:
+    - link "" [ref=e285] [cursor=pointer]:
+      - /url: javascript:;
+      - generic [ref=e286]: 
+    - heading "Register with J-STAGE for free!" [level=3] [ref=e287]
+    - link "Register" [ref=e288] [cursor=pointer]:
+      - /url: /myregister/-char/en
+    - paragraph [ref=e289]:
+      - text: Already have an account? Sign in
+      - link "here" [ref=e290] [cursor=pointer]:
+        - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fsearch%2Fglobal%2F_search%2F-char%2Fen%3F

@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Đến trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&sa=X&ved=0ahUKEwi80e22x_6UAxVpha8BHddLKLoQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Tìm kiếm" [ref=e25]: SPRINTARS Kyushu University Takemura aerosol forecast operational resolution domain SPRINTARS Kyushu University Takemura aerosol forecast operational resolution domain
+            - generic [ref=e26]:
+              - button "Xóa" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Công cụ nhập" [ref=e34] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Tìm kiếm bằng giọng nói" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e41] [cursor=pointer]:
+                  - img [ref=e42]
+          - button "Tìm kiếm" [ref=e44] [cursor=pointer]:
+            - img [ref=e47]
+    - generic [ref=e49]:
+      - button "Cài đặt" [ref=e51] [cursor=pointer]:
+        - img [ref=e54]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DSPRINTARS%2BKyushu%2BUniversity%2BTakemura%2Baerosol%2Bforecast%2Boperational%2Bresolution%2Bdomain&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sca_esv=d12162df5757eaf7&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMnIXMD5aBOt6Vb6HkYS9WQC2F9J7hcfjtOpS8xqswLmD2EoLNkRD5yP-HXSZ1IKhfnsdqaXyPABRG0YVNdNDYwYkVGBwAyMHCjXx8AkT8UOQCONerM48eqKs5KAafN1Dyxxhkm&aep=1&ntc=1&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ2J8OegQIEBAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMnIXMD5aBOt6Vb6HkYS9WQC2F9J7hcfjtOpS8xqswLmD2EoLNkRD5yP-HXSZ1IKhfnsdqaXyPABRG0YVNdNDYwYkVGBwAyMHCjXx8AkT8UOQCONerM48eqKs5KAafN1Dyxxhkm&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQtKgLegQIFRAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Video" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMnIXMD5aBOt6Vb6HkYS9WQC2F9J7hcfjtOpS8xqswLmD2EoLNkRD5yP-HXSZ1IKhfnsdqaXyPABRG0YVNdNDYwYkVGBwAyMHCjXx8AkT8UOQCONerM48eqKs5KAafN1Dyxxhkm&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQtKgLegQIExAB
+              - generic [ref=e98]: Video
+          - listitem [ref=e99]:
+            - link "Mua sắm" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMnIXMD5aBOt6Vb6HkYS9WQC2F9J7hcfjtOpS8xqswLmD2EoLNkRD5yP-HXSZ1IKhfnsdqaXyPABRG0YVNdNDYwYkVGBwAyMHCjXx8AkT8UOQCONerM48eqKs5KAafN1Dyxxhkm&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&ved=1t:220175&ictx=111
+              - generic [ref=e102]: Mua sắm
+          - listitem [ref=e103]:
+            - link "Video ngắn" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMnIXMD5aBOt6Vb6HkYS9WQC2F9J7hcfjtOpS8xqswLmD2EoLNkRD5yP-HXSZ1IKhfnsdqaXyPABRG0YVNdNDYwYkVGBwAyMHCjXx8AkT8UOQCONerM48eqKs5KAafN1Dyxxhkm&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQs6gLegQIFBAB
+              - generic [ref=e106]: Video ngắn
+          - listitem [ref=e107]:
+            - link "Tin tức" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPxgqssMzZlYDdfWeNrP4BjNbYzw14qZ2xXDJOMM_HB2xGh5jJiQN778kGc26_sxJrMnIXMD5aBOt6Vb6HkYS9WQC2F9J7hcfjtOpS8xqswLmD2EoLNkRD5yP-HXSZ1IKhfnsdqaXyPABRG0YVNdNDYwYkVGBwAyMHCjXx8AkT8UOQCONerM48eqKs5KAafN1Dyxxhkm&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ0pQJegQIFhAB
+              - generic [ref=e110]: Tin tức
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Mbqr-hrl7aqSxXbX4wTBnbzWBS0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DSPRINTARS%2BKyushu%2BUniversity%2BTakemura%2Baerosol%2Bforecast%2Boperational%2Bresolution%2Bdomain&hl=en&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQhoQCKAF6BAgJEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQiIQCKAN6BAgJEAY#languages
+    - main [ref=e144]:
+      - generic [ref=e148]:
+        - generic [ref=e151]:
+          - heading "Web results" [level=2] [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e156]:
+              - link "SPRINTARS forecast SPRINTARS https://sprintars.riam.kyushu-u.ac.jp › f..." [ref=e158] [cursor=pointer]:
+                - /url: https://sprintars.riam.kyushu-u.ac.jp/forecast.html
+                - heading "SPRINTARS forecast" [level=3] [ref=e159]
+                - generic [ref=e165]:
+                  - generic [ref=e167]: SPRINTARS
+                  - generic [ref=e169]: https://sprintars.riam.kyushu-u.ac.jp › f...
+              - generic [ref=e170]:
+                - generic [ref=e171]: ·
+                - link "Dịch trang này" [ref=e172] [cursor=pointer]:
+                  - /url: https://sprintars.riam.kyushu-u.ac.jp/forecast.html
+              - button "Thông tin về kết quả này" [ref=e173] [cursor=pointer]:
+                - img [ref=e176]
+            - generic [ref=e180]:
+              - text: The PM2.5 and soil dust
+              - emphasis [ref=e181]: forecast
+              - text: is based on the simulation with a global
+              - emphasis [ref=e182]: aerosol
+              - text: climate model,
+              - emphasis [ref=e183]: SPRINTARS
+              - text: .
+            - generic [ref=e185]: "Bị thiếu: Takemura ‎operational ‎domain"
+        - generic [ref=e189]:
+          - generic [ref=e192]:
+            - link "SPRINTARS forecast (details) SPRINTARS https://sprintars.riam.kyushu-u.ac.jp › f..." [ref=e194] [cursor=pointer]:
+              - /url: https://sprintars.riam.kyushu-u.ac.jp/forecast2.html
+              - heading "SPRINTARS forecast (details)" [level=3] [ref=e195]
+              - generic [ref=e201]:
+                - generic [ref=e203]: SPRINTARS
+                - generic [ref=e205]: https://sprintars.riam.kyushu-u.ac.jp › f...
+            - generic [ref=e206]:
+              - generic [ref=e207]: ·
+              - link "Dịch trang này" [ref=e208] [cursor=pointer]:
+                - /url: https://sprintars.riam.kyushu-u.ac.jp/forecast2.html
+            - button "Thông tin về kết quả này" [ref=e209] [cursor=pointer]:
+              - img [ref=e212]
+          - generic [ref=e216]:
+            - text: The
+            - emphasis [ref=e217]: aerosol forecast
+            - text: is based on the simulation with a global
+            - emphasis [ref=e218]: aerosol
+            - text: climate model,
+            - emphasis [ref=e219]: SPRINTARS
+            - text: . Horizontal
+            - emphasis [ref=e220]: resolution
+            - text: of the simulation is about 35km.
+          - generic [ref=e222]: "Bị thiếu: Takemura ‎operational ‎domain"
+        - generic [ref=e226]:
+          - generic [ref=e229]:
+            - link "SPRINTARS homepage SPRINTARS https://sprintars.riam.kyushu-u.ac.jp › i..." [ref=e231] [cursor=pointer]:
+              - /url: https://sprintars.riam.kyushu-u.ac.jp/indexe.html
+              - heading "SPRINTARS homepage" [level=3] [ref=e232]
+              - generic [ref=e238]:
+                - generic [ref=e240]: SPRINTARS
+                - generic [ref=e242]: https://sprintars.riam.kyushu-u.ac.jp › i...
+            - generic [ref=e243]:
+              - generic [ref=e244]: ·
+              - link "Dịch trang này" [ref=e245] [cursor=pointer]:
+                - /url: https://sprintars.riam.kyushu-u.ac.jp/indexe.html
+            - button "Thông tin về kết quả này" [ref=e246] [cursor=pointer]:
+              - img [ref=e249]
+          - generic [ref=e252]:
+            - generic [ref=e253]: 28 thg 9, 2021 —
+            - generic [ref=e254]:
+              - emphasis [ref=e255]: SPRINTARS
+              - text: (Spectral Radiation-Transport Model for
+              - emphasis [ref=e256]: Aerosol
+              - text: Species) is a numerical model which has been developed for simulating effects on the climate system.
+          - generic [ref=e258]: "Bị thiếu: operational ‎domain"
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "Development of high-resolution regional aerosol climate ... ResearchGate https://www.researchgate.net › 39767..." [ref=e267] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/397675715_Development_of_high-resolution_regional_aerosol_climate_model_SCALE-SPRINTARS
+              - heading "Development of high-resolution regional aerosol climate ..." [level=3] [ref=e268]
+              - generic [ref=e274]:
+                - generic [ref=e276]: ResearchGate
+                - generic [ref=e278]: https://www.researchgate.net › 39767...
+            - generic [ref=e279]:
+              - generic [ref=e280]: ·
+              - link "Dịch trang này" [ref=e281] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/397675715_Development_of_high-resolution_regional_aerosol_climate_model_SCALE-SPRINTARS
+            - button "Thông tin về kết quả này" [ref=e282] [cursor=pointer]:
+              - img [ref=e285]
+          - generic [ref=e289]:
+            - text: The integrated model called SCALE-
+            - emphasis [ref=e290]: SPRINTARS
+            - text: "treats the processes of the major tropospheric aerosols: sulfate, black carbon, organic matter, soil dust, and sea ..."
+          - generic [ref=e292]:
+            - text: "Bị thiếu: operational ‎| Phải có:"
+            - link "operational" [ref=e293] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+%22operational%22+resolution+domain&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ5t4CegQIPxAB
+        - generic [ref=e297]:
+          - generic [ref=e300]:
+            - link "Development of high-resolution regional aerosol climate ... Pure Help Center https://kyushu-u.elsevierpure.com › de..." [ref=e302] [cursor=pointer]:
+              - /url: https://kyushu-u.elsevierpure.com/en/publications/development-of-high-resolution-regional-aerosol-climate-model-sca/
+              - heading "Development of high-resolution regional aerosol climate ..." [level=3] [ref=e303]
+              - generic [ref=e305]:
+                - img [ref=e310]
+                - generic [ref=e312]:
+                  - generic [ref=e314]: Pure Help Center
+                  - generic [ref=e316]: https://kyushu-u.elsevierpure.com › de...
+            - generic [ref=e317]:
+              - generic [ref=e318]: ·
+              - link "Dịch trang này" [ref=e319] [cursor=pointer]:
+                - /url: https://kyushu-u.elsevierpure.com/en/publications/development-of-high-resolution-regional-aerosol-climate-model-sca/
+            - button "Thông tin về kết quả này" [ref=e320] [cursor=pointer]:
+              - img [ref=e323]
+          - generic [ref=e326]:
+            - generic [ref=e327]: viết bởi R Yasui · 2026 —
+            - generic [ref=e328]:
+              - emphasis [ref=e329]: SPRINTARS
+              - text: calculates
+              - emphasis [ref=e330]: aerosol
+              - text: transport processes as well as
+              - emphasis [ref=e331]: aerosol
+              - text: "-radiation and"
+              - emphasis [ref=e332]: aerosol
+              - text: "-cloud interactions. The integrated model called SCALE-"
+              - emphasis [ref=e333]: SPRINTARS
+              - text: treats ...
+          - generic [ref=e335]: "Bị thiếu: forecast ‎operational"
+        - generic [ref=e339]:
+          - generic [ref=e342]:
+            - link "Toshihiko TAKEMURA Distinguished Professor AIT RRC.AP https://www.rrcap.ait.ac.th › apn › Documents" [ref=e344] [cursor=pointer]:
+              - /url: https://www.rrcap.ait.ac.th/apn/Documents/P15_AP-CC%20Linkages.pdf
+              - heading "Toshihiko TAKEMURA Distinguished Professor" [level=3] [ref=e345]
+              - generic [ref=e351]:
+                - generic [ref=e353]: AIT RRC.AP
+                - generic [ref=e355]: https://www.rrcap.ait.ac.th › apn › Documents
+            - generic [ref=e356]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e357] [cursor=pointer]:
+              - img [ref=e360]
+          - generic [ref=e364]:
+            - text: • Development and
+            - emphasis [ref=e365]: operation
+            - text: of
+            - emphasis [ref=e366]: aerosol forecast
+            - text: system http://
+            - emphasis [ref=e367]: sprintars
+            - text: .net/
+            - emphasis [ref=e368]: forecast
+            - text: .html. • Articles to public https://news.yahoo.co.jp/byline ...
+          - generic [ref=e370]:
+            - text: "Bị thiếu: domain ‎| Phải có:"
+            - link "domain" [ref=e371] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+%22domain%22&sa=X&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ5t4CegQIQxAB
+        - generic [ref=e375]:
+          - generic [ref=e378]:
+            - link "Development of forecast model for atmospheric aerosols Dimensions AI https://app.dimensions.ai › grant › gra..." [ref=e380] [cursor=pointer]:
+              - /url: https://app.dimensions.ai/details/grant/grant.5964552
+              - heading "Development of forecast model for atmospheric aerosols" [level=3] [ref=e381]
+              - generic [ref=e387]:
+                - generic [ref=e389]: Dimensions AI
+                - generic [ref=e391]: https://app.dimensions.ai › grant › gra...
+            - generic [ref=e392]:
+              - generic [ref=e393]: ·
+              - link "Dịch trang này" [ref=e394] [cursor=pointer]:
+                - /url: https://app.dimensions.ai/details/grant/grant.5964552
+            - button "Thông tin về kết quả này" [ref=e395] [cursor=pointer]:
+              - img [ref=e398]
+          - generic [ref=e402]:
+            - text: In this research issue, this global
+            - emphasis [ref=e403]: aerosol
+            - text: transport and radiation model
+            - emphasis [ref=e404]: SPRINTARS
+            - text: to which the research leader has developed a central role in up to as ...
+          - generic [ref=e406]: "Bị thiếu: operational ‎resolution"
+        - generic [ref=e410]:
+          - generic [ref=e413]:
+            - link "Development of a global aerosol climate model SPRINTARS 地球環境研究センター https://www.cger.nies.go.jp › publications › report" [ref=e415] [cursor=pointer]:
+              - /url: https://www.cger.nies.go.jp/publications/report/i138/i138.pdf
+              - heading "Development of a global aerosol climate model SPRINTARS" [level=3] [ref=e416]
+              - generic [ref=e422]:
+                - generic [ref=e424]: 地球環境研究センター
+                - generic [ref=e426]: https://www.cger.nies.go.jp › publications › report
+            - generic [ref=e427]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e428] [cursor=pointer]:
+              - img [ref=e431]
+          - generic [ref=e435]:
+            - text: The
+            - emphasis [ref=e436]: aerosol
+            - text: processes of the transport,
+            - emphasis [ref=e437]: aerosol
+            - text: "-radiation interaction, and"
+            - emphasis [ref=e438]: aerosol
+            - text: "-cloud interactions were developed in"
+            - emphasis [ref=e439]: Takemura
+            - text: et al. (2000, 2002, 2005), ...
+        - generic [ref=e443]:
+          - generic [ref=e446]:
+            - link "Toshihiko Takemura homepage SPRINTARS https://sprintars.riam.kyushu-u.ac.jp › r..." [ref=e448] [cursor=pointer]:
+              - /url: https://sprintars.riam.kyushu-u.ac.jp/toshi/researche.html
+              - heading "Toshihiko Takemura homepage" [level=3] [ref=e449]
+              - generic [ref=e455]:
+                - generic [ref=e457]: SPRINTARS
+                - generic [ref=e459]: https://sprintars.riam.kyushu-u.ac.jp › r...
+            - generic [ref=e460]:
+              - generic [ref=e461]: ·
+              - link "Dịch trang này" [ref=e462] [cursor=pointer]:
+                - /url: https://sprintars.riam.kyushu-u.ac.jp/toshi/researche.html
+            - button "Thông tin về kết quả này" [ref=e463] [cursor=pointer]:
+              - img [ref=e466]
+          - generic [ref=e469]:
+            - generic [ref=e470]: 28 thg 9, 2021 —
+            - generic [ref=e471]:
+              - text: When
+              - emphasis [ref=e472]: aerosol
+              - text: particles are emitted into the atmosphere, they influence the radiation budget of the earth's atmosphere through two effects. One ...
+          - generic [ref=e474]: "Bị thiếu: forecast ‎operational ‎resolution ‎domain"
+        - generic [ref=e478]:
+          - generic [ref=e481]:
+            - link "Global aerosol simulations using NICAM.16 on a 14 km ... - GMD Copernicus.org https://gmd.copernicus.org › articles" [ref=e483] [cursor=pointer]:
+              - /url: https://gmd.copernicus.org/articles/13/3731/2020/
+              - heading "Global aerosol simulations using NICAM.16 on a 14 km ... - GMD" [level=3] [ref=e484]
+              - generic [ref=e490]:
+                - generic [ref=e492]: Copernicus.org
+                - generic [ref=e494]: https://gmd.copernicus.org › articles
+            - generic [ref=e495]:
+              - generic [ref=e496]: ·
+              - link "Dịch trang này" [ref=e497] [cursor=pointer]:
+                - /url: https://gmd.copernicus.org/articles/13/3731/2020/
+            - button "Thông tin về kết quả này" [ref=e498] [cursor=pointer]:
+              - img [ref=e501]
+          - generic [ref=e504]:
+            - generic [ref=e505]: viết bởi D Goto · 2020 · Trích dẫn 20 bài viết —
+            - text: In this study, we execute a next-generation model that is capable of simulating global aerosols using version 16 of the Nonhydrostatic Icosahedral Atmospheric ...
+      - navigation [ref=e508]:
+        - heading "Điều hướng trang" [level=1] [ref=e509]
+        - text: "1"
+        - link "Page 2" [ref=e512] [cursor=pointer]:
+          - /url: /search?q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sca_esv=d12162df5757eaf7&ei=e1UqavynHemKvr0P15eh0Qs&start=10&sa=N&sstk=AU9db-DOaWgZLDtlWGOWqwLz0lIfATtX-ibJ6PGNrbHcInaIuzZo6I1JTn9lrfH87ljSKjl4B7BVerbtNV2Xftb_G7oFiK0uHfB74Q&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ8tMDegQIIxAE
+          - text: "2"
+        - link "Page 3" [ref=e514] [cursor=pointer]:
+          - /url: /search?q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sca_esv=d12162df5757eaf7&ei=e1UqavynHemKvr0P15eh0Qs&start=20&sa=N&sstk=AU9db-DOaWgZLDtlWGOWqwLz0lIfATtX-ibJ6PGNrbHcInaIuzZo6I1JTn9lrfH87ljSKjl4B7BVerbtNV2Xftb_G7oFiK0uHfB74Q&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ8tMDegQIIxAG
+          - text: "3"
+        - link "Page 4" [ref=e516] [cursor=pointer]:
+          - /url: /search?q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sca_esv=d12162df5757eaf7&ei=e1UqavynHemKvr0P15eh0Qs&start=30&sa=N&sstk=AU9db-DOaWgZLDtlWGOWqwLz0lIfATtX-ibJ6PGNrbHcInaIuzZo6I1JTn9lrfH87ljSKjl4B7BVerbtNV2Xftb_G7oFiK0uHfB74Q&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ8tMDegQIIxAI
+          - text: "4"
+        - heading "Tiếp" [level=2] [ref=e518]:
+          - link "Tiếp" [ref=e519] [cursor=pointer]:
+            - /url: /search?q=SPRINTARS+Kyushu+University+Takemura+aerosol+forecast+operational+resolution+domain&sca_esv=d12162df5757eaf7&ei=e1UqavynHemKvr0P15eh0Qs&start=10&sa=N&sstk=AU9db-DOaWgZLDtlWGOWqwLz0lIfATtX-ibJ6PGNrbHcInaIuzZo6I1JTn9lrfH87ljSKjl4B7BVerbtNV2Xftb_G7oFiK0uHfB74Q&ved=2ahUKEwi80e22x_6UAxVpha8BHddLKLoQ8NMDegQIIxAK
+            - generic [ref=e521]: Tiếp
+      - navigation
+    - contentinfo [ref=e522]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e523]
+      - generic [ref=e527]:
+        - generic [ref=e529]:
+          - text: Việt Nam
+          - generic [ref=e531]:
+            - button "Hà Đông, Hà Nội - Dựa trên địa chỉ IP của bạn" [ref=e533] [cursor=pointer]:
+              - generic [ref=e534]: Hà Đông, Hà Nội
+              - generic [ref=e536]:
+                - text: "-"
+                - generic [ref=e537]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e539] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e542]:
+          - link "Trợ giúp" [ref=e543] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e544] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e545] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e546] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

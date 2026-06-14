@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip to Main Content":
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+      - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Open Menu" [ref=e6] [cursor=pointer]
+      - img "Open Search" [ref=e9] [cursor=pointer]
+      - navigation "Main Menu" [ref=e11]:
+        - generic [ref=e13]:
+          - link "University of North Dakota" [ref=e14] [cursor=pointer]:
+            - /url: https://und.edu
+            - img "University of North Dakota" [ref=e16]
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - button "Logins" [ref=e20] [cursor=pointer]: Logins
+            - listitem [ref=e22]:
+              - button "Info For" [ref=e23] [cursor=pointer]: Info For
+            - listitem [ref=e25]:
+              - link "Calendar" [ref=e26] [cursor=pointer]:
+                - /url: https://calendar.und.edu/calendar?event_types%5B%5D=110511
+            - listitem [ref=e27]:
+              - link "Directory" [ref=e28] [cursor=pointer]:
+                - /url: https://campus.und.edu/directory/index.html
+            - listitem [ref=e29]:
+              - button [ref=e30] [cursor=pointer]
+          - link "John D. Odegard School of Aerospace Sciences" [ref=e33] [cursor=pointer]:
+            - /url: /
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "About the College" [ref=e38] [cursor=pointer]:
+              - /url: /about/index.html
+          - listitem [ref=e39]:
+            - link "Academics" [ref=e40] [cursor=pointer]:
+              - /url: /academics.html
+          - listitem [ref=e41]:
+            - link "Admissions" [ref=e42] [cursor=pointer]:
+              - /url: https://und.edu/admissions/index.html
+          - listitem [ref=e43]:
+            - link "Aerospace Success Center" [ref=e44] [cursor=pointer]:
+              - /url: /success-center/index.html
+          - listitem [ref=e45]:
+            - link "Research" [ref=e46] [cursor=pointer]:
+              - /url: /research.html
+    - main [ref=e47]:
+      - img "Dust over the Canary Islands" [ref=e50]
+      - navigation "breadcrumb" [ref=e52]:
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link "Home" [ref=e55] [cursor=pointer]:
+              - /url: https://aero.und.edu
+              - img "Home" [ref=e57]
+          - listitem [ref=e59]:
+            - text: /
+            - link "Atmospheric Sciences" [ref=e60] [cursor=pointer]:
+              - /url: https://aero.und.edu/atmos/index.html
+          - listitem [ref=e61]: /ICAP
+      - generic [ref=e63]:
+        - complementary "Sidebar" [ref=e64]:
+          - navigation "Section" [ref=e65]:
+            - link "Skip Section Navigation" [ref=e66] [cursor=pointer]:
+              - /url: "#side-content"
+            - list [ref=e67]:
+              - listitem [ref=e68]:
+                - link "ICAP" [ref=e69] [cursor=pointer]:
+                  - /url: /atmos/icap/index.html
+              - listitem [ref=e70]:
+                - link "Past Meetings" [ref=e71] [cursor=pointer]:
+                  - /url: /atmos/icap/past-meetings.html
+        - generic [ref=e72]:
+          - heading "International Cooperative for Aerosol Prediction (ICAP)" [level=1] [ref=e73]
+          - paragraph [ref=e74]: ICAP is an international forum for aerosol forecast centers, remote sensing data providers, and lead systems developers to share best practices and discuss pressing issues facing the operational aerosol community. While the dynamical meteorology community has well-developed protocols and near real-time observing systems to support forecasting, the aerosol community is only beginning to organize. Infrastructure and data protocols need to be developed between operational centers in order to fully support this emerging field.
+          - 'heading "13th Technical Working Group Meeting: Interoperability and the Vertical Dimension" [level=2] [ref=e75]'
+          - paragraph [ref=e76]: November 8-10, 2023 • Darmstadt, Germany
+          - paragraph [ref=e77]: The purpose of the 13th Working Group Meeting of the International Cooperative for Aerosol Prediction is to survey the state of vertical profile data records and their utilization in informing and evaluating global aerosol prediction models. Challenges include data exchange/interoperability for measurements and models alike, near-real time delivery and utilization of data, ingestion of data into aerosol data assimilation systems, and interoperability to foster wide utility of these data products across divergent model platforms and in conjunction with synergistic datasets. Expert talks will be invited related to aerosol remote sensing, data assimilation, and modeling, and the meeting will update on the progress of the individual aerosol modeling centers.
+          - heading "Documents (Open this section)" [level=3] [ref=e80]:
+            - button "Documents (Open this section)" [ref=e81] [cursor=pointer]:
+              - text: Documents
+              - generic [ref=e82]: (Open this section)
+              - img [ref=e84]
+          - paragraph [ref=e86]:
+            - strong [ref=e87]: "Inquiries:"
+            - link "Angela Benedetti" [ref=e88] [cursor=pointer]:
+              - /url: mailto:angela.benedetti@ecmwf.int?subject=
+            - text: ","
+            - link "Peter Colarco" [ref=e89] [cursor=pointer]:
+              - /url: mailto:peter.r.colarco@nasa.gov?subject=
+          - paragraph [ref=e90]:
+            - link "Past Meetings" [ref=e91] [cursor=pointer]:
+              - /url: /atmos/icap/past-meetings.html
+        - complementary "Additional info"
+      - region "Cookie Policy Notificiation" [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "We use cookies on this site to enhance your user experience." [level=2] [ref=e95]
+            - paragraph [ref=e96]:
+              - text: By clicking any link on this page you are giving your consent for us to set cookies,
+              - link "Privacy Information" [ref=e97] [cursor=pointer]:
+                - /url: https://und.edu/about/terms-of-use.html#privacy
+              - text: .
+          - button "I Agree to cookie policy" [ref=e99] [cursor=pointer]:
+            - text: I Agree
+            - generic [ref=e100]: to cookie policy
+    - contentinfo [ref=e101]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: John D. Odegard School of Aerospace Sciences
+            - generic [ref=e108]:
+              - paragraph [ref=e109]:
+                - text: 3980 Campus Rd Stop 9007
+                - text: Grand Forks, ND 58202-9007
+              - link "flyUND@UND.edu" [ref=e110] [cursor=pointer]:
+                - /url: mailto:flyund@und.edu
+              - text: "|"
+              - link "701.777.4934" [ref=e111] [cursor=pointer]:
+                - /url: tel:+17017774934
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - link "YouTube" [ref=e114] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCgKF0myJzlxnoyH1PPu454A
+                - img "YouTube" [ref=e116]
+            - listitem [ref=e118]:
+              - link "Instagram" [ref=e119] [cursor=pointer]:
+                - /url: https://www.instagram.com/undaerospace/
+                - img "Instagram" [ref=e121]
+            - listitem [ref=e123]:
+              - link "Facebook" [ref=e124] [cursor=pointer]:
+                - /url: https://www.facebook.com/UNDAerospace/
+                - img "Facebook" [ref=e126]
+            - listitem [ref=e128]:
+              - link "Twitter" [ref=e129] [cursor=pointer]:
+                - /url: https://twitter.com/undaerospace
+                - img "Twitter" [ref=e131]
+            - listitem [ref=e133]:
+              - link "LinkedIn" [ref=e134] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/und-aerospace/
+                - img "LinkedIn" [ref=e136]
+        - generic [ref=e139]:
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "Contact Us" [ref=e143] [cursor=pointer]:
+                - /url: https://und.edu/about/contact-us.html
+            - listitem [ref=e144]:
+              - link "Accreditation" [ref=e145] [cursor=pointer]:
+                - /url: /about/index.html
+            - listitem [ref=e146]:
+              - link "AeroStop" [ref=e147] [cursor=pointer]:
+                - /url: https://aerostop.undaerospace.com/
+            - listitem [ref=e148]:
+              - link "Make a Gift" [ref=e149] [cursor=pointer]:
+                - /url: /alumni/index.html
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "Tech Support" [ref=e153] [cursor=pointer]:
+                - /url: /help-desk/index.html
+            - listitem [ref=e154]:
+              - link "Building Directories" [ref=e155] [cursor=pointer]:
+                - /url: /directories/index.html
+            - listitem [ref=e156]:
+              - link "Employment" [ref=e157] [cursor=pointer]:
+                - /url: /employment.html
+            - listitem [ref=e158]:
+              - link "Aerospace IT" [ref=e159] [cursor=pointer]:
+                - /url: /aerospace-it/index.html
+      - generic [ref=e161]:
+        - link "University of North Dakota" [ref=e162] [cursor=pointer]:
+          - /url: https://und.edu
+          - img "University of North Dakota" [ref=e164]
+        - paragraph [ref=e166]:
+          - link "©" [ref=e168] [cursor=pointer]:
+            - /url: https://a.cms.omniupdate.com/11/?skin=und&account=UND&site=aerospace&action=de&path=/atmos/icap/index.pcf
+          - text: 2026 University of North Dakota - Grand Forks, ND - Member of ND University System
+        - list "Compliance and Disclosures" [ref=e169]:
+          - listitem [ref=e170]:
+            - link "Accessibility & Website Feedback" [ref=e171] [cursor=pointer]:
+              - /url: https://und.edu/about/website-feedback.html
+          - listitem [ref=e172]:
+            - link "Terms of Use & Privacy" [ref=e173] [cursor=pointer]:
+              - /url: https://und.edu/about/terms-of-use.html
+          - listitem [ref=e174]:
+            - link "Notice of Nondiscrimination" [ref=e175] [cursor=pointer]:
+              - /url: https://campus.und.edu/civil-rights/required-notices.html#notice-of-nondiscrimination
+          - listitem [ref=e176]:
+            - link "Student Disclosure Information" [ref=e177] [cursor=pointer]:
+              - /url: https://und.edu/about/student-disclosure-information/index.html
+          - listitem [ref=e178]:
+            - link "Title IX" [ref=e179] [cursor=pointer]:
+              - /url: https://campus.und.edu/civil-rights/index.html

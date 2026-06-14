@@ -1,0 +1,424 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner:
+      - navigation [ref=e2]:
+        - generic [ref=e3]:
+          - link [ref=e5] [cursor=pointer]:
+            - /url: javascript:;
+          - link [ref=e7] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+          - generic [ref=e8]:
+            - navigation:
+              - generic:
+                - generic:
+                  - list
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Browse" [ref=e11] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Browse
+              - listitem [ref=e13]:
+                - link "About J-STAGE" [ref=e14] [cursor=pointer]:
+                  - /url: "#"
+                  - text: About J-STAGE
+              - listitem [ref=e16]:
+                - link "News and PR" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+                  - text: News and PR
+              - listitem [ref=e19]:
+                - link "Support" [ref=e20] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Support
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Sign in" [ref=e25] [cursor=pointer]:
+                - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fsola%2F21C%2FSpecial_Edition%2F_contents%2F-char%2Fen
+            - listitem
+            - listitem [ref=e26]:
+              - link "Cart" [ref=e27] [cursor=pointer]:
+                - /url: /cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fsola%2F21C%2FSpecial_Edition%2F_contents%2F-char%2Fen
+            - listitem [ref=e28]:
+              - link "EN" [ref=e29] [cursor=pointer]:
+                - /url: "#"
+                - text: EN
+  - generic [ref=e35]:
+    - generic [ref=e36]: SOLA
+    - generic [ref=e38]:
+      - text: "Online ISSN : 1349-6476"
+      - text: "ISSN-L : 1349-6476"
+  - list [ref=e43]:
+    - text: 
+    - listitem [ref=e44]:
+      - link "Publisher's Home " [ref=e45] [cursor=pointer]:
+        - /url: https://metsoc.jp/sola/
+        - text: Publisher's Home
+        - generic [ref=e46]: 
+    - listitem [ref=e47]:
+      - link "Journal home" [ref=e48] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/sola/-char/en
+    - listitem [ref=e49]:
+      - link "All issues" [ref=e50] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - listitem [ref=e51]:
+      - link "About the journal" [ref=e52] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/sola/_pubinfo/-char/en
+  - generic [ref=e56]:
+    - list:
+      - listitem [ref=e57]:
+        - link "J-STAGE home" [ref=e58] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/browse/-char/en
+      - listitem [ref=e59]: /
+      - listitem [ref=e60]:
+        - link "SOLA" [ref=e61] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/-char/en
+      - listitem [ref=e62]: /
+      - listitem [ref=e63]: All issues
+    - generic [ref=e66]:
+      - generic [ref=e67]: Search
+      - generic [ref=e68]:
+        - searchbox "Search within this journal" [ref=e69]
+        - button "Search" [ref=e70] [cursor=pointer]
+        - link "Advanced search" [ref=e72] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/search/advance/sola/-char/en
+      - generic [ref=e73]: OR
+      - generic [ref=e74]: Browse
+      - generic [ref=e75]:
+        - generic:
+          - list:
+            - listitem [ref=e76]:
+              - combobox [ref=e77]
+              - combobox "Vol 21C" [ref=e80] [cursor=pointer]:
+                - generic "Vol 21C" [ref=e81]
+            - listitem [ref=e82]:
+              - combobox [ref=e83]
+              - combobox "Issue Special_Edition" [ref=e86] [cursor=pointer]:
+                - generic "Issue Special_Edition" [ref=e87]
+            - listitem [ref=e88]:
+              - textbox "page" [ref=e89]
+            - listitem [ref=e90]:
+              - button "Go" [ref=e91] [cursor=pointer]
+  - generic [ref=e94]:
+    - generic [ref=e96]: All issues
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic "Volume 21C (2025)" [ref=e104] [cursor=pointer]:
+          - link "Volume 21C (2025)" [ref=e105]:
+            - /url: https://www.jstage.jst.go.jp/browse/sola/21C/0/_contents/-char/en
+        - list [ref=e107]:
+          - listitem "Issue Special_Edition Pages 1-" [ref=e108]: Issue Special_Edition･･･
+      - generic "Volume 21B (2025)" [ref=e110] [cursor=pointer]:
+        - link "Volume 21B (2025)" [ref=e111]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/21B/0/_contents/-char/en
+      - generic "Volume 21A (2025)" [ref=e113] [cursor=pointer]:
+        - link "Volume 21A (2025)" [ref=e114]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/21A/0/_contents/-char/en
+      - generic "Volume 21 (2025)" [ref=e116] [cursor=pointer]:
+        - link "Volume 21 (2025)" [ref=e117]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/21/0/_contents/-char/en
+      - generic "Volume 20B (2024)" [ref=e119] [cursor=pointer]:
+        - link "Volume 20B (2024)" [ref=e120]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/20B/0/_contents/-char/en
+      - generic "Volume 20A (2024)" [ref=e122] [cursor=pointer]:
+        - link "Volume 20A (2024)" [ref=e123]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/20A/0/_contents/-char/en
+      - generic "Volume 20 (2024)" [ref=e125] [cursor=pointer]:
+        - link "Volume 20 (2024)" [ref=e126]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/20/0/_contents/-char/en
+      - generic "Volume 19B (2023)" [ref=e128] [cursor=pointer]:
+        - link "Volume 19B (2023)" [ref=e129]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/19B/0/_contents/-char/en
+      - generic "Volume 19A (2023)" [ref=e131] [cursor=pointer]:
+        - link "Volume 19A (2023)" [ref=e132]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/19A/0/_contents/-char/en
+      - generic "Volume 19 (2023)" [ref=e134] [cursor=pointer]:
+        - link "Volume 19 (2023)" [ref=e135]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/19/0/_contents/-char/en
+      - generic "Volume 18A (2022)" [ref=e137] [cursor=pointer]:
+        - link "Volume 18A (2022)" [ref=e138]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/18A/0/_contents/-char/en
+      - generic "Volume 18 (2022)" [ref=e140] [cursor=pointer]:
+        - link "Volume 18 (2022)" [ref=e141]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/18/0/_contents/-char/en
+      - generic "Volume 17B (2021)" [ref=e143] [cursor=pointer]:
+        - link "Volume 17B (2021)" [ref=e144]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/17B/0/_contents/-char/en
+      - generic "Volume 17A (2021)" [ref=e146] [cursor=pointer]:
+        - link "Volume 17A (2021)" [ref=e147]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/17A/0/_contents/-char/en
+      - generic "Volume 17 (2021)" [ref=e149] [cursor=pointer]:
+        - link "Volume 17 (2021)" [ref=e150]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/17/0/_contents/-char/en
+      - generic "Volume 16A (2020)" [ref=e152] [cursor=pointer]:
+        - link "Volume 16A (2020)" [ref=e153]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/16A/0/_contents/-char/en
+      - generic "Volume 16 (2020)" [ref=e155] [cursor=pointer]:
+        - link "Volume 16 (2020)" [ref=e156]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/16/0/_contents/-char/en
+      - generic "Volume 15A (2019)" [ref=e158] [cursor=pointer]:
+        - link "Volume 15A (2019)" [ref=e159]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/15A/0/_contents/-char/en
+      - generic "Volume 15 (2019)" [ref=e161] [cursor=pointer]:
+        - link "Volume 15 (2019)" [ref=e162]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/15/0/_contents/-char/en
+      - generic "Volume 14 (2018)" [ref=e164] [cursor=pointer]:
+        - link "Volume 14 (2018)" [ref=e165]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/14/0/_contents/-char/en
+      - generic "Volume 13A (2017)" [ref=e167] [cursor=pointer]:
+        - link "Volume 13A (2017)" [ref=e168]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/13A/0/_contents/-char/en
+      - generic "Volume 13 (2017)" [ref=e170] [cursor=pointer]:
+        - link "Volume 13 (2017)" [ref=e171]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/13/0/_contents/-char/en
+      - generic "Volume 12A (2016)" [ref=e173] [cursor=pointer]:
+        - link "Volume 12A (2016)" [ref=e174]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/12A/0/_contents/-char/en
+      - generic "Volume 12 (2016)" [ref=e176] [cursor=pointer]:
+        - link "Volume 12 (2016)" [ref=e177]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/12/0/_contents/-char/en
+      - generic "Volume 11 (2015)" [ref=e179] [cursor=pointer]:
+        - link "Volume 11 (2015)" [ref=e180]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/11/0/_contents/-char/en
+      - generic "Volume 10 (2014)" [ref=e182] [cursor=pointer]:
+        - link "Volume 10 (2014)" [ref=e183]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/10/0/_contents/-char/en
+      - generic "Volume 9 (2013)" [ref=e185] [cursor=pointer]:
+        - link "Volume 9 (2013)" [ref=e186]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/9/0/_contents/-char/en
+      - generic "Volume 8 (2012)" [ref=e188] [cursor=pointer]:
+        - link "Volume 8 (2012)" [ref=e189]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/8/0/_contents/-char/en
+      - generic "Volume 7A (2011)" [ref=e191] [cursor=pointer]:
+        - link "Volume 7A (2011)" [ref=e192]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/7A/0/_contents/-char/en
+      - generic "Volume 7 (2011)" [ref=e194] [cursor=pointer]:
+        - link "Volume 7 (2011)" [ref=e195]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/7/0/_contents/-char/en
+      - generic "Volume 6A (2010)" [ref=e197] [cursor=pointer]:
+        - link "Volume 6A (2010)" [ref=e198]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/6A/0/_contents/-char/en
+      - generic "Volume 6 (2010)" [ref=e200] [cursor=pointer]:
+        - link "Volume 6 (2010)" [ref=e201]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/6/0/_contents/-char/en
+      - generic "Volume 5 (2009)" [ref=e203] [cursor=pointer]:
+        - link "Volume 5 (2009)" [ref=e204]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/5/0/_contents/-char/en
+      - generic "Volume 4 (2008)" [ref=e206] [cursor=pointer]:
+        - link "Volume 4 (2008)" [ref=e207]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/4/0/_contents/-char/en
+      - generic "Volume 3 (2007)" [ref=e209] [cursor=pointer]:
+        - link "Volume 3 (2007)" [ref=e210]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/3/0/_contents/-char/en
+      - generic "Volume 2 (2006)" [ref=e212] [cursor=pointer]:
+        - link "Volume 2 (2006)" [ref=e213]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/2/0/_contents/-char/en
+      - generic "Volume 1 (2005)" [ref=e215] [cursor=pointer]:
+        - link "Volume 1 (2005)" [ref=e216]:
+          - /url: https://www.jstage.jst.go.jp/browse/sola/1/0/_contents/-char/en
+    - generic [ref=e218]:
+      - generic [ref=e219]: Current issue
+      - generic [ref=e220]: Recent Advances in the Global Energy and Water Cycle Exchanges (GEWEX) Sciences
+      - generic [ref=e221]:
+        - generic [ref=e222]: Displaying 1-3 of 3 articles from this issue
+        - generic [ref=e223]:
+          - link "Download citation" [ref=e225] [cursor=pointer]:
+            - /url: javascript:;
+          - link "Show all abstracts" [ref=e227] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=e232]:
+        - list:
+          - generic [ref=e233]:
+            - list:
+              - listitem [ref=e234]: "|<"
+              - listitem [ref=e235]: <
+              - listitem [ref=e236]: "1"
+              - listitem [ref=e237]: ">"
+              - listitem [ref=e238]: ">|"
+      - generic [ref=e240]:
+        - generic [ref=e241]: Article
+        - list [ref=e242]:
+          - listitem [ref=e243]:
+            - link "An Objective Method to Locate Shear Lines during the Northeast Monsoon Season in the Philippines" [ref=e245] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/21C/Special_Edition/21C_21C-003/_article/-char/en
+            - generic "Lyndon Mark P. Olaguera, John A. Manalo, Jun Matsumoto, Faye Abigail T. Cruz, Jose Ramon T. Villarin" [ref=e246]: Lyndon Mark P. Olaguera, John A. Manalo, Jun Matsumoto, Faye Abigail T ...
+            - generic [ref=e247]:
+              - text: 2025Volume 21CIssue Special_Edition Pages 21-29
+              - text: "Published: 2025"
+              - text: "Released on J-STAGE: December 26, 2025"
+              - text: "Advance online publication: November 25, 2025"
+            - generic [ref=e248]:
+              - generic [ref=e249]: DOI
+              - link "https://doi.org/10.2151/sola.21C-003" [ref=e250] [cursor=pointer]:
+                - /url: https://doi.org/10.2151/sola.21C-003
+            - generic [ref=e251]:
+              - generic "JOURNAL" [ref=e252]
+              - generic "OPEN ACCESS" [ref=e253]
+              - generic "Supplementary material" [ref=e254]
+            - generic [ref=e255]:
+              - link "Show abstract" [ref=e257] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=e258]:
+                - paragraph [ref=e259]:
+                  - text: The shear line is a narrow zone of maximum horizontal wind shear, typically identified as a confluence zone of low-level wind streams. Previous studies showed that this system can trigger heavy to extreme rainfall events in the Philippines during the northeast monsoon season. However, a research gap remains in objectively identifying and locating this system. Thus, this study develops a detection method that may be used for monitoring and forecasting the location of shear lines. Results show that the meridional gradient of the 925 hPa meridional winds (∂V
+                  - subscript [ref=e260]: 925hPa
+                  - text: /∂y), the boundary layer moisture flux convergence, and the 925 hPa relative vorticity may be used to estimate the location of the shear line. These parameters are then utilized in the detection algorithm. Applying the detection algorithm to reanalysis data from 1979 to 2022 for the northeast monsoon season revealed that shear lines contribute up to 20% of the total extreme rainfall days, with the greatest influence observed in November and December. This system is also best depicted in the 925 hPa and 850 hPa levels. The detection method developed in this study may be useful for improving the forecast of heavy to extreme rainfall events in the Philippines, especially during this season.
+                - link "View full abstract" [ref=e261] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e262]: View full abstract
+              - generic [ref=e264]:
+                - link "Download PDF" [ref=e265] [cursor=pointer]:
+                  - /url: https://www.jstage.jst.go.jp/article/sola/21C/Special_Edition/21C_21C-003/_pdf/-char/en
+                - text: (20649K)
+          - listitem [ref=e266]:
+            - link "Rainfall and Temperature-Based Philippine Climate Zones Using Self-Organizing Maps" [ref=e268] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/21C/Special_Edition/21C_21C-002/_article/-char/en
+            - generic "Lyndon Mark P. Olaguera, Edward Kyle Badua, Alyssa Gewell A. Llorin, Faye Abigail T. Cruz, Jose Ramon T. Villarin, John A. Manalo, Marcelino Q. Villafuerte II, Jun Matsumoto" [ref=e269]: Lyndon Mark P. Olaguera, Edward Kyle Badua, Alyssa Gewell A. Llorin, F ...
+            - generic [ref=e270]:
+              - text: 2025Volume 21CIssue Special_Edition Pages 10-20
+              - text: "Published: 2025"
+              - text: "Released on J-STAGE: September 23, 2025"
+              - text: "Advance online publication: August 20, 2025"
+            - generic [ref=e271]:
+              - generic [ref=e272]: DOI
+              - link "https://doi.org/10.2151/sola.21C-002" [ref=e273] [cursor=pointer]:
+                - /url: https://doi.org/10.2151/sola.21C-002
+            - generic [ref=e274]:
+              - generic "JOURNAL" [ref=e275]
+              - generic "OPEN ACCESS" [ref=e276]
+              - generic "Supplementary material" [ref=e277]
+            - generic [ref=e278]:
+              - link "Show abstract" [ref=e280] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=e281]:
+                - paragraph [ref=e282]: Existing climate zones in the Philippines are based solely on rainfall. However, recent studies suggest that other variables, such as temperature, should be considered for a better representation of the regional climate. Thus, this study aims to provide a novel representation of the regional climate in the Philippines by combining gridded rainfall and temperature data from the APHRODITE dataset from 1979 to 2015 using a two-phase Self-Organizing Map (SOM). This method is less computationally expensive and less sensitive to random noise from the input data than direct clustering approaches. When applying SOM to pentad-sum rainfall only, three distinct clusters are found, which is consistent with present studies that applied different clustering approaches on gridded and station-based rainfall data sets. When pentad-mean temperature is clustered only, two clusters are found, demonstrating the strong influence of elevation. When rainfall and temperature are combined, five clusters are found. The characteristics of the five clusters are discussed and validated against weather station data within each cluster. The results of this study offer a new perspective on climate zones in the Philippines when both rainfall and temperature are taken into account.
+                - link "View full abstract" [ref=e283] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e284]: View full abstract
+              - generic [ref=e286]:
+                - link "Download PDF" [ref=e287] [cursor=pointer]:
+                  - /url: https://www.jstage.jst.go.jp/article/sola/21C/Special_Edition/21C_21C-002/_pdf/-char/en
+                - text: (26587K)
+          - listitem [ref=e288]:
+            - 'link "Mechanisms behind the Record-Breaking Snowfall in Obihiro, Hokkaido, Japan, in February 2025: Roles of Atmospheric Environment and a Marine Heatwave" [ref=e290] [cursor=pointer]':
+              - /url: https://www.jstage.jst.go.jp/article/sola/21C/Special_Edition/21C_21C-001/_article/-char/en
+            - generic "Hidetaka Hirata, Kenta Tamura, Takehiro Morioka, Tomonori Sato" [ref=e291]
+            - generic [ref=e292]:
+              - text: 2025Volume 21CIssue Special_Edition Pages 1-9
+              - text: "Published: 2025"
+              - text: "Released on J-STAGE: August 10, 2025"
+              - text: "Advance online publication: July 03, 2025"
+            - generic [ref=e293]:
+              - generic [ref=e294]: DOI
+              - link "https://doi.org/10.2151/sola.21C-001" [ref=e295] [cursor=pointer]:
+                - /url: https://doi.org/10.2151/sola.21C-001
+            - generic [ref=e296]:
+              - generic "JOURNAL" [ref=e297]
+              - generic "OPEN ACCESS" [ref=e298]
+              - generic "Supplementary material" [ref=e299]
+            - generic [ref=e300]:
+              - link "Show abstract" [ref=e302] [cursor=pointer]:
+                - /url: javascript:void(0);
+              - generic [ref=e303]:
+                - paragraph [ref=e304]: In early February 2025, a 12-hour snowfall of 120 cm was observed in Obihiro, located on the Tokachi Plain of southeastern Hokkaido, Japan; it was the highest recorded snowfall in Japan. Concurrently, a marine heatwave (MHW) with pronounced warm sea surface temperature was observed offshore. While MHWs effect on rainfall are documented, their impact on snowfall remains poorly understood. Here, we demonstrated the mechanisms behind the record-breaking snowfall event, including the effects of the MHW. During the heavy snowfall, an extratropical cyclone drove strong easterly winds toward the coastal regions of the Tokachi Plain, and a surface front was located to the south of Obihiro. The easterly winds transported a convectively unstable layer from over the ocean into the front, and the frontal updrafts released the instability. Consequently, convective precipitation systems developed, yielding heavy snowfall at Obihiro on the cold side of the front. Notably, the MHW enhanced the frontal formation and convective instability, increasing precipitation around Obihiro by approximately 50%. This case study demonstrates that MHWs can significantly amplify snowfall under specific atmospheric conditions, advancing our understanding of compound extreme.
+                - link "View full abstract" [ref=e305] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e306]: View full abstract
+              - generic [ref=e308]:
+                - link "Download PDF" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.jstage.jst.go.jp/article/sola/21C/Special_Edition/21C_21C-001/_pdf/-char/en
+                - text: (22346K)
+      - generic [ref=e312]:
+        - list:
+          - generic [ref=e313]:
+            - list:
+              - listitem [ref=e314]: "|<"
+              - listitem [ref=e315]: <
+              - listitem [ref=e316]: "1"
+              - listitem [ref=e317]: ">"
+              - listitem [ref=e318]: ">|"
+  - contentinfo [ref=e322]:
+    - generic [ref=e324]:
+      - text: Edited and published by Meteorological Society of Japan
+      - text: Production services Gakujutsu-tosho Printing Co. Ltd.
+    - generic [ref=e325]:
+      - link "Top" [ref=e326] [cursor=pointer]:
+        - /url: "#0"
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - generic [ref=e329]: Browse
+          - list [ref=e330]:
+            - listitem [ref=e331]:
+              - link "All titles" [ref=e332] [cursor=pointer]:
+                - /url: /journal/list/-char/en
+            - listitem [ref=e333]:
+              - link "All subject areas" [ref=e334] [cursor=pointer]:
+                - /url: /journal/fields/-char/en
+            - listitem [ref=e335]:
+              - link "All publishers" [ref=e336] [cursor=pointer]:
+                - /url: /journal/publisher/-char/en
+            - listitem [ref=e337]:
+              - link "Search articles" [ref=e338] [cursor=pointer]:
+                - /url: /search/global/_search/-char/en
+            - listitem [ref=e339]:
+              - link "Search J-STAGE Data" [ref=e340] [cursor=pointer]:
+                - /url: https://jstagedata.jst.go.jp/
+        - generic [ref=e341]:
+          - generic [ref=e342]: About J-STAGE
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "Overview" [ref=e345] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en
+            - listitem [ref=e346]:
+              - link "Services and features" [ref=e347] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en
+            - listitem [ref=e348]:
+              - link "Public data" [ref=e349] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en
+            - listitem [ref=e350]:
+              - link "Terms and Policy" [ref=e351] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en
+        - generic [ref=e352]:
+          - generic [ref=e353]: News and PR
+          - list [ref=e354]:
+            - listitem [ref=e355]:
+              - link "News" [ref=e356] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en
+            - listitem [ref=e357]:
+              - link "Maintenance information" [ref=e358] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en
+            - listitem [ref=e359]:
+              - link "Special contents" [ref=e360] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en
+            - listitem [ref=e361]:
+              - link "Media resources" [ref=e362] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en
+        - generic [ref=e363]:
+          - generic [ref=e364]: Support
+          - list [ref=e365]:
+            - listitem [ref=e366]:
+              - link "User manuals" [ref=e367] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en
+            - listitem [ref=e368]:
+              - link "Browser compatibility" [ref=e369] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en
+            - listitem [ref=e370]:
+              - link "FAQ" [ref=e371] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en
+            - listitem [ref=e372]:
+              - link "Contact" [ref=e373] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Contact/-char/en
+            - listitem [ref=e374]:
+              - link "Sitemap" [ref=e375] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en
+  - link "feedback" [ref=e378] [cursor=pointer]:
+    - /url: https://form2.jst.go.jp/s/jstage-feedback
+  - generic [ref=e379]:
+    - link "" [ref=e380] [cursor=pointer]:
+      - /url: javascript:;
+      - generic [ref=e381]: 
+    - heading "Register with J-STAGE for free!" [level=3] [ref=e382]
+    - link "Register" [ref=e383] [cursor=pointer]:
+      - /url: /myregister/-char/en
+    - paragraph [ref=e384]:
+      - text: Already have an account? Sign in
+      - link "here" [ref=e385] [cursor=pointer]:
+        - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2Fsola%2F21C%2FSpecial_Edition%2F_contents%2F-char%2Fen

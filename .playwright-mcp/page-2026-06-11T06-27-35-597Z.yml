@@ -1,0 +1,124 @@
+- document [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "NIES Top" [ref=e6] [cursor=pointer]:
+          - /url: /en
+          - img "NIES Top" [ref=e7]
+        - link "Skip to main content" [ref=e8] [cursor=pointer]:
+          - /url: "#contents"
+        - navigation "Side navigation" [ref=e9]:
+          - navigation [ref=e10]:
+            - menubar [ref=e12]:
+              - menuitem "About" [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+                - text: About
+              - menuitem "Research Overview" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+                - text: Research Overview
+              - menuitem "Public Outreach" [ref=e23] [cursor=pointer]:
+                - img [ref=e24]
+                - text: Public Outreach
+              - menuitem "Research Collaborations & Social Contributions" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+                - text: Research Collaborations & Social Contributions
+          - link "Careers" [ref=e32] [cursor=pointer]:
+            - /url: /en/careers/index.html
+            - img [ref=e33]
+            - text: Careers
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "FAQ" [ref=e39] [cursor=pointer]:
+                - /url: /en/contact/faq/index.html
+            - listitem [ref=e40]:
+              - link "Contact Us" [ref=e41] [cursor=pointer]:
+                - /url: /en/contact/index.html
+            - listitem [ref=e42]:
+              - link "Access" [ref=e43] [cursor=pointer]:
+                - /url: /en/about/overview/access/index.html
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "YouTube (Opens in a new window) (Opens in a new window)" [ref=e47] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/nieschannel
+                - img "YouTube (Opens in a new window)" [ref=e48]
+                - generic [ref=e49]: (Opens in a new window)
+            - listitem [ref=e50]:
+              - link "LinkedIn (Opens in a new window) (Opens in a new window)" [ref=e51] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/national-institute-for-environmental-studies-nies
+                - img "LinkedIn (Opens in a new window)" [ref=e52]
+                - generic [ref=e53]: (Opens in a new window)
+        - generic [ref=e54]:
+          - button "JP" [ref=e56] [cursor=pointer]
+          - search [ref=e57]:
+            - generic [ref=e58]: Site Search
+            - button "検索" [ref=e59] [cursor=pointer]: Search
+        - button "Open Menu"
+    - generic [ref=e60]:
+      - complementary [ref=e61]:
+        - heading "Regional Environment Conservation Division" [level=2] [ref=e64]:
+          - link "Regional Environment Conservation Division" [ref=e65] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Home" [ref=e68] [cursor=pointer]:
+            - /url: /en/index.html
+          - text: ">"
+        - listitem [ref=e69]:
+          - link "Regional Environment Conservation Division" [ref=e70] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+          - text: ">"
+        - listitem [ref=e71]: Atmosphere
+      - complementary [ref=e72]:
+        - heading "Regional Environment Conservation Division ローカルメニュー開閉ボタン" [level=2] [ref=e75]:
+          - link "Regional Environment Conservation Division" [ref=e76] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+          - button "ローカルメニュー開閉ボタン" [ref=e77] [cursor=pointer]: +
+    - main [ref=e78]:
+      - article [ref=e79]:
+        - heading "Atmosphere" [level=1] [ref=e84]
+        - tablist "コンテンツ切り替えタブ" [ref=e85]:
+          - tab "Project" [selected] [ref=e86] [cursor=pointer]
+          - tab "Member" [ref=e87] [cursor=pointer]
+        - generic [ref=e92]:
+          - img "project" [ref=e94]
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - text: ・
+              - link "East Asian Environment Research Program (Research Program)" [ref=e98] [cursor=pointer]:
+                - /url: /chiiki/en/project01_en.html
+              - generic [ref=e99]: Rapid economic growth in the East Asian region has brought severe environmental problems...
+            - listitem [ref=e100]:
+              - text: ・
+              - link "Investigation of PM2.5 pollution mechanisms" [ref=e102] [cursor=pointer]:
+                - /url: /chiiki/en/project03_en.html
+              - generic [ref=e103]: The mechanisms causing PM2.5 pollution concentration to exceed the short-term/long-term environmental standards were determined...
+            - listitem [ref=e104]:
+              - text: ・
+              - link "A study of PM in the urban atmosphere with regard to its reduction and an evaluation of its toxicity and health impact" [ref=e106] [cursor=pointer]:
+                - /url: /chiiki/en/project04_en.html
+              - generic [ref=e107]: To understand the atmospheric behaviors and health effects of atmospheric aerosols (PM2.5) better...
+            - listitem [ref=e108]:
+              - text: ・
+              - link "Study of air pollution using high-resolution global cloud-resolving model" [ref=e110] [cursor=pointer]:
+                - /url: /chiiki/en/project08_en.html
+            - listitem [ref=e111]:
+              - text: ・
+              - link "Long-term monitoring at CHAAMS and Fukuejima station to investigate the changes of atmospheric emissions and their chemical composition in East Asia" [ref=e113] [cursor=pointer]:
+                - /url: /chiiki/en/project09_en.html
+            - listitem [ref=e114]:
+              - text: ・
+              - link "Research on Disaster Environment" [ref=e116] [cursor=pointer]:
+                - /url: http://www.nies.go.jp/saigaikenkyu/index-e.html
+    - contentinfo [ref=e117]:
+      - link "to Top" [ref=e119] [cursor=pointer]:
+        - /url: "#container"
+      - generic [ref=e120]:
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - link "Terms of Use" [ref=e124] [cursor=pointer]:
+              - /url: /en/site-policy/index.html
+            - text: "|"
+          - listitem [ref=e125]:
+            - link "Privacy Policy" [ref=e126] [cursor=pointer]:
+              - /url: /en/about/privacy-policy/index.html
+        - generic [ref=e127]: © 2026 National Institute for Environmental Studies

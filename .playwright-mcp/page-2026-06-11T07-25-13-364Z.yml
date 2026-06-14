@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - link "Japan Meteorological Agency" [ref=e3] [cursor=pointer]:
+    - /url: //www.jma.go.jp/jma/indexe.html
+    - img "Japan Meteorological Agency" [ref=e4]
+  - link "Japanese" [ref=e6] [cursor=pointer]:
+    - /url: //www.jma.go.jp/jma/index.html
+  - generic [ref=e7]:
+    - link "Skip Navigation" [ref=e8] [cursor=pointer]:
+      - /url: "#contents"
+    - link "About Us" [ref=e9] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/AboutUs/indexe_aboutus.html
+    - link "Access" [ref=e10] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/Access/indexe_acs.html
+    - link "Links" [ref=e11] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/Links/indexe_lnk.html
+    - link "Site Map" [ref=e12] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/SiteMap/indexe_smp.html
+  - generic [ref=e13]:
+    - link "Home" [ref=e14] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/indexe.html
+    - link "Weather/Earthquakes" [ref=e15] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/menu.html
+    - link "Services" [ref=e16] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/Services/indexe_services.html
+    - link "Publications/Periodicals" [ref=e17] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/Publications/publications.html
+    - link "News Releases" [ref=e18] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/News/indexe_news.html
+    - link "For NMHSs" [ref=e19] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/NMHS/indexe_nmhs.html
+  - generic [ref=e20]:
+    - link "Home" [ref=e21] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/indexe.html
+    - text: ">"
+    - link "Services" [ref=e22] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/Services/indexe_services.html
+    - text: ">"
+    - link "Numerical Weather Prediction Activities" [ref=e23] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/en/Activities/nwp.html
+    - text: ">"
+    - link "JMA Numerical Weather Prediction" [ref=e24] [cursor=pointer]:
+      - /url: //www.jma.go.jp/jma/jma-eng/jma-center/nwp/nwp-top.htm
+    - text: "> OUTLINE (March 2013)"
+  - generic [ref=e25]:
+    - heading "OUTLINE NWP March 2013" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - text: OUTLINE OF THE OPERATIONAL NUMERICAL WEATHER PREDICTION AT THE JAPAN METEOROLOGICAL AGENCY
+      - text: March 2013
+      - text: JAPAN METEOROLOGICAL AGENCY
+      - text: Appendix to WMO TECHNICAL PROGRESS REPORT ON THE GLOBAL DATA-PROCESSING AND FORECASTING SYSTEM AND NUMERICAL WEATHER PREDICTION
+    - separator [ref=e28]
+    - heading "Cover/Contents/Preface" [level=4] [ref=e29]:
+      - link "Cover/Contents/Preface" [ref=e30] [cursor=pointer]:
+        - /url: ./pdf/outline2013_Contents.pdf
+    - table [ref=e31]:
+      - rowgroup [ref=e32]:
+        - row "1. Computer System PDF (416 KB)" [ref=e33]:
+          - cell "1. Computer System" [ref=e34]:
+            - heading "1. Computer System" [level=4] [ref=e35]
+          - cell "PDF (416 KB)" [ref=e36]:
+            - link "PDF (416 KB)" [ref=e37] [cursor=pointer]:
+              - /url: pdf/outline2013_01.pdf
+        - row "1.1 Introduction 1.2 System Configurations and Specifications 1.3 Operational Aspects" [ref=e38]:
+          - cell "1.1 Introduction 1.2 System Configurations and Specifications 1.3 Operational Aspects" [ref=e39]:
+            - text: 1.1 Introduction
+            - text: 1.2 System Configurations and Specifications
+            - text: 1.3 Operational Aspects
+        - row "2. Data Assimilation Systems PDF (1.2 MB)" [ref=e40]:
+          - cell "2. Data Assimilation Systems" [ref=e41]:
+            - heading "2. Data Assimilation Systems" [level=4] [ref=e42]
+          - cell "PDF (1.2 MB)" [ref=e43]:
+            - link "PDF (1.2 MB)" [ref=e44] [cursor=pointer]:
+              - /url: pdf/outline2013_02.pdf
+        - row "2.1 Summary 2.2 Observation Data 2.3 Quality Control and Relating Procedures 2.4 Typhoon Bogussing 2.5 Global Analysis 2.6 Meso-scale Analysis 2.7 Local Analysis 2.8 Snow Depth Analysis 2.9 Non-real-time Quality Control 2.10 JMA Climate Data Assimilation System" [ref=e45]:
+          - cell "2.1 Summary 2.2 Observation Data 2.3 Quality Control and Relating Procedures 2.4 Typhoon Bogussing 2.5 Global Analysis 2.6 Meso-scale Analysis 2.7 Local Analysis 2.8 Snow Depth Analysis 2.9 Non-real-time Quality Control 2.10 JMA Climate Data Assimilation System" [ref=e46]:
+            - text: 2.1 Summary
+            - text: 2.2 Observation Data
+            - text: 2.3 Quality Control and Relating Procedures
+            - text: 2.4 Typhoon Bogussing
+            - text: 2.5 Global Analysis
+            - text: 2.6 Meso-scale Analysis
+            - text: 2.7 Local Analysis
+            - text: 2.8 Snow Depth Analysis
+            - text: 2.9 Non-real-time Quality Control
+            - text: 2.10 JMA Climate Data Assimilation System
+        - row "3. Numerical Weather Prediction Models PDF (2.5 MB)" [ref=e47]:
+          - cell "3. Numerical Weather Prediction Models" [ref=e48]:
+            - heading "3. Numerical Weather Prediction Models" [level=4] [ref=e49]
+          - cell "PDF (2.5 MB)" [ref=e50]:
+            - link "PDF (2.5 MB)" [ref=e51] [cursor=pointer]:
+              - /url: pdf/outline2013_03.pdf
+        - row "3.1 Summary 3.2 Global Spectral Model (JMA-GSM1212) 3.3 Ensemble Prediction Systems 3.4 Coupled Atmosphere-Ocean General Circulation Model 3.5 Meso-Scale Model (JMA-MSM1206) 3.6 Local Forecast Model 3.7 Atmospheric Transport Model 3.8 Chemical Transport Model 3.9 Verification" [ref=e52]:
+          - cell "3.1 Summary 3.2 Global Spectral Model (JMA-GSM1212) 3.3 Ensemble Prediction Systems 3.4 Coupled Atmosphere-Ocean General Circulation Model 3.5 Meso-Scale Model (JMA-MSM1206) 3.6 Local Forecast Model 3.7 Atmospheric Transport Model 3.8 Chemical Transport Model 3.9 Verification" [ref=e53]:
+            - text: 3.1 Summary
+            - text: 3.2 Global Spectral Model (JMA-GSM1212)
+            - text: 3.3 Ensemble Prediction Systems
+            - text: 3.4 Coupled Atmosphere-Ocean General Circulation Model
+            - text: 3.5 Meso-Scale Model (JMA-MSM1206)
+            - text: 3.6 Local Forecast Model
+            - text: 3.7 Atmospheric Transport Model
+            - text: 3.8 Chemical Transport Model
+            - text: 3.9 Verification
+        - row "4. Application Products of NWP PDF (2.6 MB)" [ref=e54]:
+          - cell "4. Application Products of NWP" [ref=e55]:
+            - heading "4. Application Products of NWP" [level=4] [ref=e56]
+          - cell "PDF (2.6 MB)" [ref=e57]:
+            - link "PDF (2.6 MB)" [ref=e58] [cursor=pointer]:
+              - /url: pdf/outline2013_04.pdf
+        - row "4.1 Summary 4.2 Weather Charts Services 4.3 GPV Products 4.4 Very-short-range Forecasting of Precipitation 4.5 Hourly Analysis 4.6 Guidance for Short-range Forecasting 4.7 Application Products for Aviation Services 4.8 Products of Ensemble Prediction System 4.9 Atmospheric Angular Momentum Functions" [ref=e59]:
+          - cell "4.1 Summary 4.2 Weather Charts Services 4.3 GPV Products 4.4 Very-short-range Forecasting of Precipitation 4.5 Hourly Analysis 4.6 Guidance for Short-range Forecasting 4.7 Application Products for Aviation Services 4.8 Products of Ensemble Prediction System 4.9 Atmospheric Angular Momentum Functions" [ref=e60]:
+            - text: 4.1 Summary
+            - text: 4.2 Weather Charts Services
+            - text: 4.3 GPV Products
+            - text: 4.4 Very-short-range Forecasting of Precipitation
+            - text: 4.5 Hourly Analysis
+            - text: 4.6 Guidance for Short-range Forecasting
+            - text: 4.7 Application Products for Aviation Services
+            - text: 4.8 Products of Ensemble Prediction System
+            - text: 4.9 Atmospheric Angular Momentum Functions
+        - row "5. Sea State Models PDF (3.4 MB)" [ref=e61]:
+          - cell "5. Sea State Models" [ref=e62]:
+            - heading "5. Sea State Models" [level=4] [ref=e63]
+          - cell "PDF (3.4 MB)" [ref=e64]:
+            - link "PDF (3.4 MB)" [ref=e65] [cursor=pointer]:
+              - /url: pdf/outline2013_05.pdf
+        - row "5.1 Summary 5.2 Sea Surface Temperature Analysis 5.3 Ocean Data Assimilation System 5.4 Ocean Wave Models 5.5 Storm Surge Model 5.6 Sea Ice Model 5.7 Oil Spill Prediction Model" [ref=e66]:
+          - cell "5.1 Summary 5.2 Sea Surface Temperature Analysis 5.3 Ocean Data Assimilation System 5.4 Ocean Wave Models 5.5 Storm Surge Model 5.6 Sea Ice Model 5.7 Oil Spill Prediction Model" [ref=e67]:
+            - text: 5.1 Summary
+            - text: 5.2 Sea Surface Temperature Analysis
+            - text: 5.3 Ocean Data Assimilation System
+            - text: 5.4 Ocean Wave Models
+            - text: 5.5 Storm Surge Model
+            - text: 5.6 Sea Ice Model
+            - text: 5.7 Oil Spill Prediction Model
+        - row "A. Verification Indices PDF (234 KB)" [ref=e68]:
+          - cell "A. Verification Indices" [ref=e69]:
+            - heading "A. Verification Indices" [level=4] [ref=e70]
+          - cell "PDF (234 KB)" [ref=e71]:
+            - link "PDF (234 KB)" [ref=e72] [cursor=pointer]:
+              - /url: pdf/outline2013_Appendix_A.pdf
+        - row "A.1 Basic Verification Indices A.2 Verification Indicies for Categorical Forecasts A.3 Verification Indicies for Probability Forecasts" [ref=e73]:
+          - cell "A.1 Basic Verification Indices A.2 Verification Indicies for Categorical Forecasts A.3 Verification Indicies for Probability Forecasts" [ref=e74]:
+            - text: A.1 Basic Verification Indices
+            - text: A.2 Verification Indicies for Categorical Forecasts
+            - text: A.3 Verification Indicies for Probability Forecasts
+    - heading "References/List of Authors" [level=4] [ref=e75]:
+      - link "References/List of Authors" [ref=e76] [cursor=pointer]:
+        - /url: pdf/outline2013_Reference.pdf
+    - heading "Download All (PDF, 10.3 MB)" [level=4] [ref=e77]:
+      - link "Download All (PDF, 10.3 MB)" [ref=e78] [cursor=pointer]:
+        - /url: pdf/outline2013_all.pdf
+  - link "<Legal Notice>" [ref=e81] [cursor=pointer]:
+    - /url: //www.jma.go.jp/jma/en/copyright.html

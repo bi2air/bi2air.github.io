@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: 
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+    - text: 
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Liên hệ" [ref=e12] [cursor=pointer]:
+              - /url: /lien-he
+              - generic [ref=e13]: 
+              - text: Liên hệ
+          - listitem [ref=e14]: "|"
+          - listitem [ref=e15]:
+            - link " Liên kết" [ref=e16] [cursor=pointer]:
+              - /url: /lien-ket
+              - generic [ref=e17]: 
+              - text: Liên kết
+          - listitem [ref=e18]: "|"
+          - listitem [ref=e19]:
+            - link [ref=e20] [cursor=pointer]:
+              - /url: /lang/en
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link " Trang chủ" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e27]: 
+              - text: Trang chủ
+          - listitem [ref=e28]:
+            - link " Tin tức" [ref=e29] [cursor=pointer]:
+              - /url: /thong-tin
+              - generic [ref=e30]: 
+              - text: Tin tức
+          - listitem [ref=e31]:
+            - link " Thư viện" [ref=e32] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e33]: 
+              - text: Thư viện
+      - text: 
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - heading "Chọn điểm đo" [level=2] [ref=e41]: Chọn điểm đo
+          - combobox [ref=e42]:
+            - option "Số 46, phố Lưu Quang Vũ" [selected]
+            - option "Minh Khai - Bắc Từ Liêm"
+            - option "Công viên Nhân Chính - Khuất Duy Tiến"
+            - option "Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK"
+            - option "556 Nguyễn Văn Cừ"
+        - heading "Chỉ số Chất lượng không khí ngày 10/06/2026 09:00" [level=5] [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: AQI
+            - generic [ref=e49]: "82"
+          - generic [ref=e52]:
+            - generic [ref=e55]: Trung bình
+            - generic [ref=e56]:
+              - generic [ref=e57]: 
+              - generic [ref=e58]:
+                - text: Độ ẩm
+                - strong [ref=e59]: 65.1%
+            - generic [ref=e60]:
+              - generic [ref=e61]: 
+              - generic [ref=e62]:
+                - text: Nhiệt độ
+                - strong [ref=e63]: 26.0°C
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: Nhóm nhạy cảm có thể chịu những tác động nhất định tới sức khỏe
+          - paragraph [ref=e66]:
+            - generic [ref=e67]: 
+            - text: "Nhóm người bình thường: Tự do thực hiện các hoạt động ngoài trời."
+          - paragraph [ref=e68]: "Nhóm người nhạy cảm: Nên theo dõi các triệu chứng như ho hoặc khó thở, nhưng vẫn có thể hoạt động bên ngoài."
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic:
+            - generic [ref=e73]:
+              - generic:
+                - generic "Map"
+            - generic:
+              - generic [ref=e74] [cursor=pointer]:
+                - img [ref=e75]
+                - generic [ref=e76]: "82"
+              - generic [ref=e77] [cursor=pointer]:
+                - img [ref=e78]
+                - generic [ref=e79]: "--"
+              - generic [ref=e80] [cursor=pointer]:
+                - img [ref=e81]
+                - generic [ref=e82]: "62"
+              - generic [ref=e83] [cursor=pointer]:
+                - img [ref=e84]
+                - generic [ref=e85]: "51"
+              - generic [ref=e86] [cursor=pointer]:
+                - img [ref=e87]
+                - generic [ref=e88]: "83"
+          - generic:
+            - generic [ref=e89]:
+              - button "Zoom in" [ref=e90] [cursor=pointer]: +
+              - button "Zoom out" [ref=e91] [cursor=pointer]: "-"
+            - link "Leaflet" [ref=e93] [cursor=pointer]:
+              - /url: http://leafletjs.com
+        - generic [ref=e94]:
+          - generic [ref=e95]: AQI – Chỉ số chất lượng không khí
+          - table [ref=e96]:
+            - rowgroup [ref=e97]:
+              - row "0-50 51-100 101-150 151-200 201-300 300+" [ref=e98]:
+                - cell "0-50" [ref=e99]
+                - cell "51-100" [ref=e100]
+                - cell "101-150" [ref=e101]
+                - cell "151-200" [ref=e102]
+                - cell "201-300" [ref=e103]
+                - cell "300+" [ref=e104]
+              - row "Tốt Trung bình Kém Xấu Rất xấu Nguy hại" [ref=e105]:
+                - cell "Tốt" [ref=e106]
+                - cell "Trung bình" [ref=e107]
+                - cell "Kém" [ref=e108]
+                - cell "Xấu" [ref=e109]
+                - cell "Rất xấu" [ref=e110]
+                - cell "Nguy hại" [ref=e111]
+    - generic [ref=e114]:
+      - generic [ref=e116] [cursor=pointer]: Nồng độ
+      - generic [ref=e118] [cursor=pointer]: AQI
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - heading "Biểu đồ nồng độ các chỉ tiêu quan trắc" [level=4] [ref=e121]
+        - generic [ref=e122]: Để biết nồng độ giờ cụ thể, vui lòng click vào biểu đồ
+      - generic [ref=e124]:
+        - heading "Giá trị giới hạn các thông số cơ bản trong không khí" [level=2] [ref=e125]: Giá trị giới hạn các thông số cơ bản trong không khí
+        - paragraph [ref=e126]: "Đơn vị: Microgam trên mét khối (μg/m³)"
+        - table [ref=e127]:
+          - rowgroup [ref=e128]:
+            - row "TT Thông số Trung bình 1 giờ Trung bình 8 giờ Trung bình 24 giờ Trung bình 1 năm" [ref=e129]:
+              - columnheader "TT" [ref=e130]:
+                - paragraph [ref=e131]: TT
+              - columnheader "Thông số" [ref=e132]:
+                - paragraph [ref=e133]: Thông số
+              - columnheader "Trung bình 1 giờ" [ref=e134]
+              - columnheader "Trung bình 8 giờ" [ref=e135]
+              - columnheader "Trung bình 24 giờ" [ref=e136]
+              - columnheader "Trung bình 1 năm" [ref=e137]
+          - rowgroup [ref=e138]:
+            - row "1 SO2 350 - 125 50" [ref=e139]:
+              - rowheader "1" [ref=e140]
+              - cell "SO2" [ref=e141]
+              - cell "350" [ref=e142]
+              - cell "-" [ref=e143]
+              - cell "125" [ref=e144]
+              - cell "50" [ref=e145]
+            - row "2 CO 30.000 10.000 - -" [ref=e146]:
+              - rowheader "2" [ref=e147]
+              - cell "CO" [ref=e148]
+              - cell "30.000" [ref=e149]
+              - cell "10.000" [ref=e150]
+              - cell "-" [ref=e151]
+              - cell "-" [ref=e152]
+            - row "3 NO2 200 - 100 40" [ref=e153]:
+              - rowheader "3" [ref=e154]
+              - cell "NO2" [ref=e155]
+              - cell "200" [ref=e156]
+              - cell "-" [ref=e157]
+              - cell "100" [ref=e158]
+              - cell "40" [ref=e159]
+            - row "4 O3 200 120 - -" [ref=e160]:
+              - rowheader "4" [ref=e161]
+              - cell "O3" [ref=e162]
+              - cell "200" [ref=e163]
+              - cell "120" [ref=e164]
+              - cell "-" [ref=e165]
+              - cell "-" [ref=e166]
+            - row "5 Tổng bụi lơ lửng (TSP) 300 - 200 100" [ref=e167]:
+              - rowheader "5" [ref=e168]
+              - cell "Tổng bụi lơ lửng (TSP)" [ref=e169]
+              - cell "300" [ref=e170]
+              - cell "-" [ref=e171]
+              - cell "200" [ref=e172]
+              - cell "100" [ref=e173]
+            - row "6 Bụi PM10 - - 100 50" [ref=e174]:
+              - rowheader "6" [ref=e175]
+              - cell "Bụi PM10" [ref=e176]
+              - cell "-" [ref=e177]
+              - cell "-" [ref=e178]
+              - cell "100" [ref=e179]
+              - cell "50" [ref=e180]
+            - row "7 Bụi PM2.5 - - 50 45 (*) 25" [ref=e181]:
+              - rowheader "7" [ref=e182]
+              - cell "Bụi PM2.5" [ref=e183]
+              - cell "-" [ref=e184]
+              - cell "-" [ref=e185]
+              - cell "50" [ref=e186]
+              - cell "45 (*)" [ref=e187]:
+                - text: "45"
+                - generic [ref=e188]: (*)
+              - cell "25" [ref=e189]
+            - 'row "Ghi chú: - Dấu ( - ) là không quy định - (*): Giá trị nồng độ áp dụng từ ngày 01 tháng 01 năm 2026." [ref=e190]':
+              - 'columnheader "Ghi chú: - Dấu ( - ) là không quy định - (*): Giá trị nồng độ áp dụng từ ngày 01 tháng 01 năm 2026." [ref=e191]':
+                - paragraph [ref=e192]: "Ghi chú:"
+                - paragraph [ref=e193]: "- Dấu ( - ) là không quy định"
+                - paragraph [ref=e194]: "- (*): Giá trị nồng độ áp dụng từ ngày 01 tháng 01 năm 2026."
+        - paragraph [ref=e195]: Theo QCVN 05:2023/BTNMT - Quy chuẩn kỹ thuật quốc gia về chất lượng không khí ban hành kèm theo Thông tư số 01/2023/TT-BTNMT ngày 13/03/2023 của Bộ trưởng Bộ Tài nguyên và Môi trường.
+  - contentinfo [ref=e197]

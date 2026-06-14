@@ -1,0 +1,209 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - link "Skip to main navigation" [ref=e3] [cursor=pointer]:
+    - /url: "#block-menu-block-main"
+  - link "Skip to search" [ref=e4] [cursor=pointer]:
+    - /url: "#edit-search-api-fulltext"
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - generic [ref=e10]:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=e15]
+        - generic [ref=e18]:
+          - textbox "Search" [ref=e20]:
+            - /placeholder: Search..
+          - button "Search" [ref=e22]
+    - list [ref=e27]:
+      - listitem [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e30]:
+        - link "About us" [ref=e31] [cursor=pointer]:
+          - /url: /about-us
+      - listitem [ref=e32]:
+        - link "NEPMs" [ref=e33] [cursor=pointer]:
+          - /url: /nepms
+          - text: NEPMs 
+      - listitem [ref=e34]:
+        - link "Projects" [ref=e35] [cursor=pointer]:
+          - /url: /projects
+          - text: Projects 
+      - listitem [ref=e36]:
+        - link "Publications" [ref=e37] [cursor=pointer]:
+          - /url: /publications
+          - text: Publications 
+        - text: 
+    - navigation [ref=e46]:
+      - heading "Breadcrumb" [level=2] [ref=e47]
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Home" [ref=e50] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e51]:
+          - text: /
+          - link "National Environment Protection Measures (NEPMs)" [ref=e52] [cursor=pointer]:
+            - /url: /nepms
+        - listitem [ref=e53]:
+          - text: /
+          - link "National Environment Protection (Ambient Air Quality) Measure" [ref=e54] [cursor=pointer]:
+            - /url: /nepms/ambient-air-quality
+        - listitem [ref=e55]: / Variation to Ambient Air Quality NEPM - ozone, nitrogen dioxide and sulfur dioxide
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - complementary [ref=e59]:
+          - navigation "Sidebar navigation" [ref=e61]:
+            - heading "Sidebar navigation" [level=2] [ref=e62]
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - text:   
+                - list [ref=e65]:
+                  - listitem [ref=e66]:
+                    - link "Home" [ref=e67] [cursor=pointer]:
+                      - /url: /
+                  - listitem [ref=e68]:
+                    - link "About us" [ref=e69] [cursor=pointer]:
+                      - /url: /about-us
+                  - listitem [ref=e70]:
+                    - link "NEPMs" [ref=e71] [cursor=pointer]:
+                      - /url: /nepms
+                    - list [ref=e72]:
+                      - listitem [ref=e73]:
+                        - link "Air Toxics" [ref=e74] [cursor=pointer]:
+                          - /url: /nepms/air-toxics
+                      - listitem [ref=e75]:
+                        - link "Ambient Air Quality" [ref=e76] [cursor=pointer]:
+                          - /url: /nepms/ambient-air-quality
+                      - listitem [ref=e77]:
+                        - link "Assessment of Site Contamination" [ref=e78] [cursor=pointer]:
+                          - /url: /nepms/assessment-site-contamination
+                      - listitem [ref=e79]:
+                        - link "Diesel Vehicle Emissions" [ref=e80] [cursor=pointer]:
+                          - /url: /nepms/diesel-vehicle-emissions
+                      - listitem [ref=e81]:
+                        - link "Movement of Controlled Waste" [ref=e82] [cursor=pointer]:
+                          - /url: /nepms/movement-controlled-waste
+                      - listitem [ref=e83]:
+                        - link "National Pollutant Inventory" [ref=e84] [cursor=pointer]:
+                          - /url: /nepms/national-pollutant-inventory
+                      - listitem [ref=e85]:
+                        - link "Used Packaging" [ref=e86] [cursor=pointer]:
+                          - /url: /nepms/used-packaging
+                  - listitem [ref=e87]:
+                    - link "Projects" [ref=e88] [cursor=pointer]:
+                      - /url: /projects
+                  - listitem [ref=e89]:
+                    - link "Publications" [ref=e90] [cursor=pointer]:
+                      - /url: /publications
+        - generic [ref=e92]:
+          - heading "Variation to Ambient Air Quality NEPM - ozone, nitrogen dioxide and sulfur dioxide" [level=1] [ref=e94]
+          - article [ref=e96]:
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: "2021"
+              - paragraph [ref=e100]: At its meeting on 15 April 2021, the National Environment Protection Council (NEPC) agreed to vary the AAQ NEPM by approving an amending instrument to the AAQ NEPM. The amending instrument took effect on 18 May 2021, the day after it was registered on the Federal Register of Legislative Instruments (FRLI).
+              - list [ref=e101]:
+                - listitem [ref=e102]:
+                  - link "Key changes to the Ambient Air Quality Measure agreed by Ministers April 2021 " [ref=e103] [cursor=pointer]:
+                    - /url: /sites/default/files/2022-09/key-changes-aaq-measure-agreed-ministers-april-2021.pdf
+              - paragraph [ref=e104]: In approving the amendments, the NEPC took into account the Impact Statement and information received during public consultation on this proposed variation. NEPC’s responses to the feedback received are available in the Summary of Submissions and Response document.
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "Public consultation on proposed variation - summary of submissions and response " [ref=e107] [cursor=pointer]:
+                    - /url: /sites/default/files/2022-09/aaq-nepm-variation-summary-public-submissions-and-response.pdf
+              - paragraph [ref=e108]: "The amendment, taking into account the latest scientific evidence about the health impacts, includes:"
+              - list [ref=e109]:
+                - listitem [ref=e110]:
+                  - text: establish an O
+                  - subscript [ref=e111]: "3"
+                  - text: standard with an 8-hour averaging period that reflects the health evidence and its use internationally, with a numerical value of 65 ppb.
+                - listitem [ref=e112]:
+                  - text: significantly strengthen NO
+                  - subscript [ref=e113]: "2"
+                  - text: reporting standards for 1-hour and annual average NO
+                  - subscript [ref=e114]: "2"
+                  - text: to 80 ppb and 15 ppb respectively, bringing forward standards initially proposed for 2025. This will make them tighter than the World Health Organization guidelines. This reflects the most recent health evidence emerging about the health impacts of NO
+                  - subscript [ref=e115]: "2"
+                  - text: .
+                - listitem [ref=e116]:
+                  - text: significantly strengthen SO
+                  - subscript [ref=e117]: "2"
+                  - text: reporting standards for 1-hour and 24-hour SO
+                  - subscript [ref=e118]: "2"
+                  - text: to 100 ppb and 20 ppb respectively to make them some of the tightest in the world. The 1-hour SO
+                  - subscript [ref=e119]: "2"
+                  - text: standard will be strengthened again in 2025 to 75 ppb.
+                - listitem [ref=e120]:
+                  - text: remove annual SO
+                  - subscript [ref=e121]: "2"
+                  - text: and 1-hour and 4-hour O
+                  - subscript [ref=e122]: "3"
+                  - text: averaging periods to align the standards with the recent health evidence and for consistency with many international agencies.
+                - listitem [ref=e123]: change the form of the standards to the maximum value with no allowable exceedances providing the most transparency for reporting purposes.
+                - listitem [ref=e124]:
+                  - text: apply the existing exceptional events rule that applies to the particle standards to O
+                  - subscript [ref=e125]: "3"
+                  - text: given the linkages between elevated O3 levels and fire events. This rule is used by jurisdictions to determine compliance with the standards.
+                - listitem [ref=e126]:
+                  - text: extend annual reporting of population exposure from particles as PM2.5 to O
+                  - subscript [ref=e127]: "3"
+                  - text: and NO
+                  - subscript [ref=e128]: "2"
+                  - text: given the widespread exposure across whole populations.
+              - heading "Ambient Air Quality NEPM – FRLI" [level=2] [ref=e129]
+              - paragraph [ref=e130]: "For further information regarding the amending instrument, including explanatory statement, visit:"
+              - list [ref=e131]:
+                - listitem [ref=e132]:
+                  - link "Variation to the National Environment Protection (Ambient Air Quality) Measure 2021 " [ref=e133] [cursor=pointer]:
+                    - /url: https://www.legislation.gov.au/Details/F2021L00585
+              - heading "Further information" [level=2] [ref=e134]
+              - list [ref=e135]:
+                - listitem [ref=e136]:
+                  - link "Proposed variation to the Ambient Air Quality NEPM" [ref=e137] [cursor=pointer]:
+                    - /url: /nepms/ambient-air-quality/proposed-variation/consultation-2019
+        - complementary [ref=e138]
+    - contentinfo [ref=e139]:
+      - group "Was this page helpful?" [ref=e148]:
+        - generic [ref=e149]: Was this page helpful?
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]: Was this page helpful?
+            - combobox "Was this page helpful?" [ref=e153]:
+              - option "- None -" [selected]
+              - option "Yes"
+              - option "No"
+          - generic [ref=e155]:
+            - checkbox "Yes" [ref=e156] [cursor=pointer]
+            - checkbox "No" [ref=e157] [cursor=pointer]
+      - generic [ref=e159]:
+        - generic [ref=e161]:
+          - navigation "Footer" [ref=e162]:
+            - heading "Footer" [level=2] [ref=e163]
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - link "© Commonwealth of Australia" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/about/copyright
+                - text: "|"
+              - listitem [ref=e167]:
+                - link "Freedom of Information" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/about/reporting/freedom-of-information
+                - text: "|"
+              - listitem [ref=e169]:
+                - link "Accessibility" [ref=e170] [cursor=pointer]:
+                  - /url: /accessibility
+                - text: "|"
+              - listitem [ref=e171]:
+                - link "Disclaimer" [ref=e172] [cursor=pointer]:
+                  - /url: /disclaimer
+                - text: "|"
+              - listitem [ref=e173]:
+                - link "Privacy" [ref=e174] [cursor=pointer]:
+                  - /url: /privacy
+                - text: "|"
+              - listitem [ref=e175]:
+                - link "Department of Climate Change, Energy, the Environment and Water" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.dcceew.gov.au/
+          - generic [ref=e182]:
+            - generic [ref=e183]: "Last modified:"
+            - time [ref=e185]: 20 October 2022
+        - paragraph [ref=e187]: We acknowledge the Traditional Owners of country throughout Australia and recognise their continuing connection to land, waters and culture. We pay our respects to their Elders past, present and emerging

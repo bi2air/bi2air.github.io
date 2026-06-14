@@ -1,0 +1,548 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "www.qld.gov.au" [ref=e6] [cursor=pointer]:
+        - /url: https://www.qld.gov.au
+      - link "Contact us" [ref=e8] [cursor=pointer]:
+        - /url: https://www.detsi.qld.gov.au/contactus
+    - generic [ref=e11]:
+      - link "Queensland Government Department of the Environment, Tourism, Science and Innovation" [ref=e14] [cursor=pointer]:
+        - /url: https://www.detsi.qld.gov.au
+        - generic [ref=e15]:
+          - img "Queensland Government"
+        - generic [ref=e16]:
+          - generic [ref=e17]: Department of the
+          - generic [ref=e18]: Environment, Tourism, Science and Innovation
+      - search [ref=e21]:
+        - generic [ref=e22]:
+          - textbox "Search website" [ref=e23]:
+            - /placeholder: Search
+          - button "Search" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Search
+  - navigation "Website navigation" [ref=e26]:
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link "Home" [ref=e31] [cursor=pointer]:
+          - /url: https://www.detsi.qld.gov.au
+          - generic [ref=e33]: Home
+      - listitem [ref=e34]:
+        - button "Environment" [ref=e35] [cursor=pointer]
+      - listitem [ref=e36]:
+        - button "Parks and forests" [ref=e37] [cursor=pointer]
+      - listitem [ref=e38]:
+        - button "Tourism" [ref=e39] [cursor=pointer]
+      - listitem [ref=e40]:
+        - button "Science" [ref=e41] [cursor=pointer]
+      - listitem [ref=e42]:
+        - button "Innovation" [ref=e43] [cursor=pointer]
+      - listitem [ref=e44]:
+        - button "Heritage" [ref=e45] [cursor=pointer]
+      - listitem [ref=e46]:
+        - button "Our department" [ref=e47] [cursor=pointer]
+  - navigation "breadcrumb" [ref=e49]:
+    - list [ref=e50]:
+      - listitem [ref=e51]:
+        - link "Home" [ref=e52] [cursor=pointer]:
+          - /url: https://www.detsi.qld.gov.au
+      - listitem [ref=e53]: Search
+  - main [ref=e57]:
+    - heading "Search" [level=1] [ref=e58]
+    - search [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: Search query
+        - textbox "Search website" [ref=e62]:
+          - /placeholder: Search
+          - text: air quality monitoring
+        - button "Search" [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]: Search
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "Search results" [level=2] [ref=e67]
+        - paragraph [ref=e68]:
+          - text: Displaying
+          - strong [ref=e69]: 1–10
+          - text: of
+          - strong [ref=e70]: "2520"
+          - text: search results for
+          - strong [ref=e71]: air quality monitoring
+          - text: .
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - paragraph [ref=e74]:
+              - link "Clearing the haze around air quality monitoring in Queensland" [ref=e75] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.detsi.qld.gov.au%2Four-department%2Fnews-media%2Fdown-to-earth%2Fair-quality-monitoring-in-queensland&auth=gAivK5MNiZBiNyIKTlb2%2FA&profile=_default&rank=1&query=air+quality+monitoring
+                - generic [ref=e76]:
+                  - text: Clearing the haze around
+                  - strong [ref=e77]: air
+                  - strong [ref=e78]: quality
+                  - strong [ref=e79]: monitoring
+                  - text: in Queensland
+            - paragraph [ref=e80]:
+              - text: Clearing the haze around
+              - strong [ref=e81]: air
+              - strong [ref=e82]: quality
+              - strong [ref=e83]: monitoring
+              - text: "in Queensland. Issued: 15 April 2025. ... Queensland’s"
+              - strong [ref=e84]: air
+              - strong [ref=e85]: quality
+              - strong [ref=e86]: monitoring
+              - text: network. how weather influences
+              - strong [ref=e87]: air
+              - strong [ref=e88]: quality
+              - text: . pollution events.
+            - paragraph [ref=e89]:
+              - link "https://www.detsi.qld.gov.au/our-department/news-media/down-to-earth/air-quality-monitoring-in-queensland" [ref=e90] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.detsi.qld.gov.au%2Four-department%2Fnews-media%2Fdown-to-earth%2Fair-quality-monitoring-in-queensland&auth=gAivK5MNiZBiNyIKTlb2%2FA&profile=_default&rank=1&query=air+quality+monitoring
+              - text: "- last modified 14 April 2025"
+          - listitem [ref=e91]:
+            - paragraph [ref=e92]:
+              - link "Air quality monitoring | Environment, land and water | Queensland Government" [ref=e93] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring&auth=VGxely7%2BcaHlhQihpRH%2BBw&profile=_default&rank=2&query=air+quality+monitoring
+                - generic [ref=e94]:
+                  - strong [ref=e95]: Air
+                  - strong [ref=e96]: quality
+                  - strong [ref=e97]: monitoring
+                  - text: "| Environment, land and water | Queensland Government"
+            - paragraph [ref=e98]:
+              - strong [ref=e99]: Air
+              - strong [ref=e100]: quality
+              - strong [ref=e101]: monitoring
+              - text: .
+              - strong [ref=e102]: Air
+              - strong [ref=e103]: quality
+              - strong [ref=e104]: monitoring
+              - text: . ...
+              - strong [ref=e105]: Air
+              - strong [ref=e106]: quality
+              - strong [ref=e107]: monitoring
+              - text: —understanding dust and particle pollution video. Learn more about Queensland’s
+              - strong [ref=e108]: air
+              - strong [ref=e109]: quality
+              - strong [ref=e110]: monitoring
+              - text: network including how airborne particles, weather and pollution events can influence
+              - strong [ref=e111]: air
+              - strong [ref=e112]: quality
+              - text: .
+            - paragraph [ref=e113]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-monitoring" [ref=e114] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring&auth=VGxely7%2BcaHlhQihpRH%2BBw&profile=_default&rank=2&query=air+quality+monitoring
+              - text: "- last modified 8 July 2025"
+          - listitem [ref=e115]:
+            - paragraph [ref=e116]:
+              - link "Air reports and plans | Environment, land and water | Queensland Government" [ref=e117] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-reports&auth=wZbia54peIeAZic4VRUZxQ&profile=_default&rank=3&query=air+quality+monitoring
+                - generic [ref=e118]:
+                  - strong [ref=e119]: Air
+                  - text: reports and plans | Environment, land and water | Queensland Government
+            - paragraph [ref=e120]:
+              - text: Reports. The National Environment Protection Measure for Ambient
+              - strong [ref=e121]: Air
+              - strong [ref=e122]: Quality
+              - text: (
+              - strong [ref=e123]: Air
+              - text: NEPM) requires annual reporting of Queensland’s
+              - strong [ref=e124]: air
+              - strong [ref=e125]: quality
+              - text: against the standards. ... The ambient
+              - strong [ref=e126]: air
+              - strong [ref=e127]: quality
+              - strong [ref=e128]: monitoring
+              - text: plan was prepared in 2001 to outline how Queensland
+              - strong [ref=e129]: air
+              - strong [ref=e130]: quality
+              - text: would meet the National Environment Protection Measure for Ambient
+              - strong [ref=e131]: Air
+              - strong [ref=e132]: Quality
+              - text: (
+              - strong [ref=e133]: Air
+              - text: NEPM).
+            - paragraph [ref=e134]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-reports" [ref=e135] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-reports&auth=wZbia54peIeAZic4VRUZxQ&profile=_default&rank=3&query=air+quality+monitoring
+              - text: "- last modified 9 June 2026"
+          - listitem [ref=e136]:
+            - paragraph [ref=e137]:
+              - link "Oxenford air quality monitoring project | Environment, land and water | Queensland Government" [ref=e138] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-programs%2Fother-dust-and-particulates%2Foxenford&auth=zcOuDypv5V%2BTrjLmicI8rQ&profile=_default&rank=4&query=air+quality+monitoring
+                - generic [ref=e139]:
+                  - text: Oxenford
+                  - strong [ref=e140]: air
+                  - strong [ref=e141]: quality
+                  - strong [ref=e142]: monitoring
+                  - text: project | Environment, land and water | Queensland Government
+            - paragraph [ref=e143]:
+              - text: To respond to these concerns, the department launched its own 14-month
+              - strong [ref=e144]: air
+              - strong [ref=e145]: quality
+              - strong [ref=e146]: monitoring
+              - text: project, commencing in April 2020. ... This report was prepared by the
+              - strong [ref=e147]: Air
+              - strong [ref=e148]: Quality
+              - strong [ref=e149]: Monitoring
+              - text: Unit of the Department of Environment, Science and Innovation.
+            - paragraph [ref=e150]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-programs/other-dust-and-particulates/oxenford" [ref=e151] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-programs%2Fother-dust-and-particulates%2Foxenford&auth=zcOuDypv5V%2BTrjLmicI8rQ&profile=_default&rank=4&query=air+quality+monitoring
+              - text: "- last modified 8 July 2025"
+          - listitem [ref=e152]:
+            - paragraph [ref=e153]:
+              - link "Monitoring | Environment" [ref=e154] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fenvironment.qld.gov.au%2Fmanagement%2Fmonitoring&auth=RzrAJF7nIaTafGGxcTilpQ&profile=_default&rank=5&query=air+quality+monitoring
+                - generic [ref=e155]:
+                  - strong [ref=e156]: Monitoring
+                  - text: "| Environment"
+            - paragraph [ref=e157]:
+              - text: Visitors can view the
+              - strong [ref=e158]: air
+              - strong [ref=e159]: quality
+              - text: index and request information for a particular day and time. ... Read more about
+              - strong [ref=e160]: air
+              - strong [ref=e161]: quality
+              - strong [ref=e162]: monitoring
+              - text: .
+            - paragraph [ref=e163]:
+              - link "https://environment.qld.gov.au/management/monitoring" [ref=e164] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fenvironment.qld.gov.au%2Fmanagement%2Fmonitoring&auth=RzrAJF7nIaTafGGxcTilpQ&profile=_default&rank=5&query=air+quality+monitoring
+              - text: "- last modified 6 July 2025"
+          - listitem [ref=e165]:
+            - paragraph [ref=e166]:
+              - link "Frequently asked questions—Oxenford air quality monitoring project | Environment, land and water | Queensland Government" [ref=e167] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-programs%2Fother-dust-and-particulates%2Foxenford%2Ffaq&auth=1gNI%2FpgmPpmvnEsJq9S8ng&profile=_default&rank=6&query=air+quality+monitoring
+                - generic [ref=e168]:
+                  - text: Frequently asked questions—Oxenford
+                  - strong [ref=e169]: air
+                  - strong [ref=e170]: quality
+                  - strong [ref=e171]: monitoring
+                  - text: project | Environment, land and water | Queensland Government
+            - paragraph [ref=e172]:
+              - strong [ref=e173]: Air
+              - strong [ref=e174]: quality
+              - text: is monitored at local, regional and national levels. Queensland has a statewide network of
+              - strong [ref=e175]: air
+              - strong [ref=e176]: quality
+              - strong [ref=e177]: monitoring
+              - text: stations. ... For example, operators undertaking activities with the potential to release emissions into the
+              - strong [ref=e178]: air
+              - text: may be required to undertake
+              - strong [ref=e179]: air
+              - strong [ref=e180]: quality
+              - strong [ref=e181]: monitoring
+              - text: .
+            - paragraph [ref=e182]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-programs/other-dust-and-particulates/oxenford/faq" [ref=e183] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-programs%2Fother-dust-and-particulates%2Foxenford%2Ffaq&auth=1gNI%2FpgmPpmvnEsJq9S8ng&profile=_default&rank=6&query=air+quality+monitoring
+              - text: "- last modified 1 February 2024"
+          - listitem [ref=e184]:
+            - paragraph [ref=e185]:
+              - link "Modelling air quality | Environment, land and water | Queensland Government" [ref=e186] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring%2Fmodelling&auth=gpK72tIbyzCpBhnU55DGTg&profile=_default&rank=7&query=air+quality+monitoring
+                - generic [ref=e187]:
+                  - text: Modelling
+                  - strong [ref=e188]: air
+                  - strong [ref=e189]: quality
+                  - text: "| Environment, land and water | Queensland Government"
+            - paragraph [ref=e190]:
+              - text: Live
+              - strong [ref=e191]: air
+              - text: data. View the current
+              - strong [ref=e192]: air
+              - strong [ref=e193]: quality
+              - text: in Queensland and current smoke and dust health action levels, with hourly updates from the statewide
+              - strong [ref=e194]: monitoring
+              - text: network. ...
+              - strong [ref=e195]: Air
+              - strong [ref=e196]: quality
+              - strong [ref=e197]: monitoring
+              - text: —understanding dust and particle pollution video. Learn more about Queensland’s
+              - strong [ref=e198]: air
+              - strong [ref=e199]: quality
+              - strong [ref=e200]: monitoring
+              - text: network including how airborne particles, weather and pollution events can influence
+              - strong [ref=e201]: air
+              - strong [ref=e202]: quality
+              - text: .
+            - paragraph [ref=e203]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-monitoring/modelling" [ref=e204] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring%2Fmodelling&auth=gpK72tIbyzCpBhnU55DGTg&profile=_default&rank=7&query=air+quality+monitoring
+              - text: "- last modified 8 July 2025"
+          - listitem [ref=e205]:
+            - paragraph [ref=e206]:
+              - link "Air quality monitoring of coal dust in rail corridors | Environment, land and water | Queensland Government" [ref=e207] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-programs%2Fmanagement%2Fmonitoring&auth=89hXLxfKBu0oG02GV%2FSivQ&profile=_default&rank=8&query=air+quality+monitoring
+                - generic [ref=e208]:
+                  - strong [ref=e209]: Air
+                  - strong [ref=e210]: quality
+                  - strong [ref=e211]: monitoring
+                  - text: of coal dust in rail corridors | Environment, land and water | Queensland Government
+            - paragraph [ref=e212]:
+              - text: A review of
+              - strong [ref=e213]: air
+              - strong [ref=e214]: quality
+              - strong [ref=e215]: monitoring
+              - text: studies in rail corridors and around rail systems in southern Queensland has shown that while coal dust and the influence of coal trains on dust ... Port of Brisbane. Information on
+              - strong [ref=e216]: air
+              - strong [ref=e217]: quality
+              - strong [ref=e218]: monitoring
+              - text: undertaken by the Port of Brisbane is available.
+            - paragraph [ref=e219]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-programs/management/monitoring" [ref=e220] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-programs%2Fmanagement%2Fmonitoring&auth=89hXLxfKBu0oG02GV%2FSivQ&profile=_default&rank=8&query=air+quality+monitoring
+              - text: "- last modified 2 February 2026"
+          - listitem [ref=e221]:
+            - paragraph [ref=e222]:
+              - link "Interpreting air quality | Environment, land and water | Queensland Government" [ref=e223] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring%2Finterpreting&auth=%2BM1aSfU16xqzP0WPpVYJvg&profile=_default&rank=9&query=air+quality+monitoring
+                - generic [ref=e224]:
+                  - text: Interpreting
+                  - strong [ref=e225]: air
+                  - strong [ref=e226]: quality
+                  - text: "| Environment, land and water | Queensland Government"
+            - paragraph [ref=e227]:
+              - text: Live
+              - strong [ref=e228]: air
+              - text: data. View the current
+              - strong [ref=e229]: air
+              - strong [ref=e230]: quality
+              - text: in Queensland and current smoke and dust health action levels, with hourly updates from the statewide
+              - strong [ref=e231]: monitoring
+              - text: network. ...
+              - strong [ref=e232]: Air
+              - strong [ref=e233]: quality
+              - strong [ref=e234]: monitoring
+              - text: —understanding dust and particle pollution video. Learn more about Queensland’s
+              - strong [ref=e235]: air
+              - strong [ref=e236]: quality
+              - strong [ref=e237]: monitoring
+              - text: network including how airborne particles, weather and pollution events can influence
+              - strong [ref=e238]: air
+              - strong [ref=e239]: quality
+              - text: .
+            - paragraph [ref=e240]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-monitoring/interpreting" [ref=e241] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring%2Finterpreting&auth=%2BM1aSfU16xqzP0WPpVYJvg&profile=_default&rank=9&query=air+quality+monitoring
+              - text: "- last modified 8 July 2025"
+          - listitem [ref=e242]:
+            - paragraph [ref=e243]:
+              - link "Measuring air quality | Environment, land and water | Queensland Government" [ref=e244] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring%2Fmeasuring&auth=AvjVfzZqQdKuBJo1uFuMFA&profile=_default&rank=10&query=air+quality+monitoring
+                - generic [ref=e245]:
+                  - text: Measuring
+                  - strong [ref=e246]: air
+                  - strong [ref=e247]: quality
+                  - text: "| Environment, land and water | Queensland Government"
+            - paragraph [ref=e248]:
+              - text: Live
+              - strong [ref=e249]: air
+              - text: data. View the current
+              - strong [ref=e250]: air
+              - strong [ref=e251]: quality
+              - text: in Queensland and current smoke and dust health action levels, with hourly updates from the statewide
+              - strong [ref=e252]: monitoring
+              - text: network. ...
+              - strong [ref=e253]: Air
+              - strong [ref=e254]: quality
+              - strong [ref=e255]: monitoring
+              - text: —understanding dust and particle pollution video. Learn more about Queensland’s
+              - strong [ref=e256]: air
+              - strong [ref=e257]: quality
+              - strong [ref=e258]: monitoring
+              - text: network including how airborne particles, weather and pollution events can influence
+              - strong [ref=e259]: air
+              - strong [ref=e260]: quality
+              - text: .
+            - paragraph [ref=e261]:
+              - link "https://www.qld.gov.au/environment/management/monitoring/air/air-monitoring/measuring" [ref=e262] [cursor=pointer]:
+                - /url: https://deedi-search.squiz.cloud/s/redirect?collection=daf~des-meta&url=https%3A%2F%2Fwww.qld.gov.au%2Fenvironment%2Fmanagement%2Fmonitoring%2Fair%2Fair-monitoring%2Fmeasuring&auth=AvjVfzZqQdKuBJo1uFuMFA&profile=_default&rank=10&query=air+quality+monitoring
+              - text: "- last modified 8 July 2025"
+        - navigation "Pagination for search results" [ref=e263]:
+          - list [ref=e264]:
+            - listitem [ref=e265]:
+              - generic "Page 1, current page" [ref=e266]: "1"
+            - listitem [ref=e267]:
+              - link "Page 2" [ref=e268] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=2"
+                - text: "2"
+            - listitem [ref=e269]:
+              - link "Page 3" [ref=e270] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=3"
+                - text: "3"
+            - listitem [ref=e271]:
+              - link "Page 4" [ref=e272] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=4"
+                - text: "4"
+            - listitem [ref=e273]:
+              - link "Page 5" [ref=e274] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=5"
+                - text: "5"
+            - listitem [ref=e275]:
+              - link "Page 6" [ref=e276] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=6"
+                - text: "6"
+            - listitem [ref=e277]:
+              - link "Page 7" [ref=e278] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=7"
+                - text: "7"
+            - listitem [ref=e279]:
+              - link "Page 8" [ref=e280] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=8"
+                - text: "8"
+            - listitem [ref=e281]:
+              - link "Page 9" [ref=e282] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=9"
+                - text: "9"
+            - listitem [ref=e283]
+            - listitem [ref=e285]:
+              - link "Next page" [ref=e286] [cursor=pointer]:
+                - /url: "?query=air%20quality%20monitoring&page=2"
+                - generic [ref=e287]: Next
+      - generic [ref=e289]:
+        - heading "Searches related to \"air quality monitoring\"" [level=2] [ref=e290]:
+          - text: Searches related to "
+          - strong [ref=e291]: air quality monitoring
+          - text: "\""
+        - list [ref=e292]:
+          - listitem [ref=e293]:
+            - link "air quality monitoring network" [ref=e294] [cursor=pointer]:
+              - /url: "?query=air quality monitoring network"
+              - strong [ref=e295]: air
+              - strong [ref=e296]: quality
+              - strong [ref=e297]: monitoring
+              - text: network
+          - listitem [ref=e298]:
+            - link "Queensland's air quality monitoring" [ref=e299] [cursor=pointer]:
+              - /url: "?query=Queensland's air quality monitoring"
+              - text: Queensland's
+              - strong [ref=e300]: air
+              - strong [ref=e301]: quality
+              - strong [ref=e302]: monitoring
+          - listitem [ref=e303]:
+            - link "Air quality monitoring-understanding dust" [ref=e304] [cursor=pointer]:
+              - /url: "?query=Air quality monitoring-understanding dust"
+              - strong [ref=e305]: Air
+              - strong [ref=e306]: quality
+              - strong [ref=e307]: monitoring
+              - text: "-understanding dust"
+          - listitem [ref=e308]:
+            - link "air quality monitoring in Queensland" [ref=e309] [cursor=pointer]:
+              - /url: "?query=air quality monitoring in Queensland"
+              - strong [ref=e310]: air
+              - strong [ref=e311]: quality
+              - strong [ref=e312]: monitoring
+              - text: in Queensland
+          - listitem [ref=e313]:
+            - link "air quality monitoring results" [ref=e314] [cursor=pointer]:
+              - /url: "?query=air quality monitoring results"
+              - strong [ref=e315]: air
+              - strong [ref=e316]: quality
+              - strong [ref=e317]: monitoring
+              - text: results
+          - listitem [ref=e318]:
+            - link "ambient air quality monitoring" [ref=e319] [cursor=pointer]:
+              - /url: "?query=ambient air quality monitoring"
+              - text: ambient
+              - strong [ref=e320]: air
+              - strong [ref=e321]: quality
+              - strong [ref=e322]: monitoring
+          - listitem [ref=e323]:
+            - link "air quality monitoring project" [ref=e324] [cursor=pointer]:
+              - /url: "?query=air quality monitoring project"
+              - strong [ref=e325]: air
+              - strong [ref=e326]: quality
+              - strong [ref=e327]: monitoring
+              - text: project
+          - listitem [ref=e328]:
+            - link "air quality monitoring stations" [ref=e329] [cursor=pointer]:
+              - /url: "?query=air quality monitoring stations"
+              - strong [ref=e330]: air
+              - strong [ref=e331]: quality
+              - strong [ref=e332]: monitoring
+              - text: stations
+          - listitem [ref=e333]:
+            - link "air quality monitoring data" [ref=e334] [cursor=pointer]:
+              - /url: "?query=air quality monitoring data"
+              - strong [ref=e335]: air
+              - strong [ref=e336]: quality
+              - strong [ref=e337]: monitoring
+              - text: data
+          - listitem [ref=e338]:
+            - link "Air Quality Monitoring 2024" [ref=e339] [cursor=pointer]:
+              - /url: "?query=Air Quality Monitoring 2024"
+              - strong [ref=e340]: Air
+              - strong [ref=e341]: Quality
+              - strong [ref=e342]: Monitoring
+              - text: "2024"
+    - paragraph [ref=e343]:
+      - text: Search
+      - link "all Queensland Government" [ref=e344] [cursor=pointer]:
+        - /url: https://www.qld.gov.au/search?collection=qgov~sp-search&profile=qld&num_ranks=10&query=air%20quality%20monitoring
+      - text: for
+      - strong [ref=e345]: air quality monitoring
+      - text: .
+  - contentinfo "Updated dates" [ref=e347]:
+    - generic [ref=e349]:
+      - term [ref=e350]: "Last updated:"
+      - definition [ref=e351]: 23 September 2021
+  - contentinfo [ref=e352]:
+    - generic [ref=e353]:
+      - heading "Department of the Environment, Tourism, Science and Innovation" [level=2] [ref=e356]
+      - generic [ref=e357]:
+        - generic [ref=e358]:
+          - heading "Contact us" [level=2] [ref=e359]
+          - generic [ref=e360]:
+            - paragraph [ref=e361]: Get in touch for enquiries, feedback, complaints and compliments.
+            - generic [ref=e362]:
+              - text: "Phone:"
+              - link "13 QGOV (13 74 68)" [ref=e364] [cursor=pointer]:
+                - /url: tel:+61137468
+            - link "Contact us" [ref=e366] [cursor=pointer]:
+              - /url: https://www.detsi.qld.gov.au/contactus
+          - heading "Website feedback" [level=3] [ref=e367]
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Help us improve the content on our website or tell us what is working well.
+            - paragraph [ref=e370]:
+              - link "Leave your feedback" [ref=e371] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/website-feedback
+        - generic "footer-navigation" [ref=e373]:
+          - list [ref=e374]:
+            - listitem [ref=e375]:
+              - link "Help" [ref=e376] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/help
+            - listitem [ref=e377]:
+              - link "Copyright" [ref=e378] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/help/legal/copyright
+            - listitem [ref=e379]:
+              - link "Disclaimer" [ref=e380] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/help/legal/disclaimer
+            - listitem [ref=e381]:
+              - link "Privacy" [ref=e382] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/help/legal/privacy
+            - listitem [ref=e383]:
+              - link "Right to information" [ref=e384] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/our-department/accessing-information/rti
+            - listitem [ref=e385]:
+              - link "Accessibility" [ref=e386] [cursor=pointer]:
+                - /url: https://www.detsi.qld.gov.au/help/accessibility
+            - listitem [ref=e387]:
+              - link "Jobs in Queensland Government" [ref=e388] [cursor=pointer]:
+                - /url: https://smartjobs.qld.gov.au/
+            - listitem [ref=e389]:
+              - link "Other languages" [ref=e390] [cursor=pointer]:
+                - /url: https://www.qld.gov.au/help/languages
+        - generic [ref=e391]:
+          - heading "Follow us" [level=3] [ref=e392]
+          - generic [ref=e393]:
+            - link "QldParks" [ref=e396] [cursor=pointer]:
+              - /url: https://www.instagram.com/qldparks/
+            - link "QldEnvironment" [ref=e399] [cursor=pointer]:
+              - /url: https://www.instagram.com/qldenvironment
+            - link "LinkedIn" [ref=e402] [cursor=pointer]:
+              - /url: https://au.linkedin.com/company/department-of-environment-science-and-innovation
+            - link "All our social channels…" [ref=e405] [cursor=pointer]:
+              - /url: https://www.detsi.qld.gov.au/our-department/news-media/social
+        - generic [ref=e408]:
+          - heading "Cultural acknowledgement" [level=3] [ref=e409]
+          - paragraph [ref=e410]: The Department of the Environment, Tourism, Science and Innovation acknowledges Aboriginal peoples and Torres Strait Islander peoples as the Traditional Owners and custodians of the land. We recognise their connection to land, sea and community, and pay our respects to Elders past and present.
+          - paragraph [ref=e411]: © The State of Queensland Department of the Environment, Tourism, Science and Innovation 2017–2026
+          - paragraph [ref=e412]:
+            - link "Queensland Government" [ref=e413] [cursor=pointer]:
+              - /url: https://www.qld.gov.au

@@ -1,0 +1,623 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#rpl-above-body"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Primary navigation" [ref=e7]:
+        - generic [ref=e9]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Menu" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Menu⁠
+            - listitem [ref=e19]:
+              - button "Open Search" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - text: ⁠
+                  - img [ref=e24]
+      - navigation "breadcrumbs" [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "Home" [ref=e29] [cursor=pointer]:
+              - /url: /
+            - text: ">"
+          - listitem [ref=e30]:
+            - link "Our environment" [ref=e31] [cursor=pointer]:
+              - /url: /our-environment
+            - text: ">"
+          - listitem [ref=e32]:
+            - link "Check air and water quality" [ref=e33] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: ">"
+          - listitem [ref=e34]: Air quality categories
+    - generic [ref=e43]:
+      - heading "Air quality categories" [level=1] [ref=e44]
+      - paragraph [ref=e46]: How we calculate the air quality categories using pollutant concentrations and air quality standards, and the advice for each category.
+    - generic [ref=e49]:
+      - main [ref=e50]:
+        - generic [ref=e51]:
+          - heading "On this page" [level=2] [ref=e52]
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Air quality categories" [ref=e55] [cursor=pointer]:
+                - /url: "#air-quality-categories"
+                - generic [ref=e56]: Air quality categories
+              - list [ref=e57]:
+                - listitem [ref=e58]:
+                  - link "Good" [ref=e59] [cursor=pointer]:
+                    - /url: "#good"
+                    - generic [ref=e61]: Good
+                - listitem [ref=e62]:
+                  - link "Fair" [ref=e63] [cursor=pointer]:
+                    - /url: "#fair"
+                    - generic [ref=e65]: Fair
+                - listitem [ref=e66]:
+                  - link "Poor" [ref=e67] [cursor=pointer]:
+                    - /url: "#poor"
+                    - generic [ref=e69]: Poor
+                - listitem [ref=e70]:
+                  - link "Very Poor" [ref=e71] [cursor=pointer]:
+                    - /url: "#very-poor"
+                    - generic [ref=e73]: Very Poor
+                - listitem [ref=e74]:
+                  - link "Extremely poor" [ref=e75] [cursor=pointer]:
+                    - /url: "#extremely-poor"
+                    - generic [ref=e77]: Extremely poor
+            - listitem [ref=e78]:
+              - link "How we calculate air quality categories" [ref=e79] [cursor=pointer]:
+                - /url: "#how-we-calculate-air-quality-categories"
+                - generic [ref=e80]: How we calculate air quality categories
+              - list [ref=e81]:
+                - listitem [ref=e82]:
+                  - link "Concentration ranges for air quality categories" [ref=e83] [cursor=pointer]:
+                    - /url: "#concentration-ranges-for-air-quality-categories"
+                    - generic [ref=e85]: Concentration ranges for air quality categories
+                - listitem [ref=e86]:
+                  - link "Calculating overall air quality" [ref=e87] [cursor=pointer]:
+                    - /url: "#calculating-overall-air-quality"
+                    - generic [ref=e89]: Calculating overall air quality
+            - listitem [ref=e90]:
+              - link "Air quality standards and accreditation" [ref=e91] [cursor=pointer]:
+                - /url: "#air-quality-standards-and-accreditation"
+                - generic [ref=e92]: Air quality standards and accreditation
+        - paragraph [ref=e96]:
+          - text: Learn how to
+          - link "manage smoke and your health" [ref=e97] [cursor=pointer]:
+            - /url: /smoke-and-your-health
+          - text: .
+        - generic [ref=e99]:
+          - paragraph [ref=e100]:
+            - text: Our
+            - link "Check air and water quality map" [ref=e101] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: gives you current air quality information and forecasts air quality for the next 24 hours.
+          - paragraph [ref=e102]: "We use 5 categories to describe the overall air quality at each of our monitoring sites across Victoria:"
+          - list [ref=e103]:
+            - listitem [ref=e104]: Good
+            - listitem [ref=e105]: Fair
+            - listitem [ref=e106]: Poor
+            - listitem [ref=e107]: Very Poor
+            - listitem [ref=e108]: Extremely Poor
+          - paragraph [ref=e109]: Poor, Very Poor or Extremely Poor means the level of a pollutant is higher than its air quality guideline or standard. 'No data' means there is no data available.
+          - paragraph [ref=e110]: We give general health advice for each category. This includes steps you can take to protect yourself from the short-term effects of air pollution.
+          - paragraph [ref=e111]: "We also give advice for people sensitive to air pollution. These are:"
+          - list [ref=e112]:
+            - listitem [ref=e113]: people with a heart or lung condition, including asthma
+            - listitem [ref=e114]: people over the age of 65
+            - listitem [ref=e115]: infants and young children
+            - listitem [ref=e116]: pregnant people
+            - listitem [ref=e117]: people with diabetes.
+          - paragraph [ref=e118]:
+            - text: Learn more about
+            - link "how we monitor air quality" [ref=e119] [cursor=pointer]:
+              - /url: /how-we-monitor-air-quality
+            - text: through AirWatch.
+          - heading "What is AirWatch" [level=3] [ref=e120]
+          - paragraph [ref=e121]: "AirWatch is our reporting tool that helps you stay informed about local air quality and how to protect your health. It provides:"
+          - list [ref=e122]:
+            - listitem [ref=e123]: hourly air quality data for different pollutants at each site, including any incident sites
+            - listitem [ref=e124]: hourly air quality ratings for each site
+            - listitem [ref=e125]: daily regional air quality forecasts.
+          - paragraph [ref=e126]: AirWatch collects data 24/7 all year round, giving you real-time, up-to-date information across Victoria.
+          - paragraph [ref=e127]:
+            - text: Visit
+            - link "Air pollution" [ref=e128] [cursor=pointer]:
+              - /url: /air-pollution
+            - text: to learn more about managing your health and air pollution.
+        - generic [ref=e130]:
+          - heading "Air quality categories" [level=2] [ref=e131]
+          - heading "Good" [level=3] [ref=e132]
+          - paragraph [ref=e133]: Air pollution is at usual background levels.
+          - heading "Advice for the general community" [level=4] [ref=e134]
+          - paragraph [ref=e135]: No change needed to your normal outdoor activities.
+          - heading "Advice for people sensitive to air pollution" [level=4] [ref=e136]
+          - paragraph [ref=e137]: No change needed to your normal outdoor activities.
+          - heading "Fair" [level=3] [ref=e138]
+          - paragraph [ref=e139]: Air pollution is above usual background levels.
+          - heading "Advice for the general community" [level=4] [ref=e140]
+          - paragraph [ref=e141]: Keep track of conditions. No change needed to your normal outdoor activities.
+          - heading "Advice for people sensitive to air pollution" [level=4] [ref=e142]
+          - list [ref=e143]:
+            - listitem [ref=e144]: Keep track of conditions, and be prepared to take action if air quality gets to Poor, Very Poor or Extremely Poor.
+            - listitem [ref=e145]: Monitor any health conditions.
+          - heading "Poor" [level=3] [ref=e146]
+          - paragraph [ref=e147]: The air is likely to be dusty or smoky.
+          - heading "Advice for the general community" [level=4] [ref=e148]
+          - list [ref=e149]:
+            - listitem [ref=e150]: Keep track of conditions.
+            - listitem [ref=e151]: Consider taking steps to reduce your exposure to polluted air if poor conditions last longer than one day.
+            - listitem [ref=e152]: See advice for the general community under Very Poor, below, for a list of actions to consider.
+          - heading "Advice for people sensitive to air pollution" [level=4] [ref=e153]
+          - paragraph [ref=e154]: "Consider taking steps to reduce your exposure to polluted air using one or more of these strategies:"
+          - list [ref=e155]:
+            - listitem [ref=e156]: Reduce outdoor physical activity, especially if you develop symptoms like coughing or shortness of breath.
+            - listitem [ref=e157]: Keep track of conditions, and consider closing windows and doors until outdoor air quality is better.
+            - listitem [ref=e158]: Use a portable air cleaner with a HEPA filter if you have access to one.
+            - listitem [ref=e159]: Use a P2 or N95 mask, but seek advice from your doctor if you have a pre-existing heart or lung condition.
+            - listitem [ref=e160]: Go to a place with cleaner air – such as an air-conditioned building like a library or shopping centre – if it's safe to do so.
+            - listitem [ref=e161]:
+              - text: Follow the treatment plan recommended by your doctor. If you're concerned about symptoms, call Nurse-on-Call on
+              - link "1300 60 60 24" [ref=e162] [cursor=pointer]:
+                - /url: tel:1300606024
+              - text: or see your doctor.
+            - listitem [ref=e163]:
+              - text: If you or anyone in your care has trouble breathing or tightness in the chest, call triple zero (
+              - link "000" [ref=e164] [cursor=pointer]:
+                - /url: tel:000
+              - text: ) for an ambulance.
+          - heading "Very Poor" [level=3] [ref=e165]
+          - paragraph [ref=e166]: The air is very dusty or smoky.
+          - heading "Advice for the general community" [level=4] [ref=e167]
+          - paragraph [ref=e168]: "Consider taking one or more of the following steps to reduce your exposure to polluted air:"
+          - list [ref=e169]:
+            - listitem [ref=e170]: Reduce outdoor physical activity, especially if you develop symptoms like coughing or shortness of breath.
+            - listitem [ref=e171]: Keep track of conditions, and consider closing windows and doors until outdoor air quality is better.
+            - listitem [ref=e172]: Use a portable air cleaner with a HEPA filter if you have access to one.
+            - listitem [ref=e173]: Use a P2 or N95 mask, but seek advice from your doctor if you have a pre-existing heart or lung condition.
+            - listitem [ref=e174]: Go to a place with cleaner air – such as an air-conditioned building like a library or shopping centre – if it's safe to do so.
+          - heading "Advice for people sensitive to air pollution" [level=4] [ref=e175]
+          - paragraph [ref=e176]:
+            - strong [ref=e177]: Take action
+            - text: "to reduce your exposure to polluted air, especially if you have a medical condition that is not under good control. Use one or more of these strategies:"
+          - list [ref=e178]:
+            - listitem [ref=e179]: Avoid outdoor physical activity if you develop symptoms like cough or shortness of breath.
+            - listitem [ref=e180]: When indoors, close windows and doors until outdoor air quality is better.
+            - listitem [ref=e181]: Use a portable air cleaner with a HEPA filter if you have access to one.
+            - listitem [ref=e182]: Use a P2 or N95 mask when outdoors, but seek advice from your doctor if you have a pre-existing heart or lung condition.
+            - listitem [ref=e183]: Go to a place with cleaner air – such as an air-conditioned building like a library or shopping centre – if it's safe to do so.
+            - listitem [ref=e184]:
+              - text: Follow the treatment plan recommended by your doctor. If you're concerned about symptoms, call Nurse-on-Call on
+              - link "1300 60 60 24" [ref=e185] [cursor=pointer]:
+                - /url: tel:1300606024
+              - text: or see your doctor.
+            - listitem [ref=e186]:
+              - text: If you or anyone in your care has trouble breathing or tightness in the chest, call triple zero (
+              - link "000" [ref=e187] [cursor=pointer]:
+                - /url: tel:000
+              - text: ) for an ambulance.
+          - heading "Extremely poor" [level=3] [ref=e188]
+          - paragraph [ref=e189]: The air is very dusty or smoky.
+          - heading "Advice for the general community" [level=4] [ref=e190]
+          - paragraph [ref=e191]:
+            - strong [ref=e192]: Take action
+            - text: "to reduce your exposure to polluted air using one or more of these strategies:"
+          - list [ref=e193]:
+            - listitem [ref=e194]: Stay indoors as much as possible with windows and doors closed until outdoor air quality is better.
+            - listitem [ref=e195]: Use a portable air cleaner with a HEPA filter if you have access to one.
+            - listitem [ref=e196]: Use a P2 or N95 mask.
+            - listitem [ref=e197]: Go to a place with cleaner air – such as an air-conditioned building like a library or shopping centre – if it's safe to do so.
+            - listitem [ref=e198]:
+              - text: If you're concerned about symptoms, call Nurse-on-Call on
+              - link "1300 60 60 24" [ref=e199] [cursor=pointer]:
+                - /url: tel:1300606024
+              - text: or see your doctor.
+            - listitem [ref=e200]:
+              - text: If you or anyone in your care has trouble breathing or tightness in the chest, call triple zero (
+              - link "000" [ref=e201] [cursor=pointer]:
+                - /url: tel:000
+              - text: ) for an ambulance.
+          - heading "Advice for people sensitive to air pollution" [level=4] [ref=e202]
+          - paragraph [ref=e203]:
+            - strong [ref=e204]: Take action
+            - text: "to reduce your exposure to polluted air using one or more of these strategies:"
+          - list [ref=e205]:
+            - listitem [ref=e206]: Stay indoors with windows and doors closed until outdoor air quality is better, and reduce indoor activity.
+            - listitem [ref=e207]: Use a portable air cleaner with a HEPA filter if you have access to one.
+            - listitem [ref=e208]: Use a P2 or N95 mask when outdoors, but seek advice from your doctor if you have a pre-existing heart or lung condition.
+            - listitem [ref=e209]: Go to a place with cleaner air – such as an air-conditioned building like a library or shopping centre – if it's safe to do so.
+            - listitem [ref=e210]: Actively monitor symptoms and follow the treatment plan recommended by your doctor.
+            - listitem [ref=e211]:
+              - text: If you're concerned about symptoms, call Nurse-on-Call on
+              - link "1300 60 60 24" [ref=e212] [cursor=pointer]:
+                - /url: tel:1300606024
+              - text: or see your doctor.
+            - listitem [ref=e213]:
+              - text: If you or anyone in your care has trouble breathing or tightness in the chest, call triple zero (
+              - link "000" [ref=e214] [cursor=pointer]:
+                - /url: tel:000
+              - text: ) for an ambulance.
+        - generic [ref=e216]:
+          - heading "How we calculate air quality categories" [level=2] [ref=e217]
+          - paragraph [ref=e218]: To calculate the air quality category, we measure the average concentration of a pollutant in the air over one hour. We then compare this measurement to the pollutant's air quality guideline or standard.
+          - paragraph [ref=e219]: "We measure these pollutants:"
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "ozone" [ref=e222] [cursor=pointer]:
+                - /url: /ozone
+            - listitem [ref=e223]:
+              - link "nitrogen dioxide" [ref=e224] [cursor=pointer]:
+                - /url: /nitrogen-dioxide
+            - listitem [ref=e225]:
+              - link "sulfur dioxide" [ref=e226] [cursor=pointer]:
+                - /url: /sulfur-dioxide
+            - listitem [ref=e227]:
+              - link "PM2.5 particles" [ref=e228] [cursor=pointer]:
+                - /url: /pm25-particles-air
+                - text: PM
+                - subscript [ref=e229]: "2.5"
+                - text: particles
+            - listitem [ref=e230]:
+              - link "PM10 particles" [ref=e231] [cursor=pointer]:
+                - /url: /pm10-particles-air
+                - text: PM
+                - subscript [ref=e232]: "10"
+                - text: particles
+            - listitem [ref=e233]:
+              - link "carbon monoxide" [ref=e234] [cursor=pointer]:
+                - /url: /carbon-monoxide
+              - text: .
+          - heading "Concentration ranges for air quality categories" [level=3] [ref=e235]
+          - table [ref=e238]:
+            - rowgroup [ref=e239]:
+              - row "Pollutant Measurement Good Fair Poor Very Poor Extremely Poor" [ref=e240]:
+                - cell "Pollutant" [ref=e241]:
+                  - strong [ref=e242]: Pollutant
+                - cell "Measurement" [ref=e243]:
+                  - strong [ref=e244]: Measurement
+                - cell "Good" [ref=e245]:
+                  - strong [ref=e246]: Good
+                - cell "Fair" [ref=e247]:
+                  - strong [ref=e248]: Fair
+                - cell "Poor" [ref=e249]:
+                  - strong [ref=e250]: Poor
+                - cell "Very Poor" [ref=e251]:
+                  - strong [ref=e252]: Very Poor
+                - cell "Extremely Poor" [ref=e253]:
+                  - strong [ref=e254]: Extremely Poor
+              - row "ozone ppb less than 50 50 to 100 100 to 150 150 to 300 300 and above" [ref=e255]:
+                - cell "ozone" [ref=e256]
+                - cell "ppb" [ref=e257]
+                - cell "less than 50" [ref=e258]
+                - cell "50 to 100" [ref=e259]
+                - cell "100 to 150" [ref=e260]
+                - cell "150 to 300" [ref=e261]
+                - cell "300 and above" [ref=e262]
+              - row "nitrogen dioxide ppb less than 40 40 to 80 80 to 120 120 to 240 240 and above" [ref=e263]:
+                - cell "nitrogen dioxide" [ref=e264]
+                - cell "ppb" [ref=e265]
+                - cell "less than 40" [ref=e266]
+                - cell "40 to 80" [ref=e267]
+                - cell "80 to 120" [ref=e268]
+                - cell "120 to 240" [ref=e269]
+                - cell "240 and above" [ref=e270]
+              - row "sulfur dioxide ppb less than 35 35 to 75 75 to 110 100 to 225 225 and above" [ref=e271]:
+                - cell "sulfur dioxide" [ref=e272]
+                - cell "ppb" [ref=e273]
+                - cell "less than 35" [ref=e274]
+                - cell "35 to 75" [ref=e275]
+                - cell "75 to 110" [ref=e276]
+                - cell "100 to 225" [ref=e277]
+                - cell "225 and above" [ref=e278]
+              - row "PM10 µg/m3 less than 40 40 to 80 80 to 120 120 to 300 300 and above" [ref=e279]:
+                - cell "PM10" [ref=e280]:
+                  - text: PM
+                  - subscript [ref=e281]: "10"
+                - cell "µg/m3" [ref=e282]:
+                  - text: µg/m
+                  - superscript [ref=e283]: "3"
+                - cell "less than 40" [ref=e284]
+                - cell "40 to 80" [ref=e285]
+                - cell "80 to 120" [ref=e286]
+                - cell "120 to 300" [ref=e287]
+                - cell "300 and above" [ref=e288]
+              - row "PM2.5 µg/m3 less than 12.5 12.5 to 25 25 to 50 50 to 150 150 and above" [ref=e289]:
+                - cell "PM2.5" [ref=e290]:
+                  - text: PM
+                  - subscript [ref=e291]: "2.5"
+                - cell "µg/m3" [ref=e292]:
+                  - text: µg/m
+                  - superscript [ref=e293]: "3"
+                - cell "less than 12.5" [ref=e294]
+                - cell "12.5 to 25" [ref=e295]
+                - cell "25 to 50" [ref=e296]
+                - cell "50 to 150" [ref=e297]
+                - cell "150 and above" [ref=e298]
+              - row "carbon monoxide ppm less than 30 N/A 30 to 70 N/A 70 and above." [ref=e299]:
+                - cell "carbon monoxide" [ref=e300]
+                - cell "ppm" [ref=e301]
+                - cell "less than 30" [ref=e302]
+                - cell "N/A" [ref=e303]
+                - cell "30 to 70" [ref=e304]
+                - cell "N/A" [ref=e305]
+                - cell "70 and above." [ref=e306]
+          - heading "Calculating overall air quality" [level=3] [ref=e307]
+          - paragraph [ref=e308]: We compare the concentration of each pollutant. We use the highest concentration as the overall site category. The results for each site show which pollutant we used to determine the category.
+          - paragraph [ref=e309]:
+            - text: Air quality data from our
+            - link "sensor network" [ref=e310] [cursor=pointer]:
+              - /url: /how-we-monitor-air-quality
+            - text: is based on indicative measurements of PM
+            - subscript [ref=e311]: "2.5"
+            - text: particles in the air.
+        - generic [ref=e313]:
+          - heading "Air quality standards and accreditation" [level=2] [ref=e314]
+          - paragraph [ref=e315]:
+            - text: The
+            - link "National Environment Protection (Ambient Air Quality) Measure (Air NEPM)" [ref=e316] [cursor=pointer]:
+              - /url: https://www.legislation.gov.au/Details/F2021C00475
+            - text: sets national standards for the key air pollutants to which most Australians are exposed.
+          - paragraph [ref=e317]:
+            - text: Environment Ministers review national air quality standards every 2 years. To learn more, visit
+            - link "National Clean Air Agreement" [ref=e318] [cursor=pointer]:
+              - /url: https://www.dcceew.gov.au/environment/protection/air-quality/national-clean-air-agreement
+            - text: on the Department of Climate Change, Energy, the Environment and Water website.
+          - paragraph [ref=e319]:
+            - text: The Air NEPM standards are part of the
+            - link "Environment Reference Standard" [ref=e320] [cursor=pointer]:
+              - /url: /environment-reference-standard
+            - text: .
+          - paragraph [ref=e321]: We assess the data we get from our monitoring against the Environment Reference Standard. We also use this data to calculate our air quality categories.
+          - paragraph [ref=e322]:
+            - text: We meet all Australian Standards for air quality measurement and are
+            - link "accredited with NATA" [ref=e323] [cursor=pointer]:
+              - /url: https://www.nata.com.au/entity_scope/?q1=c1o&str=&&AccNo=15119
+            - text: . Our NATA accreditation number is 15119.
+          - table [ref=e326]:
+            - rowgroup [ref=e327]:
+              - row "Instrument or parameter Australian Standard NATA-accredited" [ref=e328]:
+                - cell "Instrument or parameter" [ref=e329]:
+                  - strong [ref=e330]: Instrument or parameter
+                - cell "Australian Standard" [ref=e331]:
+                  - strong [ref=e332]: Australian Standard
+                - cell "NATA-accredited" [ref=e333]:
+                  - strong [ref=e334]: NATA-accredited
+              - row "siting AS 3580.1.1:2016 yes" [ref=e335]:
+                - cell "siting" [ref=e336]
+                - cell "AS 3580.1.1:2016" [ref=e337]:
+                  - link "AS 3580.1.1:2016" [ref=e338] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-nzs-3580-1-1-2016
+                - cell "yes" [ref=e339]
+              - row "TEOM (PM10) AS 3580.9.8:2022 yes" [ref=e340]:
+                - cell "TEOM (PM10)" [ref=e341]:
+                  - text: TEOM (PM
+                  - subscript [ref=e342]: "10"
+                  - text: )
+                - cell "AS 3580.9.8:2022" [ref=e343]:
+                  - link "AS 3580.9.8:2022" [ref=e344] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-3580-9-8-2022
+                - cell "yes" [ref=e345]
+              - row "nephelometer (visibility reduction) AS 3580.12.1:2015 yes" [ref=e346]:
+                - cell "nephelometer (visibility reduction)" [ref=e347]
+                - cell "AS 3580.12.1:2015" [ref=e348]:
+                  - link "AS 3580.12.1:2015" [ref=e349] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-nzs-3580-12-1-2015
+                - cell "yes" [ref=e350]
+              - row "BAM (PM2.5) AS 3580.9.12:2022 yes" [ref=e351]:
+                - cell "BAM (PM2.5)" [ref=e352]:
+                  - text: BAM (PM
+                  - subscript [ref=e353]: "2.5"
+                  - text: )
+                - cell "AS 3580.9.12:2022" [ref=e354]:
+                  - link "AS 3580.9.12:2022" [ref=e355] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-nzs-3580-9-12-2022
+                - cell "yes" [ref=e356]
+              - row "portable air monitor (PM2.5 indicative) N/A no" [ref=e357]:
+                - cell "portable air monitor (PM2.5 indicative)" [ref=e358]:
+                  - text: portable air monitor (PM
+                  - subscript [ref=e359]: "2.5"
+                  - text: indicative)
+                - cell "N/A" [ref=e360]
+                - cell "no" [ref=e361]
+              - row "nephelometer (PM2.5 indicative) N/A no" [ref=e362]:
+                - cell "nephelometer (PM2.5 indicative)" [ref=e363]:
+                  - text: nephelometer (PM
+                  - subscript [ref=e364]: "2.5"
+                  - text: indicative)
+                - cell "N/A" [ref=e365]
+                - cell "no" [ref=e366]
+              - row "meteorological (wind speed and direction) AS 3580.14:2014 yes" [ref=e367]:
+                - cell "meteorological (wind speed and direction)" [ref=e368]
+                - cell "AS 3580.14:2014" [ref=e369]:
+                  - link "AS 3580.14:2014" [ref=e370] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-nzs-3580-14-2014
+                - cell "yes" [ref=e371]
+              - row "carbon monoxide (CO) AS 3580.7.1:2023 yes" [ref=e372]:
+                - cell "carbon monoxide (CO)" [ref=e373]
+                - cell "AS 3580.7.1:2023" [ref=e374]:
+                  - link "AS 3580.7.1:2023" [ref=e375] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-3580-7-1-2023
+                - cell "yes" [ref=e376]
+              - row "ozone (O3) AS 3580.6.1:2023 yes" [ref=e377]:
+                - cell "ozone (O3)" [ref=e378]:
+                  - text: ozone (O
+                  - subscript [ref=e379]: "3"
+                  - text: )
+                - cell "AS 3580.6.1:2023" [ref=e380]:
+                  - link "AS 3580.6.1:2023" [ref=e381] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-3580-6-1-2023
+                - cell "yes" [ref=e382]
+              - row "sulfur dioxide (SO2) AS 3580.4.1:2023 yes" [ref=e383]:
+                - cell "sulfur dioxide (SO2)" [ref=e384]:
+                  - text: sulfur dioxide (SO
+                  - subscript [ref=e385]: "2"
+                  - text: )
+                - cell "AS 3580.4.1:2023" [ref=e386]:
+                  - link "AS 3580.4.1:2023" [ref=e387] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-3580-4-1-2023
+                - cell "yes" [ref=e388]
+              - row "oxides of nitrogen (NOx) AS 3580.5.1:2023 yes" [ref=e389]:
+                - cell "oxides of nitrogen (NOx)" [ref=e390]:
+                  - text: oxides of nitrogen (NO
+                  - subscript [ref=e391]: x
+                  - text: )
+                - cell "AS 3580.5.1:2023" [ref=e392]:
+                  - link "AS 3580.5.1:2023" [ref=e393] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-3580-5-1-2023
+                - cell "yes" [ref=e394]
+              - row "HiVol (PM10) AS 3580.9.6:2015 no" [ref=e395]:
+                - cell "HiVol (PM10)" [ref=e396]:
+                  - text: HiVol (PM
+                  - subscript [ref=e397]: "10"
+                  - text: )
+                - cell "AS 3580.9.6:2015" [ref=e398]:
+                  - link "AS 3580.9.6:2015" [ref=e399] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-nzs-3580-9-6-2015
+                - cell "no" [ref=e400]
+              - row "Partisol (PM2.5) AS 3580.9.10:2017 no" [ref=e401]:
+                - cell "Partisol (PM2.5)" [ref=e402]:
+                  - text: Partisol (PM
+                  - subscript [ref=e403]: "2.5"
+                  - text: )
+                - cell "AS 3580.9.10:2017" [ref=e404]:
+                  - link "AS 3580.9.10:2017" [ref=e405] [cursor=pointer]:
+                    - /url: https://store.standards.org.au/product/as-3580-9-10-2017
+                - cell "no" [ref=e406]
+          - paragraph [ref=e407]:
+            - text: Our work with HiVols (PM
+            - subscript [ref=e408]: "10"
+            - text: ) and Partisols (PM
+            - subscript [ref=e409]: "2.5"
+            - text: ) is currently done by a contractor. They use our sites and air monitoring equipment.
+          - paragraph [ref=e410]:
+            - text: We locate our monitoring sites in places that give a good representation of the air quality experienced by the community. Australian Standard
+            - link "3580.1.1:2016" [ref=e411] [cursor=pointer]:
+              - /url: https://store.standards.org.au/product/as-nzs-3580-1-1-2016
+            - text: specifies that air monitoring sites should be more than 50 metres from a road. Currently, none of our monitoring sites meet these requirements in full, because they are located in high population centres with existing infrastructure and roads.
+        - paragraph [ref=e412]:
+          - text: Updated
+          - time [ref=e413]: 15 May 2026
+      - complementary [ref=e414]:
+        - navigation [ref=e416]:
+          - heading "This section" [level=3] [ref=e417]
+          - list [ref=e418]:
+            - listitem [ref=e419]:
+              - generic [ref=e420]:
+                - link "Check air and water quality" [ref=e421] [cursor=pointer]:
+                  - /url: /check-air-and-water-quality
+                - button "Toggle Check air and water quality menu" [expanded] [ref=e422] [cursor=pointer]
+              - region "Toggle Check air and water quality menu" [ref=e426]:
+                - list [ref=e427]:
+                  - listitem [ref=e428]:
+                    - link "Air alerts" [ref=e429] [cursor=pointer]:
+                      - /url: /air-alerts
+                  - listitem [ref=e430]:
+                    - link "How we monitor air quality" [ref=e431] [cursor=pointer]:
+                      - /url: /how-we-monitor-air-quality
+                  - listitem [ref=e432]:
+                    - link "How we measure air pollution" [ref=e433] [cursor=pointer]:
+                      - /url: /how-we-measure-air-pollution
+                  - listitem [ref=e434]:
+                    - link "How we forecast air quality" [ref=e435] [cursor=pointer]:
+                      - /url: /how-we-forecast-air-quality
+                  - listitem [ref=e436]:
+                    - link "Air quality categories" [ref=e437] [cursor=pointer]:
+                      - /url: /air-quality-categories
+                  - listitem [ref=e438]:
+                    - link "How we monitor water quality" [ref=e439] [cursor=pointer]:
+                      - /url: /how-we-monitor-water-quality
+                  - listitem [ref=e440]:
+                    - link "Water quality sampling results and reports" [ref=e441] [cursor=pointer]:
+                      - /url: /water-quality-data-and-reports
+                  - listitem [ref=e442]:
+                    - link "Water quality forecast ratings" [ref=e443] [cursor=pointer]:
+                      - /url: /water-quality-forecast-ratings
+    - generic:
+      - generic:
+        - link "Back to top":
+          - /url: "#rpl-skip-links"
+          - generic: Back to top
+          - generic:
+            - img
+    - contentinfo [ref=e446]:
+      - navigation "Footer navigation" [ref=e448]:
+        - heading "Our environment" [level=3] [ref=e452]:
+          - link "Our environment" [ref=e453] [cursor=pointer]:
+            - /url: /our-environment
+        - heading "Make a report" [level=3] [ref=e457]:
+          - link "Make a report" [ref=e458] [cursor=pointer]:
+            - /url: /make-report
+        - heading "About us" [level=3] [ref=e462]:
+          - link "About us" [ref=e463] [cursor=pointer]:
+            - /url: /about-epa
+        - heading "Licensing and regulation" [level=3] [ref=e467]:
+          - link "Licensing and regulation" [ref=e468] [cursor=pointer]:
+            - /url: /licensing-and-regulation
+        - heading "Check air and water quality" [level=3] [ref=e472]:
+          - link "Check air and water quality" [ref=e473] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+        - heading "Portal" [level=3] [ref=e477]:
+          - link "Portal" [ref=e478] [cursor=pointer]:
+            - /url: https://portal365.epa.vic.gov.au/
+        - generic [ref=e479]:
+          - heading "Connect with us" [level=3] [ref=e482]
+          - list [ref=e484]:
+            - listitem [ref=e485]:
+              - link "Facebook" [ref=e486] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+                - generic [ref=e489]: Facebook
+            - listitem [ref=e490]:
+              - link "Instagram" [ref=e491] [cursor=pointer]:
+                - /url: http://instagram.com/vicgovepa
+                - img [ref=e493]
+                - generic [ref=e496]: Instagram
+            - listitem [ref=e497]:
+              - link "Linkedin" [ref=e498] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/epa---victoria
+                - generic [ref=e501]: Linkedin
+            - listitem [ref=e502]:
+              - link "Youtube" [ref=e503] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/epavictoria
+                - img [ref=e505]
+                - generic [ref=e507]: Youtube
+            - listitem [ref=e508]:
+              - link "BlueSky" [ref=e509] [cursor=pointer]:
+                - /url: https://bsky.app/profile/epa.vic.gov.au
+                - generic [ref=e512]: BlueSky
+      - generic [ref=e516]:
+        - generic [ref=e517]:
+          - img "Aboriginal flag" [ref=e518]
+          - img "Torres Strait Islander flag" [ref=e519]
+        - paragraph [ref=e520]: The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.
+      - generic [ref=e522]:
+        - generic [ref=e523]:
+          - list [ref=e524]:
+            - listitem [ref=e525]:
+              - link "EPA portal" [ref=e526] [cursor=pointer]:
+                - /url: /epa-portal
+            - listitem [ref=e527]:
+              - link "Accessibility" [ref=e528] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e529]:
+              - link "Disclaimer" [ref=e530] [cursor=pointer]:
+                - /url: /content-disclaimer
+            - listitem [ref=e531]:
+              - link "Privacy" [ref=e532] [cursor=pointer]:
+                - /url: /privacy-vicgovau
+            - listitem [ref=e533]:
+              - link "Privacy collection statement" [ref=e534] [cursor=pointer]:
+                - /url: /privacy-collection-statement
+            - listitem [ref=e535]:
+              - link "News" [ref=e536] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e537]:
+              - link "Sitemap" [ref=e538] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e539]:
+              - link "Contact us" [ref=e540] [cursor=pointer]:
+                - /url: /contact-us
+          - paragraph [ref=e543]: © Copyright State Government of Victoria
+        - link "Victoria government home" [ref=e545] [cursor=pointer]:
+          - /url: https://vic.gov.au
+          - img [ref=e546]

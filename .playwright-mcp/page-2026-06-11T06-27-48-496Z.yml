@@ -1,0 +1,137 @@
+- document [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "NIES Top" [ref=e6] [cursor=pointer]:
+          - /url: /en
+          - img "NIES Top" [ref=e7]
+        - link "Skip to main content" [ref=e8] [cursor=pointer]:
+          - /url: "#contents"
+        - navigation "Side navigation" [ref=e9]:
+          - navigation [ref=e10]:
+            - menubar [ref=e12]:
+              - menuitem "About" [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+                - text: About
+              - menuitem "Research Overview" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+                - text: Research Overview
+              - menuitem "Public Outreach" [ref=e23] [cursor=pointer]:
+                - img [ref=e24]
+                - text: Public Outreach
+              - menuitem "Research Collaborations & Social Contributions" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+                - text: Research Collaborations & Social Contributions
+          - link "Careers" [ref=e32] [cursor=pointer]:
+            - /url: /en/careers/index.html
+            - img [ref=e33]
+            - text: Careers
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "FAQ" [ref=e39] [cursor=pointer]:
+                - /url: /en/contact/faq/index.html
+            - listitem [ref=e40]:
+              - link "Contact Us" [ref=e41] [cursor=pointer]:
+                - /url: /en/contact/index.html
+            - listitem [ref=e42]:
+              - link "Access" [ref=e43] [cursor=pointer]:
+                - /url: /en/about/overview/access/index.html
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "YouTube (Opens in a new window) (Opens in a new window)" [ref=e47] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/nieschannel
+                - img "YouTube (Opens in a new window)" [ref=e48]
+                - generic [ref=e49]: (Opens in a new window)
+            - listitem [ref=e50]:
+              - link "LinkedIn (Opens in a new window) (Opens in a new window)" [ref=e51] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/national-institute-for-environmental-studies-nies
+                - img "LinkedIn (Opens in a new window)" [ref=e52]
+                - generic [ref=e53]: (Opens in a new window)
+        - generic [ref=e54]:
+          - button "JP" [ref=e56] [cursor=pointer]
+          - search [ref=e57]:
+            - generic [ref=e58]: Site Search
+            - button "検索" [ref=e59] [cursor=pointer]: Search
+        - button "Open Menu"
+    - generic [ref=e60]:
+      - complementary [ref=e61]:
+        - heading "Regional Environment Conservation Division" [level=2] [ref=e64]:
+          - link "Regional Environment Conservation Division" [ref=e65] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Home" [ref=e68] [cursor=pointer]:
+            - /url: /en/index.html
+          - text: ">"
+        - listitem [ref=e69]:
+          - link "Regional Environment Conservation Division" [ref=e70] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+          - text: ">"
+        - listitem [ref=e71]:
+          - link "Atmosphere" [ref=e72] [cursor=pointer]:
+            - /url: /chiiki/en/atmosphere_en.html
+          - text: ">"
+        - listitem [ref=e73]: Study of air pollution using high-resolution global cloud-resolving model
+      - complementary [ref=e74]:
+        - heading "Regional Environment Conservation Division ローカルメニュー開閉ボタン" [level=2] [ref=e77]:
+          - link "Regional Environment Conservation Division" [ref=e78] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+          - button "ローカルメニュー開閉ボタン" [ref=e79] [cursor=pointer]: +
+    - main [ref=e80]:
+      - article [ref=e81]:
+        - heading "Study of air pollution using high-resolution global cloud-resolving model" [level=1] [ref=e86]
+        - generic [ref=e87]:
+          - heading "Principal Investigator (Contact person)" [level=2] [ref=e89]
+          - generic [ref=e94]: Daisuke GOTO (goto.daisuke[at]nies.go.jp) "[at] is replaced by @"
+        - tablist "コンテンツ切り替えタブ" [ref=e95]:
+          - tab "Overall" [selected] [ref=e96] [cursor=pointer]
+          - tab "Publications & Link" [ref=e97] [cursor=pointer]
+        - generic [ref=e98]:
+          - heading "Overall" [level=2] [ref=e100]
+          - generic [ref=e102]:
+            - article [ref=e103]:
+              - heading "Abstract" [level=3] [ref=e105]
+              - paragraph [ref=e108]: As part of the East Asian Environment Research Project, we developed an atmospheric air pollution model coupled with a global nonhydrostatic model (NICAM-Chem) with 10-km spatial resolution, in order to simulate better the air pollution over East Asia. To investigate the performance of the model in simulating one of the major air pollutants (i.e., aerosols) with such resolution, we first applied a stretched-grid system to NICAM-Chem to run as a regional aerosol-transport model. We executed the “Stretched-NICAM-Chem” for the target of Tokyo (Japan) with a maximum horizontal resolution of approximately 10 km. We obtained generally accurate fields of primary and secondary aerosols and of short-lived gases compared with in situ measurements and other aerosol-transport models. Secondly, we integrated NICAM-Chem on a global scale with 14-km resolution. The “Global-NICAM-Chem” simulation of aerosol optical depth was generally close to that derived from satellite. These results will be useful for further investigations of aerosol-cloud interactions and detailed estimations of the effects on human health.
+            - article [ref=e109]:
+              - heading "Introduction and Methodology" [level=3] [ref=e111]
+              - paragraph [ref=e114]: Air pollution over East Asia affects climate change and human health on both global and regional scales. Therefore, it is important to understand its distribution on the global scale with high accuracy. High-resolution horizontal simulations are important in properly simulating air pollution, because air pollutants and their precursors are emitted from localized hot spots in industrial or urbanized areas. Within this context, we developed an atmospheric air pollution model coupled with a global nonhydrostatic model (NICAM-Chem; Goto et al. 2015). The dynamic NICAM (Tomita and Satoh 2004; Satoh et al. 2008, 2014), which originally had a uniform grid system on a global scale, can concentrate horizontal grid points in regions of interest using a Schmidt transformation scheme or a stretched-grid system as a regional model (Tomita 2008). The use of the stretched-grid system greatly assists with the investigation of the performance of models with high horizontal resolution without the requirement for considerable computer resources. In this study, we used NICAM-Chem with both uniform and stretched-grid systems to obtain better distributions of air pollution under such high horizontal resolutions. The NICAM-Chem includes an aerosol module, which is based on SPRINTARS (Takemura et al. 2005). In this study, we integrated NICAM-Chem with the stretched-grid system (Stretched-NICAM-Chem) with 10-km horizontal resolution and applied it to the region around Tokyo (Japan). The results of the meteorological and aerosol fields simulated by Stretched-NICAM-Chem were evaluated using those obtained by in situ measurements around Tokyo, as well as throughout Japan. Based on the results obtained by Stretched-NICAM-Chem, we executed NICAM-Chem with the uniform grid system (Global-NICAM-Chem) with 14-km horizontal resolution. To evaluate the results, the aerosol optical depth (AOD) obtained by Global-NICAM-Chem was compared with that retrieved from the MODIS satellite on a global scale.
+            - article [ref=e115]:
+              - heading "Results and Summary" [level=3] [ref=e117]
+              - generic [ref=e119]:
+                - generic [ref=e120]: The Stretched-NICAM-Chem successfully simulated wind patterns and diurnal variations in the Kanto area, although it was inadequate in simulating the meteorological fields at the edge of the Kanto area, probably because the horizontal resolution was insufficient to reflect the mountainous terrain of this area. We obtained relatively accurate fields of primary (i.e., elemental carbon) and secondary aerosols (i.e., sulfate), and short-lived gases (e.g., SO2) compared with those obtained by measurements and other aerosol-transport models. The AOD simulated by the Global-NICAM-Chem was compared with the MODIS-retrieved AOD and the simulated results were found to be in general agreement with those obtained by MODIS. This was particularly so in terms of the global distribution, such as the outflow of mixed dust and anthropogenic compounds from East Asia to the North Pacific Ocean and the biomass burning from Central Africa to the Central Atlantic Ocean. Although some discrepancies in AOD between NICAM and MODIS were found in some areas, the results simulated by NICAM-Chem were adequately acceptable for our current levels of modeling of air pollution. We found that NICAM-Chem can be applicable to global and regional simulations of aerosols and thus, our developed technique using NICAM-Chem will be useful for further investigations of aerosol-cloud interactions and detailed estimations of the effects on human health.
+                - paragraph [ref=e121]
+            - article [ref=e122]:
+              - heading "References" [level=3] [ref=e124]
+              - list [ref=e126]:
+                - listitem [ref=e127]:
+                  - text: ・
+                  - generic [ref=e128]: "Goto, D., T. Dai, M. Satoh, H. Tomita, J. Uchida, S. Misawa, T. Inoue, H. Tsuruta, K. Ueda, C. F. S. Ng, A. Takami, N. Sugimoto, A. Shimizu, T. Ohara, T. Nakajima, (2015) Application of a global nonhydrostatic model with a stretched-grid system to regional aerosol simulations around Japan, Geosci. Model Dev., 8, 235-259, doi: 10.5194/gmd-8-235-2015"
+                - listitem [ref=e129]:
+                  - text: ・
+                  - generic [ref=e130]: Satoh, M., T. Matsuno, H. Tomita, H. Miura, T. Nasuno, S. Iga, (2008) Nonhydrostatic icosahedral atmospheric model (NICAM) for global cloud resolving simulations, J. Comput. Phys., 227, 3486-3514, doi:10.1016/j.jcp.2007.02.006.
+                - listitem [ref=e131]:
+                  - text: ・
+                  - generic [ref=e132]: "Satoh, M., H. Tomita, H. Yashiro, H. Miura, C. Kodama, T. Seiki, A. T. Noda, T. Yamada, D. Goto, M. Sawada, T. Miyoshi, Y. Niwa, M. Hara, T. Ohno, S. Iga, T. Arakawa, T. Inoue, H. Kubokawa, (2014) The Non-hydrostatic Isocahedral Atmospheric Model: Description and Development, Progress in Earth and Planetary Science, 1,18"
+                - listitem [ref=e133]:
+                  - text: ・
+                  - generic [ref=e134]: "Takemura, T., T. Nozawa, S. Emori, T. Y. Nakajima, T. Nakajima, (2005) Simulation of climate response to aerosol direct and indirect effects with aerosol transport-radiation model, J. Geophys. Res., 110, D02202, doi: 10.1029/2004JD005029."
+                - listitem [ref=e135]:
+                  - text: ・
+                  - generic [ref=e136]: "Tomita, H., M. Satoh, (2004) A new dynamical framework of nonhydrostatic global model using the icosaheral grid, Fluid Dyn. Res., 34, 357-400, doi: 10.1016/j.fuiddyn.2004.03.003."
+                - listitem [ref=e137]:
+                  - text: ・
+                  - generic [ref=e138]: Tomita, H. (2008) A stretched grid on a sphere by new grid transformation, J. Meteor. Soc. Japan, 86A, 107-119.
+        - text: ・ ・
+    - contentinfo [ref=e139]:
+      - link "to Top" [ref=e141] [cursor=pointer]:
+        - /url: "#container"
+      - generic [ref=e142]:
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Terms of Use" [ref=e146] [cursor=pointer]:
+              - /url: /en/site-policy/index.html
+            - text: "|"
+          - listitem [ref=e147]:
+            - link "Privacy Policy" [ref=e148] [cursor=pointer]:
+              - /url: /en/about/privacy-policy/index.html
+        - generic [ref=e149]: © 2026 National Institute for Environmental Studies

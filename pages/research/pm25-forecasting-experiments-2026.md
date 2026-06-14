@@ -51,12 +51,29 @@ Since we couldn't use `MERRA-2` operationally, we needed to engineer "proxies" f
 
 ---
 
-## Phase 3: The Architecture Showdown (XGBoost vs Delta-Skip MLP)
+## Phase 3: The Architecture Showdown (Rigorous Selection vs. Luck)
 
-With our datasets finalized, we pitted the current king of tabular data (**XGBoost**) against Deep Learning (**Multi-Layer Perceptron**).
+A common question in applied machine learning is whether a chosen architecture (like our Delta-Skip MLP) was the result of a rigorous selection process or simply a lucky initial guess. 
 
-**The Setup:**
-To predict 72 hours into the future, XGBoost required training 72 completely independent models. The PyTorch MLP, however, could predict all 72 horizons in a single pass. To help the MLP, we engineered a "Delta-Skip" connection: the model takes the *current* PM$\_{2.5}$ level, and the neural network is asked only to predict the *change* (delta) from that anchor point.
+To ensure we weren't just getting lucky, we conducted a systematic evaluation of various model architectures isolated at the **T+24h horizon** before extending the winner to the full 72-hour forecast for Hanoi.
+
+**The T+24h Validation Crucible:**
+
+| Architecture | T+24h RMSE ($\mu g/m^3$) | Validation Notes |
+| :--- | :--- | :--- |
+| **XGBoost / LightGBM** | ~19.40 | Strongest baseline. However, requires training 72 independent models for a 3-day forecast (lacks cross-horizon continuity). |
+| **Delta-Skip MLP** | **20.10** | **Operational Champion.** Direct skip connection closed the short-horizon gap; predicts all 72 hours smoothly in $O(1)$ pass. |
+| **Transformers** | 20.70 | Marginally better than LSTM but suffers from the same data-starvation limitations on single-station datasets. |
+| **LSTM** | 20.95 | Severe overfitting. Plunging training loss but stalling validation loss confirms sequence models are starved without 3+ years of data. |
+| **TabPFN** | 21.21 | Limited by $O(N^2)$ attention scaling. Truncating to 10k context samples to avoid OOM caused it to lose crucial long-term history. |
+| **Standard Flat MLP** | > 21.40 | Global gradients for deep horizons (T+72h) diluted the immediate state signal (T+1h). |
+| **1D-CNN (TCN)** | 21.78 | Overfitting. Convolution layers struggled to extract generalized features from the physical variables. |
+| **Deep ResNet MLP** | 22.95 | Added depth introduced more noise than signal for dense tabular features. |
+
+**The Champion: Delta-Skip MLP**
+We engineered the Delta-Skip MLP to solve the standard MLP's weakness. The model takes the *current* PM$_{2.5}$ level via a direct skip connection, and the neural network is asked *only* to predict the *change* (delta) from that anchor point. 
+
+By applying this structural persistence and utilizing the leaner V3 continuous dataset, the Delta-Skip MLP successfully closed the short-horizon gap while dominating the deep horizons in a single $O(1)$ inference pass.
 
 **The Results (T+24h RMSE):**
 - **XGBoost (V4):** 19.32 $\mu g/m^3$
@@ -67,16 +84,29 @@ While XGBoost technically squeezed out an extra point of accuracy by effectively
 
 The V4 dataset's massive dimensionality (1,901 features) caused the MLP to overfit, but feeding the leaner V3 dataset into the MLP yielded a remarkably elegant, lightweight system. The Delta-Skip natively enforces physical boundaries, anchoring the prediction to reality, and instantly outputs a smooth 3-day curve without the maintenance nightmare of 72 separate XGBoost models.
 
+### Deep Horizon Architecture Check (T+48h & T+72h)
+
+Before locking in our final contenders, we ran a deep-horizon pass on the alternative architectures (LSTM, Transformer, CNNs). The goal was to ensure sequence models didn't magically "wake up" and leverage their temporal memory to outshine the simple MLP at the 3-day mark. 
+
+| Architecture | T+48h RMSE ($\mu g/m^3$) | T+72h RMSE ($\mu g/m^3$) | Deep Horizon Notes |
+| :--- | :--- | :--- | :--- |
+| **LSTM** | 23.07 | 24.13 | The gap between the LSTM and the baselines widens. Without enough data to learn the physical bounds, errors compound rapidly. |
+| **Transformers** | 23.68 | 25.98 | Error cascades significantly faster than the LSTM at deep horizons. Self-attention on tabular physics failed to generalize. |
+| **1D-CNN (TCN)** | 23.54 | *N/A* | Evaluation abandoned at T+48h; convolutions consistently underperformed flat linear layers. |
+| **Deep ResNet MLP** | 23.98 | 24.68 | Adding residual blocks continues to introduce noise, cementing the fact that shallow models are better suited for this data. |
+
+*Note: TabPFN is excluded due to computational impossibility at these horizons. Delta-Skip MLP and XGBoost metrics are stored natively in the Final Leaderboard below.*
+
 ### 2026 Final Leaderboard (Validation RMSE, $\mu g/m^3$)
 
-| Horizon | Nowcast (Baseline) | Rolling 24h (Baseline) | MLP (V3) | MLP (V4) | XGBoost (V3) | XGBoost (V4) | 👑 Best Model |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **T+01h** | 13.26 | 21.35 | 11.88 | 12.03 | **11.71** | 11.76 | **XGBoost V3** |
-| **T+06h** | 26.78 | 23.81 | 18.75 | 19.02 | 18.07 | **18.07** | **XGBoost V4** |
-| **T+12h** | 29.16 | 25.51 | 19.71 | 20.04 | 19.15 | **19.13** | **XGBoost V4** |
-| **T+24h** | 29.01 | 28.02 | 20.10 | 20.62 | 19.46 | **19.41** | **XGBoost V4** |
-| **T+48h** | 33.36 | 30.76 | 21.02 | 22.17 | **20.06** | 20.15 | **XGBoost V3** |
-| **T+72h** | 35.15 | 32.00 | 22.70 | 23.93 | **21.15** | 21.18 | **XGBoost V3** |
+| Horizon | Nowcast | Rolling 24h | MLP (V3) | MLP (V3+Proxies) | MLP (V4) | XGBoost (V3) | XGBoost (V4) | 👑 Best Model |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **T+01h** | 13.26 | 21.35 | 11.88 | 12.05 | 12.03 | **11.71** | 11.76 | **XGBoost V3** |
+| **T+06h** | 26.78 | 23.81 | 18.75 | 19.26 | 19.02 | 18.07 | **18.07** | **XGBoost V4** |
+| **T+12h** | 29.16 | 25.51 | 19.71 | 20.41 | 20.04 | 19.15 | **19.13** | **XGBoost V4** |
+| **T+24h** | 29.01 | 28.02 | 20.10 | 20.55 | 20.62 | 19.46 | **19.41** | **XGBoost V4** |
+| **T+48h** | 33.36 | 30.76 | 21.02 | 21.36 | 22.17 | **20.06** | 20.15 | **XGBoost V3** |
+| **T+72h** | 35.15 | 32.00 | 22.70 | 23.02 | 23.93 | **21.15** | 21.18 | **XGBoost V3** |
 
 *Note: Nowcast baseline assumes PM$\_{2.5}$ at T+h remains exactly the same as T=0.*
 
@@ -219,3 +249,16 @@ The true value of our Deep Learning approach reveals itself at the **T+24h (Next
 ![HCMC Week 2 T+24](/assets/images/val_plots/hcmc_week2_T24.png)
 ![HCMC Week 2 T+48](/assets/images/val_plots/hcmc_week2_T48.png)
 ![HCMC Week 2 T+72](/assets/images/val_plots/hcmc_week2_T72.png)
+
+---
+
+## Phase 6: Conditional Regression via Proxy Probabilities (V3 + Proxies)
+
+To improve the model's ability to track severe, rare PM$_{2.5}$ peaks (e.g., Hazardous events > 150 $\mu g/m^3$), we injected categorical regime hints as structured prior probabilities. 
+
+**The Approach:**
+1. **AQI Bin Classifier:** We trained a 5-bin Multi-Output MLP to predict the probability of Good, Moderate, USG, Unhealthy, and Hazardous conditions for all 72 horizons. This effectively framed the pollution regime as a "next-token" prediction task.
+2. **Atmospheric Proxy Models:** We trained LightGBM classifiers on weather forecasts to predict the presence of specific physical boundary layer phenomena—specifically, `is_surface_inversion` and `is_very_stable` (derived from balloon soundings).
+3. **Integration:** We appended all 504 generated probabilities (360 AQI + 144 Proxies) back into the Delta-Skip MLP.
+
+**Result:** While the pure XGBoost model still leads on aggregate RMSE metrics across the board, the **MLP (V3 + Proxies)** model showed vastly superior qualitative tracking of catastrophic extreme events. By decoupling the "classification of the regime" from the "regression of the specific value," the MLP successfully tracked peak severity without collapsing to the statistical mean.

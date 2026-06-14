@@ -1,0 +1,421 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Đến trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&sa=X&ved=0ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0QPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Tìm kiếm" [ref=e25]: NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5 NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5
+            - generic [ref=e26]:
+              - button "Xóa" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Công cụ nhập" [ref=e34] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Tìm kiếm bằng giọng nói" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e41] [cursor=pointer]:
+                  - img [ref=e42]
+          - button "Tìm kiếm" [ref=e44] [cursor=pointer]:
+            - img [ref=e47]
+    - generic [ref=e49]:
+      - button "Cài đặt" [ref=e51] [cursor=pointer]:
+        - img [ref=e54]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DNIES%2BVENUS%2Bair%2Bpollution%2Bforecast%2BWRF%2BCMAQ%2BJapan%2Boperational%2BPM2.5&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&aep=1&ntc=1&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q2J8OegQIDhAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0QtKgLegQIFRAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Video" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0QtKgLegQIExAB
+              - generic [ref=e98]: Video
+          - listitem [ref=e99]:
+            - link "Tin tức" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q0pQJegQIERAB
+              - generic [ref=e102]: Tin tức
+          - listitem [ref=e103]:
+            - link "Mua sắm" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&ved=1t:220175&ictx=111
+              - generic [ref=e106]: Mua sắm
+          - listitem [ref=e107]:
+            - link "Video ngắn" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=d12162df5757eaf7&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPwWQi_mmqeKIyC_bGEAJGy8DBEB6JrBehVFa2G_-PO5fTpL9LR9pBDRes3wxuVI6XE35sZJm7gtHjitpZFkUB7ZR6Rodqy5hUhLzqCGbOQg9BugIfoKgy1Vt62FHobmJ6Aws3OWt3JiX_KUi4PsvTVWUSZ5mVXpYneRdKznW1VUjZrEKc-VlqLQnvlsyHDDzo6H2eDq&q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Qs6gLegQIFBAB
+              - generic [ref=e110]: Video ngắn
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Mbqr-hrl7aqSxXbX4wTBnbzWBS0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DNIES%2BVENUS%2Bair%2Bpollution%2Bforecast%2BWRF%2BCMAQ%2BJapan%2Boperational%2BPM2.5&hl=en&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0QhoQCKAF6BAgLEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0QiIQCKAN6BAgLEAY#languages
+    - generic [ref=e143]:
+      - generic [ref=e162]:
+        - heading "Đang suy nghĩ Đang tìm kiếm Đang suy nghĩ lâu hơn một chút" [level=2] [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e169]: Đang suy nghĩ
+            - generic [ref=e171]: Đang tìm kiếm
+            - generic [ref=e181]: Đang suy nghĩ lâu hơn một chút
+        - progressbar "Đang tạo" [ref=e183]
+      - main [ref=e225]:
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - heading "Web results" [level=2] [ref=e233]
+            - generic [ref=e234]:
+              - generic [ref=e237]:
+                - link "Investigation of PM2.5 pollution mechanisms 国立環境研究所 https://www.nies.go.jp › project03_en" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.nies.go.jp/chiiki/en/project03_en.html
+                  - heading "Investigation of PM2.5 pollution mechanisms" [level=3] [ref=e240]
+                  - generic [ref=e246]:
+                    - generic [ref=e248]: 国立環境研究所
+                    - generic [ref=e250]: https://www.nies.go.jp › project03_en
+                - generic [ref=e251]:
+                  - generic [ref=e252]: ·
+                  - link "Dịch trang này" [ref=e253] [cursor=pointer]:
+                    - /url: https://translate.google.com/translate?u=https://www.nies.go.jp/chiiki/en/project03_en.html&hl=vi&sl=en&tl=vi&client=search
+                - button "Thông tin về kết quả này" [ref=e254] [cursor=pointer]:
+                  - img [ref=e257]
+              - generic [ref=e261]:
+                - text: This activity runs under a three-year contract with the Ministry of Environment for the development of the
+                - emphasis [ref=e262]: air pollution
+                - text: forecasting system (
+                - emphasis [ref=e263]: VENUS
+                - text: ), which has ...
+          - generic [ref=e267]:
+            - generic [ref=e270]:
+              - link "Abstract 独立行政法人環境再生保全機構 ERCA https://www.erca.go.jp › english › result › pdf" [ref=e272] [cursor=pointer]:
+                - /url: https://www.erca.go.jp/suishinhi/english/result/pdf/5/5MF-2201_Abstract.pdf
+                - heading "Abstract" [level=3] [ref=e273]
+                - generic [ref=e279]:
+                  - generic [ref=e281]: 独立行政法人環境再生保全機構 ERCA
+                  - generic [ref=e283]: https://www.erca.go.jp › english › result › pdf
+              - generic [ref=e284]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e285] [cursor=pointer]:
+                - img [ref=e288]
+            - generic [ref=e292]:
+              - text: The National Institute for Environmental Studies (
+              - emphasis [ref=e293]: NIES
+              - text: ) operates an
+              - emphasis [ref=e294]: air pollution
+              - text: forecasting system (
+              - emphasis [ref=e295]: VENUS
+              - text: ) to provide early warning of photochemical oxidants ...
+            - generic [ref=e297]: "Bị thiếu: WRF ‎CMAQ"
+          - table [ref=e303]:
+            - rowgroup [ref=e304]:
+              - row "Bài viết học thuật cho NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5" [ref=e305]:
+                - cell "Bài viết học thuật cho NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5" [ref=e306]:
+                  - heading "Bài viết học thuật cho NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5" [level=3] [ref=e307]:
+                    - link "Bài viết học thuật cho NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5" [ref=e308] [cursor=pointer]:
+                      - /url: https://scholar.google.com.vn/scholar?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&hl=vi&as_sdt=0&as_vis=1&oi=scholart
+                      - generic [ref=e309]:
+                        - text: Bài viết học thuật cho
+                        - emphasis [ref=e310]: NIES VENUS air pollution forecast WRF CMAQ Japan operational PM2.5
+              - row "大気汚染予測システム (VENUS) の構築と検証 - ‎菅田誠治 - Trích dẫn 10 bài viết From COVID-19 Pandemic of Five Selected East Asian … - ‎Mak - Trích dẫn 8 bài viết" [ref=e311]:
+                - cell "大気汚染予測システム (VENUS) の構築と検証 - ‎菅田誠治 - Trích dẫn 10 bài viết From COVID-19 Pandemic of Five Selected East Asian … - ‎Mak - Trích dẫn 8 bài viết" [ref=e312]:
+                  - heading "大気汚染予測システム (VENUS) の構築と検証 - ‎菅田誠治 - Trích dẫn 10 bài viết" [level=3] [ref=e313]:
+                    - link "大気汚染予測システム (VENUS) の構築と検証" [ref=e314] [cursor=pointer]:
+                      - /url: https://scholar.google.com.vn/scholar_url?url=https://www.jstage.jst.go.jp/article/taiki/46/1/46_1_49/_pdf&hl=vi&sa=X&ei=MVUqap-OG-yE6rQPwJvG0Qo&scisig=ANDmEU70TdNh5-4t-CpOUMKNRDmA&oi=scholarr
+                      - generic [ref=e315]:
+                        - text: 大気汚染予測システム (
+                        - emphasis [ref=e316]: VENUS
+                        - text: ) の構築と検証
+                    - generic [ref=e317]:
+                      - text: "-"
+                      - generic [ref=e318]: ‎菅田誠治
+                      - text: "- Trích dẫn 10 bài viết"
+                  - heading "From COVID-19 Pandemic of Five Selected East Asian … - ‎Mak - Trích dẫn 8 bài viết" [level=3] [ref=e319]:
+                    - link "From COVID-19 Pandemic of Five Selected East Asian …" [ref=e320] [cursor=pointer]:
+                      - /url: https://scholar.google.com.vn/scholar_url?url=https://jlfc.hku.hk/wp-content/uploads/2025/10/JLFC-Report-2_Final.pdf&hl=vi&sa=X&ei=MVUqap-OG-yE6rQPwJvG0Qo&scisig=ANDmEU6jQGXJOQT7Ba9Fu-ZRpKcy&oi=scholarr
+                    - generic [ref=e321]:
+                      - text: "-"
+                      - generic [ref=e322]: ‎Mak
+                      - text: "- Trích dẫn 8 bài viết"
+          - generic [ref=e325]:
+            - heading "Web results" [level=2] [ref=e326]
+            - generic [ref=e327]:
+              - generic [ref=e330]:
+                - link "Forecasting hourly PM 2 . 5 based on deep temporal ... ResearchGate https://www.researchgate.net › 35565..." [ref=e332] [cursor=pointer]:
+                  - /url: https://www.researchgate.net/publication/355657680_Forecasting_hourly_PM_2_5_based_on_deep_temporal_convolutional_neural_network_and_decomposition_method
+                  - heading "Forecasting hourly PM 2 . 5 based on deep temporal ..." [level=3] [ref=e333]
+                  - generic [ref=e339]:
+                    - generic [ref=e341]: ResearchGate
+                    - generic [ref=e343]: https://www.researchgate.net › 35565...
+                - generic [ref=e344]:
+                  - generic [ref=e345]: ·
+                  - link "Dịch trang này" [ref=e346] [cursor=pointer]:
+                    - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/355657680_Forecasting_hourly_PM_2_5_based_on_deep_temporal_convolutional_neural_network_and_decomposition_method&hl=vi&sl=en&tl=vi&client=search
+                - button "Thông tin về kết quả này" [ref=e347] [cursor=pointer]:
+                  - img [ref=e350]
+              - generic [ref=e354]:
+                - text: (2021) proposed a deep temporal convolutional neural network (DTCNN) combined with a decomposition method to
+                - emphasis [ref=e355]: forecast
+                - text: hourly
+                - emphasis [ref=e356]: PM2
+                - text: .
+                - emphasis [ref=e357]: "5"
+                - text: concentrations in the
+                - emphasis [ref=e358]: air
+                - text: .
+          - generic [ref=e362]:
+            - generic [ref=e365]:
+              - link "Development of an Aerosol Assimilation System Using a ... AGU Publications https://agupubs.onlinelibrary.wiley.com › ..." [ref=e367] [cursor=pointer]:
+                - /url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004046
+                - heading "Development of an Aerosol Assimilation System Using a ..." [level=3] [ref=e368]
+                - generic [ref=e374]:
+                  - generic [ref=e376]: AGU Publications
+                  - generic [ref=e378]: https://agupubs.onlinelibrary.wiley.com › ...
+              - generic [ref=e379]:
+                - generic [ref=e380]: ·
+                - link "Dịch trang này" [ref=e381] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS004046&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e382] [cursor=pointer]:
+                - img [ref=e385]
+            - generic [ref=e388]:
+              - generic [ref=e389]: viết bởi D Goto · 2024 · Trích dẫn 1 bài viết —
+              - generic [ref=e390]:
+                - text: The
+                - emphasis [ref=e391]: WRF
+                - text: /
+                - emphasis [ref=e392]: CMAQ
+                - text: is applied in the
+                - emphasis [ref=e393]: operational
+                - text: aerosol
+                - emphasis [ref=e394]: forecast
+                - text: system ... Manual for the
+                - emphasis [ref=e395]: operational
+                - text: monitoring of ambient
+                - emphasis [ref=e396]: air quality
+                - text: in
+                - emphasis [ref=e397]: Japan
+                - text: ( 6th ...
+          - generic [ref=e401]:
+            - generic [ref=e404]:
+              - link "Validation of Anthropogenic Emission Inventories in Japan MDPI https://www.mdpi.com › ..." [ref=e406] [cursor=pointer]:
+                - /url: https://www.mdpi.com/2306-5729/10/9/151
+                - heading "Validation of Anthropogenic Emission Inventories in Japan" [level=3] [ref=e407]
+                - generic [ref=e413]:
+                  - generic [ref=e415]: MDPI
+                  - generic [ref=e417]: https://www.mdpi.com › ...
+              - generic [ref=e418]:
+                - generic [ref=e419]: ·
+                - link "Dịch trang này" [ref=e420] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.mdpi.com/2306-5729/10/9/151&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e421] [cursor=pointer]:
+                - img [ref=e424]
+            - generic [ref=e427]:
+              - generic [ref=e428]: viết bởi K Tatsumi · 2025 · Trích dẫn 2 bài viết —
+              - generic [ref=e429]:
+                - text: Reliable, high-resolution emission inventories are essential for accurately simulating
+                - emphasis [ref=e430]: air quality
+                - text: and for designing evidence-based mitigation policies.
+            - generic [ref=e432]: "Bị thiếu: VENUS ‎CMAQ"
+          - generic [ref=e436]:
+            - generic [ref=e439]:
+              - link "PM2.5 Forecast System by Using Machine Learning and ... Aerosol and Air Quality Research https://aaqr.org › articles › aaqr-21-05-oa-0108" [ref=e441] [cursor=pointer]:
+                - /url: https://aaqr.org/articles/aaqr-21-05-oa-0108.pdf
+                - heading "PM2.5 Forecast System by Using Machine Learning and ..." [level=3] [ref=e442]
+                - generic [ref=e448]:
+                  - generic [ref=e450]: Aerosol and Air Quality Research
+                  - generic [ref=e452]: https://aaqr.org › articles › aaqr-21-05-oa-0108
+              - generic [ref=e453]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e454] [cursor=pointer]:
+                - img [ref=e457]
+            - generic [ref=e459]:
+              - generic [ref=e460]:
+                - generic [ref=e461]: viết bởi VTT Minh · 2021 · Trích dẫn 50 bài viết —
+                - generic [ref=e462]:
+                  - text: Several pieces of research work on
+                  - emphasis [ref=e463]: air quality
+                  - text: prediction (such as
+                  - emphasis [ref=e464]: PM2
+                  - text: .
+                  - emphasis [ref=e465]: "5"
+                  - text: ", PM10, Ozone) using machine learning models, combining meteorological ..."
+              - generic [ref=e466]: 17 trang
+            - generic [ref=e468]: "Bị thiếu: NIES ‎VENUS ‎CMAQ ‎Japan"
+          - generic [ref=e472]:
+            - generic [ref=e475]:
+              - link "Abstract EGU26-3714 Copernicus.org https://meetingorganizer.copernicus.org › ..." [ref=e477] [cursor=pointer]:
+                - /url: https://meetingorganizer.copernicus.org/EGU26/EGU26-3714.html
+                - heading "Abstract EGU26-3714" [level=3] [ref=e478]
+                - generic [ref=e484]:
+                  - generic [ref=e486]: Copernicus.org
+                  - generic [ref=e488]: https://meetingorganizer.copernicus.org › ...
+              - generic [ref=e489]:
+                - generic [ref=e490]: ·
+                - link "Dịch trang này" [ref=e491] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://meetingorganizer.copernicus.org/EGU26/EGU26-3714.html&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e492] [cursor=pointer]:
+                - img [ref=e495]
+            - generic [ref=e498]:
+              - generic [ref=e499]: viết bởi DR Choi · 2026 —
+              - generic [ref=e500]:
+                - text: High
+                - emphasis [ref=e501]: PM2
+                - text: .
+                - emphasis [ref=e502]: "5"
+                - text: concentrations can be detrimental to human and ecosystem health, as long-term exposure is associated with the aggravation of ...
+            - generic [ref=e504]: "Bị thiếu: NIES ‎VENUS ‎operational"
+          - generic [ref=e508]:
+            - generic [ref=e511]:
+              - link "JMA/MRI/JAXA/KU Aerosol Model Activities Overview John D. Odegard School of Aerospace Sciences https://aero.und.edu › docs › icap-13 › day-1 › j..." [ref=e513] [cursor=pointer]:
+                - /url: https://aero.und.edu/atmos/icap/_files/docs/icap-13/day-1/jma-mri-jaxa-ku-aerosol-model-activities-overview.pdf
+                - heading "JMA/MRI/JAXA/KU Aerosol Model Activities Overview" [level=3] [ref=e514]
+                - generic [ref=e520]:
+                  - generic [ref=e522]: John D. Odegard School of Aerospace Sciences
+                  - generic [ref=e524]: https://aero.und.edu › docs › icap-13 › day-1 › j...
+              - generic [ref=e525]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e526] [cursor=pointer]:
+                - img [ref=e529]
+            - generic [ref=e533]:
+              - text: JMA operates a global aerosol model (TL479L40) for the prediction of aeolian dust. The
+              - emphasis [ref=e534]: forecast
+              - text: charts up to 4 days ahead with the interval of 6 hours are ...
+          - generic [ref=e538]:
+            - generic [ref=e541]:
+              - link "Report on the preliminary model development and ... JICA報告書PDF版 | JICA Report PDF https://openjicareport.jica.go.jp › pdf" [ref=e543] [cursor=pointer]:
+                - /url: https://openjicareport.jica.go.jp/pdf/1000055912_02.pdf
+                - heading "Report on the preliminary model development and ..." [level=3] [ref=e544]
+                - generic [ref=e550]:
+                  - generic [ref=e552]: JICA報告書PDF版 | JICA Report PDF
+                  - generic [ref=e554]: https://openjicareport.jica.go.jp › pdf
+              - generic [ref=e555]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e556] [cursor=pointer]:
+                - img [ref=e559]
+            - generic [ref=e563]:
+              - text: Current Situation of
+              - emphasis [ref=e564]: PM2
+              - text: .
+              - emphasis [ref=e565]: 5 Air Pollution
+              - text: in
+              - emphasis [ref=e566]: Japan
+              - text: Based on Continuous. Monitoring Data in 2011 Fiscal Year, Journal of
+              - emphasis [ref=e567]: Japan
+              - text: Atmospheric. Environment, 48(3) ...
+          - generic [ref=e571]:
+            - generic [ref=e574]:
+              - link "An integrated model combining random forests and WRF ... Semantic Scholar https://www.semanticscholar.org › An..." [ref=e576] [cursor=pointer]:
+                - /url: https://www.semanticscholar.org/paper/An-integrated-model-combining-random-forests-and-in-Thongthammachart-Araki/131063bbd651d5e06dc1bb73b84356ecf6b068ca
+                - heading "An integrated model combining random forests and WRF ..." [level=3] [ref=e577]
+                - generic [ref=e583]:
+                  - generic [ref=e585]: Semantic Scholar
+                  - generic [ref=e587]: https://www.semanticscholar.org › An...
+              - generic [ref=e588]:
+                - generic [ref=e589]: ·
+                - link "Dịch trang này" [ref=e590] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.semanticscholar.org/paper/An-integrated-model-combining-random-forests-and-in-Thongthammachart-Araki/131063bbd651d5e06dc1bb73b84356ecf6b068ca&hl=vi&sl=en&tl=vi&client=search
+              - button "Thông tin về kết quả này" [ref=e591] [cursor=pointer]:
+                - img [ref=e594]
+            - generic [ref=e597]:
+              - generic [ref=e598]: 1 thg 10, 2021 —
+              - generic [ref=e599]:
+                - text: An integrated model combining random forests and
+                - emphasis [ref=e600]: WRF
+                - text: /
+                - emphasis [ref=e601]: CMAQ
+                - text: model for high accuracy spatiotemporal
+                - emphasis [ref=e602]: PM2
+                - text: .
+                - emphasis [ref=e603]: "5"
+                - text: predictions in the Kansai region of
+                - emphasis [ref=e604]: Japan
+                - text: .
+          - generic [ref=e609]:
+            - heading "Mọi người cũng hỏi" [level=2] [ref=e611]
+            - button "How bad is air pollution in Japan?" [ref=e618] [cursor=pointer]:
+              - generic [ref=e620]: How bad is air pollution in Japan?
+              - img [ref=e623]
+        - navigation [ref=e628]:
+          - heading "Điều hướng trang" [level=1] [ref=e629]
+          - text: "1"
+          - link "Page 2" [ref=e632] [cursor=pointer]:
+            - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=10&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=e634] [cursor=pointer]:
+            - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=20&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=e636] [cursor=pointer]:
+            - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=30&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=e638] [cursor=pointer]:
+            - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=40&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=e640] [cursor=pointer]:
+            - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=50&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=e642] [cursor=pointer]:
+            - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=60&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8tMDegQINRAO
+            - text: "7"
+          - heading "Tiếp" [level=2] [ref=e644]:
+            - link "Tiếp" [ref=e645] [cursor=pointer]:
+              - /url: /search?q=NIES+VENUS+air+pollution+forecast+WRF+CMAQ+Japan+operational+PM2.5&sca_esv=d12162df5757eaf7&ei=MVUqaqGBCsXh2roP88_y6Qs&start=10&sa=N&sstk=AU9db-ARjL7orcMa_p_UiURZIoM8rH8zYhFWH5HMYLMHSW5sxYH85Z--RoXs-Cx8e0ShUgb5ubLV9HQ7PbrLt8RQ8sP1JDJ6utUTTA&ved=2ahUKEwjh3bWTx_6UAxXFsFYBHfOnPL0Q8NMDegQINRAQ
+              - generic [ref=e647]: Tiếp
+        - navigation
+    - contentinfo [ref=e648]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e649]
+      - generic [ref=e653]:
+        - generic [ref=e655]:
+          - text: Việt Nam
+          - generic [ref=e657]:
+            - button "Hà Đông, Hà Nội - Dựa trên địa chỉ IP của bạn" [ref=e659] [cursor=pointer]:
+              - generic [ref=e660]: Hà Đông, Hà Nội
+              - generic [ref=e662]:
+                - text: "-"
+                - generic [ref=e663]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e665] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e668]:
+          - link "Trợ giúp" [ref=e669] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e670] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e671] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e672] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

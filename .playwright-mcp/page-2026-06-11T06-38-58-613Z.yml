@@ -1,0 +1,259 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary "Alerts"
+    - navigation "Skip to links":
+      - link "Skip to navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#main-nav"
+      - link "Skip to content" [ref=e5] [cursor=pointer]:
+        - /url: "#content"
+    - banner [ref=e6]:
+      - generic [ref=e8]:
+        - link "NSW Environmental Protection Agency NSW Government" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "NSW Environmental Protection Agency" [ref=e12]
+          - generic [ref=e17]: NSW Government
+        - button "Show Search" [ref=e19]:
+          - generic [ref=e20]: search
+          - generic [ref=e21]:
+            - generic [ref=e22]: Show
+            - text: Search
+  - navigation "Main Navigation" [ref=e24]:
+    - heading "Main Navigation" [level=2] [ref=e25]
+    - navigation "Main menu" [ref=e26]:
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - button "Your environment" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]: Your environment
+            - generic [ref=e31]: keyboard_arrow_right
+        - listitem [ref=e32]:
+          - button "Reporting and incidents" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: Reporting and incidents
+            - generic [ref=e35]: keyboard_arrow_right
+        - listitem [ref=e36]:
+          - button "Licensing and regulation" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: Licensing and regulation
+            - generic [ref=e39]: keyboard_arrow_right
+        - listitem [ref=e40]:
+          - button "Working together" [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: Working together
+            - generic [ref=e43]: keyboard_arrow_right
+        - listitem [ref=e44]:
+          - button "About us" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]: About us
+            - generic [ref=e47]: keyboard_arrow_right
+        - listitem [ref=e48]:
+          - link "Newsroom" [ref=e49] [cursor=pointer]:
+            - /url: /Newsroom
+            - generic [ref=e50]: Newsroom
+  - main [ref=e51]:
+    - article [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e57]:
+          - generic [ref=e59]:
+            - heading "NSW Environment Protection Authority" [level=1] [ref=e60]
+            - paragraph [ref=e61]: NSW's independent environmental regulator. We protect the health of our environment and communities.
+          - generic:
+            - img "Aerial photograph of Murramarang National Park with lagoon behind beach" [ref=e62]
+            - button "Open description" [ref=e64]:
+              - generic [ref=e65] [cursor=pointer]: photo_camera
+              - generic [ref=e66]: Open description
+        - generic [ref=e67]:
+          - generic:
+            - generic:
+              - generic "Main page content"
+          - generic [ref=e68]:
+            - generic [ref=e70]:
+              - heading "What would you like to do today?" [level=2] [ref=e72]
+              - generic [ref=e73]:
+                - link "Have your say on public consultations" [ref=e74] [cursor=pointer]:
+                  - /url: https://yoursay.epa.nsw.gov.au/
+                  - generic [ref=e75]: Have your say on public consultations
+                - link "Report pollution" [ref=e76] [cursor=pointer]:
+                  - /url: /Reporting-and-incidents/Report-pollution
+                  - generic [ref=e77]: Report pollution
+                - link "Find a community recycling centre or chemical cleanout" [ref=e78] [cursor=pointer]:
+                  - /url: /Your-environment/Recycling-and-reuse/household-recycling-overview/find-crcs-or-hcco
+                  - generic [ref=e79]: Find a community recycling centre or chemical cleanout
+                - link "Search a public register" [ref=e80] [cursor=pointer]:
+                  - /url: /Licensing-and-Regulation/Public-registers
+                  - generic [ref=e81]: Search a public register
+                - link "Read latest media releases" [ref=e82] [cursor=pointer]:
+                  - /url: /Newsroom
+                  - generic [ref=e83]: Read latest media releases
+                - link "Apply for, or manage, a licence" [ref=e84] [cursor=pointer]:
+                  - /url: /Licensing-and-Regulation/Licensing
+                  - generic [ref=e85]: Apply for, or manage, a licence
+            - generic [ref=e87]:
+              - heading "Stay up to date" [level=2] [ref=e88]
+              - generic [ref=e89]:
+                - generic [ref=e91]:
+                  - img "EPA staff on at the beach wearing shirts with Aboriginal visual identity" [ref=e94]
+                  - generic [ref=e96]:
+                    - link "Together on Country grants" [ref=e98] [cursor=pointer]:
+                      - /url: https://alc.org.au/t-o-c-grant/
+                    - paragraph [ref=e100]:
+                      - text: We have launched new grants for Local Aboriginal Land Councils to help them lead waste management and sustainability projects. The grants are being co-delivered with NSW Aboriginal Land Council.
+                      - strong [ref=e101]: Expressions of interest are
+                      - strong [ref=e102]: open now
+                      - text: .
+                    - generic [ref=e103]: east
+                - generic [ref=e105]:
+                  - img "Business food waste campaign banner" [ref=e108]
+                  - generic [ref=e109]:
+                    - link "Business food waste" [ref=e111] [cursor=pointer]:
+                      - /url: /Your-environment/Recycling-and-reuse/business-food-waste
+                    - paragraph [ref=e113]: From 1 July 2026 businesses must separate food waste from general waste. Get your business ready.
+                    - generic [ref=e114]: east
+                - generic [ref=e116]:
+                  - img "Banner - Never bin a battery showing a range of batteries above a garbage bin" [ref=e119]
+                  - generic [ref=e120]:
+                    - link "Find a battery drop-off near you" [ref=e122] [cursor=pointer]:
+                      - /url: /Your-environment/Recycling-and-reuse/never-bin-a-battery
+                    - paragraph [ref=e124]: Never bin a battery. One battery in a bin can spark a fire. Find a safe place to drop off your used batteries.
+                    - generic [ref=e125]: east
+                - generic [ref=e127]:
+                  - img "Child drinking out of a water bubbler" [ref=e130]
+                  - generic [ref=e131]:
+                    - link "PFAS and drinking water" [ref=e133] [cursor=pointer]:
+                      - /url: https://www.nsw.gov.au/environment-land-and-water/pfas-and-drinking-water-information-and-updates
+                    - paragraph [ref=e135]: The NSW Government is working to ensure we continue to provide safe drinking water to the people of NSW.
+                    - generic [ref=e136]: east
+                - generic [ref=e138]:
+                  - img "EPA officers at Tomingley Gold Operations" [ref=e141]
+                  - generic [ref=e143]:
+                    - link "Community news" [ref=e145] [cursor=pointer]:
+                      - /url: /working-together/community-engagement
+                    - paragraph [ref=e147]: We are involved in many environmental matters that interest communities across NSW.
+                    - generic [ref=e148]: east
+                - generic [ref=e150]:
+                  - img "Clean-up of illegally dumped household items at the kerbside, with truck and crane picking up a mattress" [ref=e153]
+                  - generic [ref=e155]:
+                    - link "Illegal dumping research" [ref=e157] [cursor=pointer]:
+                      - /url: /Your-environment/Illegal-dumping/illegal-dumping-research
+                    - paragraph [ref=e159]: A new study has found there has been a marked reduction in the number of NSW residents and businesses illegally dumping waste compared to six years ago, but that the issue remains costly and damaging for communities, councils and the environment.
+                    - generic [ref=e160]: east
+                - generic [ref=e162]:
+                  - img "rows of labelled plastic petri dishes with microplastic fragments" [ref=e165]
+                  - generic [ref=e167]:
+                    - link "Microplastic assessment of coastal waterways" [ref=e169] [cursor=pointer]:
+                      - /url: /Your-environment/Litter/Research/broadscale-microplastic-assessment
+                    - paragraph [ref=e171]: The Broadscale Microplastic Assessment (BMA) is Australia's first large-scale study of microplastic contamination, covering 120 coastal waterways in NSW.
+                    - generic [ref=e172]: east
+                - generic [ref=e174]:
+                  - img "Young Ibis on the wing, Gwydir Wetlands, Northern NSW" [ref=e177]
+                  - generic [ref=e179]:
+                    - link "Regulatory, policy and legislative updates" [ref=e181] [cursor=pointer]:
+                      - /url: /Licensing-and-Regulation/Updates
+                    - paragraph [ref=e183]: Summary of recent regulatory, policy and legislative updates. Listed with most recent update first.
+                    - generic [ref=e184]: east
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - heading "Latest media releases" [level=2] [ref=e188]
+                - link "See all media releases" [ref=e189] [cursor=pointer]:
+                  - /url: /news
+                  - text: See all media releases
+                  - generic [ref=e190]: east
+              - generic [ref=e191]:
+                - generic [ref=e193]:
+                  - img "Landfill with bulldozer and compactor" [ref=e196]
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: 11 Jun 2026
+                    - generic [ref=e199]:
+                      - link "EPA fines Veolia for breaches at Woodlawn Landfill" [ref=e200] [cursor=pointer]:
+                        - /url: /news/epamedia/260611-epa-fines-veolia-for-breaches-at-woodlawn-landfill
+                      - generic [ref=e203]: EPA
+                    - paragraph [ref=e205]: Veolia has been issued four penalty notices for multiple licence breaches at its Woodlawn Landfill in Tarago.
+                    - generic [ref=e206]: east
+                - generic [ref=e208]:
+                  - img "EPA logo" [ref=e210]
+                  - generic [ref=e211]:
+                    - generic [ref=e212]: 04 Jun 2026
+                    - generic [ref=e213]:
+                      - link "Narromine PFAS bore testing complete" [ref=e214] [cursor=pointer]:
+                        - /url: /news/epamedia/260604-narromine-pfas-bore-testing-complete
+                      - generic [ref=e216]:
+                        - generic [ref=e217]: EPA
+                        - generic [ref=e218]: PFAS
+                    - paragraph [ref=e220]: The NSW EPA has completed initial PFAS residential bore testing in Narromine as part of the EPA’s voluntary opt-in Bore Water Screening Program that supports local councils.
+                    - generic [ref=e221]: east
+                - generic [ref=e223]:
+                  - img "EPA officer taking water sample" [ref=e226]
+                  - generic [ref=e228]:
+                    - generic [ref=e229]: 28 May 2026
+                    - generic [ref=e230]:
+                      - link "Tuggerah Lakes PFAS levels below guidelines" [ref=e231] [cursor=pointer]:
+                        - /url: /news/epamedia/260528-tuggerah-lakes-pfas-levels-below-guidelines
+                      - generic [ref=e233]:
+                        - generic [ref=e234]: PFAS
+                        - generic [ref=e235]: EPA
+                    - paragraph [ref=e237]: A six-month sampling program has confirmed PFAS levels are below the latest ecological and recreational guidelines in the Central Coast’s Tuggerah Lakes catchment.
+                    - generic [ref=e238]: east
+  - contentinfo [ref=e239]:
+    - generic [ref=e241]:
+      - generic [ref=e243]:
+        - img "NSW Environmental Protection Agency" [ref=e245]
+        - img [ref=e251]
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - heading "Shortcuts" [level=3] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Public registers" [ref=e261] [cursor=pointer]:
+                - /url: /Licensing-and-Regulation/Public-registers
+            - listitem [ref=e262]:
+              - link "Report pollution" [ref=e263] [cursor=pointer]:
+                - /url: /Reporting-and-incidents/Report-pollution
+        - generic [ref=e264]:
+          - heading "Resources" [level=3] [ref=e265]
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Local government" [ref=e268] [cursor=pointer]:
+                - /url: /Working-together/For-local-government
+        - generic [ref=e269]:
+          - heading "Keep current" [level=3] [ref=e270]
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - link "Interesting updates" [ref=e273] [cursor=pointer]:
+                - /url: /Licensing-and-Regulation/Updates
+            - listitem [ref=e274]:
+              - link "Latest news and media releases" [ref=e275] [cursor=pointer]:
+                - /url: /Newsroom
+        - generic [ref=e276]:
+          - heading "Contact us" [level=3] [ref=e277]
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "Email Environment Line" [ref=e280] [cursor=pointer]:
+                - /url: mailto:info@epa.nsw.gov.au
+            - listitem [ref=e281]:
+              - link "Website feedback" [ref=e282] [cursor=pointer]:
+                - /url: /About-us/Contact-us/feedback
+    - generic [ref=e285]:
+      - paragraph [ref=e286]: We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued connection to their country and culture.
+      - separator [ref=e287]
+      - generic [ref=e288]:
+        - list [ref=e289]:
+          - listitem [ref=e290]:
+            - link "Sitemap" [ref=e291] [cursor=pointer]:
+              - /url: /sitemap
+        - generic [ref=e293]:
+          - link "LinkedIn" [ref=e294] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/nsw-epa/
+            - img "LinkedIn" [ref=e296]
+          - link "Facebook" [ref=e297] [cursor=pointer]:
+            - /url: https://www.facebook.com/NSWEnvironmentProtectionAuthority
+            - img "Facebook" [ref=e299]
+          - link "X.com (formerly Twitter)" [ref=e300] [cursor=pointer]:
+            - /url: https://x.com/NSW_EPA
+            - img "X.com (formerly Twitter)" [ref=e302]
+          - link "Instagram" [ref=e303] [cursor=pointer]:
+            - /url: https://www.instagram.com/nsw_epa/
+            - img "Instagram" [ref=e305]
+          - link "YouTube" [ref=e306] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCS5jrgAEsHicGzkBJBwKKPQ
+            - img "YouTube" [ref=e308]
+      - generic [ref=e309]:
+        - generic [ref=e310]: Copyright © 2026
+        - generic [ref=e311]:
+          - text: Built by
+          - link "NSW Design System" [ref=e312] [cursor=pointer]:
+            - /url: https://www.digital.nsw.gov.au/digital-design-system

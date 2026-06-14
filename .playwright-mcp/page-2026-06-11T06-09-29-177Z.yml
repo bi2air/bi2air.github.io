@@ -1,0 +1,133 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner:
+      - navigation [ref=e2]:
+        - generic [ref=e3]:
+          - link [ref=e5] [cursor=pointer]:
+            - /url: javascript:;
+          - link [ref=e7] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+          - generic [ref=e8]:
+            - navigation:
+              - generic:
+                - generic:
+                  - list
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Browse" [ref=e11] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Browse
+              - listitem [ref=e13]:
+                - link "About J-STAGE" [ref=e14] [cursor=pointer]:
+                  - /url: "#"
+                  - text: About J-STAGE
+              - listitem [ref=e16]:
+                - link "News and PR" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+                  - text: News and PR
+              - listitem [ref=e19]:
+                - link "Support" [ref=e20] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Support
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Sign in" [ref=e25] [cursor=pointer]:
+                - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2F-char%2Fen
+            - listitem
+            - listitem [ref=e26]:
+              - link "Cart" [ref=e27] [cursor=pointer]:
+                - /url: /cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Fbrowse%2F-char%2Fen
+            - listitem [ref=e28]:
+              - generic [ref=e29]: EN
+  - generic [ref=e34]:
+    - generic [ref=e35]: 404 error
+    - paragraph [ref=e36]:
+      - text: The system is not able to find what you were looking for.
+      - link "Go back" [ref=e37] [cursor=pointer]:
+        - /url: javascript:hBack();
+      - text: to what you were doing
+    - paragraph [ref=e38]:
+      - text: お探しのページが見つかりませんでした。
+      - link "こちら" [ref=e39] [cursor=pointer]:
+        - /url: javascript:hBack();
+      - text: からお戻りください。
+    - paragraph [ref=e40]:
+      - link "J-STAGE Home" [ref=e41] [cursor=pointer]:
+        - /url: /browse/-char/en/
+  - contentinfo [ref=e43]:
+    - generic [ref=e44]:
+      - link "Top" [ref=e45] [cursor=pointer]:
+        - /url: "#0"
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Browse
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "All titles" [ref=e51] [cursor=pointer]:
+                - /url: /journal/list/-char/en
+            - listitem [ref=e52]:
+              - link "All subject areas" [ref=e53] [cursor=pointer]:
+                - /url: /journal/fields/-char/en
+            - listitem [ref=e54]:
+              - link "All publishers" [ref=e55] [cursor=pointer]:
+                - /url: /journal/publisher/-char/en
+            - listitem [ref=e56]:
+              - link "Search articles" [ref=e57] [cursor=pointer]:
+                - /url: /search/global/_search/-char/en
+            - listitem [ref=e58]:
+              - link "Search J-STAGE Data" [ref=e59] [cursor=pointer]:
+                - /url: https://jstagedata.jst.go.jp/
+        - generic [ref=e60]:
+          - generic [ref=e61]: About J-STAGE
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Overview" [ref=e64] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en
+            - listitem [ref=e65]:
+              - link "Services and features" [ref=e66] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en
+            - listitem [ref=e67]:
+              - link "Public data" [ref=e68] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en
+            - listitem [ref=e69]:
+              - link "Terms and Policy" [ref=e70] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en
+        - generic [ref=e71]:
+          - generic [ref=e72]: News and PR
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - link "News" [ref=e75] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en
+            - listitem [ref=e76]:
+              - link "Maintenance information" [ref=e77] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en
+            - listitem [ref=e78]:
+              - link "Special contents" [ref=e79] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en
+            - listitem [ref=e80]:
+              - link "Media resources" [ref=e81] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en
+        - generic [ref=e82]:
+          - generic [ref=e83]: Support
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "User manuals" [ref=e86] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en
+            - listitem [ref=e87]:
+              - link "Browser compatibility" [ref=e88] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en
+            - listitem [ref=e89]:
+              - link "FAQ" [ref=e90] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en
+            - listitem [ref=e91]:
+              - link "Contact" [ref=e92] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Contact/-char/en
+            - listitem [ref=e93]:
+              - link "Sitemap" [ref=e94] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en
+      - link "©Japan Science and Technology Agency [JST]" [ref=e100] [cursor=pointer]:
+        - /url: https://www.jst.go.jp/EN/
+        - text: ©Japan Science and Technology Agency [JST]
+        - img [ref=e101]
+  - link "feedback" [ref=e103] [cursor=pointer]:
+    - /url: https://form2.jst.go.jp/s/jstage-feedback

@@ -1,0 +1,121 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#rpl-above-body"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Primary navigation" [ref=e7]:
+        - generic [ref=e9]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Menu" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Menu⁠
+            - listitem [ref=e19]:
+              - button "Open Search" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - text: ⁠
+                  - img [ref=e24]
+    - main [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Oops!" [level=1] [ref=e32]
+        - heading "Sorry, we couldn't find the page you were looking for." [level=2] [ref=e33]
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: Have a look at the web address to make sure it was typed correctly. We may also have deleted this page.
+          - paragraph [ref=e37]:
+            - text: If none of our suggestions help you find the information you were looking for, please
+            - link "contact us" [ref=e38] [cursor=pointer]:
+              - /url: /connect-with-us
+            - text: .
+        - link "Go back home" [ref=e39] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e40]: Go back home
+    - generic:
+      - generic:
+        - link "Back to top":
+          - /url: "#rpl-skip-links"
+          - generic: Back to top
+          - generic:
+            - img
+    - contentinfo [ref=e41]:
+      - navigation "Footer navigation" [ref=e43]:
+        - heading "Our environment" [level=3] [ref=e47]:
+          - link "Our environment" [ref=e48] [cursor=pointer]:
+            - /url: /our-environment
+        - heading "Make a report" [level=3] [ref=e52]:
+          - link "Make a report" [ref=e53] [cursor=pointer]:
+            - /url: /make-report
+        - heading "About us" [level=3] [ref=e57]:
+          - link "About us" [ref=e58] [cursor=pointer]:
+            - /url: /about-epa
+        - heading "Licensing and regulation" [level=3] [ref=e62]:
+          - link "Licensing and regulation" [ref=e63] [cursor=pointer]:
+            - /url: /licensing-and-regulation
+        - heading "Check air and water quality" [level=3] [ref=e67]:
+          - link "Check air and water quality" [ref=e68] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+        - heading "Portal" [level=3] [ref=e72]:
+          - link "Portal" [ref=e73] [cursor=pointer]:
+            - /url: https://portal365.epa.vic.gov.au/
+        - generic [ref=e74]:
+          - heading "Connect with us" [level=3] [ref=e77]
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - link "Facebook" [ref=e81] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+                - generic [ref=e84]: Facebook
+            - listitem [ref=e85]:
+              - link "Instagram" [ref=e86] [cursor=pointer]:
+                - /url: http://instagram.com/vicgovepa
+                - img [ref=e88]
+                - generic [ref=e91]: Instagram
+            - listitem [ref=e92]:
+              - link "Linkedin" [ref=e93] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/epa---victoria
+                - generic [ref=e96]: Linkedin
+            - listitem [ref=e97]:
+              - link "Youtube" [ref=e98] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/epavictoria
+                - img [ref=e100]
+                - generic [ref=e102]: Youtube
+            - listitem [ref=e103]:
+              - link "BlueSky" [ref=e104] [cursor=pointer]:
+                - /url: https://bsky.app/profile/epa.vic.gov.au
+                - generic [ref=e107]: BlueSky
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - img "Aboriginal flag" [ref=e113]
+          - img "Torres Strait Islander flag" [ref=e114]
+        - paragraph [ref=e115]: The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - link "EPA portal" [ref=e121] [cursor=pointer]:
+                - /url: /epa-portal
+            - listitem [ref=e122]:
+              - link "Accessibility" [ref=e123] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e124]:
+              - link "Disclaimer" [ref=e125] [cursor=pointer]:
+                - /url: /content-disclaimer
+            - listitem [ref=e126]:
+              - link "Privacy" [ref=e127] [cursor=pointer]:
+                - /url: /privacy-vicgovau
+            - listitem [ref=e128]:
+              - link "Privacy collection statement" [ref=e129] [cursor=pointer]:
+                - /url: /privacy-collection-statement
+            - listitem [ref=e130]:
+              - link "News" [ref=e131] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e132]:
+              - link "Sitemap" [ref=e133] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e134]:
+              - link "Contact us" [ref=e135] [cursor=pointer]:
+                - /url: /contact-us
+          - paragraph [ref=e138]: © Copyright State Government of Victoria
+        - link "Victoria government home" [ref=e140] [cursor=pointer]:
+          - /url: https://vic.gov.au
+          - img [ref=e141]

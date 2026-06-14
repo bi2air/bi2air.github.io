@@ -1,0 +1,184 @@
+- generic [ref=e2]:
+  - link "Skip to main" [ref=e3] [cursor=pointer]:
+    - /url: "#maincontent"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Help and resources" [ref=e10] [cursor=pointer]:
+            - /url: /help-and-resources
+            - text: Help and resources 
+        - listitem [ref=e11]:
+          - text: "|"
+          - link "Register for My Account" [ref=e12] [cursor=pointer]:
+            - /url: /sign-up
+        - listitem [ref=e13]:
+          - text: "|"
+          - button "Sign in to My Account" [ref=e14] [cursor=pointer]
+        - listitem [ref=e15]:
+          - text: "|"
+          - button "Search" [ref=e16] [cursor=pointer]: Search 
+      - generic [ref=e18]:
+        - link "Australian Government Coat of Arms Australian Government" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img "Australian Government Coat of Arms" [ref=e21]
+          - generic [ref=e22]: Australian Government
+        - link "Federal Register of Legislation" [ref=e24] [cursor=pointer]:
+          - /url: /
+          - heading "Federal Register of Legislation" [level=1] [ref=e25]
+        - text: 
+    - navigation [ref=e28]:
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Constitution" [ref=e33] [cursor=pointer]:
+            - /url: /constitution
+        - listitem [ref=e34]:
+          - link "Acts" [ref=e35] [cursor=pointer]:
+            - /url: /acts
+        - listitem [ref=e36]:
+          - link "Legislative instruments" [ref=e37] [cursor=pointer]:
+            - /url: /legislative-instruments
+        - listitem [ref=e38]:
+          - link "Notifiable instruments" [ref=e39] [cursor=pointer]:
+            - /url: /notifiable-instruments
+        - listitem [ref=e40]:
+          - link "Gazettes" [ref=e41] [cursor=pointer]:
+            - /url: /gazettes
+        - listitem [ref=e42]:
+          - link "Administrative Arrangements" [ref=e43] [cursor=pointer]:
+            - /url: /administrative-arrangements
+        - listitem [ref=e44]:
+          - link "Prerogative instruments" [ref=e45] [cursor=pointer]:
+            - /url: /prerogative-instruments
+        - listitem [ref=e46]:
+          - link "Norfolk Island" [ref=e47] [cursor=pointer]:
+            - /url: /norfolk-island-legislation
+  - main [ref=e48]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - navigation "breadcrumb" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Home" [ref=e58] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e59]:
+              - text: ">"
+              - link "Legislative instruments" [ref=e60] [cursor=pointer]:
+                - /url: /legislative-instruments
+            - listitem [ref=e61]: "> In force"
+        - tablist [ref=e64]:
+          - tab " Text" [selected] [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: 
+            - text: Text
+          - tab " Details" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: 
+            - text: Details
+          - tab " Authorises" [ref=e69] [cursor=pointer]:
+            - generic [ref=e70]: 
+            - text: Authorises
+          - tab " Downloads" [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: 
+            - text: Downloads
+          - tab " All versions" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]: 
+            - text: All versions
+          - tab " Interactions" [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: 
+            - text: Interactions
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - heading "Financial Framework (Supplementary Powers) Regulations 1997 Citation change" [level=1] [ref=e83]:
+            - text: Financial Framework (Supplementary Powers) Regulations 1997
+            - button "Citation change" [ref=e86] [cursor=pointer]
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e91]: In force
+              - generic [ref=e93]:
+                - generic [ref=e94]: Administered by
+                - list [ref=e95]:
+                  - listitem [ref=e96]: Department of Finance
+              - generic [ref=e97]:
+                - paragraph [ref=e98]: "This item is authorised by the following title:"
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - link "Financial Framework (Supplementary Powers) Act 1997" [ref=e101] [cursor=pointer]:
+                      - /url: /C2004A05251/latest
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]: Latest version
+                - generic [ref=e109]:
+                  - link "View as made version" [ref=e111] [cursor=pointer]:
+                    - /url: /F1997B02816/asmade
+                  - link "Order print copy" [ref=e113] [cursor=pointer]:
+                    - /url: /F1997B02816/latest/order-print-copy
+                    - generic [ref=e114]: 
+                    - generic [ref=e115]: Order print copy
+                  - button "Save this title to My Account" [ref=e117] [cursor=pointer]:
+                    - generic [ref=e118]: 
+                    - generic [ref=e119]: Save this title to My Account
+                  - button "Set up an alert" [ref=e121] [cursor=pointer]:
+                    - generic [ref=e122]: 
+                    - generic [ref=e123]: Set up an alert
+              - text: F2026C00449 C271
+              - generic [ref=e124]: 19 May 2026
+          - paragraph [ref=e129]: This instrument was backcaptured in accordance with Section 36 of the Legislative Instruments Act 2003
+        - separator [ref=e130]
+        - tabpanel " Text" [ref=e133]:
+          - generic [ref=e134]:
+            - heading "Legislation text" [level=1] [ref=e135]
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - text: View document
+                  - generic "View document" [ref=e141]:
+                    - generic [ref=e143] [cursor=pointer]:
+                      - textbox [ref=e145]: Legislative instrument
+                      - button "Select value" [disabled]:
+                        - generic: Select value
+                - text: 
+              - generic [ref=e147]:
+                - button "Download EPub" [ref=e148] [cursor=pointer]:
+                  - generic [ref=e149]: 
+                - button "Download PDF volumes" [ref=e150] [cursor=pointer]:
+                  - generic [ref=e151]: 
+                - button "Download Word documents" [ref=e152] [cursor=pointer]:
+                  - generic [ref=e153]: 
+                - button "Navigate to document home" [ref=e155] [cursor=pointer]:
+                  - generic [ref=e156]: 
+                - button "Navigate to previous chapter" [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]: 
+                - button "Navigate to previous section" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]: 
+                - button "Navigate to next section" [ref=e161] [cursor=pointer]:
+                  - generic [ref=e162]: 
+                - button "Navigate to next chapter" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e164]: 
+                - button "Expand to full screen" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166]: 
+                - button "Print this volume" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e168]: 
+                - button "Search current document" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e170]: 
+  - contentinfo [ref=e175]:
+    - generic [ref=e177]:
+      - paragraph [ref=e182]: We acknowledge the traditional owners and custodians of country throughout Australia and acknowledge their continuing connection to land, waters and community.
+      - list [ref=e184]:
+        - listitem [ref=e185]:
+          - link "Terms of use" [ref=e186] [cursor=pointer]:
+            - /url: /terms-of-use
+        - listitem [ref=e187]:
+          - text: "|"
+          - link "Glossary" [ref=e188] [cursor=pointer]:
+            - /url: /help-and-resources/understanding-legislation/glossary
+        - listitem [ref=e189]:
+          - text: "|"
+          - link "Feedback" [ref=e190] [cursor=pointer]:
+            - /url: /help-and-resources/using-the-legislation-register/feedback
+        - listitem [ref=e191]:
+          - text: "|"
+          - link "Sitemap" [ref=e192] [cursor=pointer]:
+            - /url: /sitemap
+        - listitem [ref=e193]:
+          - text: "|"
+          - link "Video help guides" [ref=e194] [cursor=pointer]:
+            - /url: https://www.youtube.com/@AusGovLegislation

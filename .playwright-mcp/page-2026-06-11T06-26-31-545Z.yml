@@ -1,0 +1,127 @@
+- document [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "NIES Top" [ref=e6] [cursor=pointer]:
+          - /url: /en
+          - img "NIES Top" [ref=e7]
+        - link "Skip to main content" [ref=e8] [cursor=pointer]:
+          - /url: "#contents"
+        - navigation "Side navigation" [ref=e9]:
+          - navigation [ref=e10]:
+            - menubar [ref=e12]:
+              - menuitem "About" [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+                - text: About
+              - menuitem "Research Overview" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+                - text: Research Overview
+              - menuitem "Public Outreach" [ref=e23] [cursor=pointer]:
+                - img [ref=e24]
+                - text: Public Outreach
+              - menuitem "Research Collaborations & Social Contributions" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+                - text: Research Collaborations & Social Contributions
+          - link "Careers" [ref=e32] [cursor=pointer]:
+            - /url: /en/careers/index.html
+            - img [ref=e33]
+            - text: Careers
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "FAQ" [ref=e39] [cursor=pointer]:
+                - /url: /en/contact/faq/index.html
+            - listitem [ref=e40]:
+              - link "Contact Us" [ref=e41] [cursor=pointer]:
+                - /url: /en/contact/index.html
+            - listitem [ref=e42]:
+              - link "Access" [ref=e43] [cursor=pointer]:
+                - /url: /en/about/overview/access/index.html
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "YouTube (Opens in a new window) (Opens in a new window)" [ref=e47] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/nieschannel
+                - img "YouTube (Opens in a new window)" [ref=e48]
+                - generic [ref=e49]: (Opens in a new window)
+            - listitem [ref=e50]:
+              - link "LinkedIn (Opens in a new window) (Opens in a new window)" [ref=e51] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/national-institute-for-environmental-studies-nies
+                - img "LinkedIn (Opens in a new window)" [ref=e52]
+                - generic [ref=e53]: (Opens in a new window)
+        - generic [ref=e54]:
+          - button "JP" [ref=e56] [cursor=pointer]
+          - search [ref=e57]:
+            - generic [ref=e58]: Site Search
+            - button "検索" [ref=e59] [cursor=pointer]: Search
+        - button "Open Menu"
+    - generic [ref=e60]:
+      - complementary [ref=e61]:
+        - heading "Regional Environment Conservation Division" [level=2] [ref=e64]:
+          - link "Regional Environment Conservation Division" [ref=e65] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Home" [ref=e68] [cursor=pointer]:
+            - /url: /en/index.html
+          - text: ">"
+        - listitem [ref=e69]:
+          - link "Regional Environment Conservation Division" [ref=e70] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+          - text: ">"
+        - listitem [ref=e71]:
+          - link "Atmosphere" [ref=e72] [cursor=pointer]:
+            - /url: /chiiki/en/atmosphere_en.html
+          - text: ">"
+        - listitem [ref=e73]: Investigation of PM2.5 pollution mechanisms
+      - complementary [ref=e74]:
+        - heading "Regional Environment Conservation Division ローカルメニュー開閉ボタン" [level=2] [ref=e77]:
+          - link "Regional Environment Conservation Division" [ref=e78] [cursor=pointer]:
+            - /url: /chiiki/en/index_en.html
+          - button "ローカルメニュー開閉ボタン" [ref=e79] [cursor=pointer]: +
+    - main [ref=e80]:
+      - article [ref=e81]:
+        - heading "Investigation of PM2.5 pollution mechanisms" [level=1] [ref=e86]
+        - generic [ref=e87]:
+          - heading "Principal Investigator (Contact person)" [level=2] [ref=e89]
+          - generic [ref=e94]: "Seiji SUGATA (email: sugatas[at]nies.go.jp) \"[at] is replaced by @\""
+        - tablist "コンテンツ切り替えタブ" [ref=e95]:
+          - tab "Overall" [selected] [ref=e96] [cursor=pointer]
+          - tab "Publications & Link" [ref=e97] [cursor=pointer]
+        - generic [ref=e98]:
+          - heading "Overall" [level=2] [ref=e100]
+          - generic [ref=e102]:
+            - article [ref=e103]:
+              - heading "Abstract" [level=3] [ref=e105]
+              - generic [ref=e108]: As a type II joint research program of PM2.5 in association with local governmental environment institutes, organized efforts such as the analysis of observational data, air sampling for research purposes, receptor analysis using componential data, and implementation of 3D numerical simulation calculations have been undertaken to elucidate the pollution mechanisms leading to the exceedance of short- and long-term environmental standards. Furthermore, based on funding from the Ministry of the Environment, improvements to the VENUS air pollution forecasting system were made to enhance the calculation accuracy and convenience of the user interface, and to add an overview page of the prediction results.
+            - article [ref=e109]:
+              - heading "1 Investigation of PM2.5 pollution mechanisms causing the exceedance of long- and short-term air quality standards" [level=3] [ref=e111]
+              - generic [ref=e114]:
+                - text: The investigation of the PM2.5 pollution mechanisms that cause the exceedance of the long- and short-term air quality standards is one of the type II joint research programs of the National Institute for Environmental Studies (NIES) in conjunction with local governmental environment institutes. The purpose of the research is to elucidate the pollution mechanisms that lead to the exceedance of short- and long-term environmental standards.
+                - text: NIES and 57 local governmental environment institutes comprise the members of the research group, of which NIES and the Osaka Prefecture (Research Institute of Environment, Agriculture and Fisheries) are representatives.
+                - text: At an initial meeting of all the members, the overall direction of the study was debated and several research sub-groups formed accordingly.
+                - text: "There are five research sub-groups:"
+                - text: (a) PM2.5 high concentration episode analysis group
+                - text: (b) Receptor modeling group
+                - text: (c) Chemical transport modeling group
+                - text: (d) Seasonal analysis of daily PM2.5 sampling group
+                - text: (e) Consideration of problems of measurement methods of PM2.5
+                - text: Each sub-group has a leader and a number of sub-leaders who have advanced the research both by discussions via email and by holding annual or biannual meetings.
+                - text: In sub-group (a), the person in charge of forecasts predicts high concentrations of PM2.5 and they share this information through e-mail, which prompts all the members to perform sampling simultaneously. Subsequently, the samples are analyzed to further the understanding of the mechanisms behind episodes of high concentrations of PM2.5. All members of sub-group (b) independently analyze the sample data using the PMF method, then compare their results and examine their common or different findings. The contributions of various factors are clarified following these analyses. In sub-group (c), each member has the WRF and CMAQ simulation systems installed on their computer with which they can perform calculations. A scalar computer of NIES is also utilized as one of the platforms. The contributions of emissions from each prefecture are checked by reduced-emission simulations. In sub-group (d), the componential data at the times of high concentrations of PM2.5 are analyzed and the dominant components depending on the area of Japan determined. In sub-group (e), the methods used by all members of the research team for the measurement of the PM2.5 observational data are considered and the results shared among the members. Any problems regarding the accuracy of the hourly PM2.5 observations are revealed. Thus, these sub-groups cooperate in order to achieve the research goals.
+            - article [ref=e115]:
+              - heading "2 Development of the air pollution forecasting simulation" [level=3] [ref=e117]
+              - generic [ref=e120]:
+                - text: To address public concerns regarding the atmospheric environment and to develop a standard for PM2.5 warnings, improvements in the air pollution forecasting system are required. This activity runs under a three-year contract with the Ministry of Environment for the development of the air pollution forecasting system (VENUS), which has been developed mainly by NIES. The objectives behind the development are to improve both the accuracy of the forecast results and the usability of the system.
+                - text: "The development plan addresses updates of four areas: (1) user interface, (2) main calculation engine for the forecasts, (3) input data, and (4) data assimilation."
+                - text: GIS drawing was introduced and the homepage designs have been changed accordingly. The WRF regional meteorological model has been adopted as the meteorological engine of the system instead of RAMS, and it is combined with the CMAQ air quality model. The emission data used as the input for the system have also been updated. Furthermore, the essential techniques regarding the data assimilation have been examined.
+    - contentinfo [ref=e121]:
+      - link "to Top" [ref=e123] [cursor=pointer]:
+        - /url: "#container"
+      - generic [ref=e124]:
+        - list [ref=e126]:
+          - listitem [ref=e127]:
+            - link "Terms of Use" [ref=e128] [cursor=pointer]:
+              - /url: /en/site-policy/index.html
+            - text: "|"
+          - listitem [ref=e129]:
+            - link "Privacy Policy" [ref=e130] [cursor=pointer]:
+              - /url: /en/about/privacy-policy/index.html
+        - generic [ref=e131]: © 2026 National Institute for Environmental Studies

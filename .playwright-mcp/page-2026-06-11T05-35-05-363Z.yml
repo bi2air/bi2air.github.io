@@ -1,0 +1,183 @@
+- document [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading "NIES Top" [level=1] [ref=e5]:
+          - link "NIES Top" [ref=e6] [cursor=pointer]:
+            - /url: /en
+            - img "NIES Top" [ref=e7]
+        - link "Skip to main content" [ref=e8] [cursor=pointer]:
+          - /url: "#contents"
+        - navigation "Side navigation" [ref=e9]:
+          - navigation [ref=e10]:
+            - menubar [ref=e12]:
+              - menuitem "About" [ref=e14] [cursor=pointer]:
+                - img [ref=e15]
+                - text: About
+              - menuitem "Research Overview" [ref=e19] [cursor=pointer]:
+                - img [ref=e20]
+                - text: Research Overview
+              - menuitem "Public Outreach" [ref=e23] [cursor=pointer]:
+                - img [ref=e24]
+                - text: Public Outreach
+              - menuitem "Research Collaborations & Social Contributions" [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+                - text: Research Collaborations & Social Contributions
+          - link "Careers" [ref=e32] [cursor=pointer]:
+            - /url: /en/careers/index.html
+            - img [ref=e33]
+            - text: Careers
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "FAQ" [ref=e39] [cursor=pointer]:
+                - /url: /en/contact/faq/index.html
+            - listitem [ref=e40]:
+              - link "Contact Us" [ref=e41] [cursor=pointer]:
+                - /url: /en/contact/index.html
+            - listitem [ref=e42]:
+              - link "Access" [ref=e43] [cursor=pointer]:
+                - /url: /en/about/overview/access/index.html
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "YouTube (Opens in a new window) (Opens in a new window)" [ref=e47] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/nieschannel
+                - img "YouTube (Opens in a new window)" [ref=e48]
+                - generic [ref=e49]: (Opens in a new window)
+            - listitem [ref=e50]:
+              - link "LinkedIn (Opens in a new window) (Opens in a new window)" [ref=e51] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/national-institute-for-environmental-studies-nies
+                - img "LinkedIn (Opens in a new window)" [ref=e52]
+                - generic [ref=e53]: (Opens in a new window)
+        - generic [ref=e54]:
+          - button "JP" [ref=e56] [cursor=pointer]
+          - search [ref=e57]:
+            - generic [ref=e58]: Site Search
+            - button "検索" [ref=e59] [cursor=pointer]: Search
+        - button "Open Menu"
+    - main [ref=e60]:
+      - link "Learn about the NIES Pursuing environmental solutions" [ref=e65] [cursor=pointer]:
+        - /url: /en/about/index.html
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: Learn about the NIES
+          - paragraph [ref=e68]:
+            - text: Pursuing
+            - text: environmental
+            - text: solutions
+      - article [ref=e69]:
+        - heading "News & Updates" [level=2] [ref=e73]:
+          - generic [ref=e74]: News & Updates
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - generic [ref=e81]:
+              - time [ref=e82]: Jun. 08, 2026
+              - link "Publication of the Databook on Waste Management in the Republic of Korea and Japan —A Joint Research Outcome with the National Institute of Environmental Research, Republic of Korea—の詳細ページへ" [ref=e84] [cursor=pointer]:
+                - /url: /en/pr/news-and-updates/2026/Press20260608.html
+                - text: Publication of the Databook on Waste Management in the Republic of Korea and Japan
+                - text: —A Joint Research Outcome with the National Institute of Environmental Research, Republic of Korea—
+              - generic [ref=e86]: NEW
+          - listitem [ref=e87]:
+            - generic [ref=e88]:
+              - time [ref=e89]: Jun. 05, 2026
+              - link "The year 2025 version of “ODIAC fossil fuel CO2 emission dataset” (ODIAC2025) is released.の詳細ページへ" [ref=e91] [cursor=pointer]:
+                - /url: https://www.nies.go.jp/doi/10.17595/20170411.001-e.html
+                - text: The year 2025 version of “ODIAC fossil fuel CO2 emission dataset” (ODIAC2025) is released.
+                - generic [ref=e92]: (Opens in a new window)
+              - generic [ref=e94]: NEW
+          - listitem [ref=e95]:
+            - generic [ref=e96]:
+              - time [ref=e97]: May. 21, 2026
+              - 'link "The Lancet MedZero: a single platform for carbon data across every product in healthcareの詳細ページへ" [ref=e99] [cursor=pointer]':
+                - /url: /en/pr/news-and-updates/2026/press20260521.html
+                - text: "The Lancet MedZero: a single platform for carbon data across every product in healthcare"
+          - listitem [ref=e100]:
+            - generic [ref=e101]:
+              - time [ref=e102]: May. 15, 2026
+              - link "The Global Carbon Budget 2025 has been published from Earth System Science Data.の詳細ページへ" [ref=e104] [cursor=pointer]:
+                - /url: https://cger.nies.go.jp/gcp/news/20251113.html
+                - text: The Global Carbon Budget 2025 has been published from Earth System Science Data.
+                - generic [ref=e105]: (Opens in a new window)
+          - listitem [ref=e106]:
+            - generic [ref=e107]:
+              - time [ref=e108]: May. 12, 2026
+              - link "Solar-induced chlorophyll fluorescence data in Fuji-Hokuroku site are released.の詳細ページへ" [ref=e110] [cursor=pointer]:
+                - /url: https://db.cger.nies.go.jp/ged/en/index.html
+                - text: Solar-induced chlorophyll fluorescence data in Fuji-Hokuroku site are released.
+                - generic [ref=e111]: (Opens in a new window)
+        - link "News & Updates List" [ref=e119] [cursor=pointer]:
+          - /url: /en/pr/news-and-updates/index.html
+          - generic [ref=e120]: News & Updates List
+        - generic [ref=e121]:
+          - heading "Research Activities" [level=2] [ref=e123]:
+            - generic [ref=e124]: Research Activities
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - heading "Learn about Our Research" [level=3] [ref=e127]:
+                - generic [ref=e128]: Learn about Our Research
+              - list [ref=e131]:
+                - listitem [ref=e132]:
+                  - link "Research Overview" [ref=e133] [cursor=pointer]:
+                    - /url: /en/research/index.html
+                    - generic [ref=e137]: Research Overview
+            - generic [ref=e138]:
+              - heading "Find a Researcher" [level=3] [ref=e139]:
+                - generic [ref=e140]: Find a Researcher
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - link "Our Researchers" [ref=e145] [cursor=pointer]:
+                    - /url: /en/research/researchers/index.html
+                    - generic [ref=e149]: Our Researchers
+            - generic [ref=e150]:
+              - heading "Learn about Our Organization" [level=3] [ref=e151]:
+                - generic [ref=e152]: Learn about Our Organization
+              - list [ref=e155]:
+                - listitem [ref=e156]:
+                  - link "Organization" [ref=e157] [cursor=pointer]:
+                    - /url: /en/about/organization/index.html
+                    - generic [ref=e161]: Organization
+        - generic [ref=e162]:
+          - heading "Databases & Tools" [level=2] [ref=e164]:
+            - generic [ref=e165]: Databases & Tools
+          - generic [ref=e167]:
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - link "Global Environmental Database (Opens in a new window)" [ref=e171] [cursor=pointer]:
+                  - /url: https://db.cger.nies.go.jp/ged/en/index.html
+                  - generic [ref=e175]: Global Environmental Database
+                  - generic [ref=e176]: (Opens in a new window)
+              - listitem [ref=e177]:
+                - link "GHG Inventories" [ref=e178] [cursor=pointer]:
+                  - /url: /gio/en/aboutghg/index.html
+                  - generic [ref=e182]: GHG Inventories
+              - listitem [ref=e183]:
+                - link "Invasive Species of Japan (Opens in a new window)" [ref=e184] [cursor=pointer]:
+                  - /url: http://www.nies.go.jp/biodiversity/invasive/resources/world-en.html
+                  - generic [ref=e188]: Invasive Species of Japan
+                  - generic [ref=e189]: (Opens in a new window)
+              - listitem [ref=e190]:
+                - link "Chemical Substance Database (Webkis-Plus) in Japanese (Opens in a new window)" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.nies.go.jp/kisplus/
+                  - generic [ref=e194]:
+                    - generic [ref=e195]: Chemical Substance Database (Webkis-Plus)
+                    - generic [ref=e196]: in Japanese
+                  - generic [ref=e197]: (Opens in a new window)
+              - listitem [ref=e198]:
+                - link "Decarbonized Lifestyle Options for 52 Japanese cities (Opens in a new window)" [ref=e199] [cursor=pointer]:
+                  - /url: https://lifestyle.nies.go.jp/en/
+                  - generic [ref=e203]: Decarbonized Lifestyle Options for 52 Japanese cities
+                  - generic [ref=e204]: (Opens in a new window)
+            - link "Databases & Tools List" [ref=e209] [cursor=pointer]:
+              - /url: /en/research/database-tools/index.html
+              - generic [ref=e210]: Databases & Tools List
+    - contentinfo [ref=e211]:
+      - link "to Top" [ref=e213] [cursor=pointer]:
+        - /url: "#container"
+      - generic [ref=e214]:
+        - list [ref=e216]:
+          - listitem [ref=e217]:
+            - link "Terms of Use" [ref=e218] [cursor=pointer]:
+              - /url: /en/site-policy/index.html
+            - text: "|"
+          - listitem [ref=e219]:
+            - link "Privacy Policy" [ref=e220] [cursor=pointer]:
+              - /url: /en/about/privacy-policy/index.html
+        - generic [ref=e221]: © 2026 National Institute for Environmental Studies

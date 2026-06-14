@@ -1,0 +1,15 @@
+# Local preview override:
+# include private content (docs/blog) when testing locally.
+exclude:
+  - bioinfo
+  - skyi
+  - wayback_latest_b-io_info
+  - doc-work
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

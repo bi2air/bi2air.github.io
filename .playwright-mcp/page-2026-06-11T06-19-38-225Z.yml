@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: http://www.egu.eu
+      - link "Geoscientific Model Development" [ref=e11] [cursor=pointer]:
+        - /url: https://www.geoscientific-model-development.net/
+    - generic [ref=e12]:
+      - navigation [ref=e14]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "" [ref=e20] [cursor=pointer]:
+              - /url: https://www.geoscientific-model-development.net/home.html
+              - generic "Home" [ref=e21]: 
+          - listitem [ref=e22]:
+            - button "Articles & preprints" [ref=e23] [cursor=pointer]: Articles & preprints
+          - listitem [ref=e24]:
+            - link "Submission" [ref=e25] [cursor=pointer]:
+              - /url: https://www.geoscientific-model-development.net/submission.html
+          - listitem [ref=e26]:
+            - button "Policies" [ref=e27] [cursor=pointer]: Policies
+          - listitem [ref=e28]:
+            - button "Peer-review process" [ref=e29] [cursor=pointer]: Peer-review process
+          - listitem [ref=e30]:
+            - link "Editorial board" [ref=e31] [cursor=pointer]:
+              - /url: https://www.geoscientific-model-development.net/editorial_board.html
+          - listitem [ref=e32]:
+            - button "About" [ref=e33] [cursor=pointer]: About
+          - listitem [ref=e34]:
+            - link "EGU publications" [ref=e35] [cursor=pointer]:
+              - /url: https://www.geoscientific-model-development.net/egu_publications.html
+          - listitem [ref=e36]:
+            - link "" [ref=e37] [cursor=pointer]:
+              - /url: https://editor.copernicus.org/GMD/
+              - generic "Login" [ref=e38]: 
+      - heading "Article" [level=1] [ref=e44]
+      - generic [ref=e47]:
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Articles" [ref=e52] [cursor=pointer]:
+              - /url: https://gmd.copernicus.org/
+          - listitem [ref=e53]:
+            - text: /
+            - link "Volume 10, issue 9" [ref=e54] [cursor=pointer]:
+              - /url: https://gmd.copernicus.org/articles/10/issue9.html
+          - listitem [ref=e55]: / GMD, 10, 3225–3253, 2017
+        - text: 
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - button "" [ref=e60] [cursor=pointer]:
+              - generic [ref=e61]: 
+            - searchbox "Search" [ref=e63]
+            - button "" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+          - generic: 
+  - main [ref=e67]:
+    - generic [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - text:  
+            - generic [ref=e75]:
+              - generic [ref=e76]: https://doi.org/10.5194/gmd-10-3225-2017
+              - generic [ref=e77]:
+                - text: © Author(s) 2017. This work is distributed under
+                - text: the Creative Commons Attribution 3.0 License.
+          - generic [ref=e78]:
+            - text:  
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - link "Article" [ref=e83] [cursor=pointer]:
+                  - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017.html
+              - listitem [ref=e84]:
+                - link "Peer review" [ref=e86] [cursor=pointer]:
+                  - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017-discussion.html
+              - listitem [ref=e87]:
+                - link "Metrics" [ref=e89] [cursor=pointer]:
+                  - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017-metrics.html
+              - listitem [ref=e90]:
+                - link "Related articles" [ref=e92] [cursor=pointer]:
+                  - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017-relations.html
+        - generic [ref=e93]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: Development and technical paper
+            - generic [ref=e97]:
+              - text: "|"
+              - strong [ref=e98]: Highlight paper
+            - generic [ref=e99]:
+              - text: "|"
+              - link [ref=e100] [cursor=pointer]:
+                - /url: https://creativecommons.org/licenses/by/3.0/
+                - img [ref=e101]
+          - generic [ref=e102]: 04 Sep 2017
+        - link [ref=e103] [cursor=pointer]:
+          - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017-avatar-web.png
+          - img [ref=e104]
+        - 'heading "JRAero: the Japanese Reanalysis for Aerosol v1.0" [level=1] [ref=e105]'
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - text: Keiya Yumimoto
+              - link "" [ref=e109] [cursor=pointer]:
+                - /url: mailto:yumimoto@riam.kyushu-u.ac.jp
+                - generic [ref=e110]: 
+            - text: ","
+          - generic [ref=e111]: Taichu Y. Tanaka,
+          - generic [ref=e112]: Naga Oshima,
+          - generic [ref=e113]: and Takashi Maki
+        - text: 
+        - paragraph [ref=e115]:
+          - strong [ref=e116]: Abstract.
+          - text: A global aerosol reanalysis product named the Japanese Reanalysis for Aerosol (JRAero) was constructed by the Meteorological Research Institute (MRI) of the Japan Meteorological Agency. The reanalysis employs a global aerosol transport model developed by MRI and a two-dimensional variational data assimilation method. It assimilates maps of aerosol optical depth (AOD) from MODIS onboard the Terra and Aqua satellites every 6 h and has a TL159 horizontal resolution (approximately 1.1° × 1.1°). This paper describes the aerosol transport model, the data assimilation system, the observation data, and the setup of the reanalysis and examines its quality with AOD observations.
+          - text: Comparisons with MODIS AODs that were used for the assimilation showed that the reanalysis showed much better agreement than the free run (without assimilation) of the aerosol model and improved under- and overestimation in the free run, thus confirming the accuracy of the data assimilation system. The reanalysis had a root mean square error (RMSE) of 0.05, a correlation coefficient (R) of 0.96, a mean fractional error (MFE) of 23.7 %, a mean fractional bias (MFB) of 2.8 %, and an index of agreement (IOA) of 0.98. The better agreement of the first guess, compared to the free run, indicates that aerosol fields obtained by the reanalysis can improve short-term forecasts.
+          - text: AOD fields from the reanalysis also agreed well with monthly averaged global AODs obtained by the Aerosol Robotic Network (AERONET) (RMSE = 0.08, R = 0. 90, MFE = 28.1 %, MFB = 0.6 %, and IOA = 0.93). Site-by-site comparison showed that the reanalysis was considerably better than the free run; RMSE was less than 0.10 at 86.4 % of the 181 AERONET sites, R was greater than 0.90 at 40.7 % of the sites, and IOA was greater than 0.90 at 43.4 % of the sites. However, the reanalysis tended to have a negative bias at urban sites (in particular, megacities in industrializing countries) and a positive bias at mountain sites, possibly because of insufficient anthropogenic emissions data, the coarse model resolution, and the difference in representativeness between satellite and ground-based observations.
+        - text: 
+        - generic [ref=e117]:
+          - strong [ref=e118]: How to cite.
+          - text: "Yumimoto, K., Tanaka, T. Y., Oshima, N., and Maki, T.: JRAero: the Japanese Reanalysis for Aerosol v1.0, Geosci. Model Dev., 10, 3225–3253, https://doi.org/10.5194/gmd-10-3225-2017, 2017."
+        - generic [ref=e120]: "Received: 15 Mar 2017 – Discussion started: 22 Mar 2017 – Revised: 13 Jun 2017 – Accepted: 03 Jul 2017 – Published: 04 Sep 2017"
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: Download
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - link "Article" [ref=e127] [cursor=pointer]:
+                - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017.pdf
+              - text: (13467 KB)
+            - listitem [ref=e128]:
+              - link "Full-text XML" [ref=e129] [cursor=pointer]:
+                - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017.xml
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "BibTeX" [ref=e133] [cursor=pointer]:
+                - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017.bib
+            - listitem [ref=e134]:
+              - link "EndNote" [ref=e135] [cursor=pointer]:
+                - /url: https://gmd.copernicus.org/articles/10/3225/2017/gmd-10-3225-2017.ris
+        - generic [ref=e136]:
+          - generic [ref=e137]: Short summary
+          - generic [ref=e138]: A global aerosol reanalysis product named the Japanese Reanalysis for Aerosol (JRAero) was...
+          - link "Read more" [ref=e140] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e141]:
+          - generic [ref=e142]: Share
+          - generic [ref=e143]:
+            - link "Mendeley" [ref=e145] [cursor=pointer]:
+              - /url: https://www.mendeley.com/import/?url=https%3A%2F%2Fgmd.copernicus.org%2Farticles%2F10%2F3225%2F2017%2F
+              - img "Mendeley" [ref=e146]
+            - link "Reddit" [ref=e148] [cursor=pointer]:
+              - /url: https://www.reddit.com/submit?url=https%3A%2F%2Fgmd.copernicus.org%2Farticles%2F10%2F3225%2F2017%2F
+              - img "Reddit" [ref=e149]
+            - link "Facebook" [ref=e151] [cursor=pointer]:
+              - /url: https://www.facebook.com/share.php?u=https%3A%2F%2Fgmd.copernicus.org%2Farticles%2F10%2F3225%2F2017%2F&t=JRAero%3A+the+Japanese+Reanalysis+for+Aerosol+v1.0
+              - img "Facebook" [ref=e152]
+            - link "LinkedIn" [ref=e154] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgmd.copernicus.org%2Farticles%2F10%2F3225%2F2017%2F&title=JRAero%3A+the+Japanese+Reanalysis+for+Aerosol+v1.0
+              - img "LinkedIn" [ref=e155]
+            - text: 
+  - contentinfo [ref=e156]:
+    - generic [ref=e159]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: Geoscientific Model Development
+        - paragraph [ref=e163]: An interactive open-access journal of the European Geosciences Union
+      - generic [ref=e165]:
+        - link [ref=e168] [cursor=pointer]:
+          - /url: http://www.egu.eu/
+        - link [ref=e171] [cursor=pointer]:
+          - /url: https://publications.copernicus.org/
+    - generic [ref=e174]:
+      - generic [ref=e177]:
+        - link " " [ref=e178] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by/4.0/
+          - generic [ref=e179]: 
+          - generic [ref=e180]: 
+        - text: All site content, except where otherwise noted, is licensed under the
+        - link "Creative Commons Attribution 4.0 License" [ref=e181] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by/4.0/
+        - text: .
+      - generic [ref=e183]:
+        - link "Contact" [ref=e185] [cursor=pointer]:
+          - /url: https://www.geoscientific-model-development.net/about/contact.html
+        - generic [ref=e186]: "|"
+        - link "Imprint" [ref=e188] [cursor=pointer]:
+          - /url: https://www.geoscientific-model-development.net/imprint.html
+        - generic [ref=e189]: "|"
+        - link "Data protection" [ref=e191] [cursor=pointer]:
+          - /url: https://www.copernicus.org/data_protection.html

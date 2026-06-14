@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "気象庁" [level=1] [ref=e4]:
+      - link "気象庁" [ref=e5] [cursor=pointer]:
+        - /url: https://www.jma.go.jp/
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - heading "404 Not Found" [level=1] [ref=e8]
+      - generic [ref=e9]:
+        - heading "指定されたページは存在しません" [level=2] [ref=e10]
+        - paragraph [ref=e11]:
+          - text: 指定されたページは、削除もしくは移動した可能性があります。アドレス（URL）をご確認の上再度アクセスするか、
+          - link "トップページ" [ref=e12] [cursor=pointer]:
+            - /url: https://www.jma.go.jp/
+          - text: からご利用ください。
+  - contentinfo [ref=e13]:
+    - paragraph [ref=e15]: Japan Meteorological Agency, Government of Japan

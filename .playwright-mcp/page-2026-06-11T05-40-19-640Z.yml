@@ -1,0 +1,272 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip to links":
+    - link "Skip to navigation" [ref=e2] [cursor=pointer]:
+      - /url: "#main-navigation"
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+  - paragraph [ref=e6]: A NSW Government website
+  - banner [ref=e7]:
+    - link "Air Quality" [ref=e11] [cursor=pointer]:
+      - /url: https://www.airquality.nsw.gov.au
+      - img [ref=e12]
+      - generic [ref=e28]: Air Quality
+  - alert [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading [level=2]
+        - paragraph [ref=e32]:
+          - strong [ref=e33]: HRBs and bushfires
+        - paragraph [ref=e34]: Over the coming months, smoke from hazard reduction burns and bushfires may be experienced across NSW and may impact air quality in your area.
+        - paragraph [ref=e35]:
+          - text: Please follow the
+          - link "Link health advice" [ref=e36] [cursor=pointer]:
+            - /url: https://www.airquality.nsw.gov.au/health-advice
+            - text: health advice
+          - text: and download the
+          - link "Link Hazards Near Me" [ref=e37] [cursor=pointer]:
+            - /url: https://www.rfs.nsw.gov.au/news-and-media/stay-up-to-date
+            - text: Hazards Near Me
+          - text: app or check the
+          - link "Link Fire Near Me" [ref=e38] [cursor=pointer]:
+            - /url: https://www.rfs.nsw.gov.au/fire-information/fires-near-me
+            - text: Fires Near Me
+          - text: website to find out more information.
+      - button "Close message" [ref=e39]:
+        - img [ref=e40]
+        - generic [ref=e42]: Close message
+  - navigation "Main menu" [ref=e43]:
+    - list [ref=e44]:
+      - listitem [ref=e45]:
+        - link "Air quality in my area" [ref=e46] [cursor=pointer]:
+          - /url: https://www.airquality.nsw.gov.au/air-quality-in-my-area
+          - generic [ref=e47]: Air quality in my area
+      - listitem [ref=e48]:
+        - link "Sydney forecast" [ref=e49] [cursor=pointer]:
+          - /url: https://www.airquality.nsw.gov.au/sydney-forecast
+          - generic [ref=e50]: Sydney forecast
+      - listitem [ref=e51]:
+        - link "Health advice" [ref=e52] [cursor=pointer]:
+          - /url: https://www.airquality.nsw.gov.au/health-advice
+          - generic [ref=e53]: Health advice
+      - listitem [ref=e54]:
+        - link "Types of air pollution" [ref=e55] [cursor=pointer]:
+          - /url: https://www.airquality.nsw.gov.au/types-of-air-pollution
+          - generic [ref=e56]: Types of air pollution
+      - listitem [ref=e57]:
+        - link "Air quality data services" [ref=e58] [cursor=pointer]:
+          - /url: https://www.airquality.nsw.gov.au/air-quality-data-services
+          - generic [ref=e59]: Air quality data services
+  - main [ref=e60]:
+    - heading "Air quality data services" [level=1] [ref=e63]
+    - generic [ref=e64]:
+      - navigation "Breadcrumbs" [ref=e66]:
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "Home" [ref=e69] [cursor=pointer]:
+              - /url: https://www.airquality.nsw.gov.au
+          - listitem [ref=e70]:
+            - link "Air quality data services":
+              - /url: https://www.airquality.nsw.gov.au/air-quality-data-services
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - paragraph [ref=e76]:
+            - strong [ref=e77]: Download and stream NSW air quality and meteorological data.
+          - generic [ref=e79]:
+            - paragraph [ref=e80]: Our data services facility delivers air quality and meteorological data from the NSW Air Quality Monitoring Network. This large network of stations continuously measures a range of air pollutants, including ozone (O₃), nitrogen dioxide (NO₂), sulfur dioxide (SO₂), carbon monoxide (CO), particulate matter (PM10 and PM2.5), and meteorological parameters such as temperature, wind speed and direction, humidity, and solar radiation.
+            - paragraph [ref=e81]: The data collected is quality-assured and made freely available on this website in various formats, supporting public access, research, and decision-making related to air quality and environmental health.
+            - paragraph [ref=e82]:
+              - strong [ref=e83]: "There are currently 3 main facilities for accessing customised air quality and meteorology data:"
+            - region [ref=e84]:
+              - table [ref=e85]:
+                - rowgroup [ref=e86]:
+                  - 'row "Icon: search and download air quality data Data download facility provides an easy-to-use graphical interface to search and download historical data." [ref=e87]':
+                    - 'cell "Icon: search and download air quality data" [ref=e88]':
+                      - paragraph [ref=e89]:
+                        - 'link "Icon: search and download air quality data" [ref=e90] [cursor=pointer]':
+                          - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/data-download-facility
+                          - 'img "Icon: search and download air quality data" [ref=e91]'
+                    - cell "Data download facility provides an easy-to-use graphical interface to search and download historical data." [ref=e92]:
+                      - paragraph [ref=e93]:
+                        - link "Data download facility" [ref=e94] [cursor=pointer]:
+                          - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/data-download-facility
+                        - text: provides an easy-to-use graphical interface to search and download historical data.
+                  - 'row "Icon: Stream real time air quality data Application Programming Interface (API) provides the capability to stream data to a third-party application like a mobile app, in addition to searching and downloading historical data." [ref=e95]':
+                    - 'cell "Icon: Stream real time air quality data" [ref=e96]':
+                      - paragraph [ref=e97]:
+                        - 'link "Icon: Stream real time air quality data" [ref=e98] [cursor=pointer]':
+                          - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/air-quality-api
+                          - 'img "Icon: Stream real time air quality data" [ref=e99]'
+                    - cell "Application Programming Interface (API) provides the capability to stream data to a third-party application like a mobile app, in addition to searching and downloading historical data." [ref=e100]:
+                      - paragraph [ref=e101]:
+                        - link "Application Programming Interface (API)" [ref=e102] [cursor=pointer]:
+                          - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/air-quality-api
+                        - text: provides the capability to stream data to a third-party application like a mobile app, in addition to searching and downloading historical data.
+                  - row "Location icon Air quality data explorer is a map-based data search and download platform, which integrates data from the air quality API and RFS Fires-near-me. See also the SEED story for this dataset." [ref=e103]:
+                    - cell "Location icon" [ref=e104]:
+                      - link "Location icon" [ref=e105] [cursor=pointer]:
+                        - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/data-explorer
+                        - img "Location icon" [ref=e106]
+                    - cell "Air quality data explorer is a map-based data search and download platform, which integrates data from the air quality API and RFS Fires-near-me. See also the SEED story for this dataset." [ref=e107]:
+                      - link "Air quality data explorer" [ref=e108] [cursor=pointer]:
+                        - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/data-explorer
+                      - text: is a map-based data search and download platform, which integrates data from the air quality API and RFS Fires-near-me. See also the
+                      - link "SEED story for this dataset" [ref=e109] [cursor=pointer]:
+                        - /url: https://www.seed.nsw.gov.au/news-and-resources/news/featured-dataset-nsw-air-quality-data
+                      - text: .
+            - paragraph [ref=e110]:
+              - text: Our air quality data services are accessible via our mobile-friendly website where you may view live data (
+              - link "Air Quality NSW" [ref=e111] [cursor=pointer]:
+                - /url: https://www.airquality.nsw.gov.au/
+              - text: ), subscribe to air quality alerts (email/SMS)
+              - link "here" [ref=e112] [cursor=pointer]:
+                - /url: https://www.airquality.nsw.gov.au/subscribe-to-air-quality-updates
+              - text: ", and also find the 3 above-mentioned data access facilities."
+            - paragraph [ref=e113]:
+              - link "Air quality data services infographic" [ref=e114] [cursor=pointer]:
+                - /url: https://www.airquality.nsw.gov.au/__data/assets/image/0003/346584/air-quality-data-services-infographic-dpie.jpg
+                - img "Air quality data services infographic" [ref=e115]
+          - generic [ref=e118]:
+            - img [ref=e119]
+            - generic [ref=e121]:
+              - text: Contact us
+              - paragraph
+              - list [ref=e122]:
+                - listitem [ref=e123]:
+                  - text: "Feedback or problems with the API:"
+                  - link "nswairAPI@environment.nsw.gov.au" [ref=e124] [cursor=pointer]:
+                    - /url: mailto:nswairAPI@environment.nsw.gov.au
+                - listitem [ref=e125]:
+                  - text: "More information:"
+                  - link "info@environment.nsw.gov.au" [ref=e126] [cursor=pointer]:
+                    - /url: mailto:info@environment.nsw.gov.au
+              - paragraph
+          - generic [ref=e129]:
+            - img [ref=e130]
+            - generic [ref=e132]:
+              - text: Contact for broader context on air quality monitoring in NSW
+              - paragraph
+              - list [ref=e133]:
+                - listitem [ref=e134]:
+                  - text: view
+                  - link "hourly updated air quality data" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.dpie.nsw.gov.au/air-quality-old/air-quality-concentration-data-updated-hourly-old
+                - listitem [ref=e136]:
+                  - text: the
+                  - link "NSW Air Quality Monitoring Network" [ref=e137] [cursor=pointer]:
+                    - /url: https://www.environment.nsw.gov.au/topics/air/monitoring-air-quality
+                - listitem [ref=e138]:
+                  - text: "monitoring locations in the network:"
+                  - link "Download the network site information (XLSX 66KB)" [ref=e139] [cursor=pointer]:
+                    - /url: https://www.airquality.nsw.gov.au/__data/assets/excel_doc/0003/636717/air-quality-monitoring-sites-summary.xlsx
+                - listitem [ref=e140]:
+                  - link "pollutants we monitor, units we report in and glossary of air quality terms" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.environment.nsw.gov.au/topics/air/understanding-air-quality-data
+              - paragraph
+          - generic [ref=e144]:
+            - img [ref=e145]
+            - generic [ref=e147]:
+              - text: Information
+              - paragraph
+              - paragraph [ref=e148]:
+                - strong [ref=e149]:
+                  - text: See the
+                  - link "data licence statement" [ref=e150] [cursor=pointer]:
+                    - /url: https://www.airquality.nsw.gov.au/data-licence-statement
+                  - text: for information about using and attributing these data.
+              - paragraph
+        - complementary [ref=e151]:
+          - generic [ref=e153]:
+            - heading "In this section" [level=4] [ref=e155]
+            - list [ref=e157]:
+              - listitem [ref=e158]:
+                - link "Air quality data services" [ref=e159] [cursor=pointer]:
+                  - /url: https://www.airquality.nsw.gov.au/air-quality-data-services
+                  - text: Air quality data services
+                  - img [ref=e160]
+              - listitem [ref=e162]:
+                - link "Air quality API" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/air-quality-api
+                  - text: Air quality API
+                  - img [ref=e164]
+              - listitem [ref=e166]:
+                - link "Data download facility" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/data-download-facility
+                  - text: Data download facility
+                  - img [ref=e168]
+              - listitem [ref=e170]:
+                - link "Data explorer" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.airquality.nsw.gov.au/air-quality-data-services/data-explorer
+                  - text: Data explorer
+                  - img [ref=e172]
+          - generic [ref=e176]:
+            - heading "Air quality concentration data" [level=4] [ref=e177]
+            - paragraph [ref=e178]: This data shows detailed pollutant concentrations for all air quality monitoring stations in NSW.
+            - link "View data" [ref=e179] [cursor=pointer]:
+              - /url: https://www.airquality.nsw.gov.au/air-quality-in-my-area/concentration-data
+    - generic [ref=e180]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - heading "More information" [level=3] [ref=e184]
+          - list [ref=e185]:
+            - listitem [ref=e186]:
+              - link "Air quality data services" [ref=e187] [cursor=pointer]:
+                - /url: https://www.dpie.nsw.gov.au/air-quality/air-quality-data-services
+            - listitem [ref=e188]:
+              - link "Data licence statement" [ref=e189] [cursor=pointer]:
+                - /url: https://www.airquality.nsw.gov.au/data-licence-statement
+            - listitem [ref=e190]:
+              - link "Air quality research" [ref=e191] [cursor=pointer]:
+                - /url: https://www.environment.nsw.gov.au/topics/air/research
+            - listitem [ref=e192]:
+              - link "NSW air quality statements" [ref=e193] [cursor=pointer]:
+                - /url: https://www.environment.nsw.gov.au/topics/air/nsw-air-quality-statements
+            - listitem [ref=e194]:
+              - link "Publications" [ref=e195] [cursor=pointer]:
+                - /url: https://www.environment.nsw.gov.au/topics/air/air-publications
+        - generic [ref=e196]:
+          - heading "About this website" [level=3] [ref=e197]
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - link "Accessibility" [ref=e200] [cursor=pointer]:
+                - /url: https://www.dpie.nsw.gov.au/accessibility-archived
+            - listitem [ref=e201]:
+              - link "Copyright and disclaimer" [ref=e202] [cursor=pointer]:
+                - /url: https://www.dpie.nsw.gov.au/copyright-archived
+            - listitem [ref=e203]:
+              - link "Privacy and security" [ref=e204] [cursor=pointer]:
+                - /url: https://www.dpie.nsw.gov.au/privacy-archived
+        - generic [ref=e205]:
+          - heading "Contact us" [level=3] [ref=e206]
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "1300 361 967" [ref=e209] [cursor=pointer]:
+                - /url: tel:1300361967
+            - listitem [ref=e210]:
+              - link "Email" [ref=e211] [cursor=pointer]:
+                - /url: mailto:nswairinfo@environment.nsw.gov.au
+            - listitem [ref=e212]:
+              - link "Have your say" [ref=e213] [cursor=pointer]:
+                - /url: https://www.environment.nsw.gov.au/get-involved/have-your-say
+            - listitem [ref=e214]:
+              - link "Feedback" [ref=e215] [cursor=pointer]:
+                - /url: https://www.environment.nsw.gov.au/about-us/contact-us/feedback-or-complaint
+        - generic [ref=e216]:
+          - heading "NSW Government" [level=3] [ref=e217]
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - link "I work for NSW" [ref=e220] [cursor=pointer]:
+                - /url: https://iworkfor.nsw.gov.au/
+            - listitem [ref=e221]:
+              - link "Projects and initiatives" [ref=e222] [cursor=pointer]:
+                - /url: https://www.nsw.gov.au/nsw-government/projects-and-initiatives
+            - listitem [ref=e223]:
+              - link "NSW Ministers" [ref=e224] [cursor=pointer]:
+                - /url: https://www.nsw.gov.au/nsw-government/ministers
+      - generic [ref=e226]:
+        - paragraph [ref=e227]: We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued connection to their country and culture.
+        - separator [ref=e228]
+        - generic:
+          - list
+          - generic:
+            - list
+        - paragraph [ref=e229]: Copyright © 2026

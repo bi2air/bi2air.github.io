@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: 
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+    - text: 
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link " Liên hệ" [ref=e12] [cursor=pointer]:
+              - /url: /lien-he
+              - generic [ref=e13]: 
+              - text: Liên hệ
+          - listitem [ref=e14]: "|"
+          - listitem [ref=e15]:
+            - link " Liên kết" [ref=e16] [cursor=pointer]:
+              - /url: /lien-ket
+              - generic [ref=e17]: 
+              - text: Liên kết
+          - listitem [ref=e18]: "|"
+          - listitem [ref=e19]:
+            - link [ref=e20] [cursor=pointer]:
+              - /url: /lang/en
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link " Trang chủ" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e27]: 
+              - text: Trang chủ
+          - listitem [ref=e28]:
+            - link " Tin tức" [ref=e29] [cursor=pointer]:
+              - /url: /thong-tin
+              - generic [ref=e30]: 
+              - text: Tin tức
+          - listitem [ref=e31]:
+            - link " Thư viện" [ref=e32] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e33]: 
+              - text: Thư viện
+      - text: 
+  - generic [ref=e37]:
+    - heading "404" [level=1] [ref=e38]
+    - heading "Page Not Found" [level=3] [ref=e39]
+    - generic [ref=e40]:
+      - text: Sorry, but the page you are looking for has note been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in our app.
+      - form [ref=e41]:
+        - textbox "Search for page" [ref=e43]
+        - button "Search" [ref=e44] [cursor=pointer]
+  - contentinfo [ref=e45]

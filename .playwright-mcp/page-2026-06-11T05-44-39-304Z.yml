@@ -1,0 +1,345 @@
+- generic [ref=e3]:
+  - generic:
+    - link "Skip to main content":
+      - /url: "#rpl-above-body"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Primary navigation" [ref=e7]:
+        - generic [ref=e9]:
+          - link [ref=e11] [cursor=pointer]:
+            - /url: /
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - button "Open Menu" [ref=e14] [cursor=pointer]:
+                - generic [ref=e15]: Menu⁠
+            - listitem [ref=e19]:
+              - button "Open Search" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - text: ⁠
+                  - img [ref=e24]
+      - navigation "breadcrumbs" [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "Home" [ref=e29] [cursor=pointer]:
+              - /url: /
+            - text: ">"
+          - listitem [ref=e30]:
+            - link "Our environment" [ref=e31] [cursor=pointer]:
+              - /url: /our-environment
+            - text: ">"
+          - listitem [ref=e32]:
+            - link "Check air and water quality" [ref=e33] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: ">"
+          - listitem [ref=e34]: How we monitor air quality
+    - generic [ref=e43]:
+      - heading "How we monitor air quality" [level=1] [ref=e44]
+      - paragraph [ref=e46]: We have monitoring sites across Victoria. Our air monitoring equipment measures general air quality, smoke and dust. It also measures air quality related to pollution incidents.
+    - generic [ref=e49]:
+      - main [ref=e50]:
+        - generic [ref=e51]:
+          - heading "On this page" [level=2] [ref=e52]
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Standard monitoring sites" [ref=e55] [cursor=pointer]:
+                - /url: "#standard-monitoring-sites"
+                - generic [ref=e56]: Standard monitoring sites
+            - listitem [ref=e57]:
+              - link "Sensor air monitoring sites" [ref=e58] [cursor=pointer]:
+                - /url: "#sensor-air-monitoring-sites"
+                - generic [ref=e59]: Sensor air monitoring sites
+            - listitem [ref=e60]:
+              - link "Incident air monitoring sites" [ref=e61] [cursor=pointer]:
+                - /url: "#incident-air-monitoring-sites"
+                - generic [ref=e62]: Incident air monitoring sites
+        - paragraph [ref=e66]:
+          - link "Check air and water quality" [ref=e67] [cursor=pointer]:
+            - /url: /check-air-and-water-quality
+          - text: to see the current and forecast air quality for Victoria.
+        - generic [ref=e69]:
+          - paragraph [ref=e70]:
+            - text: We monitor general (ambient), local and incident-related air quality around Victoria through
+            - strong [ref=e71]: AirWatch
+            - text: .
+          - paragraph [ref=e72]: "AirWatch is our reporting tool that helps you stay informed about local air quality and how to protect your health. It provides:"
+          - list [ref=e73]:
+            - listitem [ref=e74]: hourly air quality data for different pollutants at each site, including any incident sites
+            - listitem [ref=e75]: hourly air quality ratings for each site
+            - listitem [ref=e76]: daily regional air quality forecasts.
+          - paragraph [ref=e77]: AirWatch collects data 24/7 all year round, giving you real-time, up-to-date information across Victoria.
+          - paragraph [ref=e78]: We use different types of monitoring equipment for different purposes. Some equipment is fixed and some is mobile.
+          - paragraph [ref=e79]: "Data collected from our monitoring equipment supports our daily air quality forecasts. It also helps us provide air quality category advice for the community and people sensitive to air pollution. To understand how you can minimise your exposure to air pollution, learn how we:"
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - link "measure air pollution" [ref=e82] [cursor=pointer]:
+                - /url: /how-we-measure-air-pollution
+            - listitem [ref=e83]:
+              - link "calculate air quality categories" [ref=e84] [cursor=pointer]:
+                - /url: /air-quality-categories
+            - listitem [ref=e85]:
+              - link "forecast air quality" [ref=e86] [cursor=pointer]:
+                - /url: /how-we-forecast-air-quality
+              - text: .
+          - paragraph [ref=e87]:
+            - text: We meet all Australian Standards for air quality measurement and are
+            - link:
+              - /url: https://www.nata.com.au/entity_scope/?q1=c1o&str=&&AccNo=15119
+            - text: accredited with the National Association of Testing Authorities (NATA). To learn more, visit
+            - link "Air quality categories" [ref=e88] [cursor=pointer]:
+              - /url: /air-quality-categories
+            - text: .
+          - paragraph [ref=e89]: "We're committed to reporting air quality information to the Victorian community. We report through:"
+          - list [ref=e90]:
+            - listitem [ref=e91]:
+              - link "Check air and water quality map" [ref=e92] [cursor=pointer]:
+                - /url: /check-air-and-water-quality
+              - text: – updated hourly with data collected from our standard and sensor monitoring sites, and daily at 5 pm with forecasts for the next 24 hours
+            - listitem [ref=e93]:
+              - link "air alerts" [ref=e94] [cursor=pointer]:
+                - /url: /air-alerts
+              - text: for issues or incidents affecting air quality in a specific area or information we need to highlight
+            - listitem [ref=e95]:
+              - text: our
+              - link "Facebook" [ref=e96] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+              - text: account
+            - listitem [ref=e97]:
+              - text: annual reporting on Victoria’s ambient air quality via
+              - link "DataVic" [ref=e98] [cursor=pointer]:
+                - /url: https://discover.data.vic.gov.au/dataset/epa-air-watch-all-sites-air-quality-hourly-averages-yearly
+              - text: (hourly averages for all sites) and the
+              - link "National Environment Protection Measures (NEPMs)" [ref=e99] [cursor=pointer]:
+                - /url: https://www.nepc.gov.au/nepms
+              - text: annual reporting.
+          - paragraph [ref=e100]:
+            - link "Contact us" [ref=e101] [cursor=pointer]:
+              - /url: /contact-us
+            - text: to request data not yet available on DataVic.
+        - generic [ref=e103]:
+          - heading "Standard monitoring sites" [level=2] [ref=e104]
+          - paragraph [ref=e105]: We have air monitoring equipment at general and local condition sites. This equipment gives us information about ambient air quality and pollution. We've been monitoring general (ambient) air quality at some locations for more than 30 years.
+          - heading "General condition sites" [level=3] [ref=e106]
+          - paragraph [ref=e107]: These sites provide information on general air quality and pollution over a large area. They also measure over long time periods to help us understand long-term trends in air pollution. They give us the big picture about air quality.
+          - paragraph [ref=e108]: These sites are strategically located around Victoria. We place them in population centres that represent the air quality experienced by most people.
+          - paragraph [ref=e109]: Watch our video to learn what happens inside one of our general condition sites.
+          - generic [ref=e110]:
+            - figure [ref=e111]:
+              - iframe [ref=e113]:
+                - generic "YouTube Video Player" [ref=f44e3]
+            - link "View transcript" [ref=e115] [cursor=pointer]:
+              - /url: /media/1009108
+              - text: View transcript
+          - heading "Local condition sites" [level=3] [ref=e118]
+          - paragraph [ref=e119]: These sites provide information on local air quality and pollution issues. We locate them temporarily in locations where we want to understand more about pollution in that area.
+          - paragraph [ref=e120]: How long we operate each site depends on the specific concern.
+        - generic [ref=e122]:
+          - heading "Sensor air monitoring sites" [level=2] [ref=e123]
+          - paragraph [ref=e124]:
+            - text: We have particle sensors located in sites across regional Victoria. These sensors monitor and report levels of smoke (PM
+            - subscript [ref=e125]: "2.5"
+            - text: ) in these towns.
+          - paragraph [ref=e126]: Particle sensors are small air monitoring equipment that measures airborne particles, such as smoke and dust.
+          - paragraph [ref=e127]: "We use sensors to measure smoke and dust to supplement our general air monitoring network. Sensors help us to:"
+          - list [ref=e128]:
+            - listitem [ref=e129]: monitor in more locations
+            - listitem [ref=e130]: identify potential local air pollution issues.
+          - paragraph [ref=e131]: They give us a general indication of air quality. For example, a high reading from a sensor could indicate that the air is smoky.
+          - paragraph [ref=e132]:
+            - text: These sensors are less accurate than most other types of particle monitoring equipment. Learn more about
+            - link "particle sensors" [ref=e133] [cursor=pointer]:
+              - /url: /particle-sensors
+            - text: .
+        - generic [ref=e135]:
+          - heading "Incident air monitoring sites" [level=2] [ref=e136]
+          - paragraph [ref=e137]: Our portable incident air monitoring equipment is designed to respond rapidly to major and specific pollution events – for example, major fires and incidents. We use it when requested by emergency services.
+          - paragraph [ref=e138]: This portable equipment can be quickly set up to give us local data about the impacts of a pollution event at a specific site. This helps us and other agencies make decisions about what to do next.
+          - paragraph [ref=e139]: "An emergency incident can include:"
+          - list [ref=e140]:
+            - listitem [ref=e141]: community exposure to smoke from fires
+            - listitem [ref=e142]: incidents involving hazardous materials
+            - listitem [ref=e143]: planned burns.
+          - paragraph [ref=e144]: We also partner with Victoria State Emergency Services (VICSES). Portable air monitoring equipment is stored at some VICSES depots for deployment by VICSES volunteers.
+          - paragraph [ref=e145]:
+            - text: We show data collected by some incident air monitoring equipment on the
+            - link "Check air and water quality map" [ref=e146] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+            - text: .
+          - paragraph [ref=e147]: "We do not always deploy incident monitoring equipment. For example, we may not do so when:"
+          - list [ref=e148]:
+            - listitem [ref=e149]: an incident is likely to be over quickly – for example, smoke from a fire lasting less than one day
+            - listitem [ref=e150]: forecasting shows that air pollution is unlikely to impact population centres
+            - listitem [ref=e151]: hazardous conditions mean that it’s not safe to deploy our equipment.
+          - paragraph [ref=e152]:
+            - text: For advice on health during a fire, visit
+            - link "Smoke and your health" [ref=e153] [cursor=pointer]:
+              - /url: /smoke-and-your-health
+            - text: .
+          - heading "Location of incident air monitoring sites" [level=3] [ref=e154]
+          - paragraph [ref=e155]: Incident air monitoring sites are generally located near the community. This helps us understand the air quality where people are likely to be affected.
+          - paragraph [ref=e156]: "Other factors that affect where we locate them include:"
+          - list [ref=e157]:
+            - listitem [ref=e158]: current and forecast wind direction
+            - listitem [ref=e159]: weather
+            - listitem [ref=e160]: topography
+            - listitem [ref=e161]: expected duration of the event
+            - listitem [ref=e162]: safety of staff setting up the equipment.
+          - paragraph [ref=e163]: Our standard and incident air monitoring equipment is located at ground level. It only provides data on air quality at that level.
+          - paragraph [ref=e164]: During a fire incident where smoke plumes rise straight up, there may be little or no impact on the air quality at ground level – for example, when a fire is burning at especially high temperatures.
+          - paragraph [ref=e165]: In other weather conditions, when a layer of cool air is covered by warm air, smoke may become trapped and unable to rise. This can result in reduced air quality at ground level during fires.
+          - heading "How long incident air monitoring takes" [level=3] [ref=e166]
+          - paragraph [ref=e167]: From the time incident air monitoring is requested, it can take up to 24 hours for air quality data to be available. How long it takes also depends on the type of air monitoring equipment we deploy. This is because the time it takes to deploy different equipment can vary greatly.
+          - paragraph
+          - paragraph [ref=e168]:
+            - img "A timeline graphic showing the steps from when an air quality incident begins through to how EPA responds and supports emergency services." [ref=e169]
+          - paragraph
+          - paragraph [ref=e170]: "The time from when we get the call to when the monitors have collected at least 45 minutes of data is 24 hours or less. When the incident begins, and we get the call we:"
+          - list [ref=e171]:
+            - listitem [ref=e172]: assess the monitoring sites
+            - listitem [ref=e173]: collect IAM equipment
+            - listitem [ref=e174]: travel to monitoring sites and set up equipment.
+          - paragraph [ref=e175]: When the monitors have collected at least 45 minutes of data we publish this data on our website. We will continue to monitor air quality until pollution levels drop.
+          - paragraph [ref=e176]: Our air monitoring equipment is set up to calculate average pollution levels over a one-hour period and a 24-hour period. This is so we can compare the data with relevant air quality standards.
+          - heading "Moving equipment if the wind changes" [level=3] [ref=e177]
+          - paragraph [ref=e178]:
+            - text: We generally do not move or relocate sites during an emergency event. This is because cautionary health advice is based on collecting 24 hours of PM
+            - subscript [ref=e179]: "2.5"
+            - text: data. We need a minimum of 18 hours to start calculating a 24-hour rolling average number that can be translated into health advice.
+          - paragraph [ref=e180]: Where there's a significant shift in wind direction, which may carry smoke towards another area, we may deploy more equipment.
+        - paragraph [ref=e181]:
+          - text: Updated
+          - time [ref=e182]: 18 December 2025
+      - complementary [ref=e183]:
+        - navigation [ref=e185]:
+          - heading "This section" [level=3] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - generic [ref=e189]:
+                - link "Check air and water quality" [ref=e190] [cursor=pointer]:
+                  - /url: /check-air-and-water-quality
+                - button "Toggle Check air and water quality menu" [expanded] [ref=e191] [cursor=pointer]
+              - region "Toggle Check air and water quality menu" [ref=e195]:
+                - list [ref=e196]:
+                  - listitem [ref=e197]:
+                    - link "Air alerts" [ref=e198] [cursor=pointer]:
+                      - /url: /air-alerts
+                  - listitem [ref=e199]:
+                    - link "How we monitor air quality" [ref=e200] [cursor=pointer]:
+                      - /url: /how-we-monitor-air-quality
+                  - listitem [ref=e201]:
+                    - link "How we measure air pollution" [ref=e202] [cursor=pointer]:
+                      - /url: /how-we-measure-air-pollution
+                  - listitem [ref=e203]:
+                    - link "How we forecast air quality" [ref=e204] [cursor=pointer]:
+                      - /url: /how-we-forecast-air-quality
+                  - listitem [ref=e205]:
+                    - link "Air quality categories" [ref=e206] [cursor=pointer]:
+                      - /url: /air-quality-categories
+                  - listitem [ref=e207]:
+                    - link "How we monitor water quality" [ref=e208] [cursor=pointer]:
+                      - /url: /how-we-monitor-water-quality
+                  - listitem [ref=e209]:
+                    - link "Water quality sampling results and reports" [ref=e210] [cursor=pointer]:
+                      - /url: /water-quality-data-and-reports
+                  - listitem [ref=e211]:
+                    - link "Water quality forecast ratings" [ref=e212] [cursor=pointer]:
+                      - /url: /water-quality-forecast-ratings
+    - group "Was this page helpful?" [ref=e223]:
+      - generic [ref=e225]: Was this page helpful?
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - radio "Yes"
+          - generic [ref=e233] [cursor=pointer]: "Yes"
+        - generic [ref=e234]:
+          - radio "No"
+          - generic [ref=e238] [cursor=pointer]: "No"
+    - generic:
+      - generic:
+        - link "Back to top":
+          - /url: "#rpl-skip-links"
+          - generic: Back to top
+          - generic:
+            - img
+    - contentinfo [ref=e239]:
+      - navigation "Footer navigation" [ref=e241]:
+        - generic [ref=e242]:
+          - heading "Our environment" [level=3] [ref=e246]:
+            - link "Our environment" [ref=e247] [cursor=pointer]:
+              - /url: /our-environment
+          - heading "Make a report" [level=3] [ref=e251]:
+            - link "Make a report" [ref=e252] [cursor=pointer]:
+              - /url: /make-report
+        - generic [ref=e253]:
+          - heading "About us" [level=3] [ref=e257]:
+            - link "About us" [ref=e258] [cursor=pointer]:
+              - /url: /about-epa
+          - heading "Licensing and regulation" [level=3] [ref=e262]:
+            - link "Licensing and regulation" [ref=e263] [cursor=pointer]:
+              - /url: /licensing-and-regulation
+        - generic [ref=e264]:
+          - heading "Check air and water quality" [level=3] [ref=e268]:
+            - link "Check air and water quality" [ref=e269] [cursor=pointer]:
+              - /url: /check-air-and-water-quality
+          - heading "Portal" [level=3] [ref=e273]:
+            - link "Portal" [ref=e274] [cursor=pointer]:
+              - /url: https://portal365.epa.vic.gov.au/
+        - generic [ref=e276]:
+          - heading "Connect with us" [level=3] [ref=e279]
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - link "Facebook" [ref=e283] [cursor=pointer]:
+                - /url: https://www.facebook.com/VicGovEPA
+                - generic [ref=e286]: Facebook
+            - listitem [ref=e287]:
+              - link "Instagram" [ref=e288] [cursor=pointer]:
+                - /url: http://instagram.com/vicgovepa
+                - img [ref=e290]
+                - generic [ref=e293]: Instagram
+            - listitem [ref=e294]:
+              - link "Linkedin" [ref=e295] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/epa---victoria
+                - generic [ref=e298]: Linkedin
+            - listitem [ref=e299]:
+              - link "Youtube" [ref=e300] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/epavictoria
+                - img [ref=e302]
+                - generic [ref=e304]: Youtube
+            - listitem [ref=e305]:
+              - link "BlueSky" [ref=e306] [cursor=pointer]:
+                - /url: https://bsky.app/profile/epa.vic.gov.au
+                - generic [ref=e309]: BlueSky
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - img "Aboriginal flag" [ref=e315]
+          - img "Torres Strait Islander flag" [ref=e316]
+        - paragraph [ref=e317]: The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - list [ref=e321]:
+            - listitem [ref=e322]:
+              - link "EPA portal" [ref=e323] [cursor=pointer]:
+                - /url: /epa-portal
+            - listitem [ref=e324]:
+              - link "Accessibility" [ref=e325] [cursor=pointer]:
+                - /url: /accessibility
+            - listitem [ref=e326]:
+              - link "Disclaimer" [ref=e327] [cursor=pointer]:
+                - /url: /content-disclaimer
+            - listitem [ref=e328]:
+              - link "Privacy" [ref=e329] [cursor=pointer]:
+                - /url: /privacy-vicgovau
+            - listitem [ref=e330]:
+              - link "Privacy collection statement" [ref=e331] [cursor=pointer]:
+                - /url: /privacy-collection-statement
+            - listitem [ref=e332]:
+              - link "News" [ref=e333] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e334]:
+              - link "Sitemap" [ref=e335] [cursor=pointer]:
+                - /url: /sitemap
+            - listitem [ref=e336]:
+              - link "Contact us" [ref=e337] [cursor=pointer]:
+                - /url: /contact-us
+          - paragraph [ref=e340]: © Copyright State Government of Victoria
+        - link "Victoria government home" [ref=e342] [cursor=pointer]:
+          - /url: https://vic.gov.au
+          - img [ref=e343]

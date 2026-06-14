@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Bỏ qua để đến phần nội dung chính" [ref=e2] [cursor=pointer]
+      - link "Hỗ trợ truy cập" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=vi
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Đến trang chủ Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=vi&sa=X&ved=0ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Tìm kiếm" [ref=e25]: Australia air quality index PM2.5 breakpoints categories NSW Victoria Queensland site:gov.au Australia air quality index PM2.5 breakpoints categories NSW Victoria Queensland site:gov.au
+            - generic [ref=e26]:
+              - button "Xóa" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Công cụ nhập" [ref=e34] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Tìm kiếm bằng giọng nói" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+                - button "Tìm kiếm bằng hình ảnh" [ref=e41] [cursor=pointer]:
+                  - img [ref=e42]
+          - button "Tìm kiếm" [ref=e44] [cursor=pointer]:
+            - img [ref=e47]
+    - generic [ref=e49]:
+      - button "Cài đặt" [ref=e51] [cursor=pointer]:
+        - img [ref=e54]
+      - generic [ref=e57]:
+        - button "Các ứng dụng của Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Đăng nhập" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=vi&passive=true&continue=https://www.google.com/search%3Fq%3DAustralia%2Bair%2Bquality%2Bindex%2BPM2.5%2Bbreakpoints%2Bcategories%2BNSW%2BVictoria%2BQueensland%2Bsite:gov.au&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - navigation [ref=e72]:
+      - generic [ref=e78]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Chế độ AI" [ref=e83] [cursor=pointer]:
+              - /url: /search?q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&sca_esv=dc6a7cd5392f32f0&udm=50&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D930kBIEh2ebkczgGjbndARTdS3cEv-hDgpA8JhuCkiDlmA_2TPvlAQXgY91dzbdp2Ho1mc6s4gmrB2OAA0twuiyDBRO2R59SoTSNLm0OXqLQAGjYedmOWa8Vr0dWOF0gMt2dzCHDwEXl66syCXpitM_r7JXO&aep=1&ntc=1&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQ2J8OegQIEBAD
+              - generic [ref=e86]: Chế độ AI
+          - listitem [ref=e87]:
+            - link "Tất cả" [disabled] [ref=e88]:
+              - generic [ref=e90]: Tất cả
+          - listitem [ref=e91]:
+            - link "Hình ảnh" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=dc6a7cd5392f32f0&udm=2&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D930kBIEh2ebkczgGjbndARTdS3cEv-hDgpA8JhuCkiDlmA_2TPvlAQXgY91dzbdp2Ho1mc6s4gmrB2OAA0twuiyDBRO2R59SoTSNLm0OXqLQAGjYedmOWa8Vr0dWOF0gMt2dzCHDwEXl66syCXpitM_r7JXO&q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQtKgLegQIEhAB
+              - generic [ref=e94]: Hình ảnh
+          - listitem [ref=e95]:
+            - link "Mua sắm" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=dc6a7cd5392f32f0&udm=28&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D930kBIEh2ebkczgGjbndARTdS3cEv-hDgpA8JhuCkiDlmA_2TPvlAQXgY91dzbdp2Ho1mc6s4gmrB2OAA0twuiyDBRO2R59SoTSNLm0OXqLQAGjYedmOWa8Vr0dWOF0gMt2dzCHDwEXl66syCXpitM_r7JXO&q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&ved=1t:220175&ictx=111
+              - generic [ref=e98]: Mua sắm
+          - listitem [ref=e99]:
+            - link "Video ngắn" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=dc6a7cd5392f32f0&udm=39&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D930kBIEh2ebkczgGjbndARTdS3cEv-hDgpA8JhuCkiDlmA_2TPvlAQXgY91dzbdp2Ho1mc6s4gmrB2OAA0twuiyDBRO2R59SoTSNLm0OXqLQAGjYedmOWa8Vr0dWOF0gMt2dzCHDwEXl66syCXpitM_r7JXO&q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQs6gLegQIFBAB
+              - generic [ref=e102]: Video ngắn
+          - listitem [ref=e103]:
+            - link "Tin tức" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=dc6a7cd5392f32f0&q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&tbm=nws&source=lnms&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D930kBIEh2ebkczgGjbndARTdS3cEv-hDgpA8JhuCkiDlmA_2TPvlAQXgY91dzbdp2Ho1mc6s4gmrB2OAA0twuiyDBRO2R59SoTSNLm0OXqLQAGjYedmOWa8Vr0dWOF0gMt2dzCHDwEXl66syCXpitM_r7JXO&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQ0pQJegQIFRAB
+              - generic [ref=e106]: Tin tức
+          - listitem [ref=e107]:
+            - link "Video" [ref=e108] [cursor=pointer]:
+              - /url: /search?sca_esv=dc6a7cd5392f32f0&udm=7&fbs=ADc_l-ZXQWBHI_L0epjkf31fijnbXSPRt3UPEhp-KmUrvgDudp8REbOZqjulWRZWTin-MPw3YyFV9Z2961YYcQ6R3U-ESUzlwBYKB4NPT3tD_N1D930kBIEh2ebkczgGjbndARTdS3cEv-hDgpA8JhuCkiDlmA_2TPvlAQXgY91dzbdp2Ho1mc6s4gmrB2OAA0twuiyDBRO2R59SoTSNLm0OXqLQAGjYedmOWa8Vr0dWOF0gMt2dzCHDwEXl66syCXpitM_r7JXO&q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQtKgLegQIFhAB
+              - generic [ref=e110]: Video
+          - listitem [ref=e111]:
+            - button "Các bộ lọc khác" [ref=e112] [cursor=pointer]:
+              - generic "Các bộ lọc khác" [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]: Thêm
+                  - img [ref=e117]
+        - button "Công cụ" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Công cụ
+            - img [ref=e125]
+    - heading "Kết quả tìm kiếm" [level=1] [ref=e127]
+    - generic [ref=e133]:
+      - generic [ref=e134]: Looking for results in English?
+      - link [ref=e135] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e137]
+      - link "Change to English" [ref=e139] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Mbqr-hrl7aqSxXbX4wTBnbzWBS0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DAustralia%2Bair%2Bquality%2Bindex%2BPM2.5%2Bbreakpoints%2Bcategories%2BNSW%2BVictoria%2BQueensland%2Bsite:gov.au&hl=en&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQhoQCKAF6BAgPEAQ
+      - link "Tiếp tục sử dụng Tiếng Việt" [ref=e140] [cursor=pointer]:
+        - /url: "#"
+      - link "Cài đặt ngôn ngữ" [ref=e142] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=vi&sa=X&ved=2ahUKEwiJ9K23u_6UAxWmm68BHSxKGhoQiIQCKAN6BAgPEAY#languages
+    - main [ref=e144]:
+      - generic [ref=e148]:
+        - generic [ref=e151]:
+          - heading "Web results" [level=2] [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e156]:
+              - link "Ambient Air Quality Standards Setting National Environment Protection Council ( NEPC https://www.nepc.gov.au › sites › default › files" [ref=e158] [cursor=pointer]:
+                - /url: https://www.nepc.gov.au/sites/default/files/2022-09/aaqssrptanapproachtohealthbasedhazardassessmentfinal200611.pdf
+                - heading "Ambient Air Quality Standards Setting" [level=3] [ref=e159]
+                - generic [ref=e165]:
+                  - generic [ref=e167]: National Environment Protection Council ( NEPC
+                  - generic [ref=e169]: https://www.nepc.gov.au › sites › default › files
+              - generic [ref=e170]:
+                - generic:
+                  - generic: PDF
+              - button "Thông tin về kết quả này" [ref=e171] [cursor=pointer]:
+                - img [ref=e174]
+            - generic [ref=e176]:
+              - generic [ref=e178]:
+                - text: Useful criteria on what constitutes an adverse respiratory health effect of
+                - emphasis [ref=e179]: air
+                - text: pollution are provided in the guidelines developed by the American Thoracic ...
+              - generic [ref=e180]: 91 trang
+        - generic [ref=e184]:
+          - generic [ref=e187]:
+            - link "built environment Australia State of the Environment https://soe.dcceew.gov.au › sites › default › files" [ref=e189] [cursor=pointer]:
+              - /url: https://soe.dcceew.gov.au/sites/default/files/2022-05/soe2016-built-launch-20feb.pdf
+              - heading "built environment" [level=3] [ref=e190]
+              - generic [ref=e196]:
+                - generic [ref=e198]: Australia State of the Environment
+                - generic [ref=e200]: https://soe.dcceew.gov.au › sites › default › files
+            - generic [ref=e201]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e202] [cursor=pointer]:
+              - img [ref=e205]
+          - generic [ref=e207]:
+            - generic [ref=e209]:
+              - text: Multiple future factors run the risk of accelerating
+              - emphasis [ref=e210]: air
+              - text: pollution and the impacts of
+              - emphasis [ref=e211]: air quality
+              - text: in
+              - emphasis [ref=e212]: Australia
+              - text: ": • Population growth. As noted previously ..."
+            - generic [ref=e213]: 141 trang
+        - generic [ref=e217]:
+          - generic [ref=e220]:
+            - link "Literature review of the levels of lead and other heavy metals ... NSW EPA https://www.epa.nsw.gov.au › sites › default › files" [ref=e222] [cursor=pointer]:
+              - /url: https://www.epa.nsw.gov.au/sites/default/files/literature-rreview-of-the-levels-of-lead-in-dust-in-wollongong.pdf
+              - heading "Literature review of the levels of lead and other heavy metals ..." [level=3] [ref=e223]
+              - generic [ref=e229]:
+                - generic [ref=e231]: NSW EPA
+                - generic [ref=e233]: https://www.epa.nsw.gov.au › sites › default › files
+            - generic [ref=e234]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e235] [cursor=pointer]:
+              - img [ref=e238]
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e242]: 29 thg 8, 2018 —
+              - generic [ref=e243]:
+                - text: The PM10 and
+                - emphasis [ref=e244]: PM2
+                - text: .
+                - emphasis [ref=e245]: 5 air quality
+                - text: standards that apply in
+                - emphasis [ref=e246]: NSW
+                - text: are summarised in Table 2. The numerical value of the
+                - emphasis [ref=e247]: air quality
+                - text: guidelines ...
+            - generic [ref=e248]: 146 trang
+        - generic [ref=e252]:
+          - generic [ref=e255]:
+            - link "Smoke Emission and Transport Modelling Forest Fire Management Victoria https://www.ffm.vic.gov.au › assets › pdf_file" [ref=e257] [cursor=pointer]:
+              - /url: https://www.ffm.vic.gov.au/__data/assets/pdf_file/0027/420759/Final-Report_May_2019_v1.1-1.pdf
+              - heading "Smoke Emission and Transport Modelling" [level=3] [ref=e258]
+              - generic [ref=e264]:
+                - generic [ref=e266]: Forest Fire Management Victoria
+                - generic [ref=e268]: https://www.ffm.vic.gov.au › assets › pdf_file
+            - generic [ref=e269]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e270] [cursor=pointer]:
+              - img [ref=e273]
+          - generic [ref=e275]:
+            - generic [ref=e277]:
+              - text: Figure 41 Observed and modelled
+              - emphasis [ref=e278]: PM2
+              - text: .
+              - emphasis [ref=e279]: "5"
+              - text: time series for monitoring stations in
+              - emphasis [ref=e280]: Victoria
+              - text: and in Sydney. Figure 42 Observed and forecasted 24-h
+              - emphasis [ref=e281]: PM2
+              - text: .
+              - emphasis [ref=e282]: "5"
+              - text: for sites in ...
+            - generic [ref=e283]: 203 trang
+        - generic [ref=e287]:
+          - generic [ref=e290]:
+            - link "Appendix A State Development, Infrastructure and Planning https://www.statedevelopment.qld.gov.au › pdf_file" [ref=e292] [cursor=pointer]:
+              - /url: https://www.statedevelopment.qld.gov.au/__data/assets/pdf_file/0025/18493/supplement-report-appendices-part2.pdf
+              - heading "Appendix A" [level=3] [ref=e293]
+              - generic [ref=e299]:
+                - generic [ref=e301]: State Development, Infrastructure and Planning
+                - generic [ref=e303]: https://www.statedevelopment.qld.gov.au › pdf_file
+            - generic [ref=e304]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e305] [cursor=pointer]:
+              - img [ref=e308]
+          - generic [ref=e311]:
+            - generic [ref=e312]: 22 thg 7, 2015 —
+            - generic [ref=e313]:
+              - text: Submission makes reference to several attachments from the
+              - emphasis [ref=e314]: Queensland
+              - text: Department of Primary Industries regarding migratory bird species and ...
+        - generic [ref=e318]:
+          - generic [ref=e321]:
+            - link "DPC Annual Report 2011–2012 - Office of Local Government NSW Office of Local Government https://www.olg.nsw.gov.au › sites › default › files" [ref=e323] [cursor=pointer]:
+              - /url: https://www.olg.nsw.gov.au/sites/default/files/2026-03/dpc-annual-report-2011-2012.pdf
+              - heading "DPC Annual Report 2011–2012 - Office of Local Government" [level=3] [ref=e324]
+              - generic [ref=e330]:
+                - generic [ref=e332]: NSW Office of Local Government
+                - generic [ref=e334]: https://www.olg.nsw.gov.au › sites › default › files
+            - generic [ref=e335]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e336] [cursor=pointer]:
+              - img [ref=e339]
+          - generic [ref=e341]:
+            - generic [ref=e343]:
+              - text: The DPC is a Division of the
+              - emphasis [ref=e344]: NSW
+              - text: Public Service under the. Public Sector Employment and Management Act 2002. The DPC is primarily responsible to the Premier, ...
+            - generic [ref=e345]: 294 trang
+        - generic [ref=e349]:
+          - generic [ref=e352]:
+            - link "responsibility NSW IPART https://www.ipart.nsw.gov.au › files › documents" [ref=e354] [cursor=pointer]:
+              - /url: https://www.ipart.nsw.gov.au/sites/default/files/documents/supporting_document_-_appendix_2_-_veolia_water_australia_pty_ltd_-_wica_licence_application_-_29_october_2008.pdf
+              - heading "responsibility" [level=3] [ref=e355]
+              - generic [ref=e361]:
+                - generic [ref=e363]: NSW IPART
+                - generic [ref=e365]: https://www.ipart.nsw.gov.au › files › documents
+            - generic [ref=e366]:
+              - generic:
+                - generic: PDF
+            - button "Thông tin về kết quả này" [ref=e367] [cursor=pointer]:
+              - img [ref=e370]
+          - generic [ref=e373]:
+            - generic [ref=e374]: 29 thg 10, 2008 —
+            - generic [ref=e375]:
+              - text: The robust design also ensures that high
+              - emphasis [ref=e376]: quality
+              - text: recycled water can continue to be produced even during times of varying effluent
+              - emphasis [ref=e377]: quality
+              - text: .
+      - generic [ref=e379]:
+        - generic [ref=e380]:
+          - heading "Thông báo về Kết quả bị lọc" [level=2] [ref=e381]
+          - paragraph [ref=e383]:
+            - generic [ref=e384]:
+              - text: Để hiển thị cho bạn các kết quả có liên quan nhất, chúng tôi đã bỏ đi một số mục nhập rất giống với 7 kết quả đã hiển thị.
+              - text: Nếu muốn, bạn có thể
+              - link "lặp lại tìm kiếm với các kết quả đã bỏ đi được bao gồm" [ref=e385] [cursor=pointer]:
+                - /url: /search?q=Australia+air+quality+index+PM2.5+breakpoints+categories+NSW+Victoria+Queensland+site:gov.au&sca_esv=dc6a7cd5392f32f0&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=e386]:
+      - heading "Đường liên kết ở chân trang" [level=1] [ref=e387]
+      - generic [ref=e391]:
+        - generic [ref=e393]:
+          - text: Việt Nam
+          - generic [ref=e395]:
+            - button "Hà Đông, Hà Nội - Dựa trên địa chỉ IP của bạn" [ref=e397] [cursor=pointer]:
+              - generic [ref=e398]: Hà Đông, Hà Nội
+              - generic [ref=e400]:
+                - text: "-"
+                - generic [ref=e401]: Dựa trên địa chỉ IP của bạn
+            - text: "-"
+            - button "Cập nhật vị trí" [ref=e403] [cursor=pointer]: Cập nhật vị trí
+        - generic [ref=e406]:
+          - link "Trợ giúp" [ref=e407] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=vi&fg=1
+          - link "Gửi phản hồi" [ref=e408] [cursor=pointer]:
+            - /url: "#"
+          - link "Quyền riêng tư" [ref=e409] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=vi&fg=1
+          - link "Điều khoản" [ref=e410] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=vi&fg=1

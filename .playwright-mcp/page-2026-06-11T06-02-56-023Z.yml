@@ -1,0 +1,100 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "SPRINTARS" [level=1] [ref=e4]
+    - text: Spectral Radiation-Transport Model for Aerosol Species
+  - generic [ref=e5]:
+    - link "RIAM logo" [ref=e6] [cursor=pointer]:
+      - /url: https://www.riam.kyushu-u.ac.jp/english/index-e.html
+      - img "RIAM logo" [ref=e7]
+    - link "CCSR logo" [ref=e8] [cursor=pointer]:
+      - /url: https://www.aori.u-tokyo.ac.jp/english/
+      - img "CCSR logo" [ref=e9]
+    - link "NIES logo" [ref=e10] [cursor=pointer]:
+      - /url: http://www.nies.go.jp/index-e.htm
+      - img "NIES logo" [ref=e11]
+  - generic [ref=e12]:
+    - list:
+      - listitem [ref=e13]:
+        - link "HOME" [ref=e14] [cursor=pointer]:
+          - /url: indexe.html
+      - listitem [ref=e15]:
+        - link "FORECAST" [ref=e16] [cursor=pointer]:
+          - /url: forecast.html
+      - listitem [ref=e17]:
+        - link "FORECAST(details)" [ref=e18] [cursor=pointer]:
+          - /url: forecast2.html
+      - listitem [ref=e19]:
+        - link "ARCHIVE" [ref=e20] [cursor=pointer]:
+          - /url: archive.html
+      - listitem [ref=e21]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e23]:
+        - link "LAB HOME" [ref=e24] [cursor=pointer]:
+          - /url: https://www.riam.kyushu-u.ac.jp/climate/indexe.html
+  - link "Japanese" [ref=e26] [cursor=pointer]:
+    - /url: index.html
+  - generic [ref=e28]:
+    - heading "About SPRINTARS" [level=2] [ref=e29]
+    - paragraph [ref=e30]: SPRINTARS (Spectral Radiation-Transport Model for Aerosol Species) is a numerical model which has been developed for simulating effects on the climate system and condition of atmospheric pollution by atmospheric aerosols on the global scale.
+    - paragraph [ref=e31]:
+      - text: SPRINTARS has been primarily developed by
+      - link "Climate Change Science Section, Research Institute for Applied Mechanics, Kyushu University" [ref=e32] [cursor=pointer]:
+        - /url: https://www.riam.kyushu-u.ac.jp/climate/index.html
+      - text: . SPRINTARS treats main tropospheric aerosols both from natural and anthropogenic sources (black carbon, organic matter, sulfate, soil dust, and sea salt). They are also categorized into SPM, PM10 and PM2.5. SPRINTARS calculates transport processes of aerosols (emission, advection, diffusion, wet deposition, dry deposition, and gravitational settling). The aerosol-radiation interaction, which is scattering and absorption of solar and thermal radiation by aerosols, and the aerosol-cloud interaction, which is act of aerosols as cloud condensation nuclei and ice nuclei, are included in the calculation. SPRINTARS is based on an atmosphere-ocean general circulation model, MIROC, developed by
+      - link "Atmosphere and Ocean Research Institute (AORI), University of Tokyo" [ref=e33] [cursor=pointer]:
+        - /url: https://www.aori.u-tokyo.ac.jp/english/
+      - text: ","
+      - link "National Institute for Environmental Studies" [ref=e34] [cursor=pointer]:
+        - /url: http://www.nies.go.jp/index-e.html
+      - text: ", and"
+      - link "Japan Agency for Marine-Earth Science and Technology (JAMSTEC)" [ref=e35] [cursor=pointer]:
+        - /url: http://www.jamstec.go.jp/e/
+      - text: ", and it is also incorporated into a global cloud resolving model,"
+      - link "NICAM" [ref=e36] [cursor=pointer]:
+        - /url: http://nicam.jp
+      - text: .
+    - heading "Present specifications of SPRINTARS" [level=3] [ref=e37]
+    - list [ref=e38]:
+      - listitem [ref=e39]: SPRINTARS version 6.1.0 (for research) / 3.84 (for forecast and archive)
+      - listitem [ref=e40]: "horizontal resolution: T319 (0.375 degrees longitude/latitude) or T213 (0.5625 degrees longitude/latitude) or T106 (1.125 degrees longitude/latitude) or T85 (1.40625 degrees longitude/latitude) or T42 (2.8125 degrees longitude/latitude)"
+      - listitem [ref=e41]: "vertical resolution: 56 or 20 layers (sigma coordinate) / 40 layers (hybrid coordinate)"
+    - heading "References" [level=3] [ref=e42]
+    - list [ref=e43]:
+      - listitem [ref=e44]:
+        - text: "Takemura, T., H. Okamoto, Y. Maruyama, A. Numaguti, A. Higurashi, and T. Nakajima, 2000: Global three-dimensional simulation of aerosol optical thickness distribution of various origins. Journal of Geophysical Research, 105, 17853-17873, doi:10.1029/2000JD900265. ["
+        - link "abstract" [ref=e45] [cursor=pointer]:
+          - /url: http://dx.doi.org/10.1029/2000JD900265
+        - text: "]"
+      - listitem [ref=e46]:
+        - text: "Takemura, T., T. Nakajima, O. Dubovik, B. N. Holben, and S. Kinne, 2002: Single-scattering albedo and radiative forcing of various aerosol species with a global three-dimensional model. Journal of Climate, 15, 333-352. ["
+        - link "abstract" [ref=e47] [cursor=pointer]:
+          - /url: http://dx.doi.org/10.1175/1520-0442(2002)015<0333:SSAARF>2.0.CO;2
+        - text: "]"
+      - listitem [ref=e48]:
+        - text: "Takemura, T., T. Nozawa, S. Emori, T. Y. Nakajima, and T. Nakajima, 2005: Simulation of climate response to aerosol direct and indirect effects with aerosol transport-radiation model. Journal of Geophysical Research, 110, D02202, doi:10.1029/2004JD005029. ["
+        - link "abstract" [ref=e49] [cursor=pointer]:
+          - /url: http://dx.doi.org/10.1029/2004JD005029
+        - text: "]"
+      - listitem [ref=e50]:
+        - text: "Takemura, T., M. Egashira, K. Matsuzawa, H. Ichijo, R. O'ishi, and A. Abe-Ouchi, 2009: A simulation of the global distribution and radiative forcing of soil dust aerosols at the Last Glacial Maximum. Atmospheric Chemistry and Physics, 9, 3061-3073, doi:10.5194/acp-9-3061-2009. ["
+        - link "abstract" [ref=e51] [cursor=pointer]:
+          - /url: http://www.atmos-chem-phys.net/9/3061/2009/acp-9-3061-2009.html
+        - text: "]"
+    - heading "Acknowledgments" [level=3] [ref=e52]
+    - list [ref=e53]:
+      - listitem [ref=e54]: Developers of SPRINTARS
+      - listitem [ref=e55]: Developers of MIROC
+      - listitem [ref=e56]: "Dr. Kengo Sudo (Graduate School of Environmental Studies, Nagoya University): data from CHASER"
+      - listitem [ref=e57]: "Dr. T. Diehl (NASA Goddard Space Flight Center): aerosol emission data"
+      - listitem [ref=e58]: "NASA/University of Maryland: MODIS Fire Information for Resource Management System (FIRMS)"
+      - listitem [ref=e59]: Emission inventory for Hemispheric Transport of Air Pollution (HTAP) v2
+      - listitem [ref=e60]: "NOAA CIRES Climate Diagnostics Center: NCEP/NCAR reanalysis data"
+      - listitem [ref=e61]: "NOAA NCEP: GFS forecast data"
+      - listitem [ref=e62]: "Hadley Centre, UK Met Office: HadISST data"
+      - listitem [ref=e63]: "Center for Global Environmental Research, NIES: Supercomputer system NEC SX"
+      - listitem [ref=e64]: Research Institute for Applied Mechanics, Kyushu University
+      - listitem [ref=e65]: "Research Institute for Applied Mechanics, Kyushu University: Supercomputer system NEC SX"
+  - generic [ref=e67]:
+    - text: Copyright © 2000-2026 SPRINTARS developer team. All Rights Reserved.
+    - text: "Last Modified: 09/28/2021"

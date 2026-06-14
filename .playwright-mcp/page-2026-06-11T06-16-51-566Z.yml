@@ -1,0 +1,339 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - banner:
+      - navigation [ref=e2]:
+        - generic [ref=e3]:
+          - link [ref=e5] [cursor=pointer]:
+            - /url: javascript:;
+          - link [ref=e7] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+          - generic [ref=e8]:
+            - navigation:
+              - generic:
+                - generic:
+                  - list
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - link "Browse" [ref=e11] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Browse
+              - listitem [ref=e13]:
+                - link "About J-STAGE" [ref=e14] [cursor=pointer]:
+                  - /url: "#"
+                  - text: About J-STAGE
+              - listitem [ref=e16]:
+                - link "News and PR" [ref=e17] [cursor=pointer]:
+                  - /url: "#"
+                  - text: News and PR
+              - listitem [ref=e19]:
+                - link "Support" [ref=e20] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Support
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Sign in" [ref=e25] [cursor=pointer]:
+                - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjmsj%2F83A%2F0%2F83A_0_255%2F_article%2F-char%2Fen
+            - listitem
+            - listitem [ref=e26]:
+              - link "Cart" [ref=e27] [cursor=pointer]:
+                - /url: /cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjmsj%2F83A%2F0%2F83A_0_255%2F_article%2F-char%2Fen
+            - listitem [ref=e28]:
+              - link "EN" [ref=e29] [cursor=pointer]:
+                - /url: "#"
+                - text: EN
+  - generic [ref=e35]:
+    - generic [ref=e36]: Journal of the Meteorological Society of Japan. Ser. II
+    - generic [ref=e38]:
+      - text: "Online ISSN : 2186-9057"
+      - text: "Print ISSN : 0026-1165"
+      - text: "ISSN-L : 0026-1165"
+  - list [ref=e43]:
+    - listitem [ref=e44]:
+      - link "" [ref=e45] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e46]: 
+    - listitem [ref=e47]:
+      - link "Publisher's Home " [ref=e48] [cursor=pointer]:
+        - /url: http://jmsj.metsoc.jp/
+        - text: Publisher's Home
+        - generic [ref=e49]: 
+    - listitem [ref=e50]:
+      - link "Journal home" [ref=e51] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/jmsj/-char/en
+    - listitem [ref=e52]:
+      - link "Advance online publication" [ref=e53] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/jmsj/advpub/0/_contents/-char/en
+    - listitem [ref=e54]:
+      - link "All issues" [ref=e55] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/jmsj/list/-char/en
+    - listitem [ref=e56]:
+      - link "Featured articles" [ref=e57] [cursor=pointer]:
+        - /url: https://www.jstage.jst.go.jp/browse/jmsj/_contents/journal-featured-articles/-char/en
+  - generic [ref=e58]:
+    - generic [ref=e60]:
+      - list:
+        - listitem [ref=e61]:
+          - link "J-STAGE home" [ref=e62] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/-char/en
+        - listitem [ref=e63]: /
+        - listitem [ref=e64]:
+          - link "Journal of the Meteorological ..." [ref=e65] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/jmsj/-char/en
+        - listitem [ref=e66]: /
+        - listitem [ref=e67]:
+          - link "Volume 83A (2005)" [ref=e68] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/browse/jmsj/83A/0/_contents/-char/en
+        - listitem [ref=e69]: /
+        - listitem [ref=e70]: Article overview
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: Articles
+        - generic [ref=e75]: Global Simulation of Dust Aerosol with a Chemical Transport Model, MASINGAR
+        - generic [ref=e76]:
+          - link "Taichu Y. TANAKA" [ref=e77] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Taichu+Y.+TANAKA
+          - text: ","
+          - link "Masaru CHIBA" [ref=e78] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Masaru+CHIBA
+          - generic [ref=e80] [cursor=pointer]: Author information
+          - text: 
+        - generic [ref=e81]:
+          - generic "JOURNAL" [ref=e82]
+          - generic "FREE ACCESS" [ref=e83]
+        - paragraph [ref=e84]: 2005 Volume 83A Pages 255-278
+        - generic [ref=e85]:
+          - generic [ref=e86]: DOI
+          - link "https://doi.org/10.2151/jmsj.83A.255" [ref=e87] [cursor=pointer]:
+            - /url: https://doi.org/10.2151/jmsj.83A.255
+        - generic [ref=e89] [cursor=pointer]: Details
+      - generic [ref=e91]:
+        - link "Download PDF (1660K)" [ref=e92] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/article/jmsj/83A/0/83A_0_255/_pdf/-char/en
+        - generic [ref=e94]:
+          - generic [ref=e95]: Download citation
+          - generic [ref=e96]: 
+          - link "RIS" [ref=e97] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=jmsj&noVol=83A&noIssue=0&kijiCd=83A_0_255&kijiLangKrke=en&kijiToolIdHkwtsh=AT0072&request_locale=EN
+          - paragraph [ref=e98]: (compatible with EndNote, Reference Manager, ProCite, RefWorks)
+          - generic [ref=e99]: 
+          - link "BIB TEX" [ref=e100] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=jmsj&noVol=83A&noIssue=0&kijiCd=83A_0_255&kijiLangKrke=en&kijiToolIdHkwtsh=AT0073&request_locale=EN
+          - paragraph [ref=e101]: (compatible with BibDesk, LaTeX)
+          - generic [ref=e102]: 
+          - link "Text" [ref=e103] [cursor=pointer]:
+            - /url: javascript:void(0);
+          - link "How to download citation" [ref=e104] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/static/pages/HowToDownload/-char/en
+        - link "Contact us" [ref=e105] [cursor=pointer]:
+          - /url: https://www.jstage.jst.go.jp/browse/jmsj/_pubinfo/-char/en#information
+  - generic [ref=e108]:
+    - generic [ref=e110]:
+      - generic [ref=e111]: Article overview
+      - navigation [ref=e112]:
+        - navigation [ref=e113]:
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "Abstract" [ref=e116] [cursor=pointer]:
+                - /url: "#article-overiew-abstract-wrap"
+            - listitem [ref=e117]:
+              - link "References (66)" [ref=e118] [cursor=pointer]:
+                - /url: "#article-overiew-references-wrap"
+            - listitem [ref=e119]:
+              - link "Content from these authors" [ref=e120] [cursor=pointer]:
+                - /url: "#author-information-wrap"
+            - listitem [ref=e121]:
+              - link "Cited by (99)" [ref=e122] [cursor=pointer]:
+                - /url: "#citedby-wrap"
+      - generic [ref=e123]:
+        - generic [ref=e124]: Share
+        - list:
+          - listitem [ref=e125]:
+            - link "" [ref=e126] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdoi.org%2F10.2151%2Fjmsj.83A.255
+              - generic [ref=e127]: 
+          - listitem [ref=e128]:
+            - link "X" [ref=e129] [cursor=pointer]:
+              - /url: http://twitter.com/share?url=https%3A%2F%2Fdoi.org%2F10.2151%2Fjmsj.83A.255&text=J-STAGE+Articles+-+Global+Simulation+of+Dust+Aerosol+with+a+Chemical+Transport+Model%2C+MASINGAR
+              - img "X" [ref=e131]
+          - listitem [ref=e132]:
+            - link "" [ref=e133] [cursor=pointer]:
+              - /url: mailto:?body=Journal%20of%20the%20Meteorological%20Society%20of%20Japan.%20Ser.%20II%0A%0AGlobal%20Simulation%20of%20Dust%20Aerosol%20with%20a%20Chemical%20Transport%20Model%2C%20MASINGAR%0A%0Ahttps%3A%2F%2Fdoi.org%2F10.2151%2Fjmsj.83A.255%0A
+              - generic [ref=e134]: 
+          - listitem [ref=e135]:
+            - link [ref=e136] [cursor=pointer]:
+              - /url: http://www.mendeley.com/import/?doi=10.2151/jmsj.83A.255
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]: Abstract
+          - generic [ref=e142]:
+            - text: We have developed a dust aerosol module integrated into a global aerosol transport model, called MASINGAR (Model of Aerosol Species IN the Global AtmospheRe). The dust module treats dust-emission processes based on the saltation-bombardment theory. A global soil texture database is used to determine the size distribution of parent soils. Erodibility factors for vegetation cover, snow cover, land-use type, and soil type are considered. Dry and wet deposition processes are dependent on particle size.
+            - text: To obtain a climatological global dust emission, deposition, and spatial distribution, we performed a 25-year simulation which is assimilated to the 1979-2003 condition, using a nudging scheme. The simulated annual mean global emission flux and atmospheric dust load (with 0.2 ≤ D ≤ 20 μm) are 2149 (1817-2339) Tg yr
+            - superscript [ref=e143]: −1
+            - text: and 17.9 (15.6-20.4) Tg. The surface concentrations and depositions are compared with observed data, and the dust emission flux is compared with previous model studies. The model reproduces the simulated seasonal variation of dust concentration at stations near East Asian dust sources, where most previous models have underestimated the amounts and amplitudes. The global simulation results indicate that the quantitative estimation of the dust budget is sensitive to the size distribution of the emitted dust.
+        - generic [ref=e145]: References (66)
+        - generic [ref=e150] [cursor=pointer]: Content from these authors
+        - generic [ref=e152]: Cited by (99)
+        - generic [ref=e155]: © 2005 by Meteorological Society of Japan
+        - generic [ref=e156]:
+          - link "Previous article" [ref=e157] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/article/jmsj/83A/0/83A_0_241/_article/-char/en
+          - link "Next article" [ref=e158] [cursor=pointer]:
+            - /url: https://www.jstage.jst.go.jp/article/jmsj/83A/0/83A_0_279/_article/-char/en
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - generic [ref=e162]: Favorites & Alerts
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - link "Add to favorites" [ref=e165] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e166]:
+              - link "Additional info alert" [ref=e167] [cursor=pointer]:
+                - /url: javascript:;
+            - listitem [ref=e168]:
+              - link "Citation alert" [ref=e169] [cursor=pointer]:
+                - /url: " javascript:;"
+            - listitem [ref=e170]:
+              - link "Authentication alert" [ref=e171] [cursor=pointer]:
+                - /url: javascript:;
+        - generic [ref=e175] [cursor=pointer]:
+          - generic [ref=e176]: Related articles
+          - generic [ref=e177]: 
+        - generic [ref=e178]: Recently viewed articles
+        - list [ref=e179]:
+          - listitem [ref=e180]:
+            - link "Preliminary Results of the JRA-55C, an Atmospheric Reanalysis Assimilating Conventional Observations Only" [ref=e181] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/10/0/10_2014-016/_article/-char/en
+          - listitem [ref=e182]:
+            - link "Contrasting the Effect of Iron Mobilization on Soluble Iron Deposition to the Ocean in the Northern and Southern Hemispheres" [ref=e183] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/jmsj/90A/0/90A_2012-A09/_article/-char/en
+          - listitem [ref=e184]:
+            - link "Intraseasonal Variability of δ18O of Precipitation over the Indonesian Maritime Continent Related to the Madden–Julian Oscillation" [ref=e185] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/12/0/12_2016-039/_article/-char/en
+              - text: Intraseasonal Variability of δ
+              - superscript [ref=e186]: "18"
+              - text: O of Precipitation over the Indonesian Maritime Continent Related to the Madden–Julian Oscillation
+          - listitem [ref=e187]:
+            - link "Rapid Intensification of a Winter Misocyclone under an Isolated Convective Cloud after Landfall" [ref=e188] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/13/0/13_2017-014/_article/-char/en
+          - listitem [ref=e189]:
+            - link "Characteristics of Lightning Jumps Associated with a Tornadic Supercell on 2 September 2013" [ref=e190] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/article/sola/11/0/11_2015-005/_article/-char/en
+        - generic [ref=e191]:
+          - generic [ref=e192]: Announcements from publisher
+          - list [ref=e193]:
+            - listitem [ref=e194]:
+              - link "Most Accessed Articles in 2022" [ref=e195] [cursor=pointer]:
+                - /url: http://jmsj.metsoc.jp/most_accessed/2022.html
+            - listitem [ref=e196]:
+              - generic [ref=e197]:
+                - text: "New issue is published online:"
+                - link "JMJS, Vol.101 No.4" [ref=e198] [cursor=pointer]:
+                  - /url: https://www.jstage.jst.go.jp/browse/jmsj/list/-char/en
+            - listitem [ref=e199]:
+              - text: A page of
+              - link "Most Cited Articles" [ref=e200] [cursor=pointer]:
+                - /url: http://jmsj.metsoc.jp/most_cited/index.html
+              - text: is now on our site.
+            - listitem [ref=e201]:
+              - link "Guidelines for Notes and Correspondence, JMSJ" [ref=e202] [cursor=pointer]:
+                - /url: http://jmsj.metsoc.jp/Notes_and_Correspondence_Guideline.pdf
+              - text: ", are released. (13 Feb. 2019)"
+            - listitem [ref=e203]:
+              - generic [ref=e204]: The Guide for Authors is updated. (7 September 2018)
+              - link "http://jmsj.metsoc.jp/GuideforAuthors.pdf" [ref=e205] [cursor=pointer]:
+                - /url: http://jmsj.metsoc.jp/GuideforAuthors.pdf
+              - text: The length of the manuscripts should not exceed 18,000 words for an Article and 4,500 words for Notes and Correspondence (approximately 60 and 15 double-spaced pages formatted using the JMSJ Word template, respectively). The manuscript should be double spaced in 12 point type, and all pages and lines must be numbered consecutively. The word limit does not include the title page, abstract, acknowledgements, references, tables, or figure captions.
+        - generic [ref=e206]:
+          - generic [ref=e207]: Predecessor
+          - paragraph [ref=e208]:
+            - link "Journal of the Meteorological Society of Japan. Ser. I" [ref=e209] [cursor=pointer]:
+              - /url: https://www.jstage.jst.go.jp/browse/jmsj1882/-char/en
+        - text:  
+  - contentinfo [ref=e212]:
+    - generic [ref=e214]:
+      - text: Edited and published by Meteorological Society of Japan
+      - text: Production services Meteorological Society of Japan
+    - generic [ref=e215]:
+      - link "Top" [ref=e216] [cursor=pointer]:
+        - /url: "#0"
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - generic [ref=e219]: Browse
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "All titles" [ref=e222] [cursor=pointer]:
+                - /url: /journal/list/-char/en
+            - listitem [ref=e223]:
+              - link "All subject areas" [ref=e224] [cursor=pointer]:
+                - /url: /journal/fields/-char/en
+            - listitem [ref=e225]:
+              - link "All publishers" [ref=e226] [cursor=pointer]:
+                - /url: /journal/publisher/-char/en
+            - listitem [ref=e227]:
+              - link "Search articles" [ref=e228] [cursor=pointer]:
+                - /url: /search/global/_search/-char/en
+            - listitem [ref=e229]:
+              - link "Search J-STAGE Data" [ref=e230] [cursor=pointer]:
+                - /url: https://jstagedata.jst.go.jp/
+        - generic [ref=e231]:
+          - generic [ref=e232]: About J-STAGE
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "Overview" [ref=e235] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en
+            - listitem [ref=e236]:
+              - link "Services and features" [ref=e237] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en
+            - listitem [ref=e238]:
+              - link "Public data" [ref=e239] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en
+            - listitem [ref=e240]:
+              - link "Terms and Policy" [ref=e241] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en
+        - generic [ref=e242]:
+          - generic [ref=e243]: News and PR
+          - list [ref=e244]:
+            - listitem [ref=e245]:
+              - link "News" [ref=e246] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en
+            - listitem [ref=e247]:
+              - link "Maintenance information" [ref=e248] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en
+            - listitem [ref=e249]:
+              - link "Special contents" [ref=e250] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en
+            - listitem [ref=e251]:
+              - link "Media resources" [ref=e252] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en
+        - generic [ref=e253]:
+          - generic [ref=e254]: Support
+          - list [ref=e255]:
+            - listitem [ref=e256]:
+              - link "User manuals" [ref=e257] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en
+            - listitem [ref=e258]:
+              - link "Browser compatibility" [ref=e259] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en
+            - listitem [ref=e260]:
+              - link "FAQ" [ref=e261] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en
+            - listitem [ref=e262]:
+              - link "Contact" [ref=e263] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Contact/-char/en
+            - listitem [ref=e264]:
+              - link "Sitemap" [ref=e265] [cursor=pointer]:
+                - /url: https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en
+  - link "feedback" [ref=e268] [cursor=pointer]:
+    - /url: https://form2.jst.go.jp/s/jstage-feedback
+  - generic [ref=e269]:
+    - link "" [ref=e270] [cursor=pointer]:
+      - /url: javascript:;
+      - generic [ref=e271]: 
+    - heading "Register with J-STAGE for free!" [level=3] [ref=e272]
+    - link "Register" [ref=e273] [cursor=pointer]:
+      - /url: /myregister/-char/en
+    - paragraph [ref=e274]:
+      - text: Already have an account? Sign in
+      - link "here" [ref=e275] [cursor=pointer]:
+        - /url: /mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fjmsj%2F83A%2F0%2F83A_0_255%2F_article%2F-char%2Fen
