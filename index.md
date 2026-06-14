@@ -14,6 +14,10 @@ Researcher and builder focused on environmental monitoring, IoT sensor systems, 
 
 ## Featured
 
+### [PM2.5 Forecasting Framework (2026)](/pages/research/pm25-forecasting.html)
+
+Operational 72-hour PM2.5 forecasting for Hanoi and Ho Chi Minh City. We mitigate scale drift and spatial overfitting using a novel Delta-Skip MLP architecture combined with historical reanalysis meteorology.
+
 ### [Low-Cost PM2.5 Sensors](/pages/research/pm25-low-cost-sensors.html)
 
 Calibration of SDS011 and PMS7003 against a FEM reference station in Hanoi. R2 = 0.51-0.66, with correction factors for field use.
