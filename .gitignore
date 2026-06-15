@@ -11,11 +11,6 @@ Gemfile.lock
 .DS_Store
 .env*
 
-# ── Dev-only source symlinks ───────────────────────────────
-bioinfo
-skyi
-wayback_latest_b-io_info
-
 # ── Internal dev docs & drafts (not for publication) ───────
 docs/
 blog/
@@ -34,37 +29,13 @@ __pycache__/
 *.pyc
 *.pyo
 
-# ── ML experiment artifacts & model binaries ───────────────
-autoresearch/
-models/
-mlab_photos/
-
-# ── Temporary / scratch workspace (entire folder) ─────────
+# ── Temporary / scratch workspace ──────────────────────────
 tmp/
 
-# ── Dev session notes (root-level junk markdown) ───────────
-AUTOMATED_PIPELINE_SUCCESS.md
-CHANGES_2018_ANALYSIS.md
-COMPLETE_2018_ANALYSIS.md
-FINAL_STATUS.md
-MANUAL_CHART_GENERATION.md
-SIMPLE_SOLUTION.md
-
-# ── Stray root-level files ─────────────────────────────────
-evaluate_transformer_t72.py
-typescript
-test.html
-test.md
-
-# ── Scripts: ignore entire scripts directory ───────────────
+# ── Development & Build Scripts ────────────────────────────
 scripts/
-
-# ── Data: ignore large external/generated datasets ─────────
-data/external/
-data/igra_hanoi_lang/
 
 # ── Virtual environments ───────────────────────────────────
 .venv/
 .ruby-lsp/
 pm25_forecast/
-pm25_forecast
