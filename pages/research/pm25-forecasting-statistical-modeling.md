@@ -90,29 +90,55 @@ The main evaluation questions in this section are:
 To quantify model performance, we use the following standard metrics, where $y_i$ is the actual measured concentration, $\hat{y}_i$ is the predicted concentration, $\bar{y}$ is the mean of the actual concentrations, and $N$ is the total number of observations:
 
 #### 1. Mean Absolute Error (MAE)
-- **Symbolically:** $\text{MAE} = \frac{1}{N} \sum_{i=1}^{N} \left| y_i - \hat{y}_i \right|$
-- **How it is calculated:** The absolute difference between each prediction and its true value, averaged across all points.
-- **In simpler terms:** On average, how many $\mu g/m^3$ our forecast is off by. It treats all errors equally, regardless of size.
+**Symbolically:**
+$$
+\text{MAE} = \frac{1}{N} \sum_{i=1}^{N} \left| y_i - \hat{y}_i \right|
+$$
+
+**How it is calculated:** The absolute difference between each prediction and its true value, averaged across all points.
+
+**In simpler terms:** On average, how many $\mu g/m^3$ our forecast is off by. It treats all errors equally, regardless of size.
 
 #### 2. Root Mean Square Error (RMSE)
-- **Symbolically:** $\text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}$
-- **How it is calculated:** The squared difference between predictions and true values, averaged, then square-rooted.
-- **In simpler terms:** Similar to MAE, but mathematically punishes large errors more heavily. If a model predicts well most of the time but completely misses a severe pollution spike, its RMSE will be noticeably worse than its MAE.
+**Symbolically:**
+$$
+\text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}
+$$
+
+**How it is calculated:** The squared difference between predictions and true values, averaged, then square-rooted.
+
+**In simpler terms:** Similar to MAE, but mathematically punishes large errors more heavily. If a model predicts well most of the time but completely misses a severe pollution spike, its RMSE will be noticeably worse than its MAE.
 
 #### 3. Normalized Root Mean Square Error (NRMSE)
-- **Symbolically:** $\text{NRMSE} = \frac{\text{RMSE}}{\bar{y}}$ *(or sometimes normalized by the range $y_{max} - y_{min}$)*
-- **How it is calculated:** The RMSE divided by the mean of the actual data.
-- **In simpler terms:** Translates the error into a percentage relative to the typical pollution level. An NRMSE of 0.25 means the forecast error is generally about 25% of the average PM$_{2.5}$ level.
+**Symbolically:**
+$$
+\text{NRMSE} = \frac{\text{RMSE}}{\bar{y}}
+$$
+*(or sometimes normalized by the range $y_{max} - y_{min}$)*
+
+**How it is calculated:** The RMSE divided by the mean of the actual data.
+
+**In simpler terms:** Translates the error into a percentage relative to the typical pollution level. An NRMSE of 0.25 means the forecast error is generally about 25% of the average PM$_{2.5}$ level.
 
 #### 4. Coefficient of Determination ($R^2$)
-- **Symbolically:** $R^2 = 1 - \frac{\sum_{i=1}^{N} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{N} (y_i - \bar{y})^2}$
-- **How it is calculated:** The ratio of the model's squared errors compared to the squared errors of a simplistic model that just predicts the historical average every time.
-- **In simpler terms:** A score up to 1.0 that tells us how much of the variance in pollution our model successfully captured. An $R^2$ of 0.70 means our model explains 70% of the ups and downs in the air quality data.
+**Symbolically:**
+$$
+R^2 = 1 - \frac{\sum_{i=1}^{N} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{N} (y_i - \bar{y})^2}
+$$
+
+**How it is calculated:** The ratio of the model's squared errors compared to the squared errors of a simplistic model that just predicts the historical average every time.
+
+**In simpler terms:** A score up to 1.0 that tells us how much of the variance in pollution our model successfully captured. An $R^2$ of 0.70 means our model explains 70% of the ups and downs in the air quality data.
 
 #### 5. Skill Score (vs Persistence)
-- **Symbolically:** $\text{Skill Score} = 1 - \frac{\text{RMSE}_{\text{model}}}{\text{RMSE}_{\text{persistence}}}$
-- **How it is calculated:** Compares our model's error to the error of a "persistence baseline" (a naive forecast that assumes tomorrow's pollution will be exactly the same as today's).
-- **In simpler terms:** Tells us if our complex machine learning model is actually better than a lazy guess. A positive score means the model adds real predictive value; a score of 0 or below means we would be better off just assuming "the weather and air won't change."
+**Symbolically:**
+$$
+\text{Skill Score} = 1 - \frac{\text{RMSE}_{\text{model}}}{\text{RMSE}_{\text{persistence}}}
+$$
+
+**How it is calculated:** Compares our model's error to the error of a "persistence baseline" (a naive forecast that assumes tomorrow's pollution will be exactly the same as today's).
+
+**In simpler terms:** Tells us if our complex machine learning model is actually better than a lazy guess. A positive score means the model adds real predictive value; a score of 0 or below means we would be better off just assuming "the weather and air won't change."
 
 ## Demo Link
 
