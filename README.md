@@ -1,70 +1,48 @@
-# My Documentation Site
+# Bi2Air — Projects & Research Notes
 
-A Jekyll-based documentation site using the Just the Docs theme.
+This repository contains the source code for the personal documentation and research site of **Binh Nguyen** (Bi2Air). 
 
-## Local Development
+The site serves as a public notebook and portfolio detailing work across:
+- **Environmental Monitoring:** Advanced PM2.5 forecasting using machine learning (Delta-Skip architectures), low-cost sensor calibration networks, and filtration efficiency studies.
+- **Hardware & IoT:** Custom sensor system builds, microalgae turbidostats, ESP8266/ESP32 data loggers, and hardware integration.
+- **Home Lab Infrastructure:** eGPU configurations, mini-PC builds, and self-hosted services.
 
-### Prerequisites
-- Miniconda installed at `$HOME/miniconda3`
-- Ruby and Bundler installed into that Miniconda base environment
-- Network access on first build so `jekyll-remote-theme` can fetch `just-the-docs`
+You can view the live site at: **[bi2air.github.io](https://bi2air.github.io)**
 
-### Setup
+---
+
+## 📂 Repository Structure
+
+This repository is built using [Jekyll](https://jekyllrb.com/) and the [Just the Docs](https://just-the-docs.com/) theme. 
+
+- `index.md` — The site's homepage
+- `pages/` — Core research documents, lab notebooks, and project pages
+- `docs/` — Internal logs tracking site updates and maintenance
+- `blog/` — Archive of long-form posts (English and Vietnamese)
+- `assets/` — Images, generated charts, and PDFs 
+
+*(Note: The standalone PM2.5 forecasting codebase and datasets are maintained in a separate repository to keep this site lightweight.)*
+
+---
+
+## 🛠 Local Development
+
+If you need to build or modify the site locally:
 
 1. Clone this repository
-2. Install Ruby and the local build toolchain into Miniconda:
+2. Ensure you have Ruby and Bundler installed
+3. Install the required gem dependencies:
    ```bash
-   $HOME/miniconda3/bin/conda install -y -c conda-forge ruby c-compiler cxx-compiler make pkg-config
-   ```
-3. Install gem dependencies:
-   ```bash
-   export PATH="$HOME/miniconda3/bin:$PATH"
    bundle install
    ```
-4. Run the local server:
+4. Run the local Jekyll server using the helper script:
    ```bash
    scripts/local-jekyll-test.zsh
    ```
+5. View the site at `http://localhost:4000`
 
-5. Open your browser and visit: `http://localhost:4000`
+---
 
-## Project Structure
+## 📄 License
 
-```
-.
-├── _config.yml          # Site configuration
-├── index.md             # Homepage
-├── docs/                # Documentation pages
-├── code/                # Code examples
-├── data/                # Data resources
-└── Gemfile              # Ruby dependencies
-```
-
-## Data Policy
-
-- Large external source data is kept out of GitHub. This includes regenerated data under `data/external/`, Open-Meteo source exports, and IGRA/radiosonde source products.
-- For notebook demos, keep the smaller 2018 example datasets versioned, matching the original lightweight demo approach instead of pushing full multi-year source archives.
-
-## Deployment
-
-This site is designed to be deployed on GitHub Pages:
-
-1. Create a GitHub repository
-2. Push this code to the repository
-3. Enable GitHub Pages in repository settings
-4. Your site will be live at `https://username.github.io/repository-name`
-
-## Customization
-
-- Edit `_config.yml` to change site settings
-- Modify the color scheme in `_config.yml`
-- Add new pages by creating `.md` files
-- Organize content using front matter navigation
-
-## Theme Documentation
-
-This site uses [Just the Docs](https://just-the-docs.com/) theme.
-
-## License
-
-MIT License
+This site's source code and content are available under the MIT License unless otherwise noted on specific research pages.
