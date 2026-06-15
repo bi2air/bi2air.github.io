@@ -66,3 +66,4 @@ data/igra_hanoi_lang/
 # ── Virtual environments ───────────────────────────────────
 .venv/
 .ruby-lsp/
+pm25_forecast/
