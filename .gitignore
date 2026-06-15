@@ -67,3 +67,4 @@ data/igra_hanoi_lang/
 .venv/
 .ruby-lsp/
 pm25_forecast/
+pm25_forecast
