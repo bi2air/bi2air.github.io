@@ -14,7 +14,7 @@ Supporting pages, reference material, code notes, and data notes.
 
 - [Research](/pages/research/) — Independent studies, research writeups, and technical notes
 - [Projects](/pages/projects.html) — Open-source repositories and what they do
-- [Turbidostat Build](/pages/turbidostat.html) — Open-source microalgae density control (&#36;200, published in Algal Research)
+- [Turbidostat Build](/pages/turbidostat.html) — Open-source microalgae density control (USD 200, published in Algal Research)
 - [Hardware Notes](/pages/hardware-notes/) — PM measurement, temperature, humidity, solar meter, IoT patterns
 - [OCuLink eGPU Home Lab](/pages/oculink-egpu-home-lab.html) — Mini PC + external GPU build
 - [Tutorials](/pages/tutorials.html) — Instructables build guides

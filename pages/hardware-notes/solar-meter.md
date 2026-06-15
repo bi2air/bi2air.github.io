@@ -4,12 +4,12 @@ title: Solar Irradiance Meter
 parent: Hardware Notes
 grand_parent: Research
 nav_order: 4
-description: "DIY solar irradiance meter using a mini solar cell and INA219 current sensor — measuring sun power for under &#36;10"
+description: "DIY solar irradiance meter using a mini solar cell and INA219 current sensor — measuring sun power for under USD 10"
 ---
 
 # Solar Irradiance Meter
 
-A simple setup to measure solar power density using a mini photovoltaic cell as the sensing element. Total cost: under &#36;10.
+A simple setup to measure solar power density using a mini photovoltaic cell as the sensing element. Total cost: under USD 10.
 
 ---
 
@@ -32,10 +32,10 @@ The solar cell converts photon energy into electrical energy. By measuring the e
 
 | Component | Purpose | Cost |
 |-----------|---------|------|
-| Mini solar cell | Photon-to-electron conversion | ~&#36;2 |
-| INA219 breakout | Measures V and I via I2C | ~&#36;3 |
-| 1-ohm precision resistor | Fixed load | ~&#36;0.50 |
-| ESP8266/Arduino | ADC + data logging | ~&#36;3 |
+| Mini solar cell | Photon-to-electron conversion | ~USD 2 |
+| INA219 breakout | Measures V and I via I2C | ~USD 3 |
+| 1-ohm precision resistor | Fixed load | ~USD 0.50 |
+| ESP8266/Arduino | ADC + data logging | ~USD 3 |
 
 <div class="image-grid">
   <figure>

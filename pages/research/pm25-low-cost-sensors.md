@@ -28,7 +28,7 @@ This study compares three sensors measuring fine particulate matter (PM$\_{2.5}$
 
 | Parameter | PMS7003 | SDS011 | HPMA115S0 | Dylos DC1100 Pro |
 |-----------|---------|--------|-----------|-----------------|
-| Price | ~&#36;13 | ~&#36;19 | ~&#36;19 | ~&#36;290 |
+| Price | ~USD 13 | ~USD 19 | ~USD 19 | ~USD 290 |
 | Range ($\mu g/m^3$) | 0-500 (1000 max) | 0-999 | 0-1000 | N/A |
 | Stated error | 10%, +/-10 $\mu g/m^3$ | 15%, +/-10 $\mu g/m^3$ | 15%, +/-10 $\mu g/m^3$ | N/A |
 | Lifespan | 8,000 h | 8,000 h | 20,000 h | Several years |

@@ -4,7 +4,7 @@ title: Turbidostat Build
 parent: "2016"
 grand_parent: Research
 nav_order: 1
-description: "Open-source turbidostat for microalgae cultivation — &#36;200 Arduino-based turbidity monitor and control system, published in Algal Research"
+description: "Open-source turbidostat for microalgae cultivation — USD 200 Arduino-based turbidity monitor and control system, published in Algal Research"
 ---
 
 # Turbidostat: Open-Source Biomass Density Control for Microalgae
@@ -12,7 +12,7 @@ description: "Open-source turbidostat for microalgae cultivation — &#36;200 Ar
 ![Turbidostat system overview](/assets/images/turbidostat/turbidostat_1.jpg)
 
 {: .note }
-This system was developed at the Biodesign Swette Center for Environmental Biotechnology, Arizona State University. The scientific contribution was published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013). Total hardware cost: ~&#36;200 (excluding the lab-grade peristaltic pump).
+This system was developed at the Biodesign Swette Center for Environmental Biotechnology, Arizona State University. The scientific contribution was published in [Algal Research (2018)](https://doi.org/10.1016/j.algal.2018.03.013). Total hardware cost: ~USD 200 (excluding the lab-grade peristaltic pump).
 
 ---
 
@@ -20,7 +20,7 @@ This system was developed at the Biodesign Swette Center for Environmental Biote
 
 A turbidostat maintains microalgae culture at a constant density by continuously monitoring turbidity (optical density) and diluting with fresh medium when the culture grows too dense. Think of it as a thermostat, but for biomass concentration instead of temperature.
 
-Commercial turbidostat systems cost &#36;10,000+. This open-source build achieves the same function for ~&#36;200 using a &#36;15 turbidity sensor and an Arduino.
+Commercial turbidostat systems cost USD 10,000+. This open-source build achieves the same function for ~USD 200 using a USD 15 turbidity sensor and an Arduino.
 
 ---
 
@@ -43,15 +43,15 @@ The target organism was *Synechocystis* sp. PCC 6803, a sub-micron cyanobacteriu
 
 | Part | Purpose | Cost |
 |------|---------|------|
-| TSD-10 turbidity sensor (Amphenol) | Infrared light transmission through culture | ~&#36;15 |
-| Arduino Mega | Sensor reading, control logic, pump switching | ~&#36;20 |
-| Op-amp breakout | Amplify sensor signal | ~&#36;5 |
-| Precision potentiometer (10-turn) | Set target density | ~&#36;5 |
-| OLED display (SSD1306) | Real-time readout | ~&#36;5 |
-| 2-channel relay board | Switch pumps on/off | ~&#36;5 |
-| Peristaltic pump (12V) | Dilution delivery | ~&#36;30 |
-| Yun Shield or Raspberry Pi | Timestamp + data logging | ~&#36;35 |
-| Three-position switches (x2) | Manual override control | ~&#36;5 |
+| TSD-10 turbidity sensor (Amphenol) | Infrared light transmission through culture | ~USD 15 |
+| Arduino Mega | Sensor reading, control logic, pump switching | ~USD 20 |
+| Op-amp breakout | Amplify sensor signal | ~USD 5 |
+| Precision potentiometer (10-turn) | Set target density | ~USD 5 |
+| OLED display (SSD1306) | Real-time readout | ~USD 5 |
+| 2-channel relay board | Switch pumps on/off | ~USD 5 |
+| Peristaltic pump (12V) | Dilution delivery | ~USD 30 |
+| Yun Shield or Raspberry Pi | Timestamp + data logging | ~USD 35 |
+| Three-position switches (x2) | Manual override control | ~USD 5 |
 
 ### Schematic
 
@@ -142,7 +142,7 @@ Serial.println(dataString);
 
 ## Publication
 
-This turbidostat is one of three open-hardware units developed for an advanced photobioreactor system. The scientific contribution — demonstrating that a &#36;200 system can replace &#36;10,000+ commercial alternatives for continuous microalgae cultivation — was published in:
+This turbidostat is one of three open-hardware units developed for an advanced photobioreactor system. The scientific contribution — demonstrating that a USD 200 system can replace USD 10,000+ commercial alternatives for continuous microalgae cultivation — was published in:
 
 > **Algal Research** (2018)
 > DOI: [10.1016/j.algal.2018.03.013](https://doi.org/10.1016/j.algal.2018.03.013)
@@ -167,8 +167,8 @@ The paper covers:
 
 ## Key Takeaways
 
-- A &#36;15 washing-machine turbidity sensor works for microalgae optical density measurement
-- Total system cost ~&#36;200 vs &#36;10,000+ for commercial alternatives
+- A USD 15 washing-machine turbidity sensor works for microalgae optical density measurement
+- Total system cost ~USD 200 vs USD 10,000+ for commercial alternatives
 - Arduino + relay + peristaltic pump = automated density control
 - Two data logging options: embedded Linux (Yun Shield) or Raspberry Pi with Python
 - Published validation in peer-reviewed journal confirms scientific utility
