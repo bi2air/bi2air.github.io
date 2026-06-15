@@ -18,7 +18,7 @@ Follow-up to the [face mask filtration study](/pages/research/face-mask-filtrati
 
 ## Abstract
 
-In the [previous study](/pages/research/face-mask-filtration.html), new particulate respirator masks (AQBlue, Airphin) achieved ~90% PM$\_{2.5}$ removal efficiency (RE). However, at 35-50k VND per mask (US$1.50-2.20), weekly replacement is expensive for low-to-medium income commuters.
+In the [previous study](/pages/research/face-mask-filtration.html), new particulate respirator masks (AQBlue, Airphin) achieved ~90% PM$\_{2.5}$ removal efficiency (RE). However, at 35-50k VND per mask (US&#36;1.50-2.20), weekly replacement is expensive for low-to-medium income commuters.
 
 This study tested whether used and washed masks retain acceptable filtration:
 

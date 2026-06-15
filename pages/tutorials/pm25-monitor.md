@@ -13,7 +13,7 @@ This tutorial was reconstructed from the old b-io.info multi-page guide. It cons
 
 ## What this build does
 
-This project builds a portable PM$\_{2.5}$ monitor for roughly $30-40 using a low-cost laser particle sensor, an ESP8266-class microcontroller, and either an OLED display or an LED indicator. The base device shows live concentration locally. The extended version publishes readings to an MQTT broker for logging and later analysis.
+This project builds a portable PM$\_{2.5}$ monitor for roughly &#36;30-40 using a low-cost laser particle sensor, an ESP8266-class microcontroller, and either an OLED display or an LED indicator. The base device shows live concentration locally. The extended version publishes readings to an MQTT broker for logging and later analysis.
 
 ## Why PM$\_{2.5}$ is worth measuring
 
@@ -43,10 +43,10 @@ The tradeoff is straightforward:
 
 | Sensor | Notes | Typical cost |
 |--------|-------|--------------|
-| PMS5003 / PMS7003 | Compact, quiet, common in hobby projects | ~$15-17 |
-| SDS011 | Larger, stronger fan, easy to work with | ~$15-17 |
-| SPS30 | Better brand/documentation, more expensive | ~$30 |
-| ZH03B | Similar class to PMS5003 | ~$20 |
+| PMS5003 / PMS7003 | Compact, quiet, common in hobby projects | ~&#36;15-17 |
+| SDS011 | Larger, stronger fan, easy to work with | ~&#36;15-17 |
+| SPS30 | Better brand/documentation, more expensive | ~&#36;30 |
+| ZH03B | Similar class to PMS5003 | ~&#36;20 |
 
 The archived guide explicitly discourages some cheaper or less reliable options:
 

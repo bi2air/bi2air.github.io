@@ -100,7 +100,7 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 ## Monitoring Equipment in Hanoi
 
 ![PM monitoring devices overview](/assets/images/hardware/pm-device.jpg)
-*Range of instruments: research-grade stationary monitors to $13 laser-scattering sensors.*
+*Range of instruments: research-grade stationary monitors to &#36;13 laser-scattering sensors.*
 
 | Station | Equipment | Method | Data |
 |---------|-----------|--------|------|
@@ -113,10 +113,10 @@ Water vapor condenses on particle surfaces, increasing their apparent size and s
 
 | Sensor | Price | Output | Lifespan | Notes |
 |--------|-------|--------|----------|-------|
-| PMS7003 (Plantower) | ~$13 | PM1/2.5/10 + 6 size bins | 8,000h | Best value, small, rich data |
-| SDS011 (Nova Fitness) | ~$19 | PM$\_{2.5}$, PM$\_{10}$ (float) | 8,000h | Remote air intake via hose |
-| HPMA115S0 (Honeywell) | ~$19 | PM$\_{2.5}$, PM$\_{10}$ (int) | 20,000h | Best documentation |
-| Dylos DC1100 Pro | ~$290 | Particle count (2 bins) | Years | Reference for hobbyists |
+| PMS7003 (Plantower) | ~&#36;13 | PM1/2.5/10 + 6 size bins | 8,000h | Best value, small, rich data |
+| SDS011 (Nova Fitness) | ~&#36;19 | PM$\_{2.5}$, PM$\_{10}$ (float) | 8,000h | Remote air intake via hose |
+| HPMA115S0 (Honeywell) | ~&#36;19 | PM$\_{2.5}$, PM$\_{10}$ (int) | 20,000h | Best documentation |
+| Dylos DC1100 Pro | ~&#36;290 | Particle count (2 bins) | Years | Reference for hobbyists |
 
 ---
 

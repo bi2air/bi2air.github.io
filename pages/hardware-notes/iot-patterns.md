@@ -119,10 +119,10 @@ Before measuring, expose all sensors to the same condition (both PM sensors in a
 
 | Type | Cost | Weather-proof | Thermal |
 |------|------|--------------|---------|
-| PVC pipe segments | $2-5 | Good (sealed) | Moderate |
-| 3D-printed | $5-15 | Fair (needs sealing) | Poor (PLA warps) |
-| Project box (ABS) | $5-10 | Good | Fair |
-| Aluminum foil wrap | $0 | No | Excellent light shielding |
+| PVC pipe segments | &#36;2-5 | Good (sealed) | Moderate |
+| 3D-printed | &#36;5-15 | Fair (needs sealing) | Poor (PLA warps) |
+| Project box (ABS) | &#36;5-10 | Good | Fair |
+| Aluminum foil wrap | &#36;0 | No | Excellent light shielding |
 
 **For PM sensors:** air intake via tube or open bottom; avoid direct rain entry. PVC pipe with downward-facing opening works well.
 
@@ -133,7 +133,7 @@ Before measuring, expose all sensors to the same condition (both PM sensors in a
 ## Lessons Learned
 
 1. **WiFi reconnection is the #1 failure mode** — implement retry with backoff, and log locally as fallback
-2. **Duplicate sensors are cheap insurance** — a $3 extra DHT22 saves hours of debugging drift
+2. **Duplicate sensors are cheap insurance** — a &#36;3 extra DHT22 saves hours of debugging drift
 3. **Time synchronization matters** — NTP on boot for WiFi devices; RTC module for offline loggers
 4. **Label everything** — sensor IDs, cable colors, pin assignments. Future-you will not remember
 5. **Power first, features second** — a dead battery means zero data, regardless of how many sensors you have

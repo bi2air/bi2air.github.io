@@ -60,11 +60,11 @@ Conversely, very dry air causes cracked skin, nosebleeds, and respiratory irrita
 
 | Sensor | Type | Interface | Accuracy | Price |
 |--------|------|-----------|----------|-------|
-| SHT3x (Sensirion) | Capacitive | I2C | ±2% RH, ±0.2°C | ~$5 |
-| BME280 (Bosch) | Capacitive | I2C/SPI | ±3% RH | ~$4 |
-| HDC1080 (TI) | Capacitive | I2C | ±2% RH | ~$4 |
-| Si7021 | Capacitive | I2C (0x40) | ±3% RH | ~$3 |
-| DHT22 / AM2302 | Resistive | One-wire | ±2-5% RH | ~$3 |
+| SHT3x (Sensirion) | Capacitive | I2C | ±2% RH, ±0.2°C | ~&#36;5 |
+| BME280 (Bosch) | Capacitive | I2C/SPI | ±3% RH | ~&#36;4 |
+| HDC1080 (TI) | Capacitive | I2C | ±2% RH | ~&#36;4 |
+| Si7021 | Capacitive | I2C (0x40) | ±3% RH | ~&#36;3 |
+| DHT22 / AM2302 | Resistive | One-wire | ±2-5% RH | ~&#36;3 |
 
 ### Measurement Principles
 

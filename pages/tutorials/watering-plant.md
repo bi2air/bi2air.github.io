@@ -44,7 +44,7 @@ Main components from the archived build:
 - battery protection board
 - small enclosure
 
-The overall cost target was roughly $10-12 excluding spare tools and general supplies.
+The overall cost target was roughly &#36;10-12 excluding spare tools and general supplies.
 
 ## Wiring and assembly
 
