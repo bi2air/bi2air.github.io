@@ -13,3 +13,15 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - pm25_forecast
+  - scripts
+  - tmp
+  - typescript
+  - code
+  - model
+  - mlab_photos
+  - autoresearch
+  - playwright-mcp
+  - codex_sh.sh
+  - fix_currency.py
+  - fix_currency_usd.py
